@@ -1,0 +1,2 @@
+<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE NACH ORT - LÄNDLICHE RÜCKZUGSORTE <LINE> <LINE>
+<LEFT> <SIZE:small> Abgelegene Startpunkte: 50 dünn besiedelte Weltzellen auf der gesamten Karte. Der Schwerpunkt liegt auf Bauernhöfen und ländlicher Abgeschiedenheit statt auf Städten. <LINE> <LINE>

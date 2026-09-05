@@ -1,0 +1,2 @@
+<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - VARIANTEN - GEFANGENE IN KNOX COUNTY <LINE> <LINE>
+<LEFT> <SIZE:small> Wenn du Polizist oder Wachmann gewählt hast, startest du an einem von 20 Orten nahe den Zellen im Gefängniskomplex (nicht als Insasse). <LINE> <LINE>

@@ -1,0 +1,2 @@
+<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - EINER PRO STADT <LINE> <LINE>
+<LEFT> <SIZE:small> Ein zentraler Startpunkt pro größerem Gebiet (insgesamt 15), ausgenommen abgelegene Gebiete. So sind die Spielstarts gleichmäßig auf die Städte verteilt. <LINE> <LINE>

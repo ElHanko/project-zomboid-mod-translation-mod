@@ -1,0 +1,2 @@
+<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - ÜBERALL AUSSER - VALLEY STATION <LINE> <LINE>
+<LEFT> <SIZE:small> Starte überall außer in Valley Station. Es stehen etwa 2.590 Startorte zur Verfügung. <LINE> <LINE>

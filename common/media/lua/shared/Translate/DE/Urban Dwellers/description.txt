@@ -1,0 +1,2 @@
+<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE NACH ORT - STADTBEWOHNER <LINE> <LINE>
+<LEFT> <SIZE:small> Startpunkte in dicht bebauten Stadtzentren: ~5 zentrale Startorte pro Stadt (insgesamt 55), ausgenommen Dixie, Echo Creek, abgelegene Gebiete und Valley Station. So verteilt, dass Louisville nicht überwiegt. <LINE> <LINE>

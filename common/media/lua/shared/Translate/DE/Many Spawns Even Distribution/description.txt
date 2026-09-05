@@ -1,0 +1,2 @@
+<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - GLEICHMÄSSIG VERTEILT <LINE> <LINE>
+<LEFT> <SIZE:small> Ein Startpunkt pro 300x300 Felder großer Weltzelle auf der gesamten Karte (insgesamt 365). Für alle Berufe verfügbar. <LINE> <LINE>
