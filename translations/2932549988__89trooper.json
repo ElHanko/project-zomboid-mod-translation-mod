@@ -1,0 +1,288 @@
+{
+  "game_version": "42.20.4",
+  "workshop_id": "2932549988",
+  "mod_id": "89trooper",
+  "directory": "89trooper",
+  "name": "'89 Isuzu Trooper",
+  "effective_layers": [
+    "common",
+    "42.13"
+  ],
+  "entries": [
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehicleName89trooper",
+      "english": "'89 Isuzu Trooper",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehicleName89trooperOP",
+      "english": "'89 Isuzu Trooper Offroad Pack",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehicleName89trooperRS",
+      "english": "'89 Isuzu Trooper RS",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehiclePartISZ89Trunk",
+      "english": "Trunk Storage",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehiclePartISZ89Roofrack",
+      "english": "Roofrack",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeTire",
+      "english": "Make 89 ISUZU Trooper Tire",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeHood",
+      "english": "Make 89 ISUZU Trooper Hood",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeFrontDoor",
+      "english": "Make 89 ISUZU Trooper Front Door",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeRearDoor",
+      "english": "Make 89 ISUZU Trooper Rear Door",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeTrunkLid",
+      "english": "Make 89 ISUZU Trooper Trunk Lid",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeFrontSeat",
+      "english": "Make 89 ISUZU Trooper Front Seat",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeRearSeat",
+      "english": "Make 89 ISUZU Trooper Rear Seat",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeFrontWindshield",
+      "english": "Make 89 ISUZU Trooper Front Windshield",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeSideWindow",
+      "english": "Make 89 ISUZU Trooper Side Window",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeRearWindshield",
+      "english": "Make 89 ISUZU Trooper Rear Windshield",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeFrontWindshieldArmor",
+      "english": "Make 89 ISUZU Trooper Front Windshield Armor",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeFrontWindowArmor",
+      "english": "Make 89 ISUZU Trooper Front Window Armor",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeRearWindowArmor",
+      "english": "Make 89 ISUZU Trooper Rear Window Armor",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeBackWindowArmor",
+      "english": "Make 89 ISUZU Trooper Back Window Armor",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeRearWindshieldArmor",
+      "english": "Make 89 ISUZU Trooper Rear Windshield Armor",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeFrontBullbar",
+      "english": "Make 89 ISUZU Trooper Front Bullbar",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeReinforcedFrontBumper",
+      "english": "Make 89 ISUZU Trooper Reinforced Front Bumper",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeRoofrack",
+      "english": "Make 89 ISUZU Trooper Roofrack",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeMudflaps",
+      "english": "Make 89 ISUZU Trooper Mudflaps",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_89trooperMakeSidesteps",
+      "english": "Make 89 ISUZU Trooper Sidesteps",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    }
+  ]
+}

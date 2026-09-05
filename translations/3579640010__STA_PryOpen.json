@@ -1,0 +1,167 @@
+{
+  "game_version": "42.20.4",
+  "workshop_id": "3579640010",
+  "mod_id": "STA_PryOpen",
+  "directory": "STA_PryOpen",
+  "name": "StarkTruffle Additions - Pry Open",
+  "effective_layers": [
+    "common",
+    "42.20"
+  ],
+  "entries": [
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_PryEnableSoftMin",
+      "english": "Enable Soft Minimum Strength",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_PryEnableSoftMin_tooltip",
+      "english": "Allows prying while under minimum strength level at a disadvantage.",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_PryBonusSoftMin",
+      "english": "Soft Minimum Strength Multiplier %%",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_PryBonusSoftMin_tooltip",
+      "english": "Success chance multipler for being under minimum strength (applied after other multipliers). ",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_PryBonusTraitDextrous",
+      "english": "Dextrous Trait Time Reduction",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_PryBonusTraitDextrous_tooltip",
+      "english": "Time required reduction for Dextrous trait.",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_PryToolItemsList",
+      "english": "Pry Tool Items",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_PryToolItemsList_tooltip",
+      "english": "Values for the base chance of items. <LINE>Min: 0.00 Max: 5.00 <LINE>Format as 'Base.Item:1.0' <LINE>Seperate items with ';'",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_PryToolTagsList",
+      "english": "Pry Tool Item Tags",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_PryToolTagsList_tooltip",
+      "english": "Values for the base chance of item tags. <LINE>Min: 0.00 Max: 5.00 <LINE>Format as 'base:tag:1.0' <LINE>Seperate tags with ';'",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_SecurityDoorHandling",
+      "english": "Security Door Handling",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_SecurityDoorHandling_tooltip",
+      "english": "How security doors are unlocked. <LINE><LINE>Vanilla: Security doors will remain locked after being opened, meaning they will need to be pryed open again if they close behind you. <LINE>Full Unlock: Security doors will fully unlock and act as regular interior doors when pryed open.",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_SecurityDoorHandling_option1",
+      "english": "Vanilla",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_STA_PryOpen_SecurityDoorHandling_option2",
+      "english": "Full Unlock",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    }
+  ]
+}

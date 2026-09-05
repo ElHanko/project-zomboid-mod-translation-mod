@@ -1,0 +1,101 @@
+{
+  "game_version": "42.20.4",
+  "workshop_id": "1911132112",
+  "mod_id": "1911132112/ManySpawns",
+  "directory": "Pillow's Many Spawns Pack",
+  "name": "Pillow's Random Spawns",
+  "effective_layers": [
+    "common",
+    "42.13"
+  ],
+  "entries": [
+    {
+      "category": "__plain__",
+      "key": "Many Spawns Casual/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - CASUAL <LINE> <LINE>\n<LEFT> <SIZE:small> 2,580 spawn points. No difficult points like jails or isolated areas. Implemented for all professions. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Many Spawns Casual/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Many Spawns Casual/title.txt",
+      "english": "Random Spawns - Casual",
+      "german": "",
+      "source_file": "Many Spawns Casual/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Many Spawns Even Distribution/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - EVEN DISTRIBUTION <LINE> <LINE>\n<LEFT> <SIZE:small> One spawn per 300x300 world cell (365 total) across the map. Implemented for all professions. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Many Spawns Even Distribution/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Many Spawns Even Distribution/title.txt",
+      "english": "Random Spawns - Even Distribution",
+      "german": "",
+      "source_file": "Many Spawns Even Distribution/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Many Spawns Full/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - FULL <LINE> <LINE>\n<LEFT> <SIZE:small> 2,688 random spawn points across the entire map. Implemented for all professions. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Many Spawns Full/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Many Spawns Full/title.txt",
+      "english": "Random Spawns - Full",
+      "german": "",
+      "source_file": "Many Spawns Full/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "One Per City/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ONE PER CITY <LINE> <LINE>\n<LEFT> <SIZE:small> One spawn hotspot per major area (15 total), excluding Isolated Areas, for an even city-start spread. <LINE> <LINE>",
+      "german": "",
+      "source_file": "One Per City/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "One Per City/title.txt",
+      "english": "Random Spawns - One Per City",
+      "german": "",
+      "source_file": "One Per City/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    }
+  ]
+}

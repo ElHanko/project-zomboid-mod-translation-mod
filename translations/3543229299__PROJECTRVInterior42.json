@@ -1,0 +1,200 @@
+{
+  "game_version": "42.20.4",
+  "workshop_id": "3543229299",
+  "mod_id": "PROJECTRVInterior42",
+  "directory": "modPROJECTRVInterior",
+  "name": "[B42]PROJECT RV Interior",
+  "effective_layers": [
+    "common",
+    "42"
+  ],
+  "entries": [
+    {
+      "category": "ContextMenu",
+      "key": "ContextMenu_GetInToRV",
+      "english": "Get In To RV",
+      "german": "",
+      "source_file": "ContextMenu_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "ContextMenu",
+      "key": "ContextMenu_GetOutFromRV",
+      "english": "Get Out From RV",
+      "german": "",
+      "source_file": "ContextMenu_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon",
+      "english": "Project RV - Vehicles",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_CustomNormalVehicles",
+      "english": "Extra vehicles (normal)",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_CustomNormalVehicles_tooltip",
+      "english": "Comma-separated list of vehicle script names (e.g., Base.Van,Base.StepVan,Base.VanSpiffo).",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_CustomBusVehicles",
+      "english": "Extra buses",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_CustomBusVehicles_tooltip",
+      "english": "Comma-separated list of bus vehicle script names.",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_CustomSmallVehicles",
+      "english": "Extra small vehicles",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_CustomSmallVehicles_tooltip",
+      "english": "Comma-separated list of small vehicle script names.",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_Custom3x2Caravan",
+      "english": "Extra 3x2 caravans",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_Custom3x2Caravan_tooltip",
+      "english": "Comma-separated list of 3x2 caravan/trailer script names.",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_Custom3x6Caravan",
+      "english": "Extra 3x6 caravans",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_Custom3x6Caravan_tooltip",
+      "english": "Comma-separated list of 3x6 caravan/trailer script names.",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_Custom3x7Empty",
+      "english": "Extra 3x7 empty trailers",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_Custom3x7Empty_tooltip",
+      "english": "Comma-separated list of 3x7 empty trailer script names.",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_Custom4x12colossal",
+      "english": "Extra 4x12 colossal vehicles",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_RVAddon_Custom4x12colossal_tooltip",
+      "english": "Comma-separated list of 4x12 colossal vehicle script names.",
+      "german": "",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "42",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    }
+  ]
+}

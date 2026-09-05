@@ -1,0 +1,211 @@
+{
+  "game_version": "42.20.4",
+  "workshop_id": "1911132112",
+  "mod_id": "1911132112/ManySpawnsLouisvilleByNeighborhood",
+  "directory": "Pillow's Many Spawns - Louisville Neighborhoods",
+  "name": "Pillow's Random Spawns Louisville By Neighborhood",
+  "effective_layers": [
+    "common",
+    "42.13"
+  ],
+  "entries": [
+    {
+      "category": "__plain__",
+      "key": "Audobon/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - AUDOBON <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Audobon neighborhood. There are approximately 58 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Audobon/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Audobon/title.txt",
+      "english": "Random Spawns - Louisville Neighborhoods - Audobon",
+      "german": "",
+      "source_file": "Audobon/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Downtown/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - DOWNTOWN <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Downtown neighborhood. There are approximately 663 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Downtown/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Downtown/title.txt",
+      "english": "Random Spawns - Louisville Neighborhoods - Downtown",
+      "german": "",
+      "source_file": "Downtown/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "East Market/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - EAST MARKET <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's East Market neighborhood. There are approximately 114 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "East Market/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "East Market/title.txt",
+      "english": "Random Spawns - Louisville Neighborhoods - East Market",
+      "german": "",
+      "source_file": "East Market/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Germantown/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - GERMANTOWN <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Germantown neighborhood. There are approximately 118 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Germantown/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Germantown/title.txt",
+      "english": "Random Spawns - Louisville Neighborhoods - Germantown",
+      "german": "",
+      "source_file": "Germantown/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Iroquois Park/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - IROQUOIS PARK <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Iroquois Park neighborhood. There are approximately 76 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Iroquois Park/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Iroquois Park/title.txt",
+      "english": "Random Spawns - Louisville Neighborhoods - Iroquois Park",
+      "german": "",
+      "source_file": "Iroquois Park/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Limerick/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - LIMERICK <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Limerick neighborhood. There are approximately 200 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Limerick/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Limerick/title.txt",
+      "english": "Random Spawns - Louisville Neighborhoods - Limerick",
+      "german": "",
+      "source_file": "Limerick/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Parkwood/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - PARKWOOD <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Parkwood neighborhood. There are approximately 109 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Parkwood/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Parkwood/title.txt",
+      "english": "Random Spawns - Louisville Neighborhoods - Parkwood",
+      "german": "",
+      "source_file": "Parkwood/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Portland/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - PORTLAND <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Portland neighborhood. There are approximately 61 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Portland/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Portland/title.txt",
+      "english": "Random Spawns - Louisville Neighborhoods - Portland",
+      "german": "",
+      "source_file": "Portland/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Wyandotte/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - WYANDOTTE <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Wyandotte neighborhood. There are approximately 63 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Wyandotte/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Wyandotte/title.txt",
+      "english": "Random Spawns - Louisville Neighborhoods - Wyandotte",
+      "german": "",
+      "source_file": "Wyandotte/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    }
+  ]
+}

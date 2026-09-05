@@ -1,0 +1,57 @@
+{
+  "game_version": "42.20.4",
+  "workshop_id": "3388183573",
+  "mod_id": "AutoTailoring",
+  "directory": "AutoTailoring",
+  "name": "Auto Tailoring",
+  "effective_layers": [
+    "common",
+    "42.13"
+  ],
+  "entries": [
+    {
+      "category": "ContextMenu",
+      "key": "ContextMenu_AutoTailoring",
+      "english": "Train Tailoring",
+      "german": "Schneidern trainieren",
+      "source_file": "ContextMenu_EN.txt",
+      "source_layer": "common",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Moodles",
+      "key": "Moodles_ClothingHole_Good_lvl2",
+      "english": "No more hole in your worn clothes",
+      "german": "Keine Löcher mehr in deiner Kleidung.",
+      "source_file": "Moodles_EN.txt",
+      "source_layer": "common",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Moodles",
+      "key": "Moodles_ClothingHole_Bad_lvl2",
+      "english": "You can feel the air flowing through your pierced clothes",
+      "german": "Du kannst den Luftzug durch deine löchrige Kleidung spüren.",
+      "source_file": "Moodles_EN.txt",
+      "source_layer": "common",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Moodles",
+      "key": "Moodles_ClothingHole_Custom",
+      "english": "It may be time to take care of your %1 holes.",
+      "german": "Es könnte an der Zeit sein, dich um deine %1 Löcher zu kümmern.",
+      "source_file": "Moodles_EN.txt",
+      "source_layer": "common",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    }
+  ]
+}

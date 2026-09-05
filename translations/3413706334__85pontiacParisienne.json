@@ -1,0 +1,167 @@
+{
+  "game_version": "42.20.4",
+  "workshop_id": "3413706334",
+  "mod_id": "85pontiacParisienne",
+  "directory": "85pontiacParisienne",
+  "name": "'85 Pontiac Parisienne",
+  "effective_layers": [
+    "common",
+    "42.0"
+  ],
+  "entries": [
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehicleName85pontiacParisienneSedan",
+      "english": "'85 Pontiac Parisienne Sedan",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehicleName85pontiacParisienneWagon",
+      "english": "'85 Pontiac Parisienne Wagon",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehicleName85pontiacParisienneWagon2",
+      "english": "'85 Pontiac Parisienne Wagon",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehiclePartPAR85Trunk",
+      "english": "Trunk Storage",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehiclePartPAR85TrunkWagon",
+      "english": "Trunk Storage",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehiclePartGM85Roofrack",
+      "english": "Roofrack",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehiclePartGM85VinylRoof",
+      "english": "Vinyl Roof Cover",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_85pontiacParisienneMakeHood",
+      "english": "Make 85 Pontiac Parisienne Hood",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_85pontiacParisienneMakeTrunkLid",
+      "english": "Make 85 Pontiac Parisienne Trunk Lid",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_85pontiacParisienneMakeFrontSeat",
+      "english": "Make 85 Pontiac Parisienne Front Seat",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_85pontiacParisienneMakeRearSeat",
+      "english": "Make 85 Pontiac Parisienne Rear Seat",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_85pontiacParisienneMakeFrontBumper",
+      "english": "Make 85 Pontiac Parisienne Front Bumper",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_85pontiacParisienneMakeReinforcedFrontBumper",
+      "english": "Make 85 Pontiac Parisienne Reinforced Front Bumper",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_85pontiacParisienneMakeRearBumper",
+      "english": "Make 85 Pontiac Parisienne Rear Bumper",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.0",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    }
+  ]
+}

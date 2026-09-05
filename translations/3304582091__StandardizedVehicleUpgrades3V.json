@@ -1,0 +1,57 @@
+{
+  "game_version": "42.20.4",
+  "workshop_id": "3304582091",
+  "mod_id": "StandardizedVehicleUpgrades3V",
+  "directory": "StandardizedVehicleUpgrades3Vanilla",
+  "name": "Standardized Vehicle Upgrades 3 - Vanilla",
+  "effective_layers": [
+    "common",
+    "42.13"
+  ],
+  "entries": [
+    {
+      "category": "ItemName",
+      "key": "Autotsar.ATAVanillaTuningMag",
+      "english": "Magazine «Autotsar Tuning Atelier - Standard Models»",
+      "german": "",
+      "source_file": "ItemName.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "ItemName",
+      "key": "ItemName_Autotsar.ATAVanillaTuningMag",
+      "english": "Magazine «Autotsar Tuning Atelier - Standard Models»",
+      "german": "",
+      "source_file": "ItemName_EN.txt",
+      "source_layer": "common",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_ATAVanillaRecipes",
+      "english": "Standard Tuning",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "common",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Tooltip",
+      "key": "Tooltip_item_ATAVanillaTuningMag",
+      "english": "After reading this issue, you will get basic tuning knowledge and learn how to<br>create protection for Vanilla vehicles",
+      "german": "",
+      "source_file": "Tooltip_EN.txt",
+      "source_layer": "common",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    }
+  ]
+}

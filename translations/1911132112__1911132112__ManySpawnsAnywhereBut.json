@@ -1,0 +1,321 @@
+{
+  "game_version": "42.20.4",
+  "workshop_id": "1911132112",
+  "mod_id": "1911132112/ManySpawnsAnywhereBut",
+  "directory": "Pillows Many Spawns - Anywhere But",
+  "name": "Pillow's Random Spawns Anywhere But",
+  "effective_layers": [
+    "common",
+    "42.13"
+  ],
+  "entries": [
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Brandenburg/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - BRANDENBURG <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except Brandenburg. There are approximately 2607 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - Brandenburg/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Brandenburg/title.txt",
+      "english": "Random Spawns - Anywhere But - Brandenburg",
+      "german": "",
+      "source_file": "Anywhere But - Brandenburg/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Dixie/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - DIXIE <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except Dixie. There are approximately 2663 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - Dixie/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Dixie/title.txt",
+      "english": "Random Spawns - Anywhere But - Dixie",
+      "german": "",
+      "source_file": "Anywhere But - Dixie/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Echo Creek/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - ECHO CREEK <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except Echo Creek. There are approximately 2648 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - Echo Creek/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Echo Creek/title.txt",
+      "english": "Random Spawns - Anywhere But - Echo Creek",
+      "german": "",
+      "source_file": "Anywhere But - Echo Creek/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Ekron/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - EKRON <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except Ekron. There are approximately 2643 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - Ekron/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Ekron/title.txt",
+      "english": "Random Spawns - Anywhere But - Ekron",
+      "german": "",
+      "source_file": "Anywhere But - Ekron/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Fallas Lake/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - FALLAS LAKE <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except Fallas Lake. There are approximately 2634 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - Fallas Lake/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Fallas Lake/title.txt",
+      "english": "Random Spawns - Anywhere But - Fallas Lake",
+      "german": "",
+      "source_file": "Anywhere But - Fallas Lake/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Irvington/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - IRVINGTON <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except Irvington. There are approximately 2591 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - Irvington/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Irvington/title.txt",
+      "english": "Random Spawns - Anywhere But - Irvington",
+      "german": "",
+      "source_file": "Anywhere But - Irvington/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Isolated Areas/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - ISOLATED AREAS <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except Isolated Areas. There are approximately 2662 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - Isolated Areas/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Isolated Areas/title.txt",
+      "english": "Random Spawns - Anywhere But - Isolated Areas",
+      "german": "",
+      "source_file": "Anywhere But - Isolated Areas/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Louisville/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - LOUISVILLE <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except Louisville. There are approximately 1184 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - Louisville/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Louisville/title.txt",
+      "english": "Random Spawns - Anywhere But - Louisville",
+      "german": "",
+      "source_file": "Anywhere But - Louisville/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - March Ridge/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - MARCH RIDGE <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except March Ridge. There are approximately 2623 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - March Ridge/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - March Ridge/title.txt",
+      "english": "Random Spawns - Anywhere But - March Ridge",
+      "german": "",
+      "source_file": "Anywhere But - March Ridge/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Muldraugh/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - MULDRAUGH <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except Muldraugh. There are approximately 2497 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - Muldraugh/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Muldraugh/title.txt",
+      "english": "Random Spawns - Anywhere But - Muldraugh",
+      "german": "",
+      "source_file": "Anywhere But - Muldraugh/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Riverside/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - RIVERSIDE <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except Riverside. There are approximately 2544 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - Riverside/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Riverside/title.txt",
+      "english": "Random Spawns - Anywhere But - Riverside",
+      "german": "",
+      "source_file": "Anywhere But - Riverside/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Rosewood/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - ROSEWOOD <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except Rosewood. There are approximately 2539 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - Rosewood/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Rosewood/title.txt",
+      "english": "Random Spawns - Anywhere But - Rosewood",
+      "german": "",
+      "source_file": "Anywhere But - Rosewood/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Valley Station/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - VALLEY STATION <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except Valley Station. There are approximately 2590 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - Valley Station/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - Valley Station/title.txt",
+      "english": "Random Spawns - Anywhere But - Valley Station",
+      "german": "",
+      "source_file": "Anywhere But - Valley Station/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - West Point/description.txt",
+      "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ANYWHERE BUT - WEST POINT <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn anywhere except West Point. There are approximately 2568 locations. <LINE> <LINE>",
+      "german": "",
+      "source_file": "Anywhere But - West Point/description.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "__plain__",
+      "key": "Anywhere But - West Point/title.txt",
+      "english": "Random Spawns - Anywhere But - West Point",
+      "german": "",
+      "source_file": "Anywhere But - West Point/title.txt",
+      "source_layer": "42.13",
+      "source_format": "plain-title-description",
+      "needed": true,
+      "review": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Lokale Analyse-/Arbeitsdaten
+data/*
+!data/.gitkeep
+
+# Lokale Konfiguration
+*.local.json
+*.local
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / temporär
+.vscode/
+.idea/
+*.swp
+*~

@@ -1,0 +1,24 @@
+{
+  "game_version": "42.20.4",
+  "workshop_id": "3615135168",
+  "mod_id": "ZVirusVaccine42BETA",
+  "directory": "ZVirusVaccine42BETA",
+  "name": "Zombie Virus Vaccine [B42.20+ SP/MP]",
+  "effective_layers": [
+    "common",
+    "42.20"
+  ],
+  "entries": [
+    {
+      "category": "IG_UI",
+      "key": "IGUI_CraftingCategories_Laboratory",
+      "english": "Laboratory",
+      "german": "Labor",
+      "source_file": "IG_UI.json",
+      "source_layer": "42.20",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    }
+  ]
+}

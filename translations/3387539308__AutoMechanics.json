@@ -1,0 +1,299 @@
+{
+  "game_version": "42.20.4",
+  "workshop_id": "3387539308",
+  "mod_id": "AutoMechanics",
+  "directory": "AutoMechanics",
+  "name": "Auto Mechanics",
+  "effective_layers": [
+    "common",
+    "42.18"
+  ],
+  "entries": [
+    {
+      "category": "ContextMenu",
+      "key": "ContextMenu_AutoMechanics",
+      "english": "Train Mechanics",
+      "german": "",
+      "source_file": "ContextMenu.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "ContextMenu",
+      "key": "ContextMenu_AutoMechanics_UninstallAll",
+      "english": "Uninstall All",
+      "german": "",
+      "source_file": "ContextMenu.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_AutoMechanics",
+      "english": "Mod Auto Mechanics",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_AutoMechanics_ConditionLossPercentageThreshold",
+      "english": "Failure threshold",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Sandbox",
+      "key": "Sandbox_AutoMechanics_ConditionLossPercentageThreshold_tooltip",
+      "english": "Accepted risk percentage of losing part condition. <LINE> 0 (recommended for public servers) will protect your vehicles parts conditions. <LINE> 100 let players do whatever they want (recommended for private servers). <LINE> Only active on multiplayer clients or solo users with Verbose on.",
+      "german": "",
+      "source_file": "Sandbox.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_Verbose",
+      "english": "Verbose",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_Tooltip_Verbose",
+      "english": "That's usefull for debug. <LINE> Induces performances drawback. <LINE> In doubt keep it deactivated.",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_FailThreshold",
+      "english": "Failure threshold",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_Tooltip_FailThreshold",
+      "english": "Accepted risk percentage of losing part condition. <LINE> Can be overriden by server sandbox options in MP.",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_EndPause",
+      "english": "End pause",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_Tooltip_EndPause",
+      "english": "Pauses the game at the end of the training. <LINE> No effect in MP.",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_UntilSuccess",
+      "english": "Re-try Un/Install",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_Tooltip_UntilSuccess",
+      "english": "Re-try Un/Install actions until they succeed or become impossible.",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "ContextMenu",
+      "key": "ContextMenu_AutoMechanics_Continue",
+      "english": "Continue Train Mechanics",
+      "german": "",
+      "source_file": "ContextMenu.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "ContextMenu",
+      "key": "ContextMenu_AutoMechanics_ContinueUninstallAll",
+      "english": "Continue Uninstall All",
+      "german": "",
+      "source_file": "ContextMenu.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "ContextMenu",
+      "key": "ContextMenu_AutoMechanics_InflateAllTires",
+      "english": "Inflate All Tires",
+      "german": "",
+      "source_file": "ContextMenu.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_WaitCycles",
+      "english": "Wait Cycles (MP)",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_Tooltip_WaitCycles",
+      "english": "Client side waiting delay for receiving the server mecanical action done message. Increase this if training fails in MP.",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_SkipXpCooldownParts",
+      "english": "Skip no-XP parts",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_Tooltip_SkipXpCooldownParts",
+      "english": "Skip parts that would grant no Mechanics XP right now (already trained in the last 24 in-game hours), unless removing one is necessary to reach another part that still grants XP.",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_Tooltip_ThresholdServer",
+      "english": "%1%% (server)",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_Tooltip_ThresholdClient",
+      "english": "%1%% (client)",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_Tooltip_NoTrainingUntil",
+      "english": "No training available until %1",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_Tooltip_NoReachablePart",
+      "english": "No reachable trainable part",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_Tooltip_AllTiresInflated",
+      "english": "All tires already have enough pressure.",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "UI",
+      "key": "UI_AutoMechanics_Tooltip_TiresToInflate",
+      "english": "Tires to inflate: %1",
+      "german": "",
+      "source_file": "UI.json",
+      "source_layer": "42.18",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    }
+  ]
+}

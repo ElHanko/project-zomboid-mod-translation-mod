@@ -1,0 +1,321 @@
+{
+  "game_version": "42.20.4",
+  "workshop_id": "2886832936",
+  "mod_id": "88chevyS10",
+  "directory": "88chevyS10",
+  "name": "'88 Chevrolet S10",
+  "effective_layers": [
+    "common",
+    "42.13"
+  ],
+  "entries": [
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehicleName88chevyS10",
+      "english": "'88 Chevrolet S10",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehiclePartCH88Rollbar",
+      "english": "Rollbar",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehiclePartCH88Roofrack",
+      "english": "Roofrack",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehiclePartCH88BedCover",
+      "english": "Bed Cover",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehiclePartCH88TrunkDoorTop",
+      "english": "Bed Cover Lid",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "IG_UI",
+      "key": "IGUI_VehiclePartCH88Trunk",
+      "english": "Bed Storage",
+      "german": "",
+      "source_file": "IG_UI_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "88ChevyS10MakeHood",
+      "english": "Make 88 Chevrolet S10 Hood",
+      "german": "",
+      "source_file": "Recipes.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "88ChevyS10MakeFrontDoor",
+      "english": "Make 88 Chevrolet S10 Front Door",
+      "german": "",
+      "source_file": "Recipes.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "88ChevyS10MakeTrunkLid",
+      "english": "Make 88 Chevrolet S10 Trunk Lid",
+      "german": "",
+      "source_file": "Recipes.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "88ChevyS10MakeTopTrunkLid",
+      "english": "Make 88 Chevrolet S10 Top Trunk Lid",
+      "german": "",
+      "source_file": "Recipes.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "88ChevyS10MakeFrontWindshield",
+      "english": "Make 88 Chevrolet S10 Front Windshield",
+      "german": "",
+      "source_file": "Recipes.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "88ChevyS10MakeFrontSideWindow",
+      "english": "Make 88 Chevrolet S10 Front Side Window",
+      "german": "",
+      "source_file": "Recipes.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "88ChevyS10MakeRearWindshield",
+      "english": "Make 88 Chevrolet S10 Rear Windshield",
+      "german": "",
+      "source_file": "Recipes.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "88ChevyS10MakeFrontBumper",
+      "english": "Make 88 Chevrolet S10 Front Bumper",
+      "german": "",
+      "source_file": "Recipes.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "88ChevyS10MakeRearBumper",
+      "english": "Make 88 Chevrolet S10 Rear Bumper",
+      "german": "",
+      "source_file": "Recipes.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "88ChevyS10MakeReinforcedFrontBumper",
+      "english": "Make 88 Chevrolet S10 Reinforced Front Bumper",
+      "german": "",
+      "source_file": "Recipes.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "88ChevyS10MakeBedCap",
+      "english": "Make 88 Chevrolet S10 Bed Cap",
+      "german": "",
+      "source_file": "Recipes.json",
+      "source_layer": "common",
+      "source_format": "json",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_88ChevyS10MakeHood",
+      "english": "Make 88 Chevrolet S10 Hood",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_88ChevyS10MakeFrontDoor",
+      "english": "Make 88 Chevrolet S10 Front Door",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_88ChevyS10MakeTrunkLid",
+      "english": "Make 88 Chevrolet S10 Trunk Lid",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_88ChevyS10MakeTopTrunkLid",
+      "english": "Make 88 Chevrolet S10 Top Trunk Lid",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_88ChevyS10MakeFrontWindshield",
+      "english": "Make 88 Chevrolet S10 Front Windshield",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_88ChevyS10MakeFrontSideWindow",
+      "english": "Make 88 Chevrolet S10 Front Side Window",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_88ChevyS10MakeRearWindshield",
+      "english": "Make 88 Chevrolet S10 Rear Windshield",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_88ChevyS10MakeFrontBumper",
+      "english": "Make 88 Chevrolet S10 Front Bumper",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_88ChevyS10MakeRearBumper",
+      "english": "Make 88 Chevrolet S10 Rear Bumper",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_88ChevyS10MakeReinforcedFrontBumper",
+      "english": "Make 88 Chevrolet S10 Reinforced Front Bumper",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    },
+    {
+      "category": "Recipes",
+      "key": "Recipe_88ChevyS10MakeBedCap",
+      "english": "Make 88 Chevrolet S10 Bed Cap",
+      "german": "",
+      "source_file": "Recipes_EN.txt",
+      "source_layer": "42.13",
+      "source_format": "legacy-txt",
+      "needed": true,
+      "review": false
+    }
+  ]
+}
