@@ -280,6 +280,7 @@ def collect_expected(drafts, states, errors):
     categories = defaultdict(dict)
     plain_files = {}
     owners = {}
+    shared_texts = {}
 
     included = []
 
@@ -317,7 +318,15 @@ def collect_expected(drafts, states, errors):
 
                 ident = ("plain", str(rel))
 
+                content = german.rstrip() + "\n"
+
                 if ident in owners:
+                    if (
+                        owners[ident] != owner
+                        and plain_files[rel] == content
+                    ):
+                        continue
+
                     error(
                         errors,
                         f"Doppelter Plain-Eintrag {key}: "
@@ -326,7 +335,7 @@ def collect_expected(drafts, states, errors):
                     continue
 
                 owners[ident] = owner
-                plain_files[rel] = german.rstrip() + "\n"
+                plain_files[rel] = content
                 continue
 
             rel = Path(category + ".json")
@@ -341,6 +350,11 @@ def collect_expected(drafts, states, errors):
             ident = (category, key)
 
             if ident in owners:
+                if (
+                    owners[ident] != owner
+                    and shared_texts[ident] == (entry["english"], german)
+                ):
+                    continue
                 error(
                     errors,
                     f"Doppelter Translation-Key "
@@ -350,6 +364,7 @@ def collect_expected(drafts, states, errors):
                 continue
 
             owners[ident] = owner
+            shared_texts[ident] = (entry["english"], german)
             categories[category][key] = german
 
     expected = {}

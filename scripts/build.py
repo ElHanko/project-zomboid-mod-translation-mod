@@ -34,7 +34,7 @@ PLACEHOLDER_RE = re.compile(
     %(?!%)[#0\- +']*
     (?:\d+|\*)?
     (?:\.(?:\d+|\*))?
-    [a-zA-Z]                   # printf-artig: %s, %d ...
+    [a-zA-Z](?![A-Za-z0-9_])  # printf-artig: %s, %d ..., aber kein "100%ig"
     |
     \{[A-Za-z0-9_.:-]+\}       # {0}, {name}
     """,
@@ -221,6 +221,7 @@ def build(drafts):
     plain_files = {}
 
     owners = {}
+    shared_texts = {}
 
     built_drafts = []
     entry_count = 0
@@ -259,8 +260,15 @@ def build(drafts):
                     )
 
                 identity = ("plain", str(rel))
+                content = german.rstrip() + "\n"
 
                 if identity in owners:
+                    if (
+                        owners[identity] != owner
+                        and plain_files[rel] == content
+                    ):
+                        continue
+
                     die(
                         "Doppelter Übersetzungseintrag:\n"
                         f"  {key}\n"
@@ -269,13 +277,18 @@ def build(drafts):
                     )
 
                 owners[identity] = owner
-                plain_files[rel] = german
+                plain_files[rel] = content
                 entry_count += 1
                 continue
 
             identity = (category, key)
 
             if identity in owners:
+                if (
+                    owners[identity] != owner
+                    and shared_texts[identity] == (entry["english"], german)
+                ):
+                    continue
                 die(
                     "Doppelter Translation-Key:\n"
                     f"  {category}/{key}\n"
@@ -284,6 +297,7 @@ def build(drafts):
                 )
 
             owners[identity] = owner
+            shared_texts[identity] = (entry["english"], german)
             categories[category][key] = german
             entry_count += 1
 
