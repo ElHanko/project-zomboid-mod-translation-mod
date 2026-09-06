@@ -12,6 +12,88 @@ from verify import mod_info_errors, runtime_errors
 MOD_DIRECTORY = "Project-Zomboid-Mod-Translations"
 
 
+def supported_mods_text(drafts, plans, languages):
+    by_path = dict(drafts)
+    supported = {}
+
+    for language in languages:
+        _, included, _ = plans[language]
+
+        for path in included:
+            supported.setdefault(path, []).append(language)
+
+    rows = []
+
+    for path, target_languages in supported.items():
+        draft = by_path[path]
+
+        name = (
+            draft.get("name")
+            or draft.get("mod_id")
+            or draft.get("directory")
+            or path.stem
+        )
+        workshop_id = str(draft.get("workshop_id") or "")
+        mod_id = str(draft.get("mod_id") or "")
+
+        rows.append(
+            (
+                name.casefold(),
+                workshop_id,
+                mod_id.casefold(),
+                path.name.casefold(),
+                name,
+                workshop_id,
+                mod_id,
+                target_languages,
+            )
+        )
+
+    lines = [
+        "Project Zomboid Mod Translations",
+        "Supported Mods",
+        "",
+        f"Languages: {', '.join(languages)}",
+        f"Supported mods: {len(rows)}",
+        "",
+        "This export contains complete translations for the following mods:",
+        "",
+    ]
+
+    for (
+        _,
+        _,
+        _,
+        _,
+        name,
+        workshop_id,
+        mod_id,
+        target_languages,
+    ) in sorted(rows):
+        lines.append(name)
+
+        if workshop_id:
+            lines.append(f"  Workshop ID: {workshop_id}")
+            lines.append(
+                "  Workshop: "
+                "https://steamcommunity.com/sharedfiles/filedetails/"
+                f"?id={workshop_id}"
+            )
+
+        if mod_id:
+            lines.append(f"  Mod ID: {mod_id}")
+
+        languages_text = ", ".join(
+            sorted(target_languages, key=str.casefold)
+        )
+        lines.append(f"  Languages: {languages_text}")
+        lines.append("")
+
+    return (
+        "\n".join(lines).rstrip() + "\n"
+    ).encode("utf-8")
+
+
 def run(language=None, make_zip=False):
     drafts = load_drafts()
     languages = config.selected_languages(language)
@@ -24,6 +106,7 @@ def run(language=None, make_zip=False):
     license_file = config.ROOT / "LICENSE"
     no_symlinks(license_file)
     files = {Path("LICENSE"): license_file.read_bytes(),
+             Path("SUPPORTED-MODS.txt"): supported_mods_text(drafts, plans, languages),
              Path("common/mod.info"): expected_mod_info(), Path("42/mod.info"): expected_mod_info()}
     for target, (expected, _, _) in plans.items():
         files.update({Path("common/media/lua/shared/Translate") / target / rel: content

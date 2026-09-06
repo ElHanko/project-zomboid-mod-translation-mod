@@ -289,6 +289,11 @@ class CatalogueTests(TemporaryRepository):
             self.assertEqual(set(runtime), {"Key_A", "Key_B", "Key_C"})
         export.run(make_zip=True)
         distribution = common.read_tree(self.root / "dist" / export.MOD_DIRECTORY)
+        supported = distribution[Path("SUPPORTED-MODS.txt")].decode("utf-8")
+        for mod_id in ("A", "B", "C"):
+            self.assertIn(f"Mod ID: {mod_id}", supported)
+        self.assertEqual(supported.count("Languages: DE, FR"), 3)
+
         for language in ("DE", "FR"):
             rel = Path("common/media/lua/shared/Translate") / language / "IG_UI.json"
             self.assertEqual(distribution[rel], expected[Path(language) / "IG_UI.json"])
@@ -581,11 +586,70 @@ class BuildVerifyExportTests(TemporaryRepository):
             destination = self.root / "dist" / export.MOD_DIRECTORY
             tree = common.read_tree(destination)
             self.assertEqual({p.parts[5] for p in tree if p.parts[:5] == ("common", "media", "lua", "shared", "Translate")}, expected_languages)
-            self.assertEqual({p for p in tree if p.parts[0] not in ("common", "42")}, {Path("LICENSE")})
-            self.assertEqual(len(tree), 3 + len(expected_languages))
+            self.assertEqual(
+                {p for p in tree if p.parts[0] not in ("common", "42")},
+                {Path("LICENSE"), Path("SUPPORTED-MODS.txt")},
+            )
+            self.assertEqual(len(tree), 4 + len(expected_languages))
+            supported = tree[Path("SUPPORTED-MODS.txt")].decode("utf-8")
+            self.assertIn("Workshop ID: 123", supported)
+            self.assertIn("Mod ID: mod", supported)
+            self.assertIn(
+                "Languages: " + ", ".join(sorted(expected_languages)),
+                supported,
+            )
             with zipfile.ZipFile(destination.with_suffix(".zip")) as archive:
                 zipped = {Path(name).relative_to(export.MOD_DIRECTORY): archive.read(name) for name in archive.namelist()}
             self.assertEqual(zipped, tree)
+
+    def test_supported_mods_lists_only_complete_exported_languages(self):
+        first = self.bilingual("FR first")
+        first.update(
+            workshop_id="111",
+            mod_id="first",
+            directory="first",
+            name="First Mod",
+        )
+        self.store(first, "111__first.json")
+
+        second = self.bilingual()
+        second.update(
+            workshop_id="222",
+            mod_id="second",
+            directory="second",
+            name="Second Mod",
+        )
+        self.store(second, "222__second.json")
+
+        build.run()
+        export.run()
+
+        supported = (
+            self.root
+            / "dist"
+            / export.MOD_DIRECTORY
+            / "SUPPORTED-MODS.txt"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn("Languages: DE, FR", supported)
+        self.assertIn("Supported mods: 2", supported)
+
+        self.assertIn("First Mod", supported)
+        self.assertIn("Workshop ID: 111", supported)
+        self.assertIn("Mod ID: first", supported)
+        self.assertIn(
+            "https://steamcommunity.com/sharedfiles/filedetails/?id=111",
+            supported,
+        )
+        self.assertIn("Languages: DE, FR", supported)
+
+        self.assertIn("Second Mod", supported)
+        self.assertIn("Workshop ID: 222", supported)
+        self.assertIn("Mod ID: second", supported)
+
+        second_block = supported.split("Second Mod", 1)[1]
+        self.assertIn("Languages: DE", second_block)
+        self.assertNotIn("Languages: DE, FR", second_block)
 
     def test_stale_runtime_blocks_export_without_build_or_dist_changes(self):
         self.store(self.bilingual("FR fixture"))

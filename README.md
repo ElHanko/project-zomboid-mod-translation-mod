@@ -368,6 +368,7 @@ Output:
 dist/
 ├── Project-Zomboid-Mod-Translations/
 │   ├── LICENSE
+│   ├── SUPPORTED-MODS.txt
 │   ├── common/
 │   │   ├── mod.info
 │   │   └── media/lua/shared/Translate/<CODE>/...
@@ -382,13 +383,20 @@ missing, stale or changed file aborts with an instruction to run `./pzgt build`.
 Live Workshop sources or a current status are not required for packaging a
 known build.
 
-The allowlist contains only `LICENSE`, the two `mod.info` files and selected
-runtime translations. No scripts, drafts, local config, data, Git metadata or
-other development files are included. ZIP generation uses the standard library,
-with deterministic entry order and timestamps. Directory and optional ZIP are
-staged before replacement. An export replaces the prior directory with exactly
-the selected languages. Without `--zip`, an existing ZIP is left untouched;
-rerun with `--zip` to refresh it. `dist/` is ignored by Git.
+`SUPPORTED-MODS.txt` is generated deterministically from the durable drafts and
+the actual build plan for the selected export languages. It lists only mods
+whose translations are complete and therefore present in that export, including
+Workshop ID, Workshop URL, mod ID and the included target languages. A known but
+incomplete mod is not listed for that language. Local installation state does
+not affect the list.
+
+The allowlist contains only `LICENSE`, `SUPPORTED-MODS.txt`, the two `mod.info`
+files and selected runtime translations. No scripts, drafts, local config, data,
+Git metadata or other development files are included. ZIP generation uses the
+standard library, with deterministic entry order and timestamps. Directory and
+optional ZIP are staged before replacement. An export replaces the prior
+directory with exactly the selected languages. Without `--zip`, an existing ZIP
+is left untouched; rerun with `--zip` to refresh it. `dist/` is ignored by Git.
 
 ## Local install
 
@@ -402,8 +410,8 @@ Installation remains one symlink at:
 ~/Zomboid/mods/ElHanko-German-Translations
 ```
 
-The historical directory name and mod ID `ElHankoGermanTranslations` deliberately
-remain stable. The visible name is now `ElHanko Mod Translations`. The existing
+The historical install directory name deliberately remains stable. The mod ID is
+`ElHankoModTranslations`. The visible name is now `ElHanko Mod Translations`. The existing
 installation mechanism accepts an already correct link, refuses a wrong link
 and refuses to overwrite a real file or directory. Adding languages does not
 create additional mods. The existing install location remains `~/Zomboid/mods`;

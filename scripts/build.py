@@ -9,7 +9,7 @@ from common import (load_drafts, require_known, select_draft, translation_state,
                     validate_draft, safe_relative, read_tree, replace_outputs, no_symlinks, placeholders)
 from progress import state as draft_state
 
-MOD_ID = "ElHankoGermanTranslations"
+MOD_ID = "ElHankoModTranslations"
 MOD_NAME = "ElHanko Mod Translations"
 
 
