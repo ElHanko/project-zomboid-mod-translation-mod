@@ -6,6 +6,8 @@ import json
 import re
 import sys
 
+import config
+
 
 ROOT = Path(__file__).resolve().parent.parent
 SCAN = ROOT / "data" / "scan.json"
@@ -139,10 +141,10 @@ def main():
     json_errors = 0
 
     for mod in scan["mods"]:
-        en = effective_files(mod, "EN")
-        de = effective_files(mod, "DE")
+        languages = {language: effective_files(mod, language)
+                     for language in dict.fromkeys(["EN", *config.LANGUAGES])}
 
-        if not en and not de:
+        if not any(languages.values()):
             continue
 
         mod_record = {
@@ -151,14 +153,10 @@ def main():
             "effective_id": mod.get("effective_id"),
             "effective_name": mod.get("effective_name"),
             "effective_layers": mod.get("effective_layers", []),
-            "EN": {},
-            "DE": {},
+            **{language: {} for language in languages},
         }
 
-        for language, files in (
-            ("EN", en),
-            ("DE", de),
-        ):
+        for language, files in languages.items():
             for rel, info in sorted(files.items()):
                 path = Path(info["path"])
                 suffix = path.suffix.lower()
@@ -255,4 +253,5 @@ def main():
 
 
 if __name__ == "__main__":
+    config.configure()
     main()

@@ -4,30 +4,16 @@ from collections import Counter
 from pathlib import Path
 import json
 import re
-import sys
 
+import config
+from common import load_json, write_json
 
-ROOT = Path(__file__).resolve().parent.parent
-SCAN = ROOT / "data" / "scan.json"
-OUT = ROOT / "data" / "status.json"
 
 TRANSLATE_REL = Path("media/lua/shared/Translate")
 
 ASSIGNMENT_RE = re.compile(
     r'^\s*([A-Za-z0-9_.:-]+)\s*=\s*"((?:\\.|[^"\\])*)"\s*,?\s*(?:--.*)?$'
 )
-
-
-def die(message):
-    print(f"FEHLER: {message}", file=sys.stderr)
-    raise SystemExit(1)
-
-
-def load_scan():
-    if not SCAN.is_file():
-        die(f"{SCAN} fehlt. Zuerst './pzgt scan' ausführen.")
-
-    return json.loads(SCAN.read_text(encoding="utf-8"))
 
 
 def strip_trailing_commas(text):
@@ -348,7 +334,7 @@ def collect_language(mod, language):
                 record = {
                     "category": "__plain__",
                     "key": rel,
-                    "english_or_german": value,
+                    "text": value,
                     "file": rel,
                     "layer": layer_name,
                     "format": "plain-title-description",
@@ -435,7 +421,7 @@ def collect_language(mod, language):
                 record = {
                     "category": category,
                     "key": key,
-                    "english_or_german": value,
+                    "text": value,
                     "file": rel,
                     "layer": layer_name,
                     "format": file_format,
@@ -464,52 +450,50 @@ def collect_language(mod, language):
     }
 
 
-def main():
-    scan = load_scan()
+def analyze_scan(scan, language):
+    if language not in scan.get("languages", []):
+        raise ValueError(f"Scan enthält {language} nicht; zuerst ./pzgt scan ausführen")
 
     rows = []
     totals = Counter()
 
     for mod in scan["mods"]:
         en = collect_language(mod, "EN")
-        de = collect_language(mod, "DE")
+        target_data = collect_language(mod, language)
 
         en_entries = en["entries"]
-        de_entries = de["entries"]
-
-        if not en_entries and not de_entries:
-            continue
+        target_entries = target_data["entries"]
 
         missing = []
         translated = []
         blank = []
 
         for entry_id, source in en_entries.items():
-            target = de_entries.get(entry_id)
+            target = target_entries.get(entry_id)
 
             if target is None:
                 missing.append(source)
                 continue
 
-            if not target["english_or_german"].strip():
+            if not target["text"].strip():
                 item = dict(source)
-                item["german_file"] = target["file"]
-                item["german_layer"] = target["layer"]
+                item["target_file"] = target["file"]
+                item["target_layer"] = target["layer"]
                 blank.append(item)
                 continue
 
             translated.append(entry_id)
 
-        extra_de = [
+        extra_target = [
             record
-            for entry_id, record in de_entries.items()
+            for entry_id, record in target_entries.items()
             if entry_id not in en_entries
         ]
 
         open_count = len(missing) + len(blank)
         parse_error_count = (
             len(en["parse_errors"])
-            + len(de["parse_errors"])
+            + len(target_data["parse_errors"])
         )
 
         row = {
@@ -527,12 +511,13 @@ def main():
                 "missing": len(missing),
                 "blank": len(blank),
                 "open": open_count,
-                "extra_german": len(extra_de),
+                "extra_target": len(extra_target),
                 "parse_errors": parse_error_count,
             },
+            "english": list(en_entries.values()),
             "missing": missing,
             "blank": blank,
-            "extra_german": extra_de,
+            "extra_target": extra_target,
             "parser": {
                 "EN": {
                     "parse_errors": en["parse_errors"],
@@ -545,14 +530,14 @@ def main():
                         "tolerant_json_files"
                     ],
                 },
-                "DE": {
-                    "parse_errors": de["parse_errors"],
-                    "warnings": de["warnings"],
-                    "metadata_ignored": de["metadata_ignored"],
-                    "duplicates_same_layer": de[
+                language: {
+                    "parse_errors": target_data["parse_errors"],
+                    "warnings": target_data["warnings"],
+                    "metadata_ignored": target_data["metadata_ignored"],
+                    "duplicates_same_layer": target_data[
                         "duplicates_same_layer"
                     ],
-                    "tolerant_json_files": de[
+                    "tolerant_json_files": target_data[
                         "tolerant_json_files"
                     ],
                 },
@@ -566,15 +551,15 @@ def main():
         totals["missing"] += len(missing)
         totals["blank"] += len(blank)
         totals["open"] += open_count
-        totals["extra_german"] += len(extra_de)
+        totals["extra_target"] += len(extra_target)
         totals["parse_errors"] += parse_error_count
         totals["metadata_ignored"] += (
             en["metadata_ignored"]
-            + de["metadata_ignored"]
+            + target_data["metadata_ignored"]
         )
         totals["tolerant_json_files"] += (
             en["tolerant_json_files"]
-            + de["tolerant_json_files"]
+            + target_data["tolerant_json_files"]
         )
 
     rows.sort(
@@ -586,24 +571,22 @@ def main():
         reverse=True,
     )
 
-    OUT.write_text(
-        json.dumps(
-            {
-                "game_version": scan["game_version"],
-                "totals": dict(totals),
-                "mods": rows,
-            },
-            ensure_ascii=False,
-            indent=2,
-        ) + "\n",
-        encoding="utf-8",
-    )
+    return {"language": language, "game_version": scan["game_version"],
+            "totals": dict(totals), "mods": rows}
 
+
+def run(language=None):
+    language = config.select_language(language)
+    scan = load_json(config.DATA / "scan.json")
+    data = analyze_scan(scan, language)
+    write_json(config.DATA / "status.json", data)
+    rows = data["mods"]
+    totals = Counter(data["totals"])
     print(f"Project Zomboid {scan['game_version']}")
     print()
     print(
         f'{"OFFEN":>6} '
-        f'{"DE":>6} '
+        f'{language:>6} '
         f'{"EN":>6} '
         f'{"FEHLER":>6}  '
         f'{"MOD-ID":45} '
@@ -628,11 +611,11 @@ def main():
     print()
     print("Gesamt:")
     print(f'  Englische Einträge:    {totals["english"]}')
-    print(f'  Deutsch vorhanden:     {totals["translated"]}')
+    print(f'  {language} vorhanden:     {totals["translated"]}')
     print(f'  Fehlend:               {totals["missing"]}')
-    print(f'  Deutsch leer:          {totals["blank"]}')
+    print(f'  {language} leer:          {totals["blank"]}')
     print(f'  Offen gesamt:          {totals["open"]}')
-    print(f'  Nur in DE:             {totals["extra_german"]}')
+    print(f'  Nur in {language}:             {totals["extra_target"]}')
     print(f'  Parserfehler:          {totals["parse_errors"]}')
     print(f'  Metadaten ignoriert:   {totals["metadata_ignored"]}')
     print(
@@ -641,7 +624,7 @@ def main():
     )
 
     print()
-    print(f"Details: {OUT}")
+    print(f"Details: {config.DATA / 'status.json'}")
 
     if totals["parse_errors"]:
         print()
@@ -652,4 +635,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    config.configure()
+    run()

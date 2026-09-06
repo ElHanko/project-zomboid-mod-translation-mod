@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 
 from pathlib import Path
-import json
 import re
-import subprocess
+import argparse
+import importlib
+
+import config as settings
 import sys
+from common import write_json
 
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
-TRANSLATIONS = ROOT / "translations"
 
 LOCAL_MODS = Path.home() / "Zomboid" / "mods"
 LOCAL_LINK = LOCAL_MODS / "ElHanko-German-Translations"
-CONFIG_FILE = ROOT / "pzgt.local.json"
 
 VERSION_DIR_RE = re.compile(r"^\d+(?:\.\d+){0,2}$")
 GAME_VERSION_RE = re.compile(
@@ -27,24 +27,7 @@ def die(message):
 
 
 def load_config():
-    if not CONFIG_FILE.exists():
-        die(f"Lokale Konfiguration fehlt: {CONFIG_FILE}")
-
-    try:
-        config = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as exc:
-        die(f"Konfiguration kann nicht gelesen werden: {exc}")
-
-    required = ("game", "workshop", "zomboid_home")
-
-    for key in required:
-        if not config.get(key):
-            die(f"Konfiguration enthält keinen Wert für {key!r}")
-
-    return {
-        key: Path(config[key]).expanduser()
-        for key in required
-    }
+    return settings.load_config()
 
 
 def version_tuple(value):
@@ -183,8 +166,6 @@ def language_files(layer, language):
 
 def inspect_layer(path, name, kind):
     mod_info_path = path / "mod.info"
-    en_files = language_files(path, "EN")
-    de_files = language_files(path, "DE")
 
     return {
         "name": name,
@@ -197,8 +178,8 @@ def inspect_layer(path, name, kind):
         ),
         "mod_info": parse_mod_info(mod_info_path),
         "translations": {
-            "EN": en_files,
-            "DE": de_files,
+            language: language_files(path, language)
+            for language in dict.fromkeys(["EN", *settings.LANGUAGES])
         },
     }
 
@@ -259,8 +240,11 @@ def discover_layers(mod_root):
     return layers
 
 
-def discover_mods(workshop):
+def discover_mods(workshop, supported=None):
     mods = []
+
+    if supported is not None and not workshop.exists():
+        return mods
 
     if not workshop.is_dir():
         die(f"Workshop-Verzeichnis fehlt: {workshop}")
@@ -278,6 +262,8 @@ def discover_mods(workshop):
             continue
 
         for mod_root in sorted(mods_dir.iterdir()):
+            if supported is not None and (workshop_root.name, mod_root.name) not in supported:
+                continue
             if not mod_root.is_dir():
                 continue
 
@@ -320,26 +306,15 @@ def discover_mods(workshop):
 
 
 def layer_translation_marker(layer):
-    en = len(layer["translations"]["EN"])
-    de = len(layer["translations"]["DE"])
-
-    if en and de:
-        state = f"EN:{en}/DE:{de}"
-    elif en:
-        state = f"EN:{en}"
-    elif de:
-        state = f"DE:{de}"
-    else:
-        state = "-"
-
+    state = "/".join(f"{language}:{len(files)}" for language, files in layer["translations"].items() if files) or "-"
     return f"{layer['name']}[{state}]"
 
 
-def cmd_scan():
-    config = load_config()
-    game_version = detect_game_version(config)
-
-    mods = discover_mods(config["workshop"])
+def scan_data(config=None, supported=None):
+    config = config or load_config()
+    mods = discover_mods(config["workshop"], supported)
+    # Without installed supported sources, local reproducibility needs no game log.
+    game_version = detect_game_version(config) if supported is None or mods else None
 
     for mod in mods:
         effective, selected = select_effective_layers(
@@ -372,27 +347,22 @@ def cmd_scan():
         mod["effective_id"] = effective_info.get("id")
         mod["effective_name"] = effective_info.get("name")
 
-    DATA.mkdir(parents=True, exist_ok=True)
-
-    output = DATA / "scan.json"
-
-    payload = {
+    return {
         "game": str(config["game"]),
         "game_version": game_version,
         "workshop": str(config["workshop"]),
         "zomboid_home": str(config["zomboid_home"]),
+        "languages": list(settings.LANGUAGES),
         "mods": mods,
     }
 
-    output.write_text(
-        json.dumps(
-            payload,
-            ensure_ascii=False,
-            indent=2,
-        ) + "\n",
-        encoding="utf-8",
-    )
 
+def cmd_scan():
+    payload = scan_data()
+    mods = payload["mods"]
+    game_version = payload["game_version"]
+    output = settings.DATA / "scan.json"
+    write_json(output, payload)
     workshop_ids = {
         mod["workshop_id"]
         for mod in mods
@@ -402,8 +372,7 @@ def cmd_scan():
         mod
         for mod in mods
         if any(
-            layer["translations"]["EN"]
-            or layer["translations"]["DE"]
+            any(layer["translations"].values())
             for layer in mod["layers"]
         )
     ]
@@ -411,7 +380,7 @@ def cmd_scan():
     print("Project Zomboid Mod-Inventur")
     print()
     print(f"Spielversion:   {game_version}")
-    print(f"Workshop:       {config['workshop']}")
+    print(f"Workshop:       {payload['workshop']}")
     print(f"Workshop-Items: {len(workshop_ids)}")
     print(f"Mod-Verzeichn.: {len(mods)}")
     print(f"Mit Sprache:    {len(with_translations)}")
@@ -427,8 +396,7 @@ def cmd_scan():
 
     for mod in mods:
         if not any(
-            layer["translations"]["EN"]
-            or layer["translations"]["DE"]
+            any(layer["translations"].values())
             for layer in mod["layers"]
         ):
             continue
@@ -453,65 +421,6 @@ def cmd_scan():
 
     print()
     print(f"Vollständige Inventur: {output}")
-
-
-
-def cmd_status():
-    script = ROOT / "scripts" / "status.py"
-
-    subprocess.run(
-        [sys.executable, str(script)],
-        cwd=ROOT,
-        check=True,
-    )
-
-
-def cmd_draft(selector):
-    script = ROOT / "scripts" / "draft.py"
-
-    subprocess.run(
-        [
-            sys.executable,
-            str(script),
-            selector,
-        ],
-        cwd=ROOT,
-        check=True,
-    )
-
-
-
-def cmd_progress(selector=None):
-    script = ROOT / "scripts" / "progress.py"
-
-    command = [
-        sys.executable,
-        str(script),
-    ]
-
-    if selector is not None:
-        command.append(selector)
-
-    subprocess.run(
-        command,
-        cwd=ROOT,
-        check=True,
-    )
-
-
-
-def cmd_build(selector):
-    script = ROOT / "scripts" / "build.py"
-
-    subprocess.run(
-        [
-            sys.executable,
-            str(script),
-            selector,
-        ],
-        cwd=ROOT,
-        check=True,
-    )
 
 
 
@@ -557,148 +466,57 @@ def cmd_install():
 
 
 
-def cmd_verify():
-    script = ROOT / "scripts" / "verify.py"
-
-    subprocess.run(
-        [
-            sys.executable,
-            str(script),
-        ],
-        cwd=ROOT,
-        check=True,
-    )
-
-
-
-def cmd_work(args):
-    script = ROOT / "scripts" / "work.py"
-
-    subprocess.run(
-        [
-            sys.executable,
-            str(script),
-            *args,
-        ],
-        cwd=ROOT,
-        check=True,
-    )
-
-
-def cmd_apply(work_file):
-    script = ROOT / "scripts" / "apply.py"
-
-    subprocess.run(
-        [
-            sys.executable,
-            str(script),
-            work_file,
-        ],
-        cwd=ROOT,
-        check=True,
-    )
-
-
-def usage():
-    print(
-        "Verwendung:\n"
-        "  ./pzgt scan\n"
-        "  ./pzgt status\n"
-        "  ./pzgt draft MOD-ID\n"
-        "  ./pzgt progress\n"
-        "  ./pzgt progress MOD-ID\n"
-        "  ./pzgt build MOD-ID\n"
-        "  ./pzgt install\n"
-        "  ./pzgt verify\n"
-        "  ./pzgt work [MOD-ID|--next] [--limit N] [--offset N]\n"
-        "  ./pzgt apply WORK-DATEI\n"
-    )
-
-
-def main():
-    if len(sys.argv) < 2:
-        usage()
+def main(argv=None):
+    parser = argparse.ArgumentParser(prog="./pzgt")
+    commands = parser.add_subparsers(dest="command", required=True)
+    for name in ("scan", "status", "build", "verify", "install", "export", "progress", "work", "draft", "apply"):
+        command = commands.add_parser(name)
+        if name in ("status", "build", "verify", "export", "progress", "work"):
+            command.add_argument("--language")
+        if name in ("progress", "work", "build"):
+            command.add_argument("selector", nargs="?")
+        if name == "draft":
+            group = command.add_mutually_exclusive_group(required=True)
+            group.add_argument("selector", nargs="?")
+            group.add_argument("--all", action="store_true")
+        if name == "work":
+            command.add_argument("--next", action="store_true")
+            command.add_argument("--limit", type=int, default=25)
+            command.add_argument("--offset", type=int, default=0)
+        if name == "export":
+            command.add_argument("--zip", action="store_true", dest="make_zip")
+        if name == "apply":
+            command.add_argument("file")
+    argv = list(sys.argv[1:] if argv is None else argv)
+    if argv == ["help"]:
+        argv = ["--help"]
+    args = parser.parse_args(argv)
+    try:
+        settings.configure()
+        if args.command == "scan":
+            cmd_scan()
+        elif args.command == "install":
+            cmd_install()
+        else:
+            module = importlib.import_module(args.command)
+            if args.command == "draft":
+                module.run("--all" if args.all else args.selector)
+            elif args.command in ("progress", "build"):
+                module.run(args.selector, args.language)
+            elif args.command == "work":
+                if args.next and args.selector:
+                    raise ValueError("--next und MOD-ID schließen sich aus")
+                module.run(args.selector, args.limit, args.offset, args.language)
+            elif args.command == "apply":
+                module.run(args.file)
+            elif args.command == "export":
+                module.run(args.language, args.make_zip)
+            else:
+                module.run(args.language)
+    except (OSError, ValueError) as exc:
+        print(f"FEHLER: {exc}", file=sys.stderr)
         return 1
-
-    command = sys.argv[1]
-
-    if command == "scan":
-        if len(sys.argv) != 2:
-            usage()
-            return 1
-
-        cmd_scan()
-        return 0
-
-    if command == "status":
-        if len(sys.argv) != 2:
-            usage()
-            return 1
-
-        cmd_status()
-        return 0
-
-    if command == "draft":
-        if len(sys.argv) != 3:
-            usage()
-            return 1
-
-        cmd_draft(sys.argv[2])
-        return 0
-
-    if command == "progress":
-        if len(sys.argv) == 2:
-            cmd_progress()
-            return 0
-
-        if len(sys.argv) == 3:
-            cmd_progress(sys.argv[2])
-            return 0
-
-        usage()
-        return 1
-
-    if command == "build":
-        if len(sys.argv) != 3:
-            usage()
-            return 1
-
-        cmd_build(sys.argv[2])
-        return 0
-
-    if command == "install":
-        if len(sys.argv) != 2:
-            usage()
-            return 1
-
-        cmd_install()
-        return 0
-
-    if command == "verify":
-        if len(sys.argv) != 2:
-            usage()
-            return 1
-
-        cmd_verify()
-        return 0
-
-    if command == "work":
-        cmd_work(sys.argv[2:])
-        return 0
-
-    if command == "apply":
-        if len(sys.argv) != 3:
-            usage()
-            return 1
-
-        cmd_apply(sys.argv[2])
-        return 0
-
-    if command in ("help", "--help", "-h"):
-        usage()
-        return 0
-
-    die(f"Unbekannter Befehl: {command}")
+    return 0
 
 
 if __name__ == "__main__":

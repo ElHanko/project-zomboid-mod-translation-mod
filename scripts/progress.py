@@ -1,232 +1,42 @@
 #!/usr/bin/env python3
-
-from pathlib import Path
-import json
-import sys
-
-
-ROOT = Path(__file__).resolve().parent.parent
-TRANSLATIONS = ROOT / "translations"
+"""Count only the selected target-language state."""
+import config
+from common import load_drafts, select_draft, translation_state, placeholders
 
 
-def die(message):
-    print(f"FEHLER: {message}", file=sys.stderr)
-    raise SystemExit(1)
+def state(path, data, language):
+    states = [translation_state(e, language) for e in data["entries"]]
+    needed = [s for s in states if s["needed"] is True]
+    translated = sum(bool(s["text"].strip()) for s in needed)
+    review = sum(s["review"] for s in needed)
+    unknown = sum(s["needed"] is None for s in states)
+    valid_placeholders = all(placeholders(e["english"]) == placeholders(translation_state(e, language)["text"])
+                             for e in data["entries"] if translation_state(e, language)["needed"] is True)
+    return {"path": path, "data": data, "needed": len(needed), "translated": translated,
+            "open": len(needed) - translated, "review": review, "unknown": unknown,
+            "complete": bool(needed) and len(needed) == translated and not review and not unknown and valid_placeholders}
 
 
-def load_drafts():
-    drafts = []
-
-    for path in sorted(
-        TRANSLATIONS.glob("*.json")
-    ):
-        try:
-            data = json.loads(
-                path.read_text(encoding="utf-8")
-            )
-        except (OSError, json.JSONDecodeError) as exc:
-            die(
-                f"Ungültiger Draft {path}: {exc}"
-            )
-
-        drafts.append((path, data))
-
-    return drafts
-
-
-def state(path, data):
-    needed = [
-        entry
-        for entry in data.get("entries", [])
-        if entry.get("needed", True)
-    ]
-
-    translated = [
-        entry
-        for entry in needed
-        if entry.get("german", "").strip()
-    ]
-
-    review = [
-        entry
-        for entry in needed
-        if entry.get("review", False)
-    ]
-
-    return {
-        "path": path,
-        "data": data,
-        "needed": len(needed),
-        "translated": len(translated),
-        "open": (
-            len(needed)
-            - len(translated)
-        ),
-        "review": len(review),
-    }
-
-
-def matches(data, selector):
-    folded = selector.casefold()
-
-    for value in (
-        data.get("mod_id"),
-        data.get("directory"),
-        data.get("name"),
-    ):
-        if (
-            isinstance(value, str)
-            and value.casefold() == folded
-        ):
-            return True
-
-    return False
-
-
-def print_single(item):
-    data = item["data"]
-
-    print(
-        data.get("name")
-        or data.get("mod_id")
-        or item["path"].name
-    )
-
-    print(f"Benötigt:   {item['needed']}")
-    print(f"Übersetzt:  {item['translated']}")
-    print(f"Offen:      {item['open']}")
-    print(f"Review:     {item['review']}")
-    print()
-    print(f"Draft: {item['path']}")
-
-
-def print_all(items):
-    items = sorted(
-        items,
-        key=lambda item: (
-            item["open"],
-            item["needed"],
-            str(
-                item["data"].get("mod_id")
-                or item["path"].name
-            ),
-        ),
-        reverse=True,
-    )
-
-    print(
-        f'{"OFFEN":>6} '
-        f'{"DE":>6} '
-        f'{"GESAMT":>6} '
-        f'{"REV":>5}  '
-        f'{"MOD-ID":45} '
-        f'NAME'
-    )
-
-    print("-" * 125)
-
-    for item in items:
-        data = item["data"]
-
-        marker = (
-            "✓"
-            if (
-                item["open"] == 0
-                and item["review"] == 0
-            )
-            else " "
-        )
-
-        print(
-            f'{item["open"]:6} '
-            f'{item["translated"]:6} '
-            f'{item["needed"]:6} '
-            f'{item["review"]:5} {marker} '
-            f'{str(data.get("mod_id") or "-")[:45]:45} '
-            f'{data.get("name") or data.get("directory")}'
-        )
-
-    needed = sum(
-        item["needed"]
-        for item in items
-    )
-
-    translated = sum(
-        item["translated"]
-        for item in items
-    )
-
-    review = sum(
-        item["review"]
-        for item in items
-    )
-
-    finished = sum(
-        1
-        for item in items
-        if (
-            item["open"] == 0
-            and item["review"] == 0
-        )
-    )
-
-    print()
-    print("Gesamt:")
-    print(f"  Drafts:       {len(items)}")
-    print(f"  Fertig:       {finished}")
-    print(f"  Benötigt:     {needed}")
-    print(f"  Übersetzt:    {translated}")
-    print(f"  Offen:        {needed - translated}")
-    print(f"  Review:       {review}")
-
-
-def main():
+def run(selector=None, language=None):
+    language = config.select_language(language)
     drafts = load_drafts()
-
+    if selector:
+        drafts = [select_draft(drafts, selector)]
     if not drafts:
-        die("Keine Drafts vorhanden.")
-
-    items = [
-        state(path, data)
-        for path, data in drafts
-    ]
-
-    if len(sys.argv) == 1:
-        print_all(items)
-        return
-
-    if len(sys.argv) != 2:
-        die(
-            "Verwendung:\n"
-            "  progress.py\n"
-            "  progress.py MOD-ID"
-        )
-
-    selector = sys.argv[1]
-
-    matches_found = [
-        item
-        for item in items
-        if matches(
-            item["data"],
-            selector,
-        )
-    ]
-
-    if not matches_found:
-        die(
-            f"Kein Draft gefunden: "
-            f"{selector}"
-        )
-
-    if len(matches_found) > 1:
-        die(
-            f"Mehrere Drafts passen auf: "
-            f"{selector}"
-        )
-
-    print_single(matches_found[0])
+        raise ValueError("Keine Drafts vorhanden")
+    items = [state(path, data, language) for path, data in drafts]
+    print(f"Fortschritt {language}")
+    print(f"{'OFFEN':>6} {'ÜBERSETZT':>9} {'GESAMT':>6} {'REV':>5} {'UNBEKANNT':>9}  MOD-ID")
+    for item in sorted(items, key=lambda item: (-item["open"], str(item["path"]))):
+        print(f"{item['open']:6} {item['translated']:9} {item['needed']:6} {item['review']:5} "
+              f"{item['unknown']:9}  {item['data'].get('mod_id')}")
+    print(f"\nDrafts:       {len(items)}")
+    print(f"Fertig:       {sum(item['complete'] for item in items)}")
+    for key, label in (("needed", "Benötigt"), ("translated", "Übersetzt"), ("open", "Offen"),
+                       ("review", "Review"), ("unknown", "Unbekannt")):
+        print(f"{label + ':':14}{sum(item[key] for item in items)}")
 
 
 if __name__ == "__main__":
-    main()
+    config.configure()
+    run()

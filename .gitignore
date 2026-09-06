@@ -19,3 +19,7 @@ venv/
 .idea/
 *.swp
 *~
+
+# Generierter Distributionsmod
+/dist/
+.pzgt-stage-*/

@@ -1,113 +1,72 @@
-from contextlib import redirect_stdout, redirect_stderr
-from io import StringIO
+from copy import deepcopy
 import json
 from pathlib import Path
-from tempfile import TemporaryDirectory
 import unittest
-from unittest.mock import patch
 
 import build
-import verify
+
+
+def entry(category="IG_UI", key="IGUI_VehiclePartGM85Roofrack", english="Roofrack", text="Dachgepäckträger"):
+    return {"category": category, "key": key, "english": english,
+            "translations": {"DE": {"text": text, "needed": True, "review": False}}}
+
+
+def draft(mod, entries):
+    return Path(mod + ".json"), {"workshop_id": "123", "directory": mod, "mod_id": mod, "entries": entries}
 
 
 class SharedKeyTests(unittest.TestCase):
-    def drafts(self, english="Roofrack", german="Dachgepäckträger", owner="buick"):
-        return [
-            (Path(mod + ".json"), {
-                "mod_id": mod,
-                "entries": [{
-                    "category": "IG_UI",
-                    "key": "IGUI_VehiclePartGM85Roofrack",
-                    "english": source,
-                    "german": target,
-                }],
-            })
-            for mod, source, target in [
-                ("pontiac", "Roofrack", "Dachgepäckträger"),
-                (owner, english, german),
-            ]
-        ]
+    def drafts(self, english="Roofrack", text="Dachgepäckträger", owner="buick"):
+        return [draft("pontiac", [entry()]), draft(owner, [entry(english=english, text=text)])]
 
     def test_identical_shared_key_builds_once(self):
-        drafts = self.drafts()
-        errors = []
-        states = {path: {"complete": True} for path, _ in drafts}
-        expected, _ = verify.collect_expected(drafts, states, errors)
-        self.assertEqual(errors, [])
-        with TemporaryDirectory() as directory:
-            root = Path(directory)
-            with patch.object(build, "DE_ROOT", root), patch.object(build, "write_mod_info"), redirect_stdout(StringIO()):
-                build.build(drafts)
-            actual = (root / "IG_UI.json").read_text()
-            self.assertEqual(json.loads(actual), {"IGUI_VehiclePartGM85Roofrack": "Dachgepäckträger"})
-            self.assertEqual(actual, expected[Path("IG_UI.json")])
+        expected, included, _ = build.collect_expected(self.drafts(), "DE")
+        self.assertEqual(json.loads(expected[Path("IG_UI.json")]),
+                         {"IGUI_VehiclePartGM85Roofrack": "Dachgepäckträger"})
+        self.assertEqual(len(included), 2)
 
     def test_conflicts_and_same_mod_duplicates_fail(self):
-        for kwargs in ({"english": "Other"}, {"german": "Andere"}, {"owner": "pontiac"}):
-            with self.subTest(kwargs=kwargs):
-                drafts = self.drafts(**kwargs)
-                errors = []
-                states = {path: {"complete": True} for path, _ in drafts}
-                verify.collect_expected(drafts, states, errors)
-                self.assertTrue(errors)
-                with (
-                    redirect_stdout(StringIO()),
-                    redirect_stderr(StringIO()),
-                    self.assertRaises(SystemExit),
-            ):
-                    build.build(drafts)
+        for kwargs in ({"english": "Other"}, {"text": "Andere"}, {"owner": "pontiac"}):
+            with self.subTest(kwargs=kwargs), self.assertRaises(ValueError):
+                build.collect_expected(self.drafts(**kwargs), "DE")
 
     def test_identical_shared_plain_target_builds_once(self):
-        drafts = [
-            (
-                Path("first.json"),
-                {
-                    "mod_id": "first",
-                    "entries": [{
-                        "category": "__plain__",
-                        "key": "Shared/description.txt",
-                        "english": "First English description",
-                        "german": "Gemeinsame Beschreibung   ",
-                    }],
-                },
-            ),
-            (
-                Path("second.json"),
-                {
-                    "mod_id": "second",
-                    "entries": [{
-                        "category": "__plain__",
-                        "key": "Shared/description.txt",
-                        "english": "Different English description",
-                        "german": "Gemeinsame Beschreibung",
-                    }],
-                },
-            ),
-        ]
+        drafts = [draft("first", [entry("__plain__", "Shared/description.txt", "First English", "Gemeinsam   ")]),
+                  draft("second", [entry("__plain__", "Shared/description.txt", "Different English", "Gemeinsam")])]
+        expected, included, _ = build.collect_expected(drafts, "DE")
+        self.assertEqual(expected, {Path("Shared/description.txt"): b"Gemeinsam\n"})
+        self.assertEqual(len(included), 2)
 
-        errors = []
-        states = {path: {"complete": True} for path, _ in drafts}
+    def test_plain_conflicts_and_same_owner_fail(self):
+        for text, owner in (("Anders", "second"), ("Gemeinsam", "first")):
+            drafts = [draft("first", [entry("__plain__", "title.txt", text="Gemeinsam")]),
+                      draft(owner, [entry("__plain__", "title.txt", text=text)])]
+            with self.subTest(text=text, owner=owner), self.assertRaises(ValueError):
+                build.collect_expected(drafts, "DE")
 
-        expected, _ = verify.collect_expected(drafts, states, errors)
-        self.assertEqual(errors, [])
+    def test_later_duplicate_of_second_owner_fails(self):
+        drafts = self.drafts()
+        drafts.append(deepcopy(drafts[1]))
+        with self.assertRaises(ValueError):
+            build.collect_expected(drafts, "DE")
 
-        with TemporaryDirectory() as directory:
-            root = Path(directory)
+    def test_duplicate_inside_incomplete_owner_fails(self):
+        with self.assertRaises(ValueError):
+            build.collect_expected([draft("one", [entry(text=""), entry(text="")])], "DE")
 
-            with (
-                patch.object(build, "DE_ROOT", root),
-                patch.object(build, "write_mod_info"),
-                redirect_stdout(StringIO()),
-            ):
-                build.build(drafts)
+    def test_plain_identity_does_not_collide_with_json_category_named_plain(self):
+        drafts = [draft("mod", [entry("__plain__", "title.txt"), entry("plain", "title.txt")])]
+        expected, _, _ = build.collect_expected(drafts, "DE")
+        self.assertEqual(set(expected), {Path("title.txt"), Path("plain.json")})
 
-            actual = (root / "Shared" / "description.txt").read_text()
+    def test_conflict_only_in_other_language(self):
+        drafts = self.drafts()
+        for i, (_, data) in enumerate(drafts):
+            data["entries"][0]["translations"]["FR"] = {"text": str(i), "needed": True, "review": False}
+        build.collect_expected(drafts, "DE")
+        with self.assertRaises(ValueError):
+            build.collect_expected(drafts, "FR")
 
-            self.assertEqual(actual, "Gemeinsame Beschreibung\n")
-            self.assertEqual(
-                actual,
-                expected[Path("Shared/description.txt")],
-            )
 
 if __name__ == "__main__":
     unittest.main()

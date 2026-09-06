@@ -1,0 +1,8 @@
+{
+  "game": "/path/to/steam/steamapps/common/ProjectZomboid",
+  "workshop": "/path/to/steam/steamapps/workshop/content/108600",
+  "zomboid_home": "/path/to/Zomboid",
+  "languages": [
+    "DE"
+  ]
+}

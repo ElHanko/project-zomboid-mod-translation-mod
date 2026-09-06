@@ -1,204 +1,62 @@
 #!/usr/bin/env python3
-
+"""Validate a whole package before committing any durable translation changes."""
+from copy import deepcopy
 from pathlib import Path
-import json
-import sys
 
-import build as build_script
-
-
-ROOT = Path(__file__).resolve().parent.parent
-TRANSLATIONS = ROOT / "translations"
+import config
+from build import placeholders
+from common import index_entries, load_drafts, load_json, translation_state, write_json
 
 
-def die(message):
-    print(f"FEHLER: {message}", file=sys.stderr)
-    raise SystemExit(1)
-
-
-def load_json(path):
-    try:
-        return json.loads(
-            path.read_text(encoding="utf-8")
-        )
-    except (OSError, json.JSONDecodeError) as exc:
-        die(f"{path} kann nicht gelesen werden: {exc}")
-
-
-def identity(entry):
-    return (
-        entry.get("category"),
-        entry.get("key"),
-    )
-
-
-def main():
-    if len(sys.argv) != 2:
-        die("Verwendung: apply.py WORK-DATEI")
-
-    work_path = Path(sys.argv[1]).expanduser()
-
-    if not work_path.is_absolute():
-        work_path = (
-            Path.cwd() / work_path
-        ).resolve()
-
-    if not work_path.is_file():
-        die(f"Work-Datei fehlt: {work_path}")
-
-    work = load_json(work_path)
-
-    draft_name = work.get("draft_file")
-
-    if (
-        not isinstance(draft_name, str)
-        or Path(draft_name).name != draft_name
-    ):
-        die("Ungültiges draft_file im Arbeitspaket")
-
-    draft_path = TRANSLATIONS / draft_name
-
-    if not draft_path.is_file():
-        die(f"Draft fehlt: {draft_path}")
-
-    draft = load_json(draft_path)
-
-    # Metadaten müssen zum Draft passen.
-    for field in (
-        "workshop_id",
-        "mod_id",
-        "directory",
-    ):
-        if work.get(field) != draft.get(field):
-            die(
-                f"Arbeitspaket passt nicht zum Draft: "
-                f"{field}"
-            )
-
-    draft_entries = {}
-
-    for entry in draft.get("entries", []):
-        ident = identity(entry)
-
-        if ident in draft_entries:
-            die(
-                f"Doppelter Draft-Key: "
-                f"{ident[0]}/{ident[1]}"
-            )
-
-        draft_entries[ident] = entry
-
+def apply_work(work, drafts):
+    if not isinstance(work, dict) or not isinstance(work.get("entries"), list):
+        raise ValueError("Ungültiges Arbeitspaket")
+    if not isinstance(work.get("language"), str):
+        raise ValueError("Arbeitspaket ohne Sprache; mit ./pzgt work neu erzeugen")
+    language = config.select_language(work["language"])
+    found = [(path, draft) for path, draft in drafts if path.name == work.get("draft_file")]
+    if len(found) != 1:
+        raise ValueError("draft_file verweist nicht auf genau einen existierenden Draft")
+    path, original = found[0]
+    for field in ("workshop_id", "mod_id", "directory"):
+        if work.get(field) != original.get(field):
+            raise ValueError(f"Arbeitspaket passt nicht zum Draft: {field}")
+    draft = deepcopy(original)
+    targets = index_entries(draft["entries"])
     applied = 0
-    skipped = 0
-
-    for item in work.get("entries", []):
-        ident = identity(item)
-
-        target = draft_entries.get(ident)
-
+    for ident, item in index_entries(work["entries"]).items():
+        target = targets.get(ident)
         if target is None:
-            die(
-                "Key aus Arbeitspaket existiert nicht mehr: "
-                f"{ident[0]}/{ident[1]}"
-            )
-
-        if not target.get("needed", True):
-            die(
-                "Key wird im Draft nicht mehr benötigt: "
-                f"{ident[0]}/{ident[1]}"
-            )
-
-        if item.get("english") != target.get("english"):
-            die(
-                "Englischer Quelltext hat sich geändert: "
-                f"{ident[0]}/{ident[1]}\n"
-                "Zuerst './pzgt status' und "
-                "'./pzgt draft --all' ausführen."
-            )
-
-        german = item.get("german", "")
-
-        if not isinstance(german, str):
-            die(
-                f"DE ist kein String: "
-                f"{ident[0]}/{ident[1]}"
-            )
-
-        if not german.strip():
-            skipped += 1
+            raise ValueError(f"Key existiert nicht mehr: {ident}")
+        state = translation_state(target, language)
+        if state["needed"] is not True:
+            raise ValueError(f"Key nicht benötigt oder Bedarf unbekannt: {language}/{ident}; "
+                             f"./pzgt status --language {language} und ./pzgt draft --all ausführen")
+        if item.get("english") != target["english"]:
+            raise ValueError(f"Englischer Quelltext inzwischen geändert: {ident}")
+        if item.get("original_translation") != state["text"]:
+            raise ValueError(f"Zielübersetzung inzwischen geändert: {ident}; neues Arbeitspaket erstellen")
+        text = item.get("translation")
+        if not isinstance(text, str):
+            raise ValueError(f"Translation muss String sein: {ident}")
+        if not text.strip():
             continue
-
-        source_ph = build_script.placeholders(
-            target["english"]
-        )
-
-        target_ph = build_script.placeholders(
-            german
-        )
-
-        if source_ph != target_ph:
-            die(
-                "Placeholder-Abweichung bei "
-                f"{ident[0]}/{ident[1]}\n"
-                f"  EN: {dict(source_ph)}\n"
-                f"  DE: {dict(target_ph)}"
-            )
-
-        target["german"] = german
-        target["review"] = False
-        target.pop("previous_english", None)
-
+        if placeholders(text) != placeholders(target["english"]):
+            raise ValueError(f"Placeholder-Abweichung: {ident}")
+        state.update(text=text, review=False)
+        state.pop("previous_english", None)
         applied += 1
+    return path, draft, applied
 
-    tmp = draft_path.with_suffix(
-        draft_path.suffix + ".tmp"
-    )
 
-    tmp.write_text(
-        json.dumps(
-            draft,
-            ensure_ascii=False,
-            indent=2,
-        ) + "\n",
-        encoding="utf-8",
-    )
-
-    tmp.replace(draft_path)
-
-    needed = [
-        entry
-        for entry in draft.get("entries", [])
-        if entry.get("needed", True)
-    ]
-
-    translated = [
-        entry
-        for entry in needed
-        if entry.get("german", "").strip()
-    ]
-
-    review = [
-        entry
-        for entry in needed
-        if entry.get("review", False)
-    ]
-
-    print(
-        draft.get("name")
-        or draft.get("mod_id")
-        or draft_path.name
-    )
-    print()
-    print(f"Übernommen:   {applied}")
-    print(f"Leer gelassen:{skipped:4}")
-    print()
-    print(f"Benötigt:     {len(needed)}")
-    print(f"Übersetzt:    {len(translated)}")
-    print(f"Offen:        {len(needed) - len(translated)}")
-    print(f"Review:       {len(review)}")
-    print()
-    print(f"Draft: {draft_path}")
+def run(filename):
+    path, draft, count = apply_work(load_json(Path(filename).expanduser()), load_drafts())
+    if count:
+        write_json(path, draft)
+    print(f"Übernommen: {count}; Draft: {path}")
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    config.configure()
+    run(sys.argv[1])

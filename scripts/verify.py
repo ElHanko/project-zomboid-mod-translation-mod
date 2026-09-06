@@ -1,576 +1,127 @@
 #!/usr/bin/env python3
+"""Verify draft/source synchronization and exact deterministic runtime bytes."""
+from collections import Counter
 
-from collections import Counter, defaultdict
-from pathlib import Path
-import json
-import sys
-
-import build as build_script
-
-
-ROOT = Path(__file__).resolve().parent.parent
-TRANSLATIONS = ROOT / "translations"
-STATUS = ROOT / "data" / "status.json"
-
-DE_ROOT = (
-    ROOT
-    / "common"
-    / "media"
-    / "lua"
-    / "shared"
-    / "Translate"
-    / "DE"
-)
+import config
+import status as status_script
+from build import collect_expected, expected_mod_info, placeholders
+from common import (entry_identity, index_entries, load_drafts, no_symlinks,
+                    read_tree, translation_state)
+from progress import state as draft_state
 
 
-def error(errors, message):
-    errors.append(message)
-    print(f"FEHLER: {message}")
-
-
-def load_status(errors):
-    if not STATUS.is_file():
-        error(
-            errors,
-            f"{STATUS} fehlt. Zuerst './pzgt status' ausführen.",
-        )
-        return None
-
+def runtime_errors(expected, directory):
     try:
-        return json.loads(
-            STATUS.read_text(encoding="utf-8")
-        )
-    except (OSError, json.JSONDecodeError) as exc:
-        error(errors, f"{STATUS} ungültig: {exc}")
-        return None
-
-
-def identity(entry):
-    return (
-        entry.get("category"),
-        entry.get("key"),
-    )
-
-
-def find_status_mod(status, draft):
-    workshop_id = str(draft.get("workshop_id") or "")
-    directory = str(draft.get("directory") or "")
-
-    matches = [
-        mod
-        for mod in status.get("mods", [])
-        if (
-            str(mod.get("workshop_id") or "") == workshop_id
-            and str(mod.get("directory") or "") == directory
-        )
-    ]
-
-    if len(matches) == 1:
-        return matches[0]
-
-    # Fallback für ältere Drafts.
-    mod_id = str(draft.get("mod_id") or "")
-
-    matches = [
-        mod
-        for mod in status.get("mods", [])
-        if (
-            str(mod.get("workshop_id") or "") == workshop_id
-            and str(mod.get("mod_id") or "") == mod_id
-        )
-    ]
-
-    if len(matches) == 1:
-        return matches[0]
-
-    return None
-
-
-def validate_source_sync(path, draft, status, errors):
-    mod = find_status_mod(status, draft)
-
-    if mod is None:
-        error(
-            errors,
-            f"{path.name}: Quellmod nicht eindeutig "
-            "im aktuellen status.json gefunden",
-        )
-        return
-
-    if draft.get("game_version") != status.get("game_version"):
-        error(
-            errors,
-            f"{path.name}: Spielversion im Draft "
-            f"{draft.get('game_version')!r}, "
-            f"Status {status.get('game_version')!r}",
-        )
-
-    if (
-        draft.get("effective_layers", [])
-        != mod.get("effective_layers", [])
-    ):
-        error(
-            errors,
-            f"{path.name}: effektive Schichten haben sich geändert: "
-            f"{draft.get('effective_layers', [])} -> "
-            f"{mod.get('effective_layers', [])}",
-        )
-
-    current = {}
-
-    for source_name in ("missing", "blank"):
-        for entry in mod.get(source_name, []):
-            current[identity(entry)] = entry
-
-    draft_needed = {}
-
-    for entry in draft.get("entries", []):
-        if not entry.get("needed", True):
-            continue
-
-        entry_id = identity(entry)
-
-        if entry_id in draft_needed:
-            error(
-                errors,
-                f"{path.name}: doppelter Draft-Eintrag "
-                f"{entry_id[0]}/{entry_id[1]}",
-            )
-            continue
-
-        draft_needed[entry_id] = entry
-
-    missing_in_draft = sorted(
-        set(current) - set(draft_needed)
-    )
-
-    stale_in_draft = sorted(
-        set(draft_needed) - set(current)
-    )
-
-    for category, key in missing_in_draft:
-        error(
-            errors,
-            f"{path.name}: neuer offener Quell-Key fehlt im Draft: "
-            f"{category}/{key}; './pzgt draft "
-            f"{draft.get('mod_id')}' erneut ausführen",
-        )
-
-    for category, key in stale_in_draft:
-        error(
-            errors,
-            f"{path.name}: Draft markiert Key noch als benötigt, "
-            f"der aktuell nicht mehr offen ist: {category}/{key}; "
-            f"'./pzgt draft {draft.get('mod_id')}' erneut ausführen",
-        )
-
-    for entry_id in sorted(
-        set(current) & set(draft_needed)
-    ):
-        source = current[entry_id]
-        draft_entry = draft_needed[entry_id]
-
-        if (
-            draft_entry.get("english")
-            != source.get("english_or_german")
-        ):
-            category, key = entry_id
-
-            error(
-                errors,
-                f"{path.name}: englischer Quelltext geändert: "
-                f"{category}/{key}; './pzgt draft "
-                f"{draft.get('mod_id')}' erneut ausführen",
-            )
-
-
-def analyze_draft(path, data, errors):
-    needed = [
-        entry
-        for entry in data.get("entries", [])
-        if entry.get("needed", True)
-    ]
-
-    if not needed:
-        return {
-            "complete": False,
-            "needed": 0,
-            "translated": 0,
-            "open": 0,
-            "review": 0,
-        }
-
-    translated = 0
-    open_count = 0
-    review_count = 0
-    seen = set()
-
-    for entry in needed:
-        for field in (
-            "category",
-            "key",
-            "english",
-            "german",
-        ):
-            if field not in entry:
-                error(
-                    errors,
-                    f"{path.name}: Feld {field!r} fehlt",
-                )
-                continue
-
-        entry_id = identity(entry)
-
-        if entry_id in seen:
-            error(
-                errors,
-                f"{path.name}: doppelter Key "
-                f"{entry_id[0]}/{entry_id[1]}",
-            )
-
-        seen.add(entry_id)
-
-        german = entry.get("german", "")
-
-        if not isinstance(german, str):
-            error(
-                errors,
-                f"{path.name}: German ist kein String: "
-                f"{entry.get('key')}",
-            )
-            continue
-
-        if not german.strip():
-            open_count += 1
-        else:
-            translated += 1
-
-            source_ph = build_script.placeholders(
-                entry.get("english", "")
-            )
-            target_ph = build_script.placeholders(german)
-
-            if source_ph != target_ph:
-                error(
-                    errors,
-                    f"{path.name}: Placeholder-Abweichung bei "
-                    f"{entry.get('category')}/{entry.get('key')}: "
-                    f"EN={dict(source_ph)} DE={dict(target_ph)}",
-                )
-
-        if entry.get("review", False):
-            review_count += 1
-
-    complete = (
-        bool(needed)
-        and open_count == 0
-        and review_count == 0
-    )
-
-    return {
-        "complete": complete,
-        "needed": len(needed),
-        "translated": translated,
-        "open": open_count,
-        "review": review_count,
-    }
-
-
-def collect_expected(drafts, states, errors):
-    categories = defaultdict(dict)
-    plain_files = {}
-    owners = {}
-    shared_texts = {}
-
-    included = []
-
-    for path, data in drafts:
-        state = states[path]
-
-        if not state["complete"]:
-            continue
-
-        included.append(path)
-
-        owner = (
-            data.get("mod_id")
-            or data.get("directory")
-            or path.name
-        )
-
-        for entry in data.get("entries", []):
-            if not entry.get("needed", True):
-                continue
-
-            category = entry["category"]
-            key = entry["key"]
-            german = entry["german"]
-
-            if category == "__plain__":
-                rel = Path(key)
-
-                if rel.is_absolute() or ".." in rel.parts:
-                    error(
-                        errors,
-                        f"{path.name}: unsicherer Plain-Pfad {key}",
-                    )
-                    continue
-
-                ident = ("plain", str(rel))
-
-                content = german.rstrip() + "\n"
-
-                if ident in owners:
-                    if (
-                        owners[ident] != owner
-                        and plain_files[rel] == content
-                    ):
-                        continue
-
-                    error(
-                        errors,
-                        f"Doppelter Plain-Eintrag {key}: "
-                        f"{owners[ident]} / {owner}",
-                    )
-                    continue
-
-                owners[ident] = owner
-                plain_files[rel] = content
-                continue
-
-            rel = Path(category + ".json")
-
-            if rel.is_absolute() or ".." in rel.parts:
-                error(
-                    errors,
-                    f"{path.name}: unsichere Kategorie {category}",
-                )
-                continue
-
-            ident = (category, key)
-
-            if ident in owners:
-                if (
-                    owners[ident] != owner
-                    and shared_texts[ident] == (entry["english"], german)
-                ):
-                    continue
-                error(
-                    errors,
-                    f"Doppelter Translation-Key "
-                    f"{category}/{key}: "
-                    f"{owners[ident]} / {owner}",
-                )
-                continue
-
-            owners[ident] = owner
-            shared_texts[ident] = (entry["english"], german)
-            categories[category][key] = german
-
-    expected = {}
-
-    for category, entries in sorted(categories.items()):
-        rel = Path(category + ".json")
-
-        expected[rel] = (
-            json.dumps(
-                dict(sorted(entries.items())),
-                ensure_ascii=False,
-                indent=4,
-            )
-            + "\n"
-        )
-
-    for rel, content in plain_files.items():
-        expected[rel] = content
-
-    return expected, included
-
-
-def verify_runtime(expected, errors):
-    actual = {}
-
-    if DE_ROOT.is_dir():
-        for path in sorted(DE_ROOT.rglob("*")):
-            if not path.is_file():
-                continue
-
-            actual[path.relative_to(DE_ROOT)] = path
-
-    expected_names = set(expected)
-    actual_names = set(actual)
-
-    for rel in sorted(expected_names - actual_names):
-        error(
-            errors,
-            f"Runtime-Datei fehlt: {rel}",
-        )
-
-    for rel in sorted(actual_names - expected_names):
-        error(
-            errors,
-            f"Veraltete/unerwartete Runtime-Datei: {rel}",
-        )
-
-    modified = 0
-
-    for rel in sorted(expected_names & actual_names):
-        try:
-            content = actual[rel].read_text(
-                encoding="utf-8"
-            )
-        except OSError as exc:
-            error(
-                errors,
-                f"Runtime-Datei nicht lesbar {rel}: {exc}",
-            )
-            continue
-
-        if content != expected[rel]:
-            modified += 1
-            error(
-                errors,
-                f"Runtime-Datei stimmt nicht mit Drafts überein: "
-                f"{rel}; './pzgt build <fertige MOD-ID>' ausführen",
-            )
-
-    return {
-        "expected": len(expected_names),
-        "actual": len(actual_names),
-        "modified": modified,
-    }
-
-
-def expected_mod_info():
-    return (
-        f"name={build_script.MOD_NAME}\n"
-        f"id={build_script.MOD_ID}\n"
-        "author=ElHanko\n"
-        "description=German translations for Project Zomboid mods\n"
-        "modversion=0.1\n"
-        "versionMin=42.0\n"
-    )
-
-
-def verify_mod_info(errors):
-    expected = expected_mod_info()
-    ok = 0
-
-    for rel in (
-        Path("common/mod.info"),
-        Path("42/mod.info"),
-    ):
-        path = ROOT / rel
-
-        if not path.is_file():
-            error(errors, f"{rel} fehlt")
-            continue
-
-        try:
-            content = path.read_text(encoding="utf-8")
-        except OSError as exc:
-            error(errors, f"{rel} nicht lesbar: {exc}")
-            continue
-
-        if content != expected:
-            error(
-                errors,
-                f"{rel} entspricht nicht dem erwarteten Build",
-            )
-            continue
-
-        ok += 1
-
-    return ok
-
-
-def main():
+        actual = read_tree(directory)
+    except (OSError, ValueError) as exc:
+        return [str(exc)]
+    errors = [f"Runtime-Datei fehlt: {rel}" for rel in sorted(expected.keys() - actual.keys())]
+    errors += [f"Veraltete/unerwartete Runtime-Datei: {rel}" for rel in sorted(actual.keys() - expected.keys())]
+    errors += [f"Runtime-Datei stimmt nicht mit Drafts überein: {rel}"
+               for rel in sorted(actual.keys() & expected.keys()) if actual[rel] != expected[rel]]
+    return errors
+
+
+def mod_info_errors():
     errors = []
+    for rel in ("common/mod.info", "42/mod.info"):
+        path = config.ROOT / rel
+        try:
+            no_symlinks(path)
+            if path.read_bytes() != expected_mod_info():
+                errors.append(f"{rel} entspricht nicht dem erwarteten Build")
+        except (OSError, ValueError) as exc:
+            errors.append(str(exc))
+    return errors
 
-    print("Project Zomboid Translation Verify")
-    print()
 
-    status = load_status(errors)
+def source_errors(path, draft, status, language):
+    """Return None when the source is absent, otherwise its synchronization errors."""
+    if status.get("language") != language:
+        return [f"Status-Sprache passt nicht zu {language}"]
+    mods = [mod for mod in status["mods"] if
+            (str(mod["workshop_id"]), mod["directory"]) ==
+            (str(draft.get("workshop_id")), draft.get("directory"))]
+    if not mods:
+        return None
+    if len(mods) != 1:
+        return [f"{path.name}: Quellmod nicht eindeutig gefunden"]
+    mod = mods[0]
+    errors = []
+    if mod["counts"].get("parse_errors", 0):
+        errors.append(f"{path.name}: Parserfehler im Quellmod")
+    if draft.get("game_version") != status["game_version"]:
+        errors.append(f"{path.name}: Spielversion geändert")
+    if draft.get("effective_layers") != mod["effective_layers"]:
+        errors.append(f"{path.name}: effektive Schichten geändert")
+    current = index_entries(mod["english"])
+    needed = set(index_entries(mod["missing"] + mod["blank"]))
+    stored = {entry_identity(e) for e in draft["entries"] if translation_state(e, language)["needed"] is True}
+    for ident in sorted(needed - stored):
+        errors.append(f"{path.name}: neuer offener Quell-Key fehlt im Draft: {ident}")
+    for ident in sorted(stored - needed):
+        errors.append(f"{path.name}: Key nicht mehr benötigt: {ident}")
+    for entry in draft["entries"]:
+        source = current.get(entry_identity(entry))
+        if source and source["text"] != entry["english"]:
+            errors.append(f"{path.name}: englischer Quelltext geändert: {entry_identity(entry)}")
+    return errors
 
-    drafts = build_script.load_drafts()
 
-    if not drafts:
-        error(errors, "Keine Drafts vorhanden")
+def run(language=None):
+    from pzgt import scan_data
 
-    states = {}
-
-    for path, data in drafts:
-        states[path] = analyze_draft(
-            path,
-            data,
-            errors,
-        )
-
-        if status is not None:
-            validate_source_sync(
-                path,
-                data,
-                status,
-                errors,
-            )
-
-    expected, included = collect_expected(
-        drafts,
-        states,
-        errors,
-    )
-
-    runtime = verify_runtime(
-        expected,
-        errors,
-    )
-
-    mod_info_ok = verify_mod_info(errors)
-
-    totals = Counter()
-
-    for state in states.values():
-        totals["needed"] += state["needed"]
-        totals["translated"] += state["translated"]
-        totals["open"] += state["open"]
-        totals["review"] += state["review"]
-
-        if state["complete"]:
-            totals["complete_drafts"] += 1
-        else:
-            totals["incomplete_drafts"] += 1
-
-    print()
-    print("Drafts:")
-    print(f"  Insgesamt:          {len(drafts)}")
-    print(f"  Build-fertig:       {totals['complete_drafts']}")
-    print(f"  Unvollständig:      {totals['incomplete_drafts']}")
-    print(f"  Benötigte Einträge: {totals['needed']}")
-    print(f"  Übersetzt:          {totals['translated']}")
-    print(f"  Offen:              {totals['open']}")
-    print(f"  Review:             {totals['review']}")
-
-    print()
-    print("Runtime:")
-    print(f"  Erwartete Dateien:  {runtime['expected']}")
-    print(f"  Vorhandene Dateien: {runtime['actual']}")
-    print(f"  Abweichend:         {runtime['modified']}")
-    print(f"  mod.info OK:        {mod_info_ok}/2")
-
-    print()
-    print("Enthaltene fertige Drafts:")
-
-    for path in included:
-        print(f"  {path.name}")
-
-    print()
-
+    drafts = load_drafts()
+    languages = config.selected_languages(language)
+    supported = {(str(draft.get("workshop_id")), draft.get("directory")) for _, draft in drafts}
+    scan = scan_data(supported=supported)
+    errors = []
+    for target in languages:
+        status = status_script.analyze_scan(scan, target)
+        totals = Counter()
+        source_totals = Counter()
+        target_errors = []
+        for path, draft in drafts:
+            summary = draft_state(path, draft, target)
+            totals.update({key: summary[key] for key in
+                           ("needed", "translated", "open", "review", "unknown", "complete")})
+            sync_errors = source_errors(path, draft, status, target)
+            if sync_errors is None:
+                source_totals["missing"] += 1
+                print(f"Source-Sync {target}: {path.name}: Quelle lokal nicht vorhanden / nicht aktuell prüfbar")
+            else:
+                source_totals["checked"] += 1
+                source_totals["different"] += bool(sync_errors)
+                target_errors.extend(sync_errors)
+            for entry in draft["entries"]:
+                state = translation_state(entry, target)
+                if state["needed"] is not True:
+                    continue
+                if state["review"]:
+                    target_errors.append(f"{path.name}: Review offen: {entry['key']}")
+                if state["text"].strip() and placeholders(entry["english"]) != placeholders(state["text"]):
+                    target_errors.append(f"{path.name}: Placeholder-Abweichung: {entry['key']}")
+        try:
+            expected, included, _ = collect_expected(drafts, target)
+            runtime = runtime_errors(expected, config.TRANSLATE / target)
+            target_errors.extend(runtime)
+            print(f"Runtime {target}: {len(expected)} erwartet | "
+                  f"{len(read_tree(config.TRANSLATE / target))} vorhanden | {len(runtime)} Abweichungen")
+        except (OSError, ValueError) as exc:
+            target_errors.append(str(exc))
+        print(f"Drafts {target}: {len(drafts)} | Build-fertig: {totals['complete']} | "
+              f"Unvollständig: {len(drafts) - totals['complete']} | Benötigt: {totals['needed']} | "
+              f"Übersetzt: {totals['translated']} | Offen: {totals['open']} | "
+              f"Review: {totals['review']} | Unbekannt: {totals['unknown']}")
+        errors.extend(f"{target}: {message}" for message in target_errors)
+        print(f"Source-Sync {target}: geprüft: {source_totals['checked']} | "
+              f"Quelle nicht lokal: {source_totals['missing']} | Abweichend: {source_totals['different']}")
+    errors.extend(mod_info_errors())
     if errors:
-        print(f"Ergebnis: FEHLER ({len(errors)})")
-        raise SystemExit(1)
-
+        raise ValueError("\n".join(errors) + "\nQuellen: ./pzgt scan, status --language CODE, draft --all; Runtime: ./pzgt build")
     print("Ergebnis: OK")
 
 
 if __name__ == "__main__":
-    main()
+    config.configure()
+    run()
