@@ -13,529 +13,721 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName91range",
       "english": "'91 RANGE ROVER 4-door",
-      "german": "'91 RANGE ROVER Viertürer",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'91 RANGE ROVER Viertürer",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName91range2",
       "english": "'91 RANGE ROVER 2-door",
-      "german": "'91 RANGE ROVER Zweitürer",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'91 RANGE ROVER Zweitürer",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartRR91Trunk",
       "english": "Trunk Storage",
-      "german": "Kofferraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartRR91Roofrack",
       "english": "Roofrack Storage",
-      "german": "Dachgepäckträger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeTire",
       "english": "Make 91 Range Rover Tire",
-      "german": "Reifen für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reifen für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeHood",
       "english": "Make 91 Range Rover Hood",
-      "german": "Motorhaube für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeFrontDoor",
       "english": "Make 91 Range Rover Front Door",
-      "german": "Vordertür für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeRearDoor",
       "english": "Make 91 Range Rover Rear Door",
-      "german": "Hintertür für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintertür für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeTrunkLid",
       "english": "Make 91 Range Rover Trunk Lid",
-      "german": "Heckklappe für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeFrontSeat",
       "english": "Make 91 Range Rover Front Seat",
-      "german": "Vordersitz für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordersitz für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeRearSeat",
       "english": "Make 91 Range Rover Rear Seat",
-      "german": "Rücksitz für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rücksitz für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeFrontWindshield",
       "english": "Make 91 Range Rover Front Windshield",
-      "german": "Windschutzscheibe für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeFrontSideWindow",
       "english": "Make 91 Range Rover Front Side Window",
-      "german": "Vordere Seitenscheibe für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeRearSideWindow",
       "english": "Make 91 Range Rover Rear Side Window",
-      "german": "Hintere Seitenscheibe für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenscheibe für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeSunroofWindow",
       "english": "Make 91 Range Rover Sunroof Window",
-      "german": "Schiebedachscheibe für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schiebedachscheibe für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeRearWindshield",
       "english": "Make 91 Range Rover Rear Windshield",
-      "german": "Heckscheibe für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeFrontWindshieldArmor",
       "english": "Make 91 Range Rover Front Windshield Armor",
-      "german": "Windschutzscheibenpanzerung für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibenpanzerung für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeFrontWindowArmor",
       "english": "Make 91 Range Rover Front Window Armor",
-      "german": "Vordere Seitenfensterpanzerung für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenfensterpanzerung für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeRearWindowArmor",
       "english": "Make 91 Range Rover Rear Window Armor",
-      "german": "Hintere Seitenfensterpanzerung für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenfensterpanzerung für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeRearWindshieldArmor",
       "english": "Make 91 Range Rover Rear Windshield Armor",
-      "german": "Heckscheibenpanzerung für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibenpanzerung für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeFrontBullbar",
       "english": "Make 91 Range Rover Front Bullbar",
-      "german": "Frontschutzbügel für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontschutzbügel für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeRearBullbar",
       "english": "Make 91 Range Rover Rear Bullbar",
-      "german": "Heckschutzbügel für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckschutzbügel für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeRoofrack",
       "english": "Make 91 Range Rover Roofrack",
-      "german": "Dachgepäckträger für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeMudflaps",
       "english": "Make 91 Range Rover Mudflaps",
-      "german": "Schmutzfänger für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schmutzfänger für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "91rangeMakeSidesteps",
       "english": "Make 91 Range Rover Sidesteps",
-      "german": "Seitliche Trittbretter für '91 Range Rover herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitliche Trittbretter für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_DAMN_open_sunroof",
       "english": "Open Sunroof",
-      "german": "Schiebedach öffnen",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schiebedach öffnen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_DAMN_close_sunroof",
       "english": "Close Sunroof",
-      "german": "Schiebedach schließen",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schiebedach schließen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeTire",
       "english": "Make 91 Range Rover Tire",
-      "german": "Reifen für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reifen für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeHood",
       "english": "Make 91 Range Rover Hood",
-      "german": "Motorhaube für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeFrontDoor",
       "english": "Make 91 Range Rover Front Door",
-      "german": "Vordertür für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeRearDoor",
       "english": "Make 91 Range Rover Rear Door",
-      "german": "Hintertür für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintertür für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeTrunkLid",
       "english": "Make 91 Range Rover Trunk Lid",
-      "german": "Heckklappe für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeFrontSeat",
       "english": "Make 91 Range Rover Front Seat",
-      "german": "Vordersitz für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordersitz für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeRearSeat",
       "english": "Make 91 Range Rover Rear Seat",
-      "german": "Rücksitz für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rücksitz für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeFrontWindshield",
       "english": "Make 91 Range Rover Front Windshield",
-      "german": "Windschutzscheibe für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeFrontSideWindow",
       "english": "Make 91 Range Rover Front Side Window",
-      "german": "Vordere Seitenscheibe für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeRearSideWindow",
       "english": "Make 91 Range Rover Rear Side Window",
-      "german": "Hintere Seitenscheibe für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenscheibe für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeSunroofWindow",
       "english": "Make 91 Range Rover Sunroof Window",
-      "german": "Schiebedachscheibe für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schiebedachscheibe für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeRearWindshield",
       "english": "Make 91 Range Rover Rear Windshield",
-      "german": "Heckscheibe für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeFrontWindshieldArmor",
       "english": "Make 91 Range Rover Front Windshield Armor",
-      "german": "Windschutzscheibenpanzerung für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibenpanzerung für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeFrontWindowArmor",
       "english": "Make 91 Range Rover Front Window Armor",
-      "german": "Vordere Seitenfensterpanzerung für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenfensterpanzerung für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeRearWindowArmor",
       "english": "Make 91 Range Rover Rear Window Armor",
-      "german": "Hintere Seitenfensterpanzerung für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenfensterpanzerung für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeRearWindshieldArmor",
       "english": "Make 91 Range Rover Rear Windshield Armor",
-      "german": "Heckscheibenpanzerung für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibenpanzerung für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeFrontBullbar",
       "english": "Make 91 Range Rover Front Bullbar",
-      "german": "Frontschutzbügel für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontschutzbügel für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeRearBullbar",
       "english": "Make 91 Range Rover Rear Bullbar",
-      "german": "Heckschutzbügel für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckschutzbügel für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeRoofrack",
       "english": "Make 91 Range Rover Roofrack",
-      "german": "Dachgepäckträger für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeMudflaps",
       "english": "Make 91 Range Rover Mudflaps",
-      "german": "Schmutzfänger für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schmutzfänger für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91rangeMakeSidesteps",
       "english": "Make 91 Range Rover Sidesteps",
-      "german": "Seitliche Trittbretter für '91 Range Rover herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitliche Trittbretter für '91 Range Rover herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

@@ -13,353 +13,481 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyCapriceSedan",
       "english": "'85 Chevrolet Caprice Sedan",
-      "german": "'85 Chevrolet Caprice Limousine",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Caprice Limousine",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyCapriceCoupe",
       "english": "'85 Chevrolet Caprice Coupe",
-      "german": "'85 Chevrolet Caprice Coupé",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Caprice Coupé",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyCapriceWagon",
       "english": "'85 Chevrolet Caprice Wagon",
-      "german": "'85 Chevrolet Caprice Kombi",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Caprice Kombi",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyCapriceWagon2",
       "english": "'85 Chevrolet Caprice Wagon",
-      "german": "'85 Chevrolet Caprice Kombi",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Caprice Kombi",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanAirport",
       "english": "'85 Chevrolet Impala Airport Security",
-      "german": "'85 Chevrolet Impala Flughafensicherheit",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Flughafensicherheit",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanBCS",
       "english": "'85 Chevrolet Impala Bulletin County Sheriff",
-      "german": "'85 Chevrolet Impala Sheriff von Bulletin County",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Sheriff von Bulletin County",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanCLPD",
       "english": "'85 Chevrolet Impala City of Louisville PD",
-      "german": "'85 Chevrolet Impala Stadtpolizei Louisville",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Stadtpolizei Louisville",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanFD",
       "english": "'85 Chevrolet Impala Fire Department",
-      "german": "'85 Chevrolet Impala Feuerwehr",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Feuerwehr",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanKSP",
       "english": "'85 Chevrolet Impala KY State Trooper",
-      "german": "'85 Chevrolet Impala Staatspolizei Kentucky",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Staatspolizei Kentucky",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanLCPD",
       "english": "'85 Chevrolet Impala Louisville County PD",
-      "german": "'85 Chevrolet Impala Polizei von Louisville County",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Polizei von Louisville County",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanMCS",
       "english": "'85 Chevrolet Impala Meade County Sheriff",
-      "german": "'85 Chevrolet Impala Sheriff von Meade County",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Sheriff von Meade County",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanMPD",
       "english": "'85 Chevrolet Impala Muldraugh PD",
-      "german": "'85 Chevrolet Impala Polizei Muldraugh",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Polizei Muldraugh",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanPD",
       "english": "'85 Chevrolet Impala Police",
-      "german": "'85 Chevrolet Impala Polizei",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Polizei",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanPDu",
       "english": "'85 Chevrolet Impala Undercover",
-      "german": "'85 Chevrolet Impala Zivilstreife",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Zivilstreife",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanPrison",
       "english": "'85 Chevrolet Impala Prison Security",
-      "german": "'85 Chevrolet Impala Gefängniswache",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Gefängniswache",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanRanger",
       "english": "'85 Chevrolet Impala Ranger",
-      "german": "'85 Chevrolet Impala Wildhüter",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Wildhüter",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanTaxi",
       "english": "'85 Chevrolet Impala Taxi",
-      "german": "'85 Chevrolet Impala Taxi",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Taxi",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85chevyImpalaSedanWPPD",
       "english": "'85 Chevrolet Impala West Point PD",
-      "german": "'85 Chevrolet Impala Polizei West Point",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Chevrolet Impala Polizei West Point",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartCAP85Trunk",
       "english": "Trunk Storage",
-      "german": "Kofferraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartCAP85TrunkWagon",
       "english": "Trunk Storage",
-      "german": "Kofferraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartGM85Roofrack",
       "english": "Roofrack",
-      "german": "Dachgepäckträger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartGM85VinylRoof",
       "english": "Vinyl Roof Cover",
-      "german": "Vinyldachbezug",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vinyldachbezug",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85chevyCapriceMakeHood",
       "english": "Make 85 Chevrolet Caprice/Impala Hood",
-      "german": "Motorhaube für '85 Chevrolet Caprice/Impala herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '85 Chevrolet Caprice/Impala herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85chevyCapriceMakeTrunkLid",
       "english": "Make 85 Chevrolet Caprice/Impala Trunk Lid",
-      "german": "Kofferraumdeckel für '85 Chevrolet Caprice/Impala herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraumdeckel für '85 Chevrolet Caprice/Impala herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85chevyCapriceMakeFrontSeat",
       "english": "Make 85 Chevrolet Caprice/Impala Front Seat",
-      "german": "Vordersitz für '85 Chevrolet Caprice/Impala herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordersitz für '85 Chevrolet Caprice/Impala herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85chevyCapriceMakeRearSeat",
       "english": "Make 85 Chevrolet Caprice/Impala Rear Seat",
-      "german": "Rücksitz für '85 Chevrolet Caprice/Impala herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rücksitz für '85 Chevrolet Caprice/Impala herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85chevyCapriceMakeFrontBumper",
       "english": "Make 85 Chevrolet Caprice/Impala Front Bumper",
-      "german": "Frontstoßstange für '85 Chevrolet Caprice/Impala herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '85 Chevrolet Caprice/Impala herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85chevyCapriceMakeReinforcedFrontBumper",
       "english": "Make 85 Chevrolet Caprice/Impala Reinforced Front Bumper",
-      "german": "Verstärkte Frontstoßstange für '85 Chevrolet Caprice/Impala herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verstärkte Frontstoßstange für '85 Chevrolet Caprice/Impala herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85chevyCapriceMakeRearBumper",
       "english": "Make 85 Chevrolet Caprice/Impala Rear Bumper",
-      "german": "Heckstoßstange für '85 Chevrolet Caprice/Impala herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange für '85 Chevrolet Caprice/Impala herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85chevyCapriceMakeSteelTire",
       "english": "Make Basic Steel Tire",
-      "german": "Einfachen Reifen mit Stahlfelge herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Einfachen Reifen mit Stahlfelge herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85chevyCapriceMakeFrontPushBumper",
       "english": "Make 85 Chevrolet Caprice/Impala Front Push Bumper",
-      "german": "Vordere Schubstoßstange für '85 Chevrolet Caprice/Impala herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Schubstoßstange für '85 Chevrolet Caprice/Impala herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85chevyCapriceMakeRearPushBumper",
       "english": "Make 85 Chevrolet Caprice/Impala Rear Push Bumper",
-      "german": "Hintere Schubstoßstange für '85 Chevrolet Caprice/Impala herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Schubstoßstange für '85 Chevrolet Caprice/Impala herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

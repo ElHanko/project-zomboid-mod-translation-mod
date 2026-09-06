@@ -13,419 +13,571 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName91fordLTD",
       "english": "'91 Ford LTD Crown Victoria",
-      "german": "'91 Ford LTD Crown Victoria",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'91 Ford LTD Crown Victoria",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName91fordLTDksp",
       "english": "'91 Ford LTD Crown Victoria State Trooper",
-      "german": "'91 Ford LTD Crown Victoria Staatspolizei",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'91 Ford LTD Crown Victoria Staatspolizei",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName91fordLTDksp2",
       "english": "'91 Ford LTD Crown Victoria State Trooper",
-      "german": "'91 Ford LTD Crown Victoria Staatspolizei",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'91 Ford LTD Crown Victoria Staatspolizei",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName91fordLTDwagon",
       "english": "'91 Ford LTD Country Squire",
-      "german": "'91 Ford LTD Country Squire",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'91 Ford LTD Country Squire",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName91fordLTDpd",
       "english": "'91 Ford LTD Crown Victoria Police",
-      "german": "'91 Ford LTD Crown Victoria Polizei",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'91 Ford LTD Crown Victoria Polizei",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName91fordLTDunmarked",
       "english": "'91 Ford LTD Crown Victoria Unmarked",
-      "german": "'91 Ford LTD Crown Victoria Zivilstreife",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'91 Ford LTD Crown Victoria Zivilstreife",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName91fordLTDranger",
       "english": "'91 Ford LTD Crown Victoria Ranger",
-      "german": "'91 Ford LTD Crown Victoria Wildhüter",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'91 Ford LTD Crown Victoria Wildhüter",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName91fordLTDtaxi",
       "english": "'91 Ford LTD Crown Victoria Taxi",
-      "german": "'91 Ford LTD Crown Victoria Taxi",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'91 Ford LTD Crown Victoria Taxi",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartLTD91Trunk",
       "english": "Trunk Storage",
-      "german": "Kofferraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartLTD91TrunkWagon",
       "english": "Trunk Storage",
-      "german": "Kofferraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartLTD91Roofrack",
       "english": "Roofrack",
-      "german": "Dachgepäckträger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeTire",
       "english": "Make 91 Ford LTD Tire",
-      "german": "Reifen für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reifen für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDcvpiMakeTire",
       "english": "Make Ford CVPI Tire",
-      "german": "Reifen für Ford CVPI herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reifen für Ford CVPI herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeHood",
       "english": "Make 91 Ford LTD Hood",
-      "german": "Motorhaube für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeFrontDoor",
       "english": "Make 91 Ford LTD Front Door",
-      "german": "Vordertür für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeRearDoor",
       "english": "Make 91 Ford LTD Rear Door",
-      "german": "Hintertür für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintertür für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeTrunkLid",
       "english": "Make 91 Ford LTD Trunk Lid",
-      "german": "Kofferraumdeckel für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraumdeckel für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDWagonMakeTrunkLid",
       "english": "Make 91 Ford LTD Country Squire Trunk Lid",
-      "german": "Heckklappe für '91 Ford LTD Country Squire herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für '91 Ford LTD Country Squire herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeFrontSeat",
       "english": "Make 91 Ford LTD Front Seat",
-      "german": "Vordersitz für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordersitz für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeRearSeat",
       "english": "Make 91 Ford LTD Rear Seat",
-      "german": "Rücksitz für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rücksitz für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeFrontWindshield",
       "english": "Make 91 Ford LTD Front Windshield",
-      "german": "Windschutzscheibe für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeFrontSideWindow",
       "english": "Make 91 Ford LTD Front Side Window",
-      "german": "Vordere Seitenscheibe für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeRearSideWindow",
       "english": "Make 91 Ford LTD Rear Side Window",
-      "german": "Hintere Seitenscheibe für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenscheibe für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeRearWindshield",
       "english": "Make 91 Ford LTD Rear Windshield",
-      "german": "Heckscheibe für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDWagonMakeBackSideWindow",
       "english": "Make 91 Ford LTD Country Squire Back Side Window",
-      "german": "Laderaumseitenscheibe für '91 Ford LTD Country Squire herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Laderaumseitenscheibe für '91 Ford LTD Country Squire herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDWagonMakeRearWindshield",
       "english": "Make 91 Ford LTD Country Squire Rear Windshield",
-      "german": "Heckscheibe für '91 Ford LTD Country Squire herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '91 Ford LTD Country Squire herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeCabBarrier",
       "english": "Make 91 Ford LTD Cab Barrier",
-      "german": "Innenraumtrennwand für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Innenraumtrennwand für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDWagonMakeBackWindowArmor",
       "english": "Make 91 Ford LTD Country Squire Back Window Armor",
-      "german": "Laderaumfensterpanzerung für '91 Ford LTD Country Squire herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Laderaumfensterpanzerung für '91 Ford LTD Country Squire herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDWagonMakeRearWindshieldArmor",
       "english": "Make 91 Ford LTD Country Squire Rear Windshield Armor",
-      "german": "Heckscheibenpanzerung für '91 Ford LTD Country Squire herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibenpanzerung für '91 Ford LTD Country Squire herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeFrontWindshieldArmor",
       "english": "Make 91 Ford LTD Front Windshield Armor",
-      "german": "Windschutzscheibenpanzerung für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibenpanzerung für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeFrontWindowArmor",
       "english": "Make 91 Ford LTD Front Window Armor",
-      "german": "Vordere Seitenfensterpanzerung für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenfensterpanzerung für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeRearWindowArmor",
       "english": "Make 91 Ford LTD Rear Window Armor",
-      "german": "Hintere Seitenfensterpanzerung für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenfensterpanzerung für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeRearWindshieldArmor",
       "english": "Make 91 Ford LTD Rear Windshield Armor",
-      "german": "Heckscheibenpanzerung für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibenpanzerung für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeFrontBumper",
       "english": "Make 91 Ford LTD Front Bumper",
-      "german": "Frontstoßstange für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeRearBumper",
       "english": "Make 91 Ford LTD Rear Bumper",
-      "german": "Heckstoßstange für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeRearWagonBumper",
       "english": "Make 91 Ford LTD Rear Wagon Bumper",
-      "german": "Heckstoßstange für '91 Ford LTD Kombi herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange für '91 Ford LTD Kombi herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeFrontPushBumper",
       "english": "Make 91 Ford LTD Front Push Bumper",
-      "german": "Vordere Schubstoßstange für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Schubstoßstange für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_91fordLTDMakeRoofrack",
       "english": "Make 91 Ford LTD Roofrack",
-      "german": "Dachgepäckträger für '91 Ford LTD herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger für '91 Ford LTD herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

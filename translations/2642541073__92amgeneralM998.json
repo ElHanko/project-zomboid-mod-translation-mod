@@ -13,397 +13,541 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName92amgeneralM998",
       "english": "'92 AM General M998 HMMWV",
-      "german": "'92 AM General M998 HMMWV",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'92 AM General M998 HMMWV",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName92amgeneralM998Burnt",
       "english": "'92 AM General M998 HMMWV Burnt",
-      "german": "'92 AM General M998 HMMWV (ausgebrannt)",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'92 AM General M998 HMMWV (ausgebrannt)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerM101A3cargo",
       "english": "'92 M101A3 Cargo Trailer",
-      "german": "'92 M101A3 Frachtanhänger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'92 M101A3 Frachtanhänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM998Trunk",
       "english": "Trunk storage",
-      "german": "Kofferraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM998BackCover",
       "english": "Back Cover",
-      "german": "Heckabdeckung",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckabdeckung",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM998Mudflaps",
       "english": "Mudflaps",
-      "german": "Schmutzfänger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schmutzfänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM998Muffler",
       "english": "Muffler",
-      "german": "Auspuff",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Auspuff",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM998TrunkBarrier",
       "english": "Trunk Barrier",
-      "german": "Laderaumabtrennung",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Laderaumabtrennung",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM998Roofrack",
       "english": "Roofrack storage",
-      "german": "Dachgepäckträger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartTrunkDoorTwo",
       "english": "Top Trunk Lid ",
-      "german": "Obere Heckklappe ",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Obere Heckklappe ",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM101A3Cover",
       "english": "Trailer hard cover",
-      "german": "Feste Anhängerabdeckung",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Feste Anhängerabdeckung",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM101A3Tarp",
       "english": "Trailer Tarp cover",
-      "german": "Anhängerplane",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Anhängerplane",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM101A3Trunk",
       "english": "Trailer storage",
-      "german": "Anhängerstauraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Anhängerstauraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeRoofrack",
       "english": "Make 92 AM General M998 Roofrack",
-      "german": "Dachgepäckträger für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeHood",
       "english": "Make 92 AM General M998 Hood",
-      "german": "Motorhaube für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeFrontDoor",
       "english": "Make 92 AM General M998 Front Door",
-      "german": "Vordertür für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeRearDoor",
       "english": "Make 92 AM General M998 Rear Door",
-      "german": "Hintertür für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintertür für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeTrunkLid",
       "english": "Make 92 AM General M998 Trunk Lid",
-      "german": "Heckklappe für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeFrontWindshield",
       "english": "Make 92 AM General M998 Front Windshield",
-      "german": "Windschutzscheibe für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeSideWindow",
       "english": "Make 92 AM General M998 Side Window",
-      "german": "Seitenscheibe für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitenscheibe für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeFrontMakeshiftWindshieldArmor",
       "english": "Make 92 AM General M998 Front Makeshift Windshield Armor",
-      "german": "Behelfsmäßige Windschutzscheibenpanzerung für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Behelfsmäßige Windschutzscheibenpanzerung für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeFrontWindshieldArmor",
       "english": "Make 92 AM General M998 Front Windshield Armor",
-      "german": "Windschutzscheibenpanzerung für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibenpanzerung für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeFrontWindowArmor",
       "english": "Make 92 AM General M998 Front Window Armor",
-      "german": "Vordere Seitenfensterpanzerung für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenfensterpanzerung für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeRearWindowArmor",
       "english": "Make 92 AM General M998 Rear Window Armor",
-      "german": "Hintere Seitenfensterpanzerung für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenfensterpanzerung für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeFrontSmallBullbar",
       "english": "Make 92 AM General M998 Front Small Bullbar",
-      "german": "Kleinen Frontschutzbügel für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kleinen Frontschutzbügel für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeFrontBullbar",
       "english": "Make 92 AM General M998 Front Bullbar",
-      "german": "Frontschutzbügel für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontschutzbügel für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeMudflaps",
       "english": "Make 92 AM General M998 Mudflaps",
-      "german": "Schmutzfänger für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schmutzfänger für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeSmallMuffler",
       "english": "Make 92 AM General M998 Small Muffler",
-      "german": "Kleinen Auspuff für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kleinen Auspuff für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeLargeMuffler",
       "english": "Make 92 AM General M998 Large Muffler",
-      "german": "Großen Auspuff für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Großen Auspuff für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeBackCover",
       "english": "Make 92 AM General M998 Back Cover",
-      "german": "Heckabdeckung für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckabdeckung für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeMetalTrunkBarrier",
       "english": "Make 92 AM General M998 Metal Trunk Barrier",
-      "german": "Laderaumabtrennung aus Metall für '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Laderaumabtrennung aus Metall für '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_92amgeneralM998.MakeNetTrunkBarrier",
       "english": "Make 92 AM General M998 Net Trunk Barrier",
-      "german": "Trennnetz für den Laderaum des '92 AM General M998 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Trennnetz für den Laderaum des '92 AM General M998 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_M101A3.MakeTopTrunkLid",
       "english": "Make M101A3 Trailer Top Trunk Lid",
-      "german": "Obere Heckklappe für M101A3-Anhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Obere Heckklappe für M101A3-Anhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_M101A3.MakeHardCover",
       "english": "Make M101A3 Trailer Hard Cover",
-      "german": "Feste Abdeckung für M101A3-Anhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Feste Abdeckung für M101A3-Anhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_M101A3.MakeTrunkLid",
       "english": "Make M101 Trailer Trunk Lid",
-      "german": "Heckklappe für M101-Anhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für M101-Anhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_M101A3.MakeTarp",
       "english": "Make M101 Trailer Tarp",
-      "german": "Plane für M101-Anhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Plane für M101-Anhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

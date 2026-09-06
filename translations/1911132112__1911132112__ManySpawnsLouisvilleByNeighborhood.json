@@ -13,199 +13,271 @@
       "category": "__plain__",
       "key": "Audobon/description.txt",
       "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - AUDOBON <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Audobon neighborhood. There are approximately 58 locations. <LINE> <LINE>",
-      "german": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - AUDOBON <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Audobon in Louisville. Es stehen etwa 58 Startorte zur Verfügung. <LINE> <LINE>",
       "source_file": "Audobon/description.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - AUDOBON <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Audobon in Louisville. Es stehen etwa 58 Startorte zur Verfügung. <LINE> <LINE>",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Audobon/title.txt",
       "english": "Random Spawns - Louisville Neighborhoods - Audobon",
-      "german": "Zufällige Startpunkte - Stadtviertel von Louisville - Audobon",
       "source_file": "Audobon/title.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zufällige Startpunkte - Stadtviertel von Louisville - Audobon",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Downtown/description.txt",
       "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - DOWNTOWN <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Downtown neighborhood. There are approximately 663 locations. <LINE> <LINE>",
-      "german": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - DOWNTOWN <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Downtown in Louisville. Es stehen etwa 663 Startorte zur Verfügung. <LINE> <LINE>",
       "source_file": "Downtown/description.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - DOWNTOWN <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Downtown in Louisville. Es stehen etwa 663 Startorte zur Verfügung. <LINE> <LINE>",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Downtown/title.txt",
       "english": "Random Spawns - Louisville Neighborhoods - Downtown",
-      "german": "Zufällige Startpunkte - Stadtviertel von Louisville - Downtown",
       "source_file": "Downtown/title.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zufällige Startpunkte - Stadtviertel von Louisville - Downtown",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "East Market/description.txt",
       "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - EAST MARKET <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's East Market neighborhood. There are approximately 114 locations. <LINE> <LINE>",
-      "german": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - EAST MARKET <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel East Market in Louisville. Es stehen etwa 114 Startorte zur Verfügung. <LINE> <LINE>",
       "source_file": "East Market/description.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - EAST MARKET <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel East Market in Louisville. Es stehen etwa 114 Startorte zur Verfügung. <LINE> <LINE>",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "East Market/title.txt",
       "english": "Random Spawns - Louisville Neighborhoods - East Market",
-      "german": "Zufällige Startpunkte - Stadtviertel von Louisville - East Market",
       "source_file": "East Market/title.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zufällige Startpunkte - Stadtviertel von Louisville - East Market",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Germantown/description.txt",
       "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - GERMANTOWN <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Germantown neighborhood. There are approximately 118 locations. <LINE> <LINE>",
-      "german": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - GERMANTOWN <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Germantown in Louisville. Es stehen etwa 118 Startorte zur Verfügung. <LINE> <LINE>",
       "source_file": "Germantown/description.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - GERMANTOWN <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Germantown in Louisville. Es stehen etwa 118 Startorte zur Verfügung. <LINE> <LINE>",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Germantown/title.txt",
       "english": "Random Spawns - Louisville Neighborhoods - Germantown",
-      "german": "Zufällige Startpunkte - Stadtviertel von Louisville - Germantown",
       "source_file": "Germantown/title.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zufällige Startpunkte - Stadtviertel von Louisville - Germantown",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Iroquois Park/description.txt",
       "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - IROQUOIS PARK <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Iroquois Park neighborhood. There are approximately 76 locations. <LINE> <LINE>",
-      "german": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - IROQUOIS PARK <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Iroquois Park in Louisville. Es stehen etwa 76 Startorte zur Verfügung. <LINE> <LINE>",
       "source_file": "Iroquois Park/description.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - IROQUOIS PARK <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Iroquois Park in Louisville. Es stehen etwa 76 Startorte zur Verfügung. <LINE> <LINE>",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Iroquois Park/title.txt",
       "english": "Random Spawns - Louisville Neighborhoods - Iroquois Park",
-      "german": "Zufällige Startpunkte - Stadtviertel von Louisville - Iroquois Park",
       "source_file": "Iroquois Park/title.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zufällige Startpunkte - Stadtviertel von Louisville - Iroquois Park",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Limerick/description.txt",
       "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - LIMERICK <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Limerick neighborhood. There are approximately 200 locations. <LINE> <LINE>",
-      "german": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - LIMERICK <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Limerick in Louisville. Es stehen etwa 200 Startorte zur Verfügung. <LINE> <LINE>",
       "source_file": "Limerick/description.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - LIMERICK <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Limerick in Louisville. Es stehen etwa 200 Startorte zur Verfügung. <LINE> <LINE>",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Limerick/title.txt",
       "english": "Random Spawns - Louisville Neighborhoods - Limerick",
-      "german": "Zufällige Startpunkte - Stadtviertel von Louisville - Limerick",
       "source_file": "Limerick/title.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zufällige Startpunkte - Stadtviertel von Louisville - Limerick",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Parkwood/description.txt",
       "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - PARKWOOD <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Parkwood neighborhood. There are approximately 109 locations. <LINE> <LINE>",
-      "german": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - PARKWOOD <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Parkwood in Louisville. Es stehen etwa 109 Startorte zur Verfügung. <LINE> <LINE>",
       "source_file": "Parkwood/description.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - PARKWOOD <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Parkwood in Louisville. Es stehen etwa 109 Startorte zur Verfügung. <LINE> <LINE>",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Parkwood/title.txt",
       "english": "Random Spawns - Louisville Neighborhoods - Parkwood",
-      "german": "Zufällige Startpunkte - Stadtviertel von Louisville - Parkwood",
       "source_file": "Parkwood/title.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zufällige Startpunkte - Stadtviertel von Louisville - Parkwood",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Portland/description.txt",
       "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - PORTLAND <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Portland neighborhood. There are approximately 61 locations. <LINE> <LINE>",
-      "german": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - PORTLAND <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Portland in Louisville. Es stehen etwa 61 Startorte zur Verfügung. <LINE> <LINE>",
       "source_file": "Portland/description.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - PORTLAND <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Portland in Louisville. Es stehen etwa 61 Startorte zur Verfügung. <LINE> <LINE>",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Portland/title.txt",
       "english": "Random Spawns - Louisville Neighborhoods - Portland",
-      "german": "Zufällige Startpunkte - Stadtviertel von Louisville - Portland",
       "source_file": "Portland/title.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zufällige Startpunkte - Stadtviertel von Louisville - Portland",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Wyandotte/description.txt",
       "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - LOUISVILLE NEIGHBORHOODS - WYANDOTTE <LINE> <LINE>\n<LEFT> <SIZE:small> Spawn in Louisville's Wyandotte neighborhood. There are approximately 63 locations. <LINE> <LINE>",
-      "german": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - WYANDOTTE <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Wyandotte in Louisville. Es stehen etwa 63 Startorte zur Verfügung. <LINE> <LINE>",
       "source_file": "Wyandotte/description.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - STADTVIERTEL VON LOUISVILLE - WYANDOTTE <LINE> <LINE>\n<LEFT> <SIZE:small> Starte im Stadtviertel Wyandotte in Louisville. Es stehen etwa 63 Startorte zur Verfügung. <LINE> <LINE>",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Wyandotte/title.txt",
       "english": "Random Spawns - Louisville Neighborhoods - Wyandotte",
-      "german": "Zufällige Startpunkte - Stadtviertel von Louisville - Wyandotte",
       "source_file": "Wyandotte/title.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zufällige Startpunkte - Stadtviertel von Louisville - Wyandotte",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

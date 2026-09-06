@@ -13,166 +13,226 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName85oldsmobileDelta88Sedan",
       "english": "'85 Oldsmobile Delta 88 Sedan",
-      "german": "'85 Oldsmobile Delta 88 Limousine",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Oldsmobile Delta 88 Limousine",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85oldsmobileDelta88Coupe",
       "english": "'85 Oldsmobile Delta 88 Coupe",
-      "german": "'85 Oldsmobile Delta 88 Coupé",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Oldsmobile Delta 88 Coupé",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85oldsmobileDelta88Wagon",
       "english": "'85 Oldsmobile Delta 88 Wagon",
-      "german": "'85 Oldsmobile Delta 88 Kombi",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Oldsmobile Delta 88 Kombi",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85oldsmobileDelta88Wagon2",
       "english": "'85 Oldsmobile Delta 88 Wagon",
-      "german": "'85 Oldsmobile Delta 88 Kombi",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Oldsmobile Delta 88 Kombi",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartDEL85Trunk",
       "english": "Trunk Storage",
-      "german": "Kofferraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartDEL85TrunkWagon",
       "english": "Trunk Storage",
-      "german": "Kofferraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartGM85Roofrack",
       "english": "Roofrack",
-      "german": "Dachgepäckträger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartGM85VinylRoof",
       "english": "Vinyl Roof Cover",
-      "german": "Vinyldachbezug",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vinyldachbezug",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85oldsmobileDelta88MakeHood",
       "english": "Make 85 Oldsmobile Delta 88 Hood",
-      "german": "Motorhaube für '85 Oldsmobile Delta 88 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '85 Oldsmobile Delta 88 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85oldsmobileDelta88MakeTrunkLid",
       "english": "Make 85 Oldsmobile Delta 88 Trunk Lid",
-      "german": "Kofferraumdeckel für '85 Oldsmobile Delta 88 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraumdeckel für '85 Oldsmobile Delta 88 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85oldsmobileDelta88MakeFrontSeat",
       "english": "Make 85 Oldsmobile Delta 88 Front Seat",
-      "german": "Vordersitz für '85 Oldsmobile Delta 88 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordersitz für '85 Oldsmobile Delta 88 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85oldsmobileDelta88MakeRearSeat",
       "english": "Make 85 Oldsmobile Delta 88 Rear Seat",
-      "german": "Rücksitz für '85 Oldsmobile Delta 88 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rücksitz für '85 Oldsmobile Delta 88 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85oldsmobileDelta88MakeFrontBumper",
       "english": "Make 85 Oldsmobile Delta 88 Front Bumper",
-      "german": "Frontstoßstange für '85 Oldsmobile Delta 88 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '85 Oldsmobile Delta 88 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85oldsmobileDelta88MakeReinforcedFrontBumper",
       "english": "Make 85 Oldsmobile Delta 88 Reinforced Front Bumper",
-      "german": "Verstärkte Frontstoßstange für '85 Oldsmobile Delta 88 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verstärkte Frontstoßstange für '85 Oldsmobile Delta 88 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85oldsmobileDelta88MakeRearBumper",
       "english": "Make 85 Oldsmobile Delta 88 Rear Bumper",
-      "german": "Heckstoßstange für '85 Oldsmobile Delta 88 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange für '85 Oldsmobile Delta 88 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

@@ -13,276 +13,376 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName89trooper",
       "english": "'89 Isuzu Trooper",
-      "german": "'89 Isuzu Trooper",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'89 Isuzu Trooper",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName89trooperOP",
       "english": "'89 Isuzu Trooper Offroad Pack",
-      "german": "'89 Isuzu Trooper mit Geländepaket",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'89 Isuzu Trooper mit Geländepaket",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName89trooperRS",
       "english": "'89 Isuzu Trooper RS",
-      "german": "'89 Isuzu Trooper RS",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'89 Isuzu Trooper RS",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartISZ89Trunk",
       "english": "Trunk Storage",
-      "german": "Kofferraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartISZ89Roofrack",
       "english": "Roofrack",
-      "german": "Dachgepäckträger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeTire",
       "english": "Make 89 ISUZU Trooper Tire",
-      "german": "Reifen für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reifen für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeHood",
       "english": "Make 89 ISUZU Trooper Hood",
-      "german": "Motorhaube für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeFrontDoor",
       "english": "Make 89 ISUZU Trooper Front Door",
-      "german": "Vordertür für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeRearDoor",
       "english": "Make 89 ISUZU Trooper Rear Door",
-      "german": "Hintertür für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintertür für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeTrunkLid",
       "english": "Make 89 ISUZU Trooper Trunk Lid",
-      "german": "Heckklappe für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeFrontSeat",
       "english": "Make 89 ISUZU Trooper Front Seat",
-      "german": "Vordersitz für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordersitz für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeRearSeat",
       "english": "Make 89 ISUZU Trooper Rear Seat",
-      "german": "Rücksitz für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rücksitz für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeFrontWindshield",
       "english": "Make 89 ISUZU Trooper Front Windshield",
-      "german": "Windschutzscheibe für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeSideWindow",
       "english": "Make 89 ISUZU Trooper Side Window",
-      "german": "Seitenscheibe für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitenscheibe für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeRearWindshield",
       "english": "Make 89 ISUZU Trooper Rear Windshield",
-      "german": "Heckscheibe für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeFrontWindshieldArmor",
       "english": "Make 89 ISUZU Trooper Front Windshield Armor",
-      "german": "Windschutzscheibenpanzerung für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibenpanzerung für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeFrontWindowArmor",
       "english": "Make 89 ISUZU Trooper Front Window Armor",
-      "german": "Vordere Seitenfensterpanzerung für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenfensterpanzerung für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeRearWindowArmor",
       "english": "Make 89 ISUZU Trooper Rear Window Armor",
-      "german": "Hintere Seitenfensterpanzerung für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenfensterpanzerung für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeBackWindowArmor",
       "english": "Make 89 ISUZU Trooper Back Window Armor",
-      "german": "Laderaumfensterpanzerung für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Laderaumfensterpanzerung für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeRearWindshieldArmor",
       "english": "Make 89 ISUZU Trooper Rear Windshield Armor",
-      "german": "Heckscheibenpanzerung für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibenpanzerung für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeFrontBullbar",
       "english": "Make 89 ISUZU Trooper Front Bullbar",
-      "german": "Frontschutzbügel für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontschutzbügel für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeReinforcedFrontBumper",
       "english": "Make 89 ISUZU Trooper Reinforced Front Bumper",
-      "german": "Verstärkte Frontstoßstange für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verstärkte Frontstoßstange für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeRoofrack",
       "english": "Make 89 ISUZU Trooper Roofrack",
-      "german": "Dachgepäckträger für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeMudflaps",
       "english": "Make 89 ISUZU Trooper Mudflaps",
-      "german": "Schmutzfänger für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schmutzfänger für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89trooperMakeSidesteps",
       "english": "Make 89 ISUZU Trooper Sidesteps",
-      "german": "Seitliche Trittbretter für '89 ISUZU Trooper herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitliche Trittbretter für '89 ISUZU Trooper herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

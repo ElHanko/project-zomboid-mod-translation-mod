@@ -13,1068 +13,1456 @@
       "category": "ContextMenu",
       "key": "ContextMenu_addToys",
       "english": "Add toys",
-      "german": "Behelfsmäßigen Baumschmuck anbringen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Behelfsmäßigen Baumschmuck anbringen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_addGoodToys",
       "english": "Add christmas toys",
-      "german": "Weihnachtsbaumschmuck anbringen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Weihnachtsbaumschmuck anbringen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_addTop",
       "english": "Add top",
-      "german": "Weihnachtsmütze aufsetzen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Weihnachtsmütze aufsetzen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_addStarTop",
       "english": "Add star top",
-      "german": "Sternspitze aufsetzen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Sternspitze aufsetzen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_addGarland",
       "english": "Add garland",
-      "german": "Lichterkette anbringen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Lichterkette anbringen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_removeDeco",
       "english": "Remove all decorations",
-      "german": "Gesamten Baumschmuck entfernen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Gesamten Baumschmuck entfernen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_DigOutChristmasTree",
       "english": "Dig out tree for Christmas",
-      "german": "Baum als Weihnachtsbaum ausgraben",
       "source_file": "ContextMenu.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Baum als Weihnachtsbaum ausgraben",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_CristmasTree",
       "english": "Christmas Tree",
-      "german": "Weihnachtsbaum",
       "source_file": "ContextMenu.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Weihnachtsbaum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IGUI",
       "key": "IGUI_ContainerTitle_Christmas Tree",
       "english": "Christmas Tree",
-      "german": "Weihnachtsbaum",
       "source_file": "IGUI.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Weihnachtsbaum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.Garland",
       "english": "Garland",
-      "german": "Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHBare",
       "english": "American Holly",
-      "german": "Amerikanische Stechpalme",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHGarland",
       "english": "American Holly with garland",
-      "german": "Amerikanische Stechpalme mit Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHToys",
       "english": "American Holly with toys",
-      "german": "Amerikanische Stechpalme mit behelfsmäßigem Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit behelfsmäßigem Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHTop",
       "english": "American Holly with hat",
-      "german": "Amerikanische Stechpalme mit Weihnachtsmütze",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Weihnachtsmütze",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHTopToys",
       "english": "American Holly with hat and toys",
-      "german": "Amerikanische Stechpalme mit Weihnachtsmütze und behelfsmäßigem Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Weihnachtsmütze und behelfsmäßigem Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHTopGarland",
       "english": "American Holly with hat and garland",
-      "german": "Amerikanische Stechpalme mit Weihnachtsmütze und Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Weihnachtsmütze und Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHToysGarland",
       "english": "American Holly with toys and garland",
-      "german": "Amerikanische Stechpalme mit behelfsmäßigem Baumschmuck und Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit behelfsmäßigem Baumschmuck und Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHFull",
       "english": "American Holly with hay, toys and garland",
-      "german": "Amerikanische Stechpalme mit Weihnachtsmütze, behelfsmäßigem Baumschmuck und Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Weihnachtsmütze, behelfsmäßigem Baumschmuck und Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHBare",
       "english": "Canadian Hemlock",
-      "german": "Kanadische Hemlocktanne",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHGarland",
       "english": "Canadian Hemlock with garland",
-      "german": "Kanadische Hemlocktanne mit Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHToys",
       "english": "Canadian Hemlock with toys",
-      "german": "Kanadische Hemlocktanne mit behelfsmäßigem Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit behelfsmäßigem Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHTop",
       "english": "Canadian Hemlock with hat",
-      "german": "Kanadische Hemlocktanne mit Weihnachtsmütze",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Weihnachtsmütze",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHTopToys",
       "english": "Canadian Hemlock with hat and toys",
-      "german": "Kanadische Hemlocktanne mit Weihnachtsmütze und behelfsmäßigem Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Weihnachtsmütze und behelfsmäßigem Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHTopGarland",
       "english": "Canadian Hemlock with hat and garland",
-      "german": "Kanadische Hemlocktanne mit Weihnachtsmütze und Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Weihnachtsmütze und Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHToysGarland",
       "english": "Canadian Hemlock with toys and garland",
-      "german": "Kanadische Hemlocktanne mit behelfsmäßigem Baumschmuck und Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit behelfsmäßigem Baumschmuck und Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHFull",
       "english": "Canadian Hemlock with hay, toys and garland",
-      "german": "Kanadische Hemlocktanne mit Weihnachtsmütze, behelfsmäßigem Baumschmuck und Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Weihnachtsmütze, behelfsmäßigem Baumschmuck und Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHBare",
       "english": "Tall American Holly",
-      "german": "Hohe Amerikanische Stechpalme",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHGarland",
       "english": "Tall American Holly with garland",
-      "german": "Hohe Amerikanische Stechpalme mit Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHToys",
       "english": "Tall American Holly with toys",
-      "german": "Hohe Amerikanische Stechpalme mit behelfsmäßigem Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit behelfsmäßigem Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHTop",
       "english": "Tall American Holly with hat",
-      "german": "Hohe Amerikanische Stechpalme mit Weihnachtsmütze",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Weihnachtsmütze",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHTopToys",
       "english": "Tall American Holly with hat and toys",
-      "german": "Hohe Amerikanische Stechpalme mit Weihnachtsmütze und behelfsmäßigem Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Weihnachtsmütze und behelfsmäßigem Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHTopGarland",
       "english": "Tall American Holly with hat and garland",
-      "german": "Hohe Amerikanische Stechpalme mit Weihnachtsmütze und Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Weihnachtsmütze und Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHToysGarland",
       "english": "Tall American Holly with toys and garland",
-      "german": "Hohe Amerikanische Stechpalme mit behelfsmäßigem Baumschmuck und Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit behelfsmäßigem Baumschmuck und Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHFull",
       "english": "Tall American Holly with hay, toys and garland",
-      "german": "Hohe Amerikanische Stechpalme mit Weihnachtsmütze, behelfsmäßigem Baumschmuck und Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Weihnachtsmütze, behelfsmäßigem Baumschmuck und Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHBare",
       "english": "Tall Canadian Hemlock",
-      "german": "Hohe Kanadische Hemlocktanne",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHGarland",
       "english": "Tall Canadian Hemlock with garland",
-      "german": "Hohe Kanadische Hemlocktanne mit Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHToys",
       "english": "Tall Canadian Hemlock with toys",
-      "german": "Hohe Kanadische Hemlocktanne mit behelfsmäßigem Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit behelfsmäßigem Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHTop",
       "english": "Tall Canadian Hemlock with hat",
-      "german": "Hohe Kanadische Hemlocktanne mit Weihnachtsmütze",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Weihnachtsmütze",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHTopToys",
       "english": "Tall Canadian Hemlock with hat and toys",
-      "german": "Hohe Kanadische Hemlocktanne mit Weihnachtsmütze und behelfsmäßigem Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Weihnachtsmütze und behelfsmäßigem Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHTopGarland",
       "english": "Tall Canadian Hemlock with hat and garland",
-      "german": "Hohe Kanadische Hemlocktanne mit Weihnachtsmütze und Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Weihnachtsmütze und Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHToysGarland",
       "english": "Tall Canadian Hemlock with toys and garland",
-      "german": "Hohe Kanadische Hemlocktanne mit behelfsmäßigem Baumschmuck und Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit behelfsmäßigem Baumschmuck und Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHFull",
       "english": "Tall Canadian Hemlock with hay, toys and garland",
-      "german": "Hohe Kanadische Hemlocktanne mit Weihnachtsmütze, behelfsmäßigem Baumschmuck und Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Weihnachtsmütze, behelfsmäßigem Baumschmuck und Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasTreeTopper",
       "english": "Star tree top",
-      "german": "Sternspitze für Weihnachtsbaum",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Sternspitze für Weihnachtsbaum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasToysSet",
       "english": "Set of christmas toys",
-      "german": "Weihnachtsbaumschmuck-Set",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Weihnachtsbaumschmuck-Set",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.JunkTreeDecorations",
       "english": "Set of toys",
-      "german": "Behelfsmäßiges Baumschmuck-Set",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Behelfsmäßiges Baumschmuck-Set",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.PresentBoxBeige",
       "english": "Present box",
-      "german": "Geschenkschachtel",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Geschenkschachtel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.PresentBoxGreen",
       "english": "Present box",
-      "german": "Geschenkschachtel",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Geschenkschachtel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.PresentBoxBlue",
       "english": "Present box",
-      "german": "Geschenkschachtel",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Geschenkschachtel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHStar",
       "english": "American Holly with Star",
-      "german": "Amerikanische Stechpalme mit Stern",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Stern",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHStarGarland",
       "english": "American Holly with Star and Garland",
-      "german": "Amerikanische Stechpalme mit Stern und Lichterkette",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Stern und Lichterkette",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHStarToys",
       "english": "American Holly with Star and Toys",
-      "german": "Amerikanische Stechpalme mit Stern und Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Stern und Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHStarFull",
       "english": "American Holly with Star and Garland and Toys",
-      "german": "Amerikanische Stechpalme mit Stern, Girlande und Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Stern, Girlande und Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHBalls",
       "english": "American Holly with Balls",
-      "german": "Amerikanische Stechpalme mit Weihnachtskugeln",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Weihnachtskugeln",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHBallsGarland",
       "english": "American Holly with Balls and Garland",
-      "german": "Amerikanische Stechpalme mit Weihnachtskugeln und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Weihnachtskugeln und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHBallsStar",
       "english": "American Holly with Star and Balls",
-      "german": "Amerikanische Stechpalme mit Stern und Weihnachtskugeln",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Stern und Weihnachtskugeln",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHStarFull1",
       "english": "American Holly with Star and Garland and Balls",
-      "german": "Amerikanische Stechpalme mit Stern, Girlande und Weihnachtskugeln",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Stern, Girlande und Weihnachtskugeln",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHStar",
       "english": "Canadian Hemlock with Star",
-      "german": "Kanadische Hemlocktanne mit Stern",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Stern",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHStarGarland",
       "english": "Canadian Hemlock with Star and Garland",
-      "german": "Kanadische Hemlocktanne mit Stern und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Stern und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHStarToys",
       "english": "Canadian Hemlock with Star and Toys",
-      "german": "Kanadische Hemlocktanne mit Stern und Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Stern und Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHStarFull",
       "english": "Canadian Hemlock with Star and Garland and Toys",
-      "german": "Kanadische Hemlocktanne mit Stern, Girlande und Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Stern, Girlande und Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHBalls",
       "english": "Canadian Hemlock with Balls",
-      "german": "Kanadische Hemlocktanne mit Weihnachtskugeln",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Weihnachtskugeln",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHBallsGarland",
       "english": "Canadian Hemlock with Balls and Garland",
-      "german": "Kanadische Hemlocktanne mit Weihnachtskugeln und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Weihnachtskugeln und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHBallsStar",
       "english": "Canadian Hemlock with Balls and Star",
-      "german": "Kanadische Hemlocktanne mit Weihnachtskugeln und Stern",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Weihnachtskugeln und Stern",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHStarFull1",
       "english": "Canadian Hemlock with Star and Balls and Garland",
-      "german": "Kanadische Hemlocktanne mit Stern, Weihnachtskugeln und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Stern, Weihnachtskugeln und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHStar",
       "english": "Tall American Holly  with Star",
-      "german": "Hohe Amerikanische Stechpalme mit Stern",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Stern",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHStarGarland",
       "english": "Tall American Holly with Star and Garland",
-      "german": "Hohe Amerikanische Stechpalme mit Stern und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Stern und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHStarToys",
       "english": "Tall American Holly with Star and Toys",
-      "german": "Hohe Amerikanische Stechpalme mit Stern und Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Stern und Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHStarFull",
       "english": "Tall American Holly with Star and Toys and Garland",
-      "german": "Hohe Amerikanische Stechpalme mit Stern, Baumschmuck und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Stern, Baumschmuck und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHBalls",
       "english": "Tall American Holly with Balls",
-      "german": "Hohe Amerikanische Stechpalme mit Weihnachtskugeln",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Weihnachtskugeln",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHBallsGarland",
       "english": "Tall American Holly with Balls and Garland",
-      "german": "Hohe Amerikanische Stechpalme mit Weihnachtskugeln und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Weihnachtskugeln und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHBallsStar",
       "english": "Tall American Holly with Star and Balls",
-      "german": "Hohe Amerikanische Stechpalme mit Stern und Weihnachtskugeln",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Stern und Weihnachtskugeln",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHStarFull1",
       "english": "Tall American Holly with Star and Balls and Garland",
-      "german": "Hohe Amerikanische Stechpalme mit Stern, Weihnachtskugeln und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Stern, Weihnachtskugeln und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHStar",
       "english": "Tall Canadian Hemlock with Star",
-      "german": "Hohe Kanadische Hemlocktanne mit Stern",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Stern",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHStarGarland",
       "english": "Tall Canadian Hemlock with Star and Garland",
-      "german": "Hohe Kanadische Hemlocktanne mit Stern und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Stern und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHStarToys",
       "english": "Tall Canadian Hemlock with Star and Toys",
-      "german": "Hohe Kanadische Hemlocktanne mit Stern und Baumschmuck",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Stern und Baumschmuck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHStarFull",
       "english": "Tall Canadian Hemlock with Star and Toys and Garland",
-      "german": "Hohe Kanadische Hemlocktanne mit Stern, Baumschmuck und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Stern, Baumschmuck und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHBalls",
       "english": "Tall Canadian Hemlock with Balls",
-      "german": "Hohe Kanadische Hemlocktanne mit Weihnachtskugeln",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Weihnachtskugeln",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHBallsGarland",
       "english": "Tall Canadian Hemlock with Balls and Garland",
-      "german": "Hohe Kanadische Hemlocktanne mit Weihnachtskugeln und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Weihnachtskugeln und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHBallsStar",
       "english": "Tall Canadian Hemlock with Star and Balls",
-      "german": "Hohe Kanadische Hemlocktanne mit Stern und Weihnachtskugeln",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Stern und Weihnachtskugeln",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHStarFull1",
       "english": "Tall Canadian Hemlock with Star and Balls and Garland",
-      "german": "Hohe Kanadische Hemlocktanne mit Stern, Weihnachtskugeln und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Stern, Weihnachtskugeln und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHBallsTop",
       "english": "American Holly with Balls and Hat",
-      "german": "Amerikanische Stechpalme mit Weihnachtskugeln und Weihnachtsmannmütze",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Weihnachtskugeln und Weihnachtsmannmütze",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasAHFullBalls",
       "english": "American Holly with Hat and Balls and Garland",
-      "german": "Amerikanische Stechpalme mit Weihnachtsmannmütze, Weihnachtskugeln und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Amerikanische Stechpalme mit Weihnachtsmannmütze, Weihnachtskugeln und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHBallsTop",
       "english": "Canadian Hemlock with Balls and Hat",
-      "german": "Kanadische Hemlocktanne mit Weihnachtskugeln und Weihnachtsmannmütze",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Weihnachtskugeln und Weihnachtsmannmütze",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasCHFullBalls",
       "english": "Canadian Hemlock with Hat and Balls and Garland",
-      "german": "Kanadische Hemlocktanne mit Weihnachtsmannmütze, Weihnachtskugeln und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kanadische Hemlocktanne mit Weihnachtsmannmütze, Weihnachtskugeln und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHBallsTop",
       "english": "Tall American Holly with Balls and Hat",
-      "german": "Hohe Amerikanische Stechpalme mit Weihnachtskugeln und Weihnachtsmannmütze",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Weihnachtskugeln und Weihnachtsmannmütze",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigAHFullBalls",
       "english": "Tall American Holly with with Hat and Balls and Garland",
-      "german": "Hohe Amerikanische Stechpalme mit Weihnachtsmannmütze, Weihnachtskugeln und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Amerikanische Stechpalme mit Weihnachtsmannmütze, Weihnachtskugeln und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHBallsTop",
       "english": "Tall Canadian Hemlock with Balls and Hat",
-      "german": "Hohe Kanadische Hemlocktanne mit Weihnachtskugeln und Weihnachtsmannmütze",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Weihnachtskugeln und Weihnachtsmannmütze",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ItemName",
       "key": "Christmas.ChristmasBigCHFullBalls",
       "english": "Tall Canadian Hemlock with Hat and Balls and Garland",
-      "german": "Hohe Kanadische Hemlocktanne mit Weihnachtsmannmütze, Weihnachtskugeln und Girlande",
       "source_file": "ItemName.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hohe Kanadische Hemlocktanne mit Weihnachtsmannmütze, Weihnachtskugeln und Girlande",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "MakeGarland",
       "english": "Craft garland",
-      "german": "Girlande herstellen",
       "source_file": "Recipes.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Girlande herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "MakeBeigePresentBox",
       "english": "Craft beige present box",
-      "german": "Beige Geschenkbox herstellen",
       "source_file": "Recipes.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Beige Geschenkbox herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "MakeGreenPresentBox",
       "english": "Craft green present box",
-      "german": "Grüne Geschenkbox herstellen",
       "source_file": "Recipes.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Grüne Geschenkbox herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "MakeBluePresentBox",
       "english": "Craft blue present box",
-      "german": "Blaue Geschenkbox herstellen",
       "source_file": "Recipes.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Blaue Geschenkbox herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "MakeSantaHat",
       "english": "Craft Santa's hat",
-      "german": "Weihnachtsmannmütze herstellen",
       "source_file": "Recipes.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Weihnachtsmannmütze herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "MakeChristmasToysSet",
       "english": "Craft set of Christmas toys",
-      "german": "Set mit Weihnachtsbaumschmuck herstellen",
       "source_file": "Recipes.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Set mit Weihnachtsbaumschmuck herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "MakeJunkTreeDecorations",
       "english": "Craft set of toys",
-      "german": "Set mit Baumschmuck herstellen",
       "source_file": "Recipes.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Set mit Baumschmuck herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "UnpackJunkTreeDecorations",
       "english": "Unpack set of toys",
-      "german": "Set mit Baumschmuck auspacken",
       "source_file": "Recipes.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Set mit Baumschmuck auspacken",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "DestroyChristmasTree",
       "english": "Destroy christmas tree",
-      "german": "Weihnachtsbaum zerstören",
       "source_file": "Recipes.json",
       "source_layer": "42.13",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Weihnachtsbaum zerstören",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

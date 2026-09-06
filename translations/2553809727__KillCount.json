@@ -13,199 +13,271 @@
       "category": "Sandbox",
       "key": "Sandbox_KillCount",
       "english": "Mod Kill Count",
-      "german": "Mod Kill Count",
       "source_file": "Sandbox.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mod Kill Count",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Sandbox",
       "key": "Sandbox_KillCount_doExport",
       "english": "Export Kills",
-      "german": "Tötungsstatistik exportieren",
       "source_file": "Sandbox.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Tötungsstatistik exportieren",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Sandbox",
       "key": "Sandbox_KillCount_doExport_tooltip",
       "english": "May provoke stutters.",
-      "german": "Kann Ruckler verursachen.",
       "source_file": "Sandbox.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kann Ruckler verursachen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Sandbox",
       "key": "Sandbox_KillCount_includePostDeathUI",
       "english": "Post Death UI",
-      "german": "Anzeige nach dem Tod",
       "source_file": "Sandbox.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Anzeige nach dem Tod",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Sandbox",
       "key": "Sandbox_KillCount_includePostDeathUI_tooltip",
       "english": "Includes all kills into the final value in Post Death floating text.",
-      "german": "Berücksichtigt alle Tötungen in der Gesamtzahl, die nach dem Tod als schwebender Text angezeigt wird.",
       "source_file": "Sandbox.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Berücksichtigt alle Tötungen in der Gesamtzahl, die nach dem Tod als schwebender Text angezeigt wird.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Sandbox",
       "key": "Sandbox_KillCount_MaxUpdateDelay",
       "english": "Update Delay",
-      "german": "Aktualisierungsintervall",
       "source_file": "Sandbox.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Aktualisierungsintervall",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Sandbox",
       "key": "Sandbox_KillCount_MaxUpdateDelay_tooltip",
       "english": "Target time (in milliseconds) between two updates in multiplayer. Small value gives reactivity. High value reduces network use and server workload.",
-      "german": "Angestrebte Zeit (in Millisekunden) zwischen zwei Aktualisierungen im Mehrspielermodus. Ein niedriger Wert sorgt für schnellere Reaktionen. Ein hoher Wert verringert den Netzwerkverkehr und die Serverlast.",
       "source_file": "Sandbox.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Angestrebte Zeit (in Millisekunden) zwischen zwei Aktualisierungen im Mehrspielermodus. Ein niedriger Wert sorgt für schnellere Reaktionen. Ein hoher Wert verringert den Netzwerkverkehr und die Serverlast.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Sandbox",
       "key": "Sandbox_KillCount_shareOnServer",
       "english": "Share Kills",
-      "german": "Tötungsstatistik teilen",
       "source_file": "Sandbox.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Tötungsstatistik teilen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Sandbox",
       "key": "Sandbox_KillCount_shareOnServer_tooltip",
       "english": "Each client can see every character score. Deactivate on (very large) servers to reduce Global Mod Data transfer load.",
-      "german": "Alle Spieler können die Werte sämtlicher Charaktere einsehen. Auf sehr großen Servern deaktivieren, um die Datenübertragung der Mod zu reduzieren.",
       "source_file": "Sandbox.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Alle Spieler können die Werte sämtlicher Charaktere einsehen. Auf sehr großen Servern deaktivieren, um die Datenübertragung der Mod zu reduzieren.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Sandbox",
       "key": "Sandbox_KillCount_keepTrackOfDead",
       "english": "Track Dead Scores",
-      "german": "Statistik verstorbener Charaktere behalten",
       "source_file": "Sandbox.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Statistik verstorbener Charaktere behalten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Sandbox",
       "key": "Sandbox_KillCount_keepTrackOfDead_tooltip",
       "english": "Dead characters are kept and count toward server kills. Deactivate for server that never wipe.",
-      "german": "Verstorbene Charaktere bleiben in der Statistik und zählen zur Gesamtzahl der Tötungen auf dem Server. Für Server deaktivieren, die nie zurückgesetzt werden.",
       "source_file": "Sandbox.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verstorbene Charaktere bleiben in der Statistik und zählen zur Gesamtzahl der Tötungen auf dem Server. Für Server deaktivieren, die nie zurückgesetzt werden.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "UI",
       "key": "UI_KillCount_weapon",
       "english": "wpn",
-      "german": "Waffe",
       "source_file": "UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Waffe",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "UI",
       "key": "UI_KillCount_fire",
       "english": "fire",
-      "german": "Feuer",
       "source_file": "UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Feuer",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "UI",
       "key": "UI_KillCount_car",
       "english": "car",
-      "german": "Auto",
       "source_file": "UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Auto",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "UI",
       "key": "UI_Kills",
       "english": "Kills",
-      "german": "Tötungen",
       "source_file": "UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Tötungen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "UI",
       "key": "UI_KillsPanel",
       "english": "KillCount panel with all detailed values available.",
-      "german": "KillCount-Fenster mit allen verfügbaren Detailwerten.",
       "source_file": "UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "KillCount-Fenster mit allen verfügbaren Detailwerten.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "UI",
       "key": "UI_KCComboTitle",
       "english": "Selected Player: ",
-      "german": "Ausgewählter Spieler: ",
       "source_file": "UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ausgewählter Spieler: ",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "UI",
       "key": "UI_KCIncludeDead",
       "english": "Include dead characters",
-      "german": "Verstorbene Charaktere einbeziehen",
       "source_file": "UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verstorbene Charaktere einbeziehen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

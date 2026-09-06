@@ -13,320 +13,436 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerKI5utilityLarge",
       "english": "Large Utility Trailer",
-      "german": "Großer Mehrzweckanhänger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Großer Mehrzweckanhänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerKI5utilityMedium",
       "english": "Medium Utility Trailer",
-      "german": "Mittlerer Mehrzweckanhänger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mittlerer Mehrzweckanhänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerKI5utilitySmall",
       "english": "Small Utility Trailer",
-      "german": "Kleiner Mehrzweckanhänger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kleiner Mehrzweckanhänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerKI5cargoLarge",
       "english": "Large Cargo Trailer",
-      "german": "Großer Frachtanhänger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Großer Frachtanhänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerKI5cargoMedium",
       "english": "Medium Cargo Trailer",
-      "german": "Mittlerer Frachtanhänger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mittlerer Frachtanhänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerKI5cargoSmall",
       "english": "Small Cargo Trailer",
-      "german": "Kleiner Frachtanhänger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kleiner Frachtanhänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerKI5livestock",
       "english": "Livestock Trailer",
-      "german": "Viehtransportanhänger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Viehtransportanhänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartKI5TRToolBox",
       "english": "Tool Box",
-      "german": "Werkzeugkasten",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Werkzeugkasten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartKI5TRSpareTire",
       "english": "Spare Tire",
-      "german": "Reserverad",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserverad",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartKI5TRTarp",
       "english": "Tarp",
-      "german": "Plane",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Plane",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartKI5TRMudflaps",
       "english": "Mudflaps",
-      "german": "Schmutzfänger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schmutzfänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartKI5TRTrunk",
       "english": "Trailer Storage",
-      "german": "Anhängerstauraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Anhängerstauraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartKI5TRCLTrunk",
       "english": "Trailer Storage",
-      "german": "Anhängerstauraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Anhängerstauraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartKI5TRCMTrunk",
       "english": "Trailer Storage",
-      "german": "Anhängerstauraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Anhängerstauraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartKI5TRCSTrunk",
       "english": "Trailer Storage",
-      "german": "Anhängerstauraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Anhängerstauraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartKI5TRGasCanLeft",
       "english": "Left Can",
-      "german": "Linker Kanister",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Linker Kanister",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartKI5TRGasCanRight",
       "english": "Right Can",
-      "german": "Rechter Kanister",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rechter Kanister",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartKI5TRCFlares",
       "english": "Side Flares",
-      "german": "Kotflügelverbreiterungen",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kotflügelverbreiterungen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_KI5trailersUtilityMakeTrunkLid",
       "english": "Make Utility Trailer Trunk Lid",
-      "german": "Heckklappe für Mehrzweckanhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für Mehrzweckanhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_KI5trailersUtilityMakeMudflaps",
       "english": "Make Utility Trailer Mudflaps",
-      "german": "Schmutzfänger für Mehrzweckanhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schmutzfänger für Mehrzweckanhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_KI5trailersUtilityMakeTrailerToolbox",
       "english": "Make Utility Trailer Toolbox",
-      "german": "Werkzeugkasten für Mehrzweckanhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Werkzeugkasten für Mehrzweckanhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_KI5trailersUtilityMakeTarp",
       "english": "Make Utility Trailer Tarp",
-      "german": "Plane für Mehrzweckanhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Plane für Mehrzweckanhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_KI5trailersCargoMakeRollDoor",
       "english": "Make Cargo Trailer Roll Door",
-      "german": "Rolltor für Frachtanhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rolltor für Frachtanhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_KI5trailersCargoMakeSplitDoors",
       "english": "Make Cargo Trailer Split Doors",
-      "german": "Doppelflügeltür für Frachtanhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Doppelflügeltür für Frachtanhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_KI5trailersLivestockMakeSplitDoorsRamp",
       "english": "Make Livestock Trailer Split Doors with Ramp",
-      "german": "Doppelflügeltür mit Rampe für Viehtransportanhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Doppelflügeltür mit Rampe für Viehtransportanhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_KI5trailersCargoDoor",
       "english": "Make Cargo Trailer Door",
-      "german": "Tür für Frachtanhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Tür für Frachtanhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_KI5trailersCargoMakeTrailerFlaresLarge",
       "english": "Make Large Cargo Trailer Side Flares",
-      "german": "Kotflügelverbreiterungen für großen Frachtanhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kotflügelverbreiterungen für großen Frachtanhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_KI5trailersCargoMakeTrailerFlaresMedium",
       "english": "Make Medium Cargo Trailer Side Flares",
-      "german": "Kotflügelverbreiterungen für mittleren Frachtanhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kotflügelverbreiterungen für mittleren Frachtanhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_KI5trailersCargoMakeTrailerFlaresSmall",
       "english": "Make Small Cargo Trailer Side Flares",
-      "german": "Kotflügelverbreiterungen für kleinen Frachtanhänger herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kotflügelverbreiterungen für kleinen Frachtanhänger herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

@@ -13,584 +13,796 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName78amgeneralM35A2",
       "english": "'78 AM General M35A2",
-      "german": "'78 AM General M35A2",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'78 AM General M35A2",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName78amgeneralM49A2C",
       "english": "'78 AM General M49A2C Fuel Tanker",
-      "german": "'78 AM General M49A2C Kraftstofftankwagen",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'78 AM General M49A2C Kraftstofftankwagen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName78amgeneralM50A3",
       "english": "'78 AM General M50A3 Water Tanker",
-      "german": "'78 AM General M50A3 Wassertankwagen",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'78 AM General M50A3 Wassertankwagen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName78amgeneralM62",
       "english": "'78 AM General M62 Wrecker",
-      "german": "'78 AM General M62 Abschleppwagen",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'78 AM General M62 Abschleppwagen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName78amgeneralM35A2Burnt",
       "english": "'78 AM General M35A2 Burnt",
-      "german": "'78 AM General M35A2 (ausgebrannt)",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'78 AM General M35A2 (ausgebrannt)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM35A2Tarp",
       "english": "Flatbed Cover",
-      "german": "Ladeflächenabdeckung",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenabdeckung",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM35A2CabCovers",
       "english": "Cab Cover",
-      "german": "Fahrerhausdach",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fahrerhausdach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM35A2Bumper",
       "english": "Bumper",
-      "german": "Stoßstange",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Stoßstange",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM35A2BumperRear",
       "english": "Rear Bumperettes",
-      "german": "Hintere Stoßstangenhörner",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Stoßstangenhörner",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM35A2Grille",
       "english": "Front Grille",
-      "german": "Kühlergrill",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kühlergrill",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM35A2Mudflaps",
       "english": "Mudflaps",
-      "german": "Schmutzfänger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schmutzfänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM35A2SpareTire",
       "english": "Spare Tire",
-      "german": "Reserverad",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserverad",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM62SpareTire",
       "english": "Spare Tire",
-      "german": "Reserverad",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserverad",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM35A2Trunk",
       "english": "Flatbed Storage",
-      "german": "Ladefläche",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladefläche",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM49A2CTrunk",
       "english": "Pump Compartment Storage",
-      "german": "Stauraum im Pumpenfach",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Stauraum im Pumpenfach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM35A2Muffler",
       "english": "Muffler",
-      "german": "Auspuff",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Auspuff",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM35A2WindshieldArmor",
       "english": "Windshield Armor",
-      "german": "Windschutzscheibenpanzerung",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibenpanzerung",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM35A2DoorLeftArmor",
       "english": "Front Left Door Armor",
-      "german": "Türpanzerung vorne links",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Türpanzerung vorne links",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM35A2DoorRightArmor",
       "english": "Front Right Door Armor",
-      "german": "Türpanzerung vorne rechts",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Türpanzerung vorne rechts",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeHood",
       "english": "Make 78 AM General M35A2 Hood",
-      "german": "Motorhaube für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeFrontDoor",
       "english": "Make 78 AM General M35A2 Front Door",
-      "german": "Vordertür für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeTailgate",
       "english": "Make 78 AM General M35A2 Tailgate",
-      "german": "Heckbordwand für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckbordwand für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeTrunkLid",
       "english": "Make 78 AM General M49/M50 Pump Doors",
-      "german": "Pumpenfachtüren für '78 AM General M49/M50 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Pumpenfachtüren für '78 AM General M49/M50 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeFrontWindshield",
       "english": "Make 78 AM General M35A2 Front Windshield",
-      "german": "Windschutzscheibe für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeFrontSideWindow",
       "english": "Make 78 AM General M35A2 Front Side Window",
-      "german": "Vordere Seitenscheibe für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeFrontWindshieldArmor",
       "english": "Make 78 AM General M35A2 Front Windshield Armor",
-      "german": "Windschutzscheibenpanzerung für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibenpanzerung für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeFrontWindowArmor",
       "english": "Make 78 AM General M35A2 Front Window Armor",
-      "german": "Vordere Seitenfensterpanzerung für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenfensterpanzerung für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeFrontBumper",
       "english": "Make 78 AM General M35A2 Front Bumper",
-      "german": "Frontstoßstange für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeFrontGrille",
       "english": "Make 78 AM General M35A2 Front Grille",
-      "german": "Kühlergrill für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kühlergrill für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeMudflaps",
       "english": "Make 78 AM General M35A2 Mudflaps",
-      "german": "Schmutzfänger für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schmutzfänger für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeBedStakesConstruction",
       "english": "Make 78 AM General M35A2 Bed Stakes Construction",
-      "german": "Spriegelgestell für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Spriegelgestell für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeSoftBedCover",
       "english": "Make 78 AM General M35A2 Bed Cover",
-      "german": "Ladeflächenabdeckung für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenabdeckung für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeBedStakes",
       "english": "Make 78 AM General M35A2 Bed Stakes",
-      "german": "Bordwandaufsätze für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bordwandaufsätze für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeMuffler",
       "english": "Make 78 AM General M35A2 Muffler",
-      "german": "Auspuff für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Auspuff für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeHardCabCover",
       "english": "Make 78 AM General M35A2 Hard Cab Cover",
-      "german": "Festes Fahrerhausdach für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Festes Fahrerhausdach für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "78amgeneralM35A2MakeSoftCabCover",
       "english": "Make 78 AM General M35A2 Soft Cab Cover",
-      "german": "Fahrerhausverdeck für '78 AM General M35A2 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fahrerhausverdeck für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeHood",
       "english": "Make 78 AM General M35A2 Hood",
-      "german": "Motorhaube für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeFrontDoor",
       "english": "Make 78 AM General M35A2 Front Door",
-      "german": "Vordertür für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeTailgate",
       "english": "Make 78 AM General M35A2 Tailgate",
-      "german": "Heckbordwand für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckbordwand für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeTrunkLid",
       "english": "Make 78 AM General M49/M50 Pump Doors",
-      "german": "Pumpenfachtüren für '78 AM General M49/M50 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Pumpenfachtüren für '78 AM General M49/M50 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeFrontWindshield",
       "english": "Make 78 AM General M35A2 Front Windshield",
-      "german": "Windschutzscheibe für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeFrontSideWindow",
       "english": "Make 78 AM General M35A2 Front Side Window",
-      "german": "Vordere Seitenscheibe für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeFrontWindshieldArmor",
       "english": "Make 78 AM General M35A2 Front Windshield Armor",
-      "german": "Windschutzscheibenpanzerung für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibenpanzerung für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeFrontWindowArmor",
       "english": "Make 78 AM General M35A2 Front Window Armor",
-      "german": "Vordere Seitenfensterpanzerung für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenfensterpanzerung für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeFrontBumper",
       "english": "Make 78 AM General M35A2 Front Bumper",
-      "german": "Frontstoßstange für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeFrontGrille",
       "english": "Make 78 AM General M35A2 Front Grille",
-      "german": "Kühlergrill für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kühlergrill für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeMudflaps",
       "english": "Make 78 AM General M35A2 Mudflaps",
-      "german": "Schmutzfänger für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schmutzfänger für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeBedStakesConstruction",
       "english": "Make 78 AM General M35A2 Bed Stakes Construction",
-      "german": "Spriegelgestell für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Spriegelgestell für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeSoftBedCover",
       "english": "Make 78 AM General M35A2 Bed Cover",
-      "german": "Ladeflächenabdeckung für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenabdeckung für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeBedStakes",
       "english": "Make 78 AM General M35A2 Bed Stakes",
-      "german": "Bordwandaufsätze für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bordwandaufsätze für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeMuffler",
       "english": "Make 78 AM General M35A2 Muffler",
-      "german": "Auspuff für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Auspuff für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeHardCabCover",
       "english": "Make 78 AM General M35A2 Hard Cab Cover",
-      "german": "Festes Fahrerhausdach für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Festes Fahrerhausdach für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_78amgeneralM35A2MakeSoftCabCover",
       "english": "Make 78 AM General M35A2 Soft Cab Cover",
-      "german": "Fahrerhausverdeck für '78 AM General M35A2 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fahrerhausverdeck für '78 AM General M35A2 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

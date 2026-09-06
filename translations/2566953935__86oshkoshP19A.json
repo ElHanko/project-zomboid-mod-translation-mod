@@ -13,507 +13,691 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName86oshkoshUSMC",
       "english": "'86 Oshkosh P19A USMC",
-      "german": "'86 Oshkosh P19A USMC",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'86 Oshkosh P19A USMC",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName86oshkoshKYFD",
       "english": "'86 Oshkosh P19A KYFD",
-      "german": "'86 Oshkosh P19A KYFD",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'86 Oshkosh P19A KYFD",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName86oshkoshFRTR55",
       "english": "P19A FRTR55",
-      "german": "P19A FRTR55",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "P19A FRTR55",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName86oshkoshP19ABurnt",
       "english": "Burnt Oshkosh P19A",
-      "german": "Ausgebrannter Oshkosh P19A",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ausgebrannter Oshkosh P19A",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerM1082",
       "english": "M1082 Trailer",
-      "german": "M1082-Anhänger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "M1082-Anhänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerM1095",
       "english": "M1095 Trailer",
-      "german": "M1095-Anhänger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "M1095-Anhänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM10XXTarp",
       "english": "Bed Tarp",
-      "german": "Ladeflächenplane",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenplane",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM10XXToolboxLeft",
       "english": "Left Toolbox",
-      "german": "Linker Werkzeugkasten",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Linker Werkzeugkasten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartM10XXToolboxRight",
       "english": "Right Toolbox",
-      "german": "Rechter Werkzeugkasten",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rechter Werkzeugkasten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartCatP19Arighttrunk",
       "english": "Right Storage",
-      "german": "Rechter Stauraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rechter Stauraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartCatP19Alefttrunk",
       "english": "Left Storage",
-      "german": "Linker Stauraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Linker Stauraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19ABigTrunkCompartment0",
       "english": "Large Top Compartment",
-      "german": "Großes oberes Staufach",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Großes oberes Staufach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19ASmallTrunkCompartment1",
       "english": "Small Left Compartment",
-      "german": "Kleines linkes Staufach",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kleines linkes Staufach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19ASmallTrunkCompartment2",
       "english": "Small Middle Compartment",
-      "german": "Kleines mittleres Staufach",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kleines mittleres Staufach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19ASmallTrunkCompartment3",
       "english": "Small Right Compartment",
-      "german": "Kleines rechtes Staufach",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kleines rechtes Staufach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19ABigTrunkCompartment0b",
       "english": "Large Top Compartment",
-      "german": "Großes oberes Staufach",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Großes oberes Staufach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19ASmallTrunkCompartment1b",
       "english": "Small Left Compartment",
-      "german": "Kleines linkes Staufach",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kleines linkes Staufach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19ASmallTrunkCompartment3b",
       "english": "Small Right Compartment",
-      "german": "Kleines rechtes Staufach",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kleines rechtes Staufach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19Ahatch",
       "english": "Roof Hatch",
-      "german": "Dachluke",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachluke",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19ARoofrack",
       "english": "Roofrack",
-      "german": "Dachgepäckträger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartTrunkDoor1",
       "english": "Right Storage Lid",
-      "german": "Rechte Stauraumklappe",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rechte Stauraumklappe",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartTrunkDoor2",
       "english": "Left Storage Lid",
-      "german": "Linke Stauraumklappe",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Linke Stauraumklappe",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19AFenderLeft",
       "english": "Rear Left Fender",
-      "german": "Kotflügel hinten links",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kotflügel hinten links",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19AFenderRight",
       "english": "Rear Right Fender",
-      "german": "Kotflügel hinten rechts",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kotflügel hinten rechts",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19ASpareMountLeft",
       "english": "Rear Spare Mount",
-      "german": "Reserveradhalterung am Heck",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserveradhalterung am Heck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19ASpareMountRear",
       "english": "Roof Spare Mount",
-      "german": "Reserveradhalterung auf dem Dach",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserveradhalterung auf dem Dach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19ASpareTireLeft",
       "english": "Rear Spare Tire",
-      "german": "Reserverad am Heck",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserverad am Heck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartP19ASpareTireRear",
       "english": "Roof Spare Tire",
-      "german": "Reserverad auf dem Dach",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserverad auf dem Dach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeHood",
       "english": "Make 86 Oshkosh P19A Hood",
-      "german": "Motorhaube für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeFrontDoor",
       "english": "Make 86 Oshkosh P19A Front Door",
-      "german": "Vordertür für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeRoofHatch",
       "english": "Make 86 Oshkosh P19A Roof Hatch",
-      "german": "Dachluke für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachluke für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeTrunkLid",
       "english": "Make 86 Oshkosh P19A Trunk Lid",
-      "german": "Stauraumklappe für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Stauraumklappe für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeFrontWindshield",
       "english": "Make 86 Oshkosh P19A Front Windshield",
-      "german": "Windschutzscheibe für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeFrontSideWindow",
       "english": "Make 86 Oshkosh P19A Front Side Window",
-      "german": "Vordere Seitenscheibe für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeFrontWindshieldArmor",
       "english": "Make 86 Oshkosh P19A Front Windshield Armor",
-      "german": "Windschutzscheibenpanzerung für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibenpanzerung für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeFrontWindowArmor",
       "english": "Make 86 Oshkosh P19A Front Window Armor",
-      "german": "Vordere Seitenfensterpanzerung für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenfensterpanzerung für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeRoofrack",
       "english": "Make 86 Oshkosh P19A Roofrack",
-      "german": "Dachgepäckträger für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeSideTireMount",
       "english": "Make 86 Oshkosh P19A Side Spare Tire Mount",
-      "german": "Seitliche Reserveradhalterung für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitliche Reserveradhalterung für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeRoofTireMount",
       "english": "Make 86 Oshkosh P19A Roof Spare Tire Mount",
-      "german": "Reserveradhalterung für das Dach für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserveradhalterung für das Dach für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeRearLeftFender",
       "english": "Make 86 Oshkosh P19A Rear Left Fender",
-      "german": "Kotflügel hinten links für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kotflügel hinten links für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeRearLeftMakeshiftFender",
       "english": "Make 86 Oshkosh P19A Rear Left Makeshift Fender",
-      "german": "Behelfsmäßigen Kotflügel hinten links für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Behelfsmäßigen Kotflügel hinten links für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeRearRightFender",
       "english": "Make 86 Oshkosh P19A Rear Right Fender",
-      "german": "Kotflügel hinten rechts für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kotflügel hinten rechts für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_86oshkoshP19AMakeRearRightMakeshiftFender",
       "english": "Make 86 Oshkosh P19A Rear Right Makeshift Fender",
-      "german": "Behelfsmäßigen Kotflügel hinten rechts für '86 Oshkosh P19A herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Behelfsmäßigen Kotflügel hinten rechts für '86 Oshkosh P19A herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_M1082MakeTrunkLid",
       "english": "Make M1082/M1095 Trunk Lid",
-      "german": "Heckklappe für M1082/M1095 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für M1082/M1095 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_M1082MakeMudflaps",
       "english": "Make M1082/M1095 Mudflaps",
-      "german": "Schmutzfänger für M1082/M1095 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schmutzfänger für M1082/M1095 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_M1082MakeBedTarp",
       "english": "Make M1082/M1095 Bed Tarp",
-      "german": "Ladeflächenplane für M1082/M1095 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenplane für M1082/M1095 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

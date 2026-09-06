@@ -13,3521 +13,4801 @@
       "category": "ContextMenu",
       "key": "ContextMenu_OpenTuningMenu",
       "english": "Modifications",
-      "german": "Modifikationen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Modifikationen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_LaunchVehicle",
       "english": "Unload from trailer",
-      "german": "Vom Anhänger abladen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vom Anhänger abladen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_CantLaunchVehicle",
       "english": "Can't unload.<br>Something is in the way",
-      "german": "Kann nicht abgeladen werden.<br>Etwas ist im Weg.",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kann nicht abgeladen werden.<br>Etwas ist im Weg.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_LoadVehicleOntoTrailer",
       "english": "Load on trailer",
-      "german": "Auf Anhänger laden",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Auf Anhänger laden",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_CantLoadVehicleOntoTrailer",
       "english": "There is no vehicle at<br>the behind or it is not<br>suitable for this trailer",
-      "german": "Hinter dem Anhänger befindet sich<br>kein Fahrzeug oder es ist<br>für diesen Anhänger ungeeignet.",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hinter dem Anhänger befindet sich<br>kein Fahrzeug oder es ist<br>für diesen Anhänger ungeeignet.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_TCConvertAppliance",
       "english": "Make %1",
-      "german": "%1 herstellen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "%1 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Vehicle_For_Smashwindow_Uninstall_Protection",
       "english": "To break the window,<br>remove the protection.",
-      "german": "Um das Fenster einzuschlagen,<br>muss der Schutz entfernt werden.",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Um das Fenster einzuschlagen,<br>muss der Schutz entfernt werden.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_BoatAddGas",
       "english": "Add gass",
-      "german": "Benzin nachfüllen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Benzin nachfüllen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_BoatCabinelightsOff",
       "english": "Turn off the light",
-      "german": "Licht ausschalten",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Licht ausschalten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_BoatCabinelightsOn",
       "english": "Turn on the light",
-      "german": "Licht einschalten",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Licht einschalten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_BoatHeadlightsOff",
       "english": "Turn off the spotlights",
-      "german": "Scheinwerfer ausschalten",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Scheinwerfer ausschalten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_BoatHeadlightsOn",
       "english": "Turn on the spotlights",
-      "german": "Scheinwerfer einschalten",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Scheinwerfer einschalten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_BoatHotwireSkill",
       "english": "You need keys or<br>Electrical level 1 and<br>Mechanics level 2<br>to hotwire.",
-      "german": "Du benötigst einen Schlüssel oder<br>Elektrik Stufe 1 und<br>Mechanik Stufe 2,<br>um kurzzuschließen.",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Du benötigst einen Schlüssel oder<br>Elektrik Stufe 1 und<br>Mechanik Stufe 2,<br>um kurzzuschließen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_RemoveSail",
       "english": "Remove sails",
-      "german": "Segel entfernen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Segel entfernen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_SetLeftSail",
       "english": "Set staysail<br>to the left side",
-      "german": "Stagsegel nach<br>links setzen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Stagsegel nach<br>links setzen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_SetRightSail",
       "english": "Set staysail<br>to the right side",
-      "german": "Stagsegel nach<br>rechts setzen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Stagsegel nach<br>rechts setzen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_SwimToLand",
       "english": "Swim to land",
-      "german": "An Land schwimmen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "An Land schwimmen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_LaunchBoat",
       "english": "Launch boat",
-      "german": "Boot zu Wasser lassen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Boot zu Wasser lassen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_CantLaunchBoat",
       "english": "It is necessary to drive<br>the trailer to the water",
-      "german": "Der Anhänger muss<br>ins Wasser gefahren werden.",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Der Anhänger muss<br>ins Wasser gefahren werden.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_LoadBoatOntoTrailer",
       "english": "Load boat onto trailer",
-      "german": "Boot auf Anhänger laden",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Boot auf Anhänger laden",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_CantLoadBoatOntoTrailer",
       "english": "The boat and trailer<br>must be close",
-      "german": "Boot und Anhänger<br>müssen nah beieinander sein.",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Boot und Anhänger<br>müssen nah beieinander sein.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_CantLoadBoatOntoTrailerMan",
       "english": "There shouldn't be any people<br>on the boat",
-      "german": "Es dürfen sich keine Personen<br>auf dem Boot befinden.",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Es dürfen sich keine Personen<br>auf dem Boot befinden.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_VehicleStartEngineManual",
       "english": "Start engine manually",
-      "german": "Motor manuell starten",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motor manuell starten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_VehicleManualStarterDamage",
       "english": "Recoil starter not installed<br>or damaged",
-      "german": "Seilzugstarter nicht eingebaut<br>oder beschädigt.",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seilzugstarter nicht eingebaut<br>oder beschädigt.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_set_anchor_on",
       "english": "Drop anchor",
-      "german": "Anker werfen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Anker werfen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_set_anchor_off",
       "english": "Raise anchor",
-      "german": "Anker einholen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Anker einholen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_bind_boat",
       "english": "Bind boat",
-      "german": "Boot festmachen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Boot festmachen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_unbind_boat",
       "english": "Unbind boat",
-      "german": "Boot losmachen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Boot losmachen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Wooden_Pantone",
       "english": "Wooden pontoon",
-      "german": "Holzponton",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Holzponton",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Open_Cabin",
       "english": "Unlock cabin",
-      "german": "Kabine aufschließen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kabine aufschließen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Open_Cabin_Force",
       "english": "Unlock cabin<br>(with %1)",
-      "german": "Kabine aufbrechen<br>(mit %1)",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kabine aufbrechen<br>(mit %1)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Open_Cabin_Force_Need_Crowbar",
       "english": "Unlock cabin<br>(need some tool or key)",
-      "german": "Kabine aufbrechen<br>(Werkzeug oder Schlüssel benötigt)",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kabine aufbrechen<br>(Werkzeug oder Schlüssel benötigt)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Close_Cabin",
       "english": "Close cabin",
-      "german": "Kabine schließen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kabine schließen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_cabinForceUnlock_tooTired",
       "english": "I'm too tired<br>to open the cabin",
-      "german": "Ich bin zu müde,<br>um die Kabine aufzubrechen.",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ich bin zu müde,<br>um die Kabine aufzubrechen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_cabinForceUnlock_tooBored",
       "english": "I don't want<br>to do this now",
-      "german": "Ich will das<br>jetzt nicht machen.",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ich will das<br>jetzt nicht machen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_cabinForceUnlock_tooUnhappy",
       "english": "I'm not in the mood<br>to do this",
-      "german": "Ich bin nicht in der Stimmung,<br>das zu machen.",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ich bin nicht in der Stimmung,<br>das zu machen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Vehicle_EGNH",
       "english": "Write «EGNH»",
-      "german": "«EGNH» schreiben",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "«EGNH» schreiben",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Vehicle_STRAYS",
       "english": "Write «STRAYS»",
-      "german": "«STRAYS» schreiben",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "«STRAYS» schreiben",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Sit",
       "english": "Sit",
-      "german": "Hinsetzen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hinsetzen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Lie",
       "english": "Lie",
-      "german": "Hinlegen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hinlegen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_OnSleep",
       "english": "Lie down",
-      "german": "Hinlegen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hinlegen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Stop_music",
       "english": "Stop music",
-      "german": "Musik stoppen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Musik stoppen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Play_music",
       "english": "Play music",
-      "german": "Musik abspielen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Musik abspielen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Sound_carrier_not_install",
       "english": "Sound carrier not install",
-      "german": "Kein Tonträger eingelegt",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kein Tonträger eingelegt",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_Song",
       "english": "Song",
-      "german": "Lied",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Lied",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "ContextMenu",
       "key": "ContextMenu_GrabTrolley",
       "english": "Take trolley",
-      "german": "Wagen nehmen",
       "source_file": "ContextMenu.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Wagen nehmen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_InfoPanel_Tuning",
       "english": "<CENTRE> <SIZE:medium> Vehicle modification panel <LINE> <LINE> <LEFT> <SIZE:small> Or tuning panel. Here you see a list of available recipes for modifying your vehicle.<LINE> <LINE> Normally, all available recipes are always shown in this panel, but there are also recipes that do not appear here unless you fulfil some conditions. Conditions can be: you have a skill, a certain item is available, you have reached the required character level. <LINE> <LINE> Resources in your inventory are used to create items. In addition, the character takes resources from nearby containers - including from the floor. <LINE> <LINE> At this point, parts installed through the tuning menu cannot be repaired without removal, and most parts will be disassembled into parts when removed.",
-      "german": "<CENTRE> <SIZE:medium> Fahrzeug-Modifikationsmenü <LINE> <LINE> <LEFT> <SIZE:small> Oder Tuning-Menü. Hier siehst du eine Liste der verfügbaren Rezepte zur Modifikation deines Fahrzeugs.<LINE> <LINE> Normalerweise werden in diesem Menü immer alle verfügbaren Rezepte angezeigt. Es gibt jedoch auch Rezepte, die erst erscheinen, wenn bestimmte Bedingungen erfüllt sind. Solche Bedingungen können sein: Du besitzt eine bestimmte Fertigkeit, ein bestimmter Gegenstand ist verfügbar oder du hast die erforderliche Charakterstufe erreicht. <LINE> <LINE> Zur Herstellung werden Ressourcen aus deinem Inventar verwendet. Zusätzlich nimmt dein Charakter Ressourcen aus Behältern in der Nähe – einschließlich vom Boden. <LINE> <LINE> Derzeit können Teile, die über das Tuning-Menü eingebaut wurden, nicht repariert werden, ohne sie vorher auszubauen. Die meisten Teile werden beim Ausbau wieder in Einzelteile zerlegt.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> Fahrzeug-Modifikationsmenü <LINE> <LINE> <LEFT> <SIZE:small> Oder Tuning-Menü. Hier siehst du eine Liste der verfügbaren Rezepte zur Modifikation deines Fahrzeugs.<LINE> <LINE> Normalerweise werden in diesem Menü immer alle verfügbaren Rezepte angezeigt. Es gibt jedoch auch Rezepte, die erst erscheinen, wenn bestimmte Bedingungen erfüllt sind. Solche Bedingungen können sein: Du besitzt eine bestimmte Fertigkeit, ein bestimmter Gegenstand ist verfügbar oder du hast die erforderliche Charakterstufe erreicht. <LINE> <LINE> Zur Herstellung werden Ressourcen aus deinem Inventar verwendet. Zusätzlich nimmt dein Charakter Ressourcen aus Behältern in der Nähe – einschließlich vom Boden. <LINE> <LINE> Derzeit können Teile, die über das Tuning-Menü eingebaut wurden, nicht repariert werden, ohne sie vorher auszubauen. Die meisten Teile werden beim Ausbau wieder in Einzelteile zerlegt.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningCategory_General",
       "english": "General",
-      "german": "Allgemein",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Allgemein",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningCategory_Installed",
       "english": "Installed",
-      "german": "Installiert",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Installiert",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningCategory_ProtectionWindow",
       "english": "Window Protection",
-      "german": "Fensterschutz",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fensterschutz",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningCategory_Bullbars",
       "english": "Bullbars",
-      "german": "Bullenfänger",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bullenfänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningCategory_Bags",
       "english": "Bags",
-      "german": "Taschen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Taschen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningCategory_Another",
       "english": "Another",
-      "german": "Sonstiges",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Sonstiges",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningCategory_Trunks",
       "english": "Trunks",
-      "german": "Kofferräume",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferräume",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningCategory_Protection",
       "english": "Protection",
-      "german": "Schutz",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schutz",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningCategory_Storage",
       "english": "Storage",
-      "german": "Stauraum",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Stauraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningCategory_Bumpers",
       "english": "Bumpers",
-      "german": "Stoßstangen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Stoßstangen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningCategory_Visual",
       "english": "Decor",
-      "german": "Dekoration",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dekoration",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Bullbar",
       "english": "Bullbar",
-      "german": "Bullenfänger",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bullenfänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Bullbar_Police",
       "english": "Police Bullbar",
-      "german": "Polizei-Bullenfänger",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Polizei-Bullenfänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Bullbar_Handmade",
       "english": "Handmade Bullbar",
-      "german": "Selbstgebauter Bullenfänger",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Selbstgebauter Bullenfänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Bullbar_Plow",
       "english": "Bullbar With Plow",
-      "german": "Bullenfänger mit Pflug",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bullenfänger mit Pflug",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Bullbar_Lethal",
       "english": "Lethal Bullbar",
-      "german": "Tödlicher Bullenfänger",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Tödlicher Bullenfänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Bullbar_Enhanced",
       "english": "Improved  Bullbar",
-      "german": "Verbesserter Bullenfänger",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verbesserter Bullenfänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Bullbar_Spiked_Plough",
       "english": "Spiked Plough",
-      "german": "Stachelpflug",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Stachelpflug",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Bumper",
       "english": "Bumper",
-      "german": "Stoßstange",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Stoßstange",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Bumper_Classic",
       "english": "Classic Bumper",
-      "german": "Klassische Stoßstange",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Klassische Stoßstange",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Bumper_Rear_Classic",
       "english": "Classic Rear Bumper",
-      "german": "Klassische Heckstoßstange",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Klassische Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Bumper_Rear_Handmade",
       "english": "Handmade Rear Bumper",
-      "german": "Selbstgebaute Heckstoßstange",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Selbstgebaute Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Bumper_Winch",
       "english": "Winch Bumper",
-      "german": "Stoßstange mit Seilwinde",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Stoßstange mit Seilwinde",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Bumper_Lethal",
       "english": "Lethal Bumper",
-      "german": "Tödliche Stoßstange",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Tödliche Stoßstange",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Spoiler",
       "english": "Spoiler",
-      "german": "Spoiler",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Spoiler",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Spoiler_Low",
       "english": "Low Spoiler",
-      "german": "Niedriger Spoiler",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Niedriger Spoiler",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Spoiler_Middle",
       "english": "Middle Spoiler",
-      "german": "Mittlerer Spoiler",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mittlerer Spoiler",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Spoiler_High",
       "english": "High Spoiler",
-      "german": "Hoher Spoiler",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hoher Spoiler",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ATA2_Caption_People_Inside",
       "english": "Hood Protection 'People Inside'",
-      "german": "Motorhaubenschutz „People Inside“",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaubenschutz „People Inside“",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_Title",
       "english": "Vehicle modifications",
-      "german": "Fahrzeugmodifikationen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fahrzeugmodifikationen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_NeedBeEmpty",
       "english": "Must be empty",
-      "german": "Muss leer sein",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Muss leer sein",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_Install",
       "english": "Install",
-      "german": "Einbauen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Einbauen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_Uninstall",
       "english": "Uninstall",
-      "german": "Ausbauen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ausbauen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_AlreadyInstall",
       "english": "Similar item has already been installed",
-      "german": "Ein ähnliches Teil ist bereits eingebaut",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ein ähnliches Teil ist bereits eingebaut",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_NotInstall",
       "english": "Not installed. I think someone cheated",
-      "german": "Nicht eingebaut. Ich glaube, da hat jemand geschummelt.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Nicht eingebaut. Ich glaube, da hat jemand geschummelt.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_RequiredItems",
       "english": "Items used:",
-      "german": "Benötigte Gegenstände:",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Benötigte Gegenstände:",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_RequiredTools",
       "english": "Tools required:",
-      "german": "Benötigte Werkzeuge:",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Benötigte Werkzeuge:",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_Result",
       "english": "Result:",
-      "german": "Ergebnis:",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ergebnis:",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_RequiredInstalled",
       "english": "Must be installed:",
-      "german": "Muss eingebaut sein:",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Muss eingebaut sein:",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_RequiredUninstalled",
       "english": "Must be removed:",
-      "german": "Muss ausgebaut sein:",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Muss ausgebaut sein:",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_ProtectionFor",
       "english": "Protection:",
-      "german": "Schutz:",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schutz:",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_Condition",
       "english": "Condition:",
-      "german": "Zustand:",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zustand:",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TuningUI_NotLearn",
       "english": "Don't know the recipe",
-      "german": "Rezept nicht bekannt",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rezept nicht bekannt",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATABagOnProtectionWindowFrontLeft",
       "english": "Bag on protection (left)",
-      "german": "Tasche am Fensterschutz (links)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Tasche am Fensterschutz (links)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATABagOnProtectionWindowFrontRight",
       "english": "Bag on protection (right)",
-      "german": "Tasche am Fensterschutz (rechts)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Tasche am Fensterschutz (rechts)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATABagMotoLeft",
       "english": "Moto Bag Left",
-      "german": "Motorradtasche links",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorradtasche links",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATABagMotoRight",
       "english": "Moto Bag Right",
-      "german": "Motorradtasche rechts",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorradtasche rechts",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATABagMotoHolsterLeft",
       "english": "Moto Holster Left",
-      "german": "Motorrad-Holster links",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorrad-Holster links",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATABagMotoHolsterRight",
       "english": "Moto Holster Right",
-      "german": "Motorrad-Holster rechts",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorrad-Holster rechts",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2BagOnProtectionWindowFrontLeft",
       "english": "Bag on protection (left)",
-      "german": "Tasche am Fensterschutz (links)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Tasche am Fensterschutz (links)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2BagOnProtectionWindowFrontRight",
       "english": "Bag on protection (right)",
-      "german": "Tasche am Fensterschutz (rechts)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Tasche am Fensterschutz (rechts)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2BagMotoLeft",
       "english": "Moto Bag Left",
-      "german": "Motorradtasche links",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorradtasche links",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2BagMotoRight",
       "english": "Moto Bag Right",
-      "german": "Motorradtasche rechts",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorradtasche rechts",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2BagMotoHolsterLeft",
       "english": "Moto Holster Left",
-      "german": "Motorrad-Holster links",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorrad-Holster links",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2BagMotoHolsterRight",
       "english": "Moto Holster Right",
-      "german": "Motorrad-Holster rechts",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorrad-Holster rechts",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2Bumper",
       "english": "Bumper",
-      "german": "Stoßstange",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Stoßstange",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2Bullbar",
       "english": "Bullbar",
-      "german": "Bullenfänger",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bullenfänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2HeadlightsPopUP",
       "english": "Headlights Pop-Up",
-      "german": "Klappscheinwerfer",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Klappscheinwerfer",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATAHeadlightsPopUP",
       "english": "Headlights Pop-Up",
-      "german": "Klappscheinwerfer",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Klappscheinwerfer",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2RoofBase",
       "english": "Roof rails",
-      "german": "Dachreling",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachreling",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2InteractiveTrunkRoofRack",
       "english": "Roof rack",
-      "german": "Dachgepäckträger",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2InteractiveTrunkWheelRack",
       "english": "Spare wheel rack",
-      "german": "Reserveradhalter",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserveradhalter",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2InteractiveTrunkWindowRearRack",
       "english": "Rear window rack",
-      "german": "Heckfenster-Gepäckträger",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckfenster-Gepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2InteractiveTrunkFront",
       "english": "Front Trunk",
-      "german": "Vorderer Kofferraum",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vorderer Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2InteractiveTrunkRear",
       "english": "Rear Trunk",
-      "german": "Hinterer Kofferraum",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hinterer Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATAInteractiveTrunkWindowRearRack",
       "english": "Rear Window Rack",
-      "german": "Heckfenster-Gepäckträger",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckfenster-Gepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATAInteractiveTrunkFront",
       "english": "Front Trunk",
-      "german": "Vorderer Kofferraum",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vorderer Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATAInteractiveTrunkRear",
       "english": "Rear Trunk",
-      "german": "Hinterer Kofferraum",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hinterer Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2RoofRackToolbox",
       "english": "Roof Toolbox",
-      "german": "Werkzeugkasten auf dem Dach",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Werkzeugkasten auf dem Dach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2LightBar",
       "english": "Lightbar",
-      "german": "Lichtbalken",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Lichtbalken",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATALightBar",
       "english": "Lightbar",
-      "german": "Lichtbalken",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Lichtbalken",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATAMotoTireFrontWheel",
       "english": "Front Wheel",
-      "german": "Vorderrad",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vorderrad",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATAMotoTireRearWheel",
       "english": "Rear Wheel",
-      "german": "Hinterrad",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hinterrad",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2RoofLightFront",
       "english": "Roof lights (front)",
-      "german": "Dachscheinwerfer (vorne)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachscheinwerfer (vorne)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2RoofLightLeft",
       "english": "Roof lights (left)",
-      "german": "Dachscheinwerfer (links)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachscheinwerfer (links)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2RoofLightRight",
       "english": "Roof lights (right)",
-      "german": "Dachscheinwerfer (rechts)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachscheinwerfer (rechts)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2RoofLightRear",
       "english": "Roof lights (rear)",
-      "german": "Dachscheinwerfer (hinten)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachscheinwerfer (hinten)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2RoofLampFront",
       "english": "Bulb for Front roof lights",
-      "german": "Glühbirne für vordere Dachscheinwerfer",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Glühbirne für vordere Dachscheinwerfer",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2RoofLampLeft",
       "english": "Bulb for Left roof lights",
-      "german": "Glühbirne für linke Dachscheinwerfer",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Glühbirne für linke Dachscheinwerfer",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2RoofLampRight",
       "english": "Bulb for Right roof lights",
-      "german": "Glühbirne für rechte Dachscheinwerfer",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Glühbirne für rechte Dachscheinwerfer",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2RoofLampRear",
       "english": "Bulb for Rear roof lights",
-      "german": "Glühbirne für hintere Dachscheinwerfer",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Glühbirne für hintere Dachscheinwerfer",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2RoofTent",
       "english": "Roof tent",
-      "german": "Dachzelt",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachzelt",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2VisualLadder",
       "english": "Ladder",
-      "german": "Leiter",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Leiter",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2VisualSpoilerFront",
       "english": "Spoiler Lip",
-      "german": "Spoilerlippe",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Spoilerlippe",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2VisualSpoilerRear",
       "english": "Spoiler",
-      "german": "Spoiler",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Spoiler",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2VisualSkirtsSide",
       "english": "Side Skirts",
-      "german": "Seitenschweller",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitenschweller",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2VisualFendersWide",
       "english": "Wide Fenders",
-      "german": "Breite Kotflügel",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Breite Kotflügel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATA2VisualSnorkel",
       "english": "Snorkel",
-      "german": "Ansaugschnorchel",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ansaugschnorchel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATAVisualLadder",
       "english": "Ladder",
-      "german": "Leiter",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Leiter",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATAVisualSpoilerFront",
       "english": "Spoiler Lip",
-      "german": "Spoilerlippe",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Spoilerlippe",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATAVisualSpoilerRear",
       "english": "Spoiler",
-      "german": "Spoiler",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Spoiler",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATAVisualSkirtsSide",
       "english": "Side Skirts",
-      "german": "Seitenschweller",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitenschweller",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATAVisualFendersWide",
       "english": "Wide Fenders",
-      "german": "Breite Kotflügel",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Breite Kotflügel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartATAVisualSnorkel",
       "english": "Snorkel",
-      "german": "Ansaugschnorchel",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ansaugschnorchel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace1FrontLeft",
       "english": "Free space (FL)",
-      "german": "Freier Platz (VL)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (VL)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace2FrontLeft",
       "english": "Free space (FL)",
-      "german": "Freier Platz (VL)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (VL)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace3FrontLeft",
       "english": "Free space (FL)",
-      "german": "Freier Platz (VL)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (VL)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace1FrontRight",
       "english": "Free space (FR)",
-      "german": "Freier Platz (VR)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (VR)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace2FrontRight",
       "english": "Free space (FR)",
-      "german": "Freier Platz (VR)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (VR)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace3FrontRight",
       "english": "Free space (FR)",
-      "german": "Freier Platz (VR)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (VR)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace1MiddleLeft",
       "english": "Free space (ML)",
-      "german": "Freier Platz (ML)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (ML)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace2MiddleLeft",
       "english": "Free space (ML)",
-      "german": "Freier Platz (ML)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (ML)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace3MiddleLeft",
       "english": "Free space (ML)",
-      "german": "Freier Platz (ML)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (ML)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace1MiddleRight",
       "english": "Free space (MR)",
-      "german": "Freier Platz (MR)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (MR)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace2MiddleRight",
       "english": "Free space (MR)",
-      "german": "Freier Platz (MR)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (MR)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace3MiddleRight",
       "english": "Free space (MR)",
-      "german": "Freier Platz (MR)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (MR)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace1RearLeft",
       "english": "Free space (RL)",
-      "german": "Freier Platz (HL)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (HL)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace2RearLeft",
       "english": "Free space (RL)",
-      "german": "Freier Platz (HL)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (HL)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace3RearLeft",
       "english": "Free space (RL)",
-      "german": "Freier Platz (HL)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (HL)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace1RearRight",
       "english": "Free space (RR)",
-      "german": "Freier Platz (HR)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (HR)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace2RearRight",
       "english": "Free space (RR)",
-      "german": "Freier Platz (HR)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (HR)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreeplace3RearRight",
       "english": "Free space (RR)",
-      "german": "Freier Platz (HR)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (HR)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreestorageFrontLeft",
       "english": "Free space (FL)",
-      "german": "Freier Platz (VL)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (VL)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreestorageFrontRight",
       "english": "Free space (FR)",
-      "german": "Freier Platz (VR)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (VR)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreestorageMiddleLeft",
       "english": "Free space (ML)",
-      "german": "Freier Platz (ML)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (ML)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreestorageMiddleRight",
       "english": "Free space (MR)",
-      "german": "Freier Platz (MR)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (MR)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreestorageRearLeft",
       "english": "Free space (RL)",
-      "german": "Freier Platz (HL)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (HL)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartFreestorageRearRight",
       "english": "Free space (RR)",
-      "german": "Freier Platz (HR)",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz (HR)",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartfloor",
       "english": "Free space",
-      "german": "Freier Platz",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Freier Platz",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_CloseHeadlightsPopUP",
       "english": "Down Headlights",
-      "german": "Klappscheinwerfer einklappen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Klappscheinwerfer einklappen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_OpenHeadlightsPopUP",
       "english": "Up Headlights",
-      "german": "Klappscheinwerfer ausklappen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Klappscheinwerfer ausklappen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_TRUEA_cant_vehicle_smash_window",
       "english": "I can't break a window as long as it's protected.",
-      "german": "Ich kann das Fenster nicht einschlagen, solange es geschützt ist.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ich kann das Fenster nicht einschlagen, solange es geschützt ist.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ItemCat_Tuning",
       "english": "Tuning",
-      "german": "Tuning",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Tuning",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameBoatSailingYacht",
       "english": "Sailing yacht",
-      "german": "Segelyacht",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Segelyacht",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameBoatSailingYacht_Ground",
       "english": "Sailing yacht",
-      "german": "Segelyacht",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Segelyacht",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameBoatMotor",
       "english": "Powerboat",
-      "german": "Motorboot",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorboot",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameBoatMotor_Ground",
       "english": "Powerboat",
-      "german": "Motorboot",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorboot",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerWithBoatSailingYacht",
       "english": "Autotsar BT-13M",
-      "german": "Autotsar BT-13M",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar BT-13M",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerWithBoatMotor",
       "english": "Autotsar BT-13M",
-      "german": "Autotsar BT-13M",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar BT-13M",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerForBoat",
       "english": "Autotsar BT-13M",
-      "german": "Autotsar BT-13M",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar BT-13M",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartPropeller",
       "english": "Boat propeller",
-      "german": "Bootspropeller",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bootspropeller",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartCatHouseholdSystem",
       "english": "Household System",
-      "german": "Einrichtung",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Einrichtung",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartCatMechanicalSystem",
       "english": "Mechanical System",
-      "german": "Mechanisches System",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mechanisches System",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartCatElecticalSystem",
       "english": "Electical System",
-      "german": "Elektrisches System",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Elektrisches System",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartCatBoatBody",
       "english": "Boat Body",
-      "german": "Bootskörper",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bootskörper",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartLightFloodlightLeft",
       "english": "Spotlights left",
-      "german": "Scheinwerfer links",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Scheinwerfer links",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartLightFloodlightRight",
       "english": "Spotlights right",
-      "german": "Scheinwerfer rechts",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Scheinwerfer rechts",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartLightCabin",
       "english": "Cockpit light",
-      "german": "Cockpitbeleuchtung",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Cockpitbeleuchtung",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartManualStarter",
       "english": "Recoil starter",
-      "german": "Seilzugstarter",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seilzugstarter",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartSails",
       "english": "Sails",
-      "german": "Segel",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Segel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBoatName",
       "english": "Boat name",
-      "german": "Bootsname",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bootsname",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_RenameBoat",
       "english": "Rename boat",
-      "german": "Boot umbenennen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Boot umbenennen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_ExitBoat",
       "english": "Get off the boat",
-      "german": "Boot verlassen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Boot verlassen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_EnterBoat",
       "english": "Board the boat",
-      "german": "An Bord gehen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "An Bord gehen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SailLeft",
       "english": "Sail to the left",
-      "german": "Nach links segeln",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Nach links segeln",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SailRight",
       "english": "Sail to the right",
-      "german": "Nach rechts segeln",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Nach rechts segeln",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_CanNotSwim",
       "english": "I can't swim",
-      "german": "Ich kann nicht schwimmen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ich kann nicht schwimmen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_CabinlightDoNotWork",
       "english": "It looks like the light isn't working",
-      "german": "Sieht so aus, als würde das Licht nicht funktionieren.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Sieht so aus, als würde das Licht nicht funktionieren.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_FloodlightsDoNotWork",
       "english": "Spotlights don't work",
-      "german": "Die Scheinwerfer funktionieren nicht.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Die Scheinwerfer funktionieren nicht.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_PontoonNeeded",
       "english": "Pontoon is needed here",
-      "german": "Hier wird ein Ponton benötigt.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hier wird ein Ponton benötigt.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_CanNotSleepInMovingBoat",
       "english": "I need to slow down the boat",
-      "german": "Ich muss das Boot langsamer machen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ich muss das Boot langsamer machen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_NoPower",
       "english": "There is no power.",
-      "german": "Es gibt keinen Strom.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Es gibt keinen Strom.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_CabinIsLocked",
       "english": "Cabin door is locked",
-      "german": "Die Kabinentür ist verschlossen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Die Kabinentür ist verschlossen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_BoatSeatBlock",
       "english": "Can't get inside",
-      "german": "Ich kann nicht hineingehen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ich kann nicht hineingehen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwitchPlace",
       "english": "Go to..",
-      "german": "Wechseln zu ...",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Wechseln zu ...",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_BoatSeat_Self",
       "english": "You are already here",
-      "german": "Du bist bereits hier.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Du bist bereits hier.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_BoatSeat_Person",
       "english": "There is a man standing here",
-      "german": "Hier steht bereits jemand.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hier steht bereits jemand.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_BoatSeat_Items",
       "english": "There are objects in the aisle",
-      "german": "Im Durchgang liegen Gegenstände.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Im Durchgang liegen Gegenstände.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_BoatSeat_MoveItems",
       "english": "Items from aisle will be<br>moved to another location",
-      "german": "Gegenstände aus dem Durchgang werden<br>an einen anderen Platz verschoben.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Gegenstände aus dem Durchgang werden<br>an einen anderen Platz verschoben.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_BoatSeat_ExitToSwitch",
       "english": "Have to get out of the boat",
-      "german": "Du musst das Boot verlassen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Du musst das Boot verlassen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_BoatSeat_Uninstalled",
       "english": "Passage blocked",
-      "german": "Durchgang blockiert",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Durchgang blockiert",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_BoatSeatFrontRight",
       "english": "Sit next to the helmsman",
-      "german": "Neben den Steuermann setzen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Neben den Steuermann setzen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_BoatSeatFrontLeft",
       "english": "Sit in the helmsman's seat",
-      "german": "Auf den Steuerplatz setzen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Auf den Steuerplatz setzen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_BoatSeatRearRight",
       "english": "Go here",
-      "german": "Hierhin gehen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hierhin gehen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_BoatSeatRearLeft",
       "english": "Go here",
-      "german": "Hierhin gehen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hierhin gehen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_BoatSeatMiddleRight",
       "english": "Go here",
-      "german": "Hierhin gehen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hierhin gehen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_BoatSeatMiddleLeft",
       "english": "Go here",
-      "german": "Hierhin gehen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hierhin gehen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_chance",
       "english": "Chance",
-      "german": "Chance",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Chance",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_EAST",
       "english": "Восток",
-      "german": "Osten",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Osten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SOUTH",
       "english": "East",
-      "german": "Süden",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Süden",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_WEST",
       "english": "West",
-      "german": "Westen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Westen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_NORTH",
       "english": "North",
-      "german": "Norden",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Norden",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimUI_Title",
       "english": "Float away",
-      "german": "Abtreiben",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Abtreiben",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_playerCanSwim",
       "english": "You can swim.",
-      "german": "Du kannst schwimmen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Du kannst schwimmen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_playerCantSwim",
       "english": "You can't swim.",
-      "german": "Du kannst nicht schwimmen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Du kannst nicht schwimmen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_DropToWater",
       "english": "Throw in water",
-      "german": "Ins Wasser werfen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ins Wasser werfen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimToPoint",
       "english": "Swim",
-      "german": "Schwimmen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schwimmen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimTo",
       "english": "Swim to %1",
-      "german": "Zu %1 schwimmen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zu %1 schwimmen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimToLand",
       "english": "Swim to the shore",
-      "german": "Zum Ufer schwimmen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zum Ufer schwimmen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Exit_Boat",
       "english": "Free swimming",
-      "german": "Frei schwimmen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frei schwimmen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_JumpInWater",
       "english": "Jump into water",
-      "german": "Ins Wasser springen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ins Wasser springen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimWord_Endurance1",
       "english": "I'm tired, I need rest",
-      "german": "Ich bin müde, ich brauche eine Pause.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ich bin müde, ich brauche eine Pause.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimWord_Endurance2",
       "english": "Nice to take a break",
-      "german": "Eine Pause tut gut.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Eine Pause tut gut.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimWord_Endurance3",
       "english": "Better to swim towards the shore",
-      "german": "Ich sollte besser zum Ufer schwimmen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ich sollte besser zum Ufer schwimmen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimWord_Endurance4",
       "english": "I will save my strength by swimming more slowly",
-      "german": "Ich spare meine Kräfte, indem ich langsamer schwimme.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ich spare meine Kräfte, indem ich langsamer schwimme.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimWord_Endurance5",
       "english": "...",
-      "german": "...",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "...",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimWord_Damage1",
       "english": "I'm starting to drown. I need to rest.",
-      "german": "Ich fange an unterzugehen. Ich muss mich ausruhen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ich fange an unterzugehen. Ich muss mich ausruhen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimWord_Damage2",
       "english": "Cramp in the leg, I need to go to the shore!",
-      "german": "Krampf im Bein, ich muss ans Ufer!",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Krampf im Bein, ich muss ans Ufer!",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimWord_Damage3",
       "english": "Cramp in the hand, I urgently need to go to the shore!",
-      "german": "Krampf in der Hand, ich muss dringend ans Ufer!",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Krampf in der Hand, ich muss dringend ans Ufer!",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimWord_Damage4",
       "english": "Stop, man! Give me a break.",
-      "german": "Verdammt! Ich brauche eine Pause.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verdammt! Ich brauche eine Pause.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimWord_Damage5",
       "english": "Help!!!",
-      "german": "Hilfe!!!",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hilfe!!!",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimWord_LostItems1",
       "english": "Ah, I lost my things",
-      "german": "Ah, ich habe meine Sachen verloren.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ah, ich habe meine Sachen verloren.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimWord_LostItems2",
       "english": "I had to get rid of excess cargo",
-      "german": "Ich musste überflüssige Last loswerden.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ich musste überflüssige Last loswerden.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_SwimWord_LostItems3",
       "english": "Some things have gone to the bottom",
-      "german": "Einige Sachen sind auf den Grund gesunken.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Einige Sachen sind auf den Grund gesunken.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_sayWindInfo",
       "english": "Detect wind direction",
-      "german": "Windrichtung bestimmen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windrichtung bestimmen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_needBeOutside_tosayWindInfo",
       "english": "Indoor wind cannot be detected",
-      "german": "In Innenräumen lässt sich die Windrichtung nicht bestimmen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "In Innenräumen lässt sich die Windrichtung nicht bestimmen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind",
       "english": "The wind is",
-      "german": "Der Wind weht",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Der Wind weht",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_in",
       "english": "in the",
-      "german": "aus",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "aus",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_direction",
       "english": "direction.",
-      "german": ".",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": ".",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_NoWind",
       "english": "Absolutely calm.",
-      "german": "Windstill.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windstill.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_VeryLight",
       "english": "very light",
-      "german": "sehr schwach",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "sehr schwach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_Light",
       "english": "light",
-      "german": "schwach",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "schwach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_Medium",
       "english": "medium",
-      "german": "mäßig",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "mäßig",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_Strong",
       "english": "strong",
-      "german": "stark",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "stark",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_VeryStrong",
       "english": "very strong",
-      "german": "sehr stark",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "sehr stark",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_Storm",
       "english": "stormy",
-      "german": "stürmisch",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "stürmisch",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_N",
       "english": "north",
-      "german": "Norden",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Norden",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_NW",
       "english": "northwest",
-      "german": "Nordwesten",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Nordwesten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_SW",
       "english": "southwest",
-      "german": "Südwesten",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Südwesten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_S",
       "english": "south",
-      "german": "Süden",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Süden",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_SE",
       "english": "southeast",
-      "german": "Südosten",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Südosten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_E",
       "english": "east",
-      "german": "Osten",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Osten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_Wind_NE",
       "english": "northeast",
-      "german": "Nordosten",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Nordosten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_RepairSail",
       "english": "Sew up the sail",
-      "german": "Segel nähen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Segel nähen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_CantRepairSails",
       "english": "Fabric, needle, thread and Tailoring level IV required for sailing repair.",
-      "german": "Für die Reparatur des Segels werden Stoff, Nadel, Faden und Schneidern Stufe IV benötigt.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Für die Reparatur des Segels werden Stoff, Nadel, Faden und Schneidern Stufe IV benötigt.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameAMC_bmw_classic",
       "english": "BWM R80/7 Classic",
-      "german": "BWM R80/7 Classic",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "BWM R80/7 Classic",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameAMC_bmw_custom",
       "english": "BWM R80/7 Custom",
-      "german": "BWM R80/7 Custom",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "BWM R80/7 Custom",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameAMC_harley",
       "english": "Xarley-Davitsan Sportstep '86",
-      "german": "Xarley-Davitsan Sportstep '86",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Xarley-Davitsan Sportstep '86",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameAMC_quad",
       "english": "Suvzuki Quadruiner",
-      "german": "Suvzuki Quadruiner",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Suvzuki Quadruiner",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameAMC_Waverunner",
       "english": "Yamama Waveruiner 650TL",
-      "german": "Yamama Waveruiner 650TL",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Yamama Waveruiner 650TL",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameAMC_Waverunner_Ground",
       "english": "Yamama Waveruiner 650TL",
-      "german": "Yamama Waveruiner 650TL",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Yamama Waveruiner 650TL",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerAMC",
       "english": "Autotsar Mototrailer-2M",
-      "german": "Autotsar Mototrailer-2M",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar Mototrailer-2M",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerAMCWaverunner",
       "english": "Autotsar Watertrailer-3M",
-      "german": "Autotsar Watertrailer-3M",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar Watertrailer-3M",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerAMCWaverunnerWithBody",
       "english": "Yamama Waveruiner 650TL",
-      "german": "Yamama Waveruiner 650TL",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Yamama Waveruiner 650TL",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_TRUEA_cant_lie",
       "english": "It's dangerous to lie down now.",
-      "german": "Es ist zu gefährlich, sich jetzt hinzulegen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Es ist zu gefährlich, sich jetzt hinzulegen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_TRUEA_cant_sit",
       "english": "It's dangerous to sit now.",
-      "german": "Es ist zu gefährlich, sich jetzt hinzusetzen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Es ist zu gefährlich, sich jetzt hinzusetzen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_TRUEA_need_come_closer",
       "english": "Need to come closer.",
-      "german": "Ich muss näher herangehen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ich muss näher herangehen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_TRUEA_bed_away_wall",
       "english": "It is necessary to clear the passage to the bed.",
-      "german": "Der Zugang zum Bett muss freigeräumt werden.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Der Zugang zum Bett muss freigeräumt werden.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_TRUEA_OccupiedPhrases_Sit_1",
       "english": "Are you on a coffee break?",
-      "german": "Machst du gerade Kaffeepause?",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Machst du gerade Kaffeepause?",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_TRUEA_OccupiedPhrases_Lie_1",
       "english": "Why are you lying like this?",
-      "german": "Warum liegst du hier so rum?",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Warum liegst du hier so rum?",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_TRUEA_OccupiedPhrases_2",
       "english": "Have a rest? Now it's my turn.",
-      "german": "Genug ausgeruht? Jetzt bin ich dran.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Genug ausgeruht? Jetzt bin ich dran.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_TRUEA_OccupiedPhrases_3",
       "english": "Give me the place, please.",
-      "german": "Mach bitte den Platz frei.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mach bitte den Platz frei.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_TRUEA_dont_push_1",
       "english": "Why are you pushing?",
-      "german": "Warum schubst du mich?",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Warum schubst du mich?",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_TRUEA_dont_push_2",
       "english": "Don't push!",
-      "german": "Nicht schubsen!",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Nicht schubsen!",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_TRUEA_dont_push_3",
       "english": "Let me rest!",
-      "german": "Lass mich ausruhen!",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Lass mich ausruhen!",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_media_dragCassette",
       "english": "Insert cassette",
-      "german": "Kassette einlegen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kassette einlegen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_media_dragVinyl",
       "english": "Insert vinyl",
-      "german": "Schallplatte auflegen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schallplatte auflegen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TC_connect_speaker",
       "english": "Connect speaker",
-      "german": "Lautsprecher anschließen",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Lautsprecher anschließen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_TC_connect_headphones",
       "english": "Need headphones",
-      "german": "Kopfhörer benötigt",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kopfhörer benötigt",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_PlayerText_TC_need_speaker",
       "english": "The speaker should be next to the turntable.",
-      "german": "Der Lautsprecher muss neben dem Plattenspieler stehen.",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Der Lautsprecher muss neben dem Plattenspieler stehen.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_MusicOptionsCar",
       "english": "Cassette player",
-      "german": "Kassettenspieler",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kassettenspieler",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerFirst",
       "english": "Autotsar GNV 250",
-      "german": "Autotsar GNV 250",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar GNV 250",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerSecond",
       "english": "Autotsar GNV 500",
-      "german": "Autotsar GNV 500",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar GNV 500",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerHome",
       "english": "Autotsar iLYA-1990",
-      "german": "Autotsar iLYA-1990",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar iLYA-1990",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerHomeHartman",
       "english": "Autotsar iLYA-1990 «Hartman»",
-      "german": "Autotsar iLYA-1990 «Hartman»",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar iLYA-1990 «Hartman»",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerHomeExplorer",
       "english": "Autotsar iLYA-1990 «Explorer»",
-      "german": "Autotsar iLYA-1990 «Explorer»",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar iLYA-1990 «Explorer»",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerKbac",
       "english": "Autotsar KBAC",
-      "german": "Autotsar KBAC",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar KBAC",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerGenerator",
       "english": "Autotsar GENA-220",
-      "german": "Autotsar GENA-220",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar GENA-220",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATAArmyBus",
       "english": "Bear Bus - Army Edition",
-      "german": "Bear Bus – Militärausführung",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bear Bus – Militärausführung",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATASchoolBus",
       "english": "Bear Bus - School Edition",
-      "german": "Bear Bus – Schulbus-Ausführung",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bear Bus – Schulbus-Ausführung",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATAPrisonBus",
       "english": "Bear Bus - Prison Edition",
-      "german": "Bear Bus – Gefängnisausführung",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bear Bus – Gefängnisausführung",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATABMWe36",
       "english": "Bumer 36E",
-      "german": "Bumer 36E",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bumer 36E",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATABMWe36M3",
       "english": "Bumer 36E M3",
-      "german": "Bumer 36E M3",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Bumer 36E M3",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATAJeepClassic",
       "english": "Jaap Wrungel Classic",
-      "german": "Jaap Wrungel Classic",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Jaap Wrungel Classic",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATAJeepRubicon",
       "english": "Jaap Wrungel Rubicon",
-      "german": "Jaap Wrungel Rubicon",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Jaap Wrungel Rubicon",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATAJeepArcher",
       "english": "Jaap Wrungel Archer",
-      "german": "Jaap Wrungel Archer",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Jaap Wrungel Archer",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATADodge",
       "english": "Dadge Steals RT Twin Turbo",
-      "german": "Dadge Steals RT Twin Turbo",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dadge Steals RT Twin Turbo",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATADodgePpg",
       "english": "Dadge Steals RT Twin Turbo PPG",
-      "german": "Dadge Steals RT Twin Turbo PPG",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dadge Steals RT Twin Turbo PPG",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATAPetyarbuilt",
       "english": "Petyarbuilt 379",
-      "german": "Petyarbuilt 379",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Petyarbuilt 379",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATAPetyarbuiltSleeper",
       "english": "Petyarbuilt 379",
-      "german": "Petyarbuilt 379",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Petyarbuilt 379",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATAPetyarbuiltSleeperLong",
       "english": "Petyarbuilt 379",
-      "german": "Petyarbuilt 379",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Petyarbuilt 379",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerTSMega",
       "english": "Autotsar - Mega Trailer",
-      "german": "Autotsar – Mega-Anhänger",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar – Mega-Anhänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATAMustangClassic",
       "english": "Fjord Mustard",
-      "german": "Fjord Mustard",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fjord Mustard",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATAMustangPolice",
       "english": "Fjord Mustard",
-      "german": "Fjord Mustard",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fjord Mustard",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATASamaraClassic",
       "english": "Chevalier Samara",
-      "german": "Chevalier Samara",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Chevalier Samara",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATASamaraPolice",
       "english": "Chevalier Samara",
-      "german": "Chevalier Samara",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Chevalier Samara",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATADeLorean",
       "english": "DMG DoLorean",
-      "german": "DMG DoLorean",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "DMG DoLorean",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATADatsun240z",
       "english": "Dadsun 240z",
-      "german": "Dadsun 240z",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dadsun 240z",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATAMustang66",
       "english": "Fjord Mustard '66",
-      "german": "Fjord Mustard '66",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fjord Mustard '66",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameATAMustang66Custom",
       "english": "Fjord Mustard '66",
-      "german": "Fjord Mustard '66",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fjord Mustard '66",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerAHauler",
       "english": "Autotsar Hauler Trailer",
-      "german": "Autotsar Transportanhänger",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar Transportanhänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleNameTrailerTSMegaAnimal",
       "english": "Autotsar - Mega Trailer for Animals",
-      "german": "Autotsar – Mega-Tieranhänger",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Autotsar – Mega-Tieranhänger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartTrunkDoorOpened",
       "english": "Cattle Loading Ramp",
-      "german": "Viehladerampe",
       "source_file": "IG_UI.json",
       "source_layer": "42.15",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Viehladerampe",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

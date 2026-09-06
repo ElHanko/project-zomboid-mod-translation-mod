@@ -13,452 +13,616 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName89fordBronco",
       "english": "'89 Ford Bronco",
-      "german": "'89 Ford Bronco",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'89 Ford Bronco",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName89fordBroncoPD",
       "english": "'89 Ford Bronco Police",
-      "german": "'89 Ford Bronco Polizei",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'89 Ford Bronco Polizei",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName89fordBroncoRanger",
       "english": "'89 Ford Bronco Ranger",
-      "german": "'89 Ford Bronco Wildhüter",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'89 Ford Bronco Wildhüter",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89Rollbar",
       "english": "Rollbar",
-      "german": "Überrollbügel",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Überrollbügel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89Roofrack",
       "english": "Roofrack",
-      "german": "Dachgepäckträger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89BedCover",
       "english": "Bed Cover",
-      "german": "Ladeflächenaufbau",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenaufbau",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89Barrier",
       "english": "Bed Barrier",
-      "german": "Laderaumabtrennung",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Laderaumabtrennung",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89Trunk",
       "english": "Bed Storage",
-      "german": "Ladefläche",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladefläche",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89FrontBumper",
       "english": "Front Bumper",
-      "german": "Frontstoßstange",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89RearBumper",
       "english": "Rear Bumper",
-      "german": "Heckstoßstange",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89SpareTireRoof",
       "english": "Roof Spare Tire",
-      "german": "Reserverad auf dem Dach",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserverad auf dem Dach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89SpareTireRear",
       "english": "Rear Spare Tire",
-      "german": "Reserverad am Heck",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserverad am Heck",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89WindshieldArmor",
       "english": "Windshield Armor",
-      "german": "Windschutzscheibenpanzerung",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibenpanzerung",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89WindowFrontLeftArmor",
       "english": "Front Left Window Armor",
-      "german": "Fensterpanzerung vorne links",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fensterpanzerung vorne links",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89WindowFrontRightArmor",
       "english": "Front Right Window Armor",
-      "german": "Fensterpanzerung vorne rechts",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fensterpanzerung vorne rechts",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89WindowRearLeftArmor",
       "english": "Rear Left Window Armor",
-      "german": "Fensterpanzerung hinten links",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fensterpanzerung hinten links",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBR89WindowRearRightArmor",
       "english": "Rear Right Window Armor",
-      "german": "Fensterpanzerung hinten rechts",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fensterpanzerung hinten rechts",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "89BroncoMakeHood",
       "english": "Make 89 Ford Bronco Hood",
-      "german": "Motorhaube für '89 Ford Bronco herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "89BroncoMakeFrontDoor",
       "english": "Make 89 Ford Bronco Front Door",
-      "german": "Vordertür für '89 Ford Bronco herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "89BroncoMakeTrunkLid",
       "english": "Make 89 Ford Bronco Trunk Lid",
-      "german": "Heckklappe für '89 Ford Bronco herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "89BroncoMakeFrontWindshield",
       "english": "Make 89 Ford Bronco Front Windshield",
-      "german": "Windschutzscheibe für '89 Ford Bronco herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "89BroncoMakeFrontSideWindow",
       "english": "Make 89 Ford Bronco Front Side Window",
-      "german": "Vordere Seitenscheibe für '89 Ford Bronco herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "89BroncoMakeRearSideWindow",
       "english": "Make 89 Ford Bronco Rear Side Window",
-      "german": "Hintere Seitenscheibe für '89 Ford Bronco herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenscheibe für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "89BroncoMakeRearWindshield",
       "english": "Make 89 Ford Bronco Rear Windshield",
-      "german": "Heckscheibe für '89 Ford Bronco herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "89BroncoMakeFrontBumper",
       "english": "Make 89 Ford Bronco Front Bumper",
-      "german": "Frontstoßstange für '89 Ford Bronco herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "89BroncoMakeRearBumper",
       "english": "Make 89 Ford Bronco Rear Bumper",
-      "german": "Heckstoßstange für '89 Ford Bronco herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "89BroncoMakeReinforcedFrontBumper",
       "english": "Make 89 Ford Bronco Reinforced Front Bumper",
-      "german": "Verstärkte Frontstoßstange für '89 Ford Bronco herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verstärkte Frontstoßstange für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "89BroncoMakeBedCap",
       "english": "Make 89 Ford Bronco Bed Cap",
-      "german": "Ladeflächenaufbau für '89 Ford Bronco herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenaufbau für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "89BroncoMakeBedBarrier",
       "english": "Make 89 Ford Bronco Bed Barrier",
-      "german": "Laderaumabtrennung für '89 Ford Bronco herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Laderaumabtrennung für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89BroncoMakeHood",
       "english": "Make 89 Ford Bronco Hood",
-      "german": "Motorhaube für '89 Ford Bronco herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89BroncoMakeFrontDoor",
       "english": "Make 89 Ford Bronco Front Door",
-      "german": "Vordertür für '89 Ford Bronco herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89BroncoMakeTrunkLid",
       "english": "Make 89 Ford Bronco Trunk Lid",
-      "german": "Heckklappe für '89 Ford Bronco herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89BroncoMakeFrontWindshield",
       "english": "Make 89 Ford Bronco Front Windshield",
-      "german": "Windschutzscheibe für '89 Ford Bronco herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89BroncoMakeFrontSideWindow",
       "english": "Make 89 Ford Bronco Front Side Window",
-      "german": "Vordere Seitenscheibe für '89 Ford Bronco herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89BroncoMakeRearSideWindow",
       "english": "Make 89 Ford Bronco Rear Side Window",
-      "german": "Hintere Seitenscheibe für '89 Ford Bronco herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenscheibe für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89BroncoMakeRearWindshield",
       "english": "Make 89 Ford Bronco Rear Windshield",
-      "german": "Heckscheibe für '89 Ford Bronco herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89BroncoMakeFrontBumper",
       "english": "Make 89 Ford Bronco Front Bumper",
-      "german": "Frontstoßstange für '89 Ford Bronco herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89BroncoMakeRearBumper",
       "english": "Make 89 Ford Bronco Rear Bumper",
-      "german": "Heckstoßstange für '89 Ford Bronco herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89BroncoMakeReinforcedFrontBumper",
       "english": "Make 89 Ford Bronco Reinforced Front Bumper",
-      "german": "Verstärkte Frontstoßstange für '89 Ford Bronco herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verstärkte Frontstoßstange für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89BroncoMakeBedCap",
       "english": "Make 89 Ford Bronco Bed Cap",
-      "german": "Ladeflächenaufbau für '89 Ford Bronco herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenaufbau für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_89BroncoMakeBedBarrier",
       "english": "Make 89 Ford Bronco Bed Barrier",
-      "german": "Laderaumabtrennung für '89 Ford Bronco herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Laderaumabtrennung für '89 Ford Bronco herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

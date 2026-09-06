@@ -13,562 +13,766 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName84jeepXJ2",
       "english": "'84 Jeep Cherokee XJ 2-door",
-      "german": "'84 Jeep Cherokee XJ Zweitürer",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'84 Jeep Cherokee XJ Zweitürer",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName84jeepXJ4",
       "english": "'84 Jeep Cherokee XJ 4-door",
-      "german": "'84 Jeep Cherokee XJ Viertürer",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'84 Jeep Cherokee XJ Viertürer",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName84jeepXJpd",
       "english": "'84 Jeep Cherokee XJ Police",
-      "german": "'84 Jeep Cherokee XJ Polizei",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'84 Jeep Cherokee XJ Polizei",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName84jeepXJksp",
       "english": "'84 Jeep Cherokee XJ KSP",
-      "german": "'84 Jeep Cherokee XJ KSP",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'84 Jeep Cherokee XJ KSP",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName84jeepXJranger",
       "english": "'84 Jeep Cherokee XJ Ranger",
-      "german": "'84 Jeep Cherokee XJ Wildhüter",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'84 Jeep Cherokee XJ Wildhüter",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartJP84Trunk",
       "english": "Trunk Storage",
-      "german": "Kofferraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartJP84Roofrack",
       "english": "Roofrack Storage",
-      "german": "Dachgepäckträger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeTire",
       "english": "Make 84 Jeep Cherokee XJ Tire",
-      "german": "Reifen für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reifen für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeHood",
       "english": "Make 84 Jeep Cherokee XJ Hood",
-      "german": "Motorhaube für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeFrontDoor",
       "english": "Make 84 Jeep Cherokee XJ Front Door",
-      "german": "Vordertür für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeRearDoor",
       "english": "Make 84 Jeep Cherokee XJ Rear Door",
-      "german": "Hintertür für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintertür für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeTrunkLid",
       "english": "Make 84 Jeep Cherokee XJ Trunk Lid",
-      "german": "Heckklappe für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeFrontSeat",
       "english": "Make 84 Jeep Cherokee XJ Front Seat",
-      "german": "Vordersitz für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordersitz für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeRearSeat",
       "english": "Make 84 Jeep Cherokee XJ Rear Seat",
-      "german": "Rücksitz für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rücksitz für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeFrontWindshield",
       "english": "Make 84 Jeep Cherokee XJ Front Windshield",
-      "german": "Windschutzscheibe für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeFrontSideWindow",
       "english": "Make 84 Jeep Cherokee XJ Front Side Window",
-      "german": "Vordere Seitenscheibe für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeRearSideWindow",
       "english": "Make 84 Jeep Cherokee XJ Rear Side Window",
-      "german": "Hintere Seitenscheibe für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenscheibe für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeBackSideWindow",
       "english": "Make 84 Jeep Cherokee XJ Back Side Window",
-      "german": "Laderaumseitenscheibe für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Laderaumseitenscheibe für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeRearWindshield",
       "english": "Make 84 Jeep Cherokee XJ Rear Windshield",
-      "german": "Heckscheibe für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeFrontWindshieldArmor",
       "english": "Make 84 Jeep Cherokee XJ Front Windshield Armor",
-      "german": "Windschutzscheibenpanzerung für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibenpanzerung für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeFrontWindowArmor",
       "english": "Make 84 Jeep Cherokee XJ Front Window Armor",
-      "german": "Vordere Seitenfensterpanzerung für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenfensterpanzerung für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeRearWindowArmor",
       "english": "Make 84 Jeep Cherokee XJ Rear Window Armor",
-      "german": "Hintere Seitenfensterpanzerung für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenfensterpanzerung für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeBackWindowArmor",
       "english": "Make 84 Jeep Cherokee XJ Back Window Armor",
-      "german": "Laderaumfensterpanzerung für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Laderaumfensterpanzerung für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeRearWindshieldArmor",
       "english": "Make 84 Jeep Cherokee XJ Rear Windshield Armor",
-      "german": "Heckscheibenpanzerung für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibenpanzerung für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeFrontBumper",
       "english": "Make 84 Jeep Cherokee XJ Front Bumper",
-      "german": "Frontstoßstange für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeFrontPushBumper",
       "english": "Make 84 Jeep Cherokee XJ Front Push Bumper",
-      "german": "Vordere Schubstoßstange für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Schubstoßstange für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeFrontBullbar",
       "english": "Make 84 Jeep Cherokee XJ Front Bullbar",
-      "german": "Frontschutzbügel für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontschutzbügel für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeRearBumper",
       "english": "Make 84 Jeep Cherokee XJ Rear Bumper",
-      "german": "Heckstoßstange für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "84jeepXJMakeRoofrack",
       "english": "Make 84 Jeep Cherokee XJ Roofrack",
-      "german": "Dachgepäckträger für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeTire",
       "english": "Make 84 Jeep Cherokee XJ Tire",
-      "german": "Reifen für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reifen für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeHood",
       "english": "Make 84 Jeep Cherokee XJ Hood",
-      "german": "Motorhaube für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeFrontDoor",
       "english": "Make 84 Jeep Cherokee XJ Front Door",
-      "german": "Vordertür für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeRearDoor",
       "english": "Make 84 Jeep Cherokee XJ Rear Door",
-      "german": "Hintertür für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintertür für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeTrunkLid",
       "english": "Make 84 Jeep Cherokee XJ Trunk Lid",
-      "german": "Heckklappe für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeFrontSeat",
       "english": "Make 84 Jeep Cherokee XJ Front Seat",
-      "german": "Vordersitz für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordersitz für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeRearSeat",
       "english": "Make 84 Jeep Cherokee XJ Rear Seat",
-      "german": "Rücksitz für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rücksitz für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeFrontWindshield",
       "english": "Make 84 Jeep Cherokee XJ Front Windshield",
-      "german": "Windschutzscheibe für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeFrontSideWindow",
       "english": "Make 84 Jeep Cherokee XJ Front Side Window",
-      "german": "Vordere Seitenscheibe für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeRearSideWindow",
       "english": "Make 84 Jeep Cherokee XJ Rear Side Window",
-      "german": "Hintere Seitenscheibe für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenscheibe für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeBackSideWindow",
       "english": "Make 84 Jeep Cherokee XJ Back Side Window",
-      "german": "Laderaumseitenscheibe für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Laderaumseitenscheibe für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeRearWindshield",
       "english": "Make 84 Jeep Cherokee XJ Rear Windshield",
-      "german": "Heckscheibe für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeFrontWindshieldArmor",
       "english": "Make 84 Jeep Cherokee XJ Front Windshield Armor",
-      "german": "Windschutzscheibenpanzerung für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibenpanzerung für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeFrontWindowArmor",
       "english": "Make 84 Jeep Cherokee XJ Front Window Armor",
-      "german": "Vordere Seitenfensterpanzerung für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenfensterpanzerung für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeRearWindowArmor",
       "english": "Make 84 Jeep Cherokee XJ Rear Window Armor",
-      "german": "Hintere Seitenfensterpanzerung für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hintere Seitenfensterpanzerung für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeBackWindowArmor",
       "english": "Make 84 Jeep Cherokee XJ Back Window Armor",
-      "german": "Laderaumfensterpanzerung für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Laderaumfensterpanzerung für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeRearWindshieldArmor",
       "english": "Make 84 Jeep Cherokee XJ Rear Windshield Armor",
-      "german": "Heckscheibenpanzerung für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibenpanzerung für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeFrontBumper",
       "english": "Make 84 Jeep Cherokee XJ Front Bumper",
-      "german": "Frontstoßstange für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeFrontPushBumper",
       "english": "Make 84 Jeep Cherokee XJ Front Push Bumper",
-      "german": "Vordere Schubstoßstange für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Schubstoßstange für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeFrontBullbar",
       "english": "Make 84 Jeep Cherokee XJ Front Bullbar",
-      "german": "Frontschutzbügel für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontschutzbügel für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeRearBumper",
       "english": "Make 84 Jeep Cherokee XJ Rear Bumper",
-      "german": "Heckstoßstange für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_84jeepXJMakeRoofrack",
       "english": "Make 84 Jeep Cherokee XJ Roofrack",
-      "german": "Dachgepäckträger für '84 Jeep Cherokee XJ herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger für '84 Jeep Cherokee XJ herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

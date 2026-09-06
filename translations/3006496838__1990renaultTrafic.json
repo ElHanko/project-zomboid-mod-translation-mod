@@ -13,111 +13,151 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName1990renaultTrafic",
       "english": "Renault Trafic 1990",
-      "german": "Renault Trafic 1990",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic 1990",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName1990renaultTraficRojo",
       "english": "Renault Trafic 1990",
-      "german": "Renault Trafic 1990",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic 1990",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName1990renaultTraficNegro",
       "english": "Renault Trafic 1990",
-      "german": "Renault Trafic 1990",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic 1990",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName1990renaultTraficAmarillo",
       "english": "Renault Trafic 1990",
-      "german": "Renault Trafic 1990",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic 1990",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName1990renaultTraficVerde",
       "english": "Renault Trafic 1990",
-      "german": "Renault Trafic 1990",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic 1990",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName1990renaultTraficLechero",
       "english": "Renault Trafic Milkman 1990",
-      "german": "Renault Trafic Milchwagen 1990",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic Milchwagen 1990",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName1990renaultTraficATC",
       "english": "Renault Trafic ATC 1990",
-      "german": "Renault Trafic ATC 1990",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic ATC 1990",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName1990renaultTraficPasajeros",
       "english": "Renault Trafic Transport 990",
-      "german": "Renault Trafic Kleinbus 1990",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic Kleinbus 1990",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName1990renaultTraficAmbulancia",
       "english": "Renault Trafic Ambulance 1990",
-      "german": "Renault Trafic Krankenwagen 1990",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic Krankenwagen 1990",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName1990renaultTraficCamper",
       "english": "Renault Trafic Camper 1990",
-      "german": "Renault Trafic Wohnmobil 1990",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic Wohnmobil 1990",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

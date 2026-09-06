@@ -13,166 +13,226 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName85buickLeSabreSedan",
       "english": "'85 Buick LeSabre Sedan",
-      "german": "'85 Buick LeSabre Limousine",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Buick LeSabre Limousine",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85buickLeSabreCoupe",
       "english": "'85 Buick LeSabre Coupe",
-      "german": "'85 Buick LeSabre Coupé",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Buick LeSabre Coupé",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85buickLeSabreWagon",
       "english": "'85 Buick LeSabre Wagon",
-      "german": "'85 Buick LeSabre Kombi",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Buick LeSabre Kombi",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName85buickLeSabreWagon2",
       "english": "'85 Buick LeSabre Wagon",
-      "german": "'85 Buick LeSabre Kombi",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'85 Buick LeSabre Kombi",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartLES85Trunk",
       "english": "Trunk Storage",
-      "german": "Kofferraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartLES85TrunkWagon",
       "english": "Trunk Storage",
-      "german": "Kofferraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartGM85Roofrack",
       "english": "Roofrack",
-      "german": "Dachgepäckträger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartGM85VinylRoof",
       "english": "Vinyl Roof Cover",
-      "german": "Vinyldachbezug",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vinyldachbezug",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85buickLeSabreMakeHood",
       "english": "Make 85 Buick LeSabre Hood",
-      "german": "Motorhaube für '85 Buick LeSabre herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '85 Buick LeSabre herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85buickLeSabreMakeTrunkLid",
       "english": "Make 85 Buick LeSabre Trunk Lid",
-      "german": "Kofferraumdeckel für '85 Buick LeSabre herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kofferraumdeckel für '85 Buick LeSabre herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85buickLeSabreMakeFrontSeat",
       "english": "Make 85 Buick LeSabre Front Seat",
-      "german": "Vordersitz für '85 Buick LeSabre herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordersitz für '85 Buick LeSabre herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85buickLeSabreMakeRearSeat",
       "english": "Make 85 Buick LeSabre Rear Seat",
-      "german": "Rücksitz für '85 Buick LeSabre herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rücksitz für '85 Buick LeSabre herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85buickLeSabreMakeFrontBumper",
       "english": "Make 85 Buick LeSabre Front Bumper",
-      "german": "Frontstoßstange für '85 Buick LeSabre herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '85 Buick LeSabre herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85buickLeSabreMakeReinforcedFrontBumper",
       "english": "Make 85 Buick LeSabre Reinforced Front Bumper",
-      "german": "Verstärkte Frontstoßstange für '85 Buick LeSabre herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verstärkte Frontstoßstange für '85 Buick LeSabre herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_85buickLeSabreMakeRearBumper",
       "english": "Make 85 Buick LeSabre Rear Bumper",
-      "german": "Heckstoßstange für '85 Buick LeSabre herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange für '85 Buick LeSabre herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

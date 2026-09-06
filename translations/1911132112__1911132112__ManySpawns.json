@@ -13,89 +13,121 @@
       "category": "__plain__",
       "key": "Many Spawns Casual/description.txt",
       "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - CASUAL <LINE> <LINE>\n<LEFT> <SIZE:small> 2,580 spawn points. No difficult points like jails or isolated areas. Implemented for all professions. <LINE> <LINE>",
-      "german": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE – ENTSPANNT <LINE> <LINE>\n<LEFT> <SIZE:small> 2.580 Startpunkte ohne Gefängnisse oder abgelegene Gebiete. Für alle Berufe verfügbar.",
       "source_file": "Many Spawns Casual/description.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE – ENTSPANNT <LINE> <LINE>\n<LEFT> <SIZE:small> 2.580 Startpunkte ohne Gefängnisse oder abgelegene Gebiete. Für alle Berufe verfügbar.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Many Spawns Casual/title.txt",
       "english": "Random Spawns - Casual",
-      "german": "Zufällige Startpunkte – Entspannt",
       "source_file": "Many Spawns Casual/title.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zufällige Startpunkte – Entspannt",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Many Spawns Even Distribution/description.txt",
       "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - EVEN DISTRIBUTION <LINE> <LINE>\n<LEFT> <SIZE:small> One spawn per 300x300 world cell (365 total) across the map. Implemented for all professions. <LINE> <LINE>",
-      "german": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - GLEICHMÄSSIG VERTEILT <LINE> <LINE>\n<LEFT> <SIZE:small> Ein Startpunkt pro 300x300 Felder großer Weltzelle auf der gesamten Karte (insgesamt 365). Für alle Berufe verfügbar. <LINE> <LINE>",
       "source_file": "Many Spawns Even Distribution/description.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - GLEICHMÄSSIG VERTEILT <LINE> <LINE>\n<LEFT> <SIZE:small> Ein Startpunkt pro 300x300 Felder großer Weltzelle auf der gesamten Karte (insgesamt 365). Für alle Berufe verfügbar. <LINE> <LINE>",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Many Spawns Even Distribution/title.txt",
       "english": "Random Spawns - Even Distribution",
-      "german": "Zufällige Startpunkte - Gleichmäßig verteilt",
       "source_file": "Many Spawns Even Distribution/title.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zufällige Startpunkte - Gleichmäßig verteilt",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Many Spawns Full/description.txt",
       "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - FULL <LINE> <LINE>\n<LEFT> <SIZE:small> 2,688 random spawn points across the entire map. Implemented for all professions. <LINE> <LINE>",
-      "german": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - ALLE <LINE> <LINE>\n<LEFT> <SIZE:small> 2.688 zufällige Startpunkte auf der gesamten Karte. Für alle Berufe verfügbar. <LINE> <LINE>",
       "source_file": "Many Spawns Full/description.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - ALLE <LINE> <LINE>\n<LEFT> <SIZE:small> 2.688 zufällige Startpunkte auf der gesamten Karte. Für alle Berufe verfügbar. <LINE> <LINE>",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "Many Spawns Full/title.txt",
       "english": "Random Spawns - Full",
-      "german": "Zufällige Startpunkte - Alle",
       "source_file": "Many Spawns Full/title.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zufällige Startpunkte - Alle",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "One Per City/description.txt",
       "english": "<CENTRE> <SIZE:medium> RANDOM SPAWNS - ONE PER CITY <LINE> <LINE>\n<LEFT> <SIZE:small> One spawn hotspot per major area (15 total), excluding Isolated Areas, for an even city-start spread. <LINE> <LINE>",
-      "german": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - EINER PRO STADT <LINE> <LINE>\n<LEFT> <SIZE:small> Ein zentraler Startpunkt pro größerem Gebiet (insgesamt 15), ausgenommen abgelegene Gebiete. So sind die Spielstarts gleichmäßig auf die Städte verteilt. <LINE> <LINE>",
       "source_file": "One Per City/description.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "<CENTRE> <SIZE:medium> ZUFÄLLIGE STARTPUNKTE - EINER PRO STADT <LINE> <LINE>\n<LEFT> <SIZE:small> Ein zentraler Startpunkt pro größerem Gebiet (insgesamt 15), ausgenommen abgelegene Gebiete. So sind die Spielstarts gleichmäßig auf die Städte verteilt. <LINE> <LINE>",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "__plain__",
       "key": "One Per City/title.txt",
       "english": "Random Spawns - One Per City",
-      "german": "Zufällige Startpunkte - Einer pro Stadt",
       "source_file": "One Per City/title.txt",
       "source_layer": "42.13",
       "source_format": "plain-title-description",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Zufällige Startpunkte - Einer pro Stadt",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

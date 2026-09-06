@@ -13,45 +13,61 @@
       "category": "ContextMenu",
       "key": "ContextMenu_AutoTailoring",
       "english": "Train Tailoring",
-      "german": "Schneidern trainieren",
       "source_file": "ContextMenu_EN.txt",
       "source_layer": "common",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schneidern trainieren",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Moodles",
       "key": "Moodles_ClothingHole_Good_lvl2",
       "english": "No more hole in your worn clothes",
-      "german": "Keine Löcher mehr in deiner Kleidung.",
       "source_file": "Moodles_EN.txt",
       "source_layer": "common",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Keine Löcher mehr in deiner Kleidung.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Moodles",
       "key": "Moodles_ClothingHole_Bad_lvl2",
       "english": "You can feel the air flowing through your pierced clothes",
-      "german": "Du kannst den Luftzug durch deine löchrige Kleidung spüren.",
       "source_file": "Moodles_EN.txt",
       "source_layer": "common",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Du kannst den Luftzug durch deine löchrige Kleidung spüren.",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Moodles",
       "key": "Moodles_ClothingHole_Custom",
       "english": "It may be time to take care of your %1 holes.",
-      "german": "Es könnte an der Zeit sein, dich um deine %1 Löcher zu kümmern.",
       "source_file": "Moodles_EN.txt",
       "source_layer": "common",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Es könnte an der Zeit sein, dich um deine %1 Löcher zu kümmern.",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

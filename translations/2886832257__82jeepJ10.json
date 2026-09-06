@@ -13,375 +13,511 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName82jeepJ10",
       "english": "'82 Jeep J10",
-      "german": "'82 Jeep J10",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'82 Jeep J10",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName82jeepJ10t",
       "english": "'82 Jeep J10 Mellow Yellow",
-      "german": "'82 Jeep J10 Mellow Yellow",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'82 Jeep J10 Mellow Yellow",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName82jeepJ10pd",
       "english": "'82 Jeep J10 Police",
-      "german": "'82 Jeep J10 Polizei",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'82 Jeep J10 Polizei",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName82jeepJ10ranger",
       "english": "'82 Jeep J10 Ranger",
-      "german": "'82 Jeep J10 Wildhüter",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'82 Jeep J10 Wildhüter",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartJP82Dorothy",
       "english": "Dorothy",
-      "german": "Dorothy",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dorothy",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartJP82Windy",
       "english": "Anemometer",
-      "german": "Windmesser",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windmesser",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartJP82Rollbar",
       "english": "Rollbar",
-      "german": "Überrollbügel",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Überrollbügel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartJP82Roofrack",
       "english": "Roofrack",
-      "german": "Dachgepäckträger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartJP82BedCover",
       "english": "Bed Cover",
-      "german": "Ladeflächenaufbau",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenaufbau",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartJP82TrunkDoorTop",
       "english": "Bed Cover Lid",
-      "german": "Klappe des Ladeflächenaufbaus",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Klappe des Ladeflächenaufbaus",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartJP82Trunk",
       "english": "Bed Storage",
-      "german": "Ladefläche",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladefläche",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartJP82Trunkt",
       "english": "Some Bed Storage",
-      "german": "Restlicher Stauraum auf der Ladefläche",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Restlicher Stauraum auf der Ladefläche",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "82jeepJ10MakeHood",
       "english": "Make 82 Jeep J10 Hood",
-      "german": "Motorhaube für '82 Jeep J10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "82jeepJ10MakeFrontDoor",
       "english": "Make 82 Jeep J10 Front Door",
-      "german": "Vordertür für '82 Jeep J10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "82jeepJ10MakeTrunkLid",
       "english": "Make 82 Jeep J10 Trunk Lid",
-      "german": "Heckklappe für '82 Jeep J10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "82jeepJ10MakeTopTrunkLid",
       "english": "Make 82 Jeep J10 Top Trunk Lid",
-      "german": "Klappe des Ladeflächenaufbaus für '82 Jeep J10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Klappe des Ladeflächenaufbaus für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "82jeepJ10MakeFrontWindshield",
       "english": "Make 82 Jeep J10 Front Windshield",
-      "german": "Windschutzscheibe für '82 Jeep J10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "82jeepJ10MakeFrontSideWindow",
       "english": "Make 82 Jeep J10 Front Side Window",
-      "german": "Vordere Seitenscheibe für '82 Jeep J10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "82jeepJ10MakeRearWindshield",
       "english": "Make 82 Jeep J10 Rear Windshield",
-      "german": "Heckscheibe für '82 Jeep J10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "82jeepJ10MakeFrontBumper",
       "english": "Make 82 Jeep J10 Front Bumper",
-      "german": "Frontstoßstange für '82 Jeep J10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "82jeepJ10MakeRearBumper",
       "english": "Make 82 Jeep J10 Rear Bumper",
-      "german": "Heckstoßstange für '82 Jeep J10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "82jeepJ10MakeReinforcedFrontBumper",
       "english": "Make 82 Jeep J10 Reinforced Front Bumper",
-      "german": "Verstärkte Frontstoßstange für '82 Jeep J10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verstärkte Frontstoßstange für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "82jeepJ10MakeBedCap",
       "english": "Make 82 Jeep J10 Bed Cap",
-      "german": "Ladeflächenaufbau für '82 Jeep J10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenaufbau für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_82jeepJ10MakeHood",
       "english": "Make 82 Jeep J10 Hood",
-      "german": "Motorhaube für '82 Jeep J10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_82jeepJ10MakeFrontDoor",
       "english": "Make 82 Jeep J10 Front Door",
-      "german": "Vordertür für '82 Jeep J10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_82jeepJ10MakeTrunkLid",
       "english": "Make 82 Jeep J10 Trunk Lid",
-      "german": "Heckklappe für '82 Jeep J10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_82jeepJ10MakeTopTrunkLid",
       "english": "Make 82 Jeep J10 Top Trunk Lid",
-      "german": "Klappe des Ladeflächenaufbaus für '82 Jeep J10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Klappe des Ladeflächenaufbaus für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_82jeepJ10MakeFrontWindshield",
       "english": "Make 82 Jeep J10 Front Windshield",
-      "german": "Windschutzscheibe für '82 Jeep J10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_82jeepJ10MakeFrontSideWindow",
       "english": "Make 82 Jeep J10 Front Side Window",
-      "german": "Vordere Seitenscheibe für '82 Jeep J10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_82jeepJ10MakeRearWindshield",
       "english": "Make 82 Jeep J10 Rear Windshield",
-      "german": "Heckscheibe für '82 Jeep J10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_82jeepJ10MakeFrontBumper",
       "english": "Make 82 Jeep J10 Front Bumper",
-      "german": "Frontstoßstange für '82 Jeep J10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_82jeepJ10MakeRearBumper",
       "english": "Make 82 Jeep J10 Rear Bumper",
-      "german": "Heckstoßstange für '82 Jeep J10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_82jeepJ10MakeReinforcedFrontBumper",
       "english": "Make 82 Jeep J10 Reinforced Front Bumper",
-      "german": "Verstärkte Frontstoßstange für '82 Jeep J10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verstärkte Frontstoßstange für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_82jeepJ10MakeBedCap",
       "english": "Make 82 Jeep J10 Bed Cap",
-      "german": "Ladeflächenaufbau für '82 Jeep J10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenaufbau für '82 Jeep J10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

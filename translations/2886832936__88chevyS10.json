@@ -13,309 +13,421 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName88chevyS10",
       "english": "'88 Chevrolet S10",
-      "german": "'88 Chevrolet S10",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'88 Chevrolet S10",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartCH88Rollbar",
       "english": "Rollbar",
-      "german": "Überrollbügel",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Überrollbügel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartCH88Roofrack",
       "english": "Roofrack",
-      "german": "Dachgepäckträger",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartCH88BedCover",
       "english": "Bed Cover",
-      "german": "Ladeflächenaufbau",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenaufbau",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartCH88TrunkDoorTop",
       "english": "Bed Cover Lid",
-      "german": "Klappe des Ladeflächenaufbaus",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Klappe des Ladeflächenaufbaus",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartCH88Trunk",
       "english": "Bed Storage",
-      "german": "Ladefläche",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladefläche",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "88ChevyS10MakeHood",
       "english": "Make 88 Chevrolet S10 Hood",
-      "german": "Motorhaube für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "88ChevyS10MakeFrontDoor",
       "english": "Make 88 Chevrolet S10 Front Door",
-      "german": "Vordertür für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "88ChevyS10MakeTrunkLid",
       "english": "Make 88 Chevrolet S10 Trunk Lid",
-      "german": "Heckklappe für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "88ChevyS10MakeTopTrunkLid",
       "english": "Make 88 Chevrolet S10 Top Trunk Lid",
-      "german": "Klappe des Ladeflächenaufbaus für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Klappe des Ladeflächenaufbaus für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "88ChevyS10MakeFrontWindshield",
       "english": "Make 88 Chevrolet S10 Front Windshield",
-      "german": "Windschutzscheibe für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "88ChevyS10MakeFrontSideWindow",
       "english": "Make 88 Chevrolet S10 Front Side Window",
-      "german": "Vordere Seitenscheibe für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "88ChevyS10MakeRearWindshield",
       "english": "Make 88 Chevrolet S10 Rear Windshield",
-      "german": "Heckscheibe für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "88ChevyS10MakeFrontBumper",
       "english": "Make 88 Chevrolet S10 Front Bumper",
-      "german": "Frontstoßstange für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "88ChevyS10MakeRearBumper",
       "english": "Make 88 Chevrolet S10 Rear Bumper",
-      "german": "Heckstoßstange für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "88ChevyS10MakeReinforcedFrontBumper",
       "english": "Make 88 Chevrolet S10 Reinforced Front Bumper",
-      "german": "Verstärkte Frontstoßstange für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verstärkte Frontstoßstange für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "88ChevyS10MakeBedCap",
       "english": "Make 88 Chevrolet S10 Bed Cap",
-      "german": "Ladeflächenaufbau für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes.json",
       "source_layer": "common",
       "source_format": "json",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenaufbau für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_88ChevyS10MakeHood",
       "english": "Make 88 Chevrolet S10 Hood",
-      "german": "Motorhaube für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_88ChevyS10MakeFrontDoor",
       "english": "Make 88 Chevrolet S10 Front Door",
-      "german": "Vordertür für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordertür für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_88ChevyS10MakeTrunkLid",
       "english": "Make 88 Chevrolet S10 Trunk Lid",
-      "german": "Heckklappe für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckklappe für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_88ChevyS10MakeTopTrunkLid",
       "english": "Make 88 Chevrolet S10 Top Trunk Lid",
-      "german": "Klappe des Ladeflächenaufbaus für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Klappe des Ladeflächenaufbaus für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_88ChevyS10MakeFrontWindshield",
       "english": "Make 88 Chevrolet S10 Front Windshield",
-      "german": "Windschutzscheibe für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_88ChevyS10MakeFrontSideWindow",
       "english": "Make 88 Chevrolet S10 Front Side Window",
-      "german": "Vordere Seitenscheibe für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_88ChevyS10MakeRearWindshield",
       "english": "Make 88 Chevrolet S10 Rear Windshield",
-      "german": "Heckscheibe für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_88ChevyS10MakeFrontBumper",
       "english": "Make 88 Chevrolet S10 Front Bumper",
-      "german": "Frontstoßstange für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontstoßstange für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_88ChevyS10MakeRearBumper",
       "english": "Make 88 Chevrolet S10 Rear Bumper",
-      "german": "Heckstoßstange für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckstoßstange für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_88ChevyS10MakeReinforcedFrontBumper",
       "english": "Make 88 Chevrolet S10 Reinforced Front Bumper",
-      "german": "Verstärkte Frontstoßstange für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Verstärkte Frontstoßstange für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_88ChevyS10MakeBedCap",
       "english": "Make 88 Chevrolet S10 Bed Cap",
-      "german": "Ladeflächenaufbau für '88 Chevrolet S10 herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Ladeflächenaufbau für '88 Chevrolet S10 herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }

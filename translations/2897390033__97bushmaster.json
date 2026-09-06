@@ -13,617 +13,841 @@
       "category": "IG_UI",
       "key": "IGUI_VehicleName97bushmaster",
       "english": "'97 Bushmaster",
-      "german": "'97 Bushmaster",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'97 Bushmaster",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehicleName97bushAmbulance",
       "english": "'97 Bushmaster Ambulance",
-      "german": "'97 Bushmaster Sanitätsfahrzeug",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "'97 Bushmaster Sanitätsfahrzeug",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartSeatDriver",
       "english": "Driver Seat",
-      "german": "Fahrersitz",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fahrersitz",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartSeatSupport",
       "english": "Support Seat",
-      "german": "Beifahrersitz",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Beifahrersitz",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartSeatCrew1",
       "english": "Crew Seat 1",
-      "german": "Mannschaftssitz 1",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mannschaftssitz 1",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartSeatCrew2",
       "english": "Crew Seat 2",
-      "german": "Mannschaftssitz 2",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mannschaftssitz 2",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartSeatCrew3",
       "english": "Crew Seat 3",
-      "german": "Mannschaftssitz 3",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mannschaftssitz 3",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartSeatCrew4",
       "english": "Crew Seat 4",
-      "german": "Mannschaftssitz 4",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mannschaftssitz 4",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartSeatCrew5",
       "english": "Crew Seat 5",
-      "german": "Mannschaftssitz 5",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mannschaftssitz 5",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartSeatCrew6",
       "english": "Crew Seat 6",
-      "german": "Mannschaftssitz 6",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mannschaftssitz 6",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartSeatCrew7",
       "english": "Crew Seat 7",
-      "german": "Mannschaftssitz 7",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mannschaftssitz 7",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartSeatCrew8",
       "english": "Crew Seat 8",
-      "german": "Mannschaftssitz 8",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Mannschaftssitz 8",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartGunner",
       "english": "Gunner Sling Seat",
-      "german": "Hängesitz für den Schützen",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Hängesitz für den Schützen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartSeatStretcher",
       "english": "Stretcher",
-      "german": "Krankentrage",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Krankentrage",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHFenderLeft",
       "english": "Left Rear Fender",
-      "german": "Kotflügel hinten links",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kotflügel hinten links",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHFenderRight",
       "english": "Right Rear Fender",
-      "german": "Kotflügel hinten rechts",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kotflügel hinten rechts",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartStorageLid1",
       "english": "Left Fender Storage Lid",
-      "german": "Staufachklappe am linken Kotflügel",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Staufachklappe am linken Kotflügel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartStorageLid2",
       "english": "Right Fender Storage Lid",
-      "german": "Staufachklappe am rechten Kotflügel",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Staufachklappe am rechten Kotflügel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHStorageLeft",
       "english": "Left Side Storage",
-      "german": "Linker Seitenstauraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Linker Seitenstauraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHStorageRight",
       "english": "Right Side Storage",
-      "german": "Rechter Seitenstauraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rechter Seitenstauraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartStorageLid3",
       "english": "Right Side Storage Lid",
-      "german": "Rechte Seitenstauraumklappe",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rechte Seitenstauraumklappe",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHRoofCrates",
       "english": "Roof Storage",
-      "german": "Dachstauraum",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachstauraum",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHAmmoCabinet",
       "english": "Ammo Cabinet",
-      "german": "Munitionsschrank",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Munitionsschrank",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHMedicCabinet",
       "english": "Medicine Cabinet",
-      "german": "Medikamentenschrank",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Medikamentenschrank",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHFloor",
       "english": "Vehicle Floor",
-      "german": "Fahrzeugboden",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Fahrzeugboden",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHSpareRight",
       "english": "Spare Tire Right",
-      "german": "Reserverad rechts",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserverad rechts",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHSpareRoof",
       "english": "Spare Tire Roof",
-      "german": "Reserverad auf dem Dach",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserverad auf dem Dach",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHStorageSpare",
       "english": "Spare Tire Bottom",
-      "german": "Reserverad unten",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Reserverad unten",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartTrunkHatch",
       "english": "Roof Hatch",
-      "german": "Dachluke",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachluke",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHBullbar",
       "english": "Bullbar",
-      "german": "Frontschutzbügel",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHCanOne",
       "english": "Side Can 1",
-      "german": "Seitlicher Kanister 1",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitlicher Kanister 1",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHCanTwo",
       "english": "Side Can 2",
-      "german": "Seitlicher Kanister 2",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitlicher Kanister 2",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHCanThree",
       "english": "Side Can 3",
-      "german": "Seitlicher Kanister 3",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitlicher Kanister 3",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHCanFour",
       "english": "Side Can 4",
-      "german": "Seitlicher Kanister 4",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitlicher Kanister 4",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "IG_UI",
       "key": "IGUI_VehiclePartBUSHCanFive",
       "english": "Side Can 5",
-      "german": "Seitlicher Kanister 5",
       "source_file": "IG_UI_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitlicher Kanister 5",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeHood",
       "english": "Make 97 Bushmaster Hood",
-      "german": "Motorhaube für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Motorhaube für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeDoor",
       "english": "Make 97 Bushmaster Door",
-      "german": "Tür für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Tür für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeHatch",
       "english": "Make 97 Bushmaster Hatch",
-      "german": "Luke für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Luke für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeSmallStorageLid",
       "english": "Make 97 Bushmaster Small Storage Lid",
-      "german": "Kleine Staufachklappe für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kleine Staufachklappe für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeLargeStorageLid",
       "english": "Make 97 Bushmaster Large Storage Lid",
-      "german": "Große Staufachklappe für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Große Staufachklappe für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeFrontWindshield",
       "english": "Make 97 Bushmaster Front Windshield",
-      "german": "Windschutzscheibe für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Windschutzscheibe für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeFrontSideWindow",
       "english": "Make 97 Bushmaster Front Side Window",
-      "german": "Vordere Seitenscheibe für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vordere Seitenscheibe für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeSideWindow",
       "english": "Make 97 Bushmaster Side Window",
-      "german": "Seitenscheibe für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Seitenscheibe für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeRearWindshield",
       "english": "Make 97 Bushmaster Rear Windshield",
-      "german": "Heckscheibe für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Heckscheibe für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeRoofCrates",
       "english": "Make 97 Bushmaster Roof Crates",
-      "german": "Dachkisten für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Dachkisten für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeFrontBullbar",
       "english": "Make 97 Bushmaster Front Bullbar",
-      "german": "Frontschutzbügel für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Frontschutzbügel für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeMudflaps",
       "english": "Make 97 Bushmaster Mudflaps",
-      "german": "Schmutzfänger für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schmutzfänger für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeGastank",
       "english": "Make 97 Bushmaster Gastank",
-      "german": "Kraftstofftank für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Kraftstofftank für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeLeftFender",
       "english": "Make 97 Bushmaster Left Fender",
-      "german": "Linken Kotflügel für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Linken Kotflügel für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeRightFender",
       "english": "Make 97 Bushmaster Right Fender",
-      "german": "Rechten Kotflügel für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rechten Kotflügel für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeLeftStorage",
       "english": "Make 97 Bushmaster Left Storage",
-      "german": "Linken Seitenstauraum für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Linken Seitenstauraum für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeRightStorage",
       "english": "Make 97 Bushmaster Right Storage",
-      "german": "Rechten Seitenstauraum für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Rechten Seitenstauraum für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeSeat",
       "english": "Make 97 Bushmaster Seat",
-      "german": "Sitz für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Sitz für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Recipes",
       "key": "Recipe_97bushmasterMakeGunnerSeat",
       "english": "Make 97 Bushmaster Gunner Seat",
-      "german": "Schützensitz für '97 Bushmaster herstellen",
       "source_file": "Recipes_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Schützensitz für '97 Bushmaster herstellen",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Sandbox",
       "key": "Sandbox_DAMN_Spawns",
       "english": "KI5 | Guaranteed spawns",
-      "german": "KI5 | Garantierte Fahrzeug-Spawnpunkte",
       "source_file": "Sandbox_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "KI5 | Garantierte Fahrzeug-Spawnpunkte",
+          "needed": true,
+          "review": false
+        }
+      }
     },
     {
       "category": "Sandbox",
       "key": "Sandbox_DAMN_AllowBushmasterSpawns",
       "english": "Enable preset '97 ADI Bushmaster spawns",
-      "german": "Vorgegebene Spawnpunkte für '97 ADI Bushmaster aktivieren",
       "source_file": "Sandbox_EN.txt",
       "source_layer": "42.13",
       "source_format": "legacy-txt",
-      "needed": true,
-      "review": false
+      "translations": {
+        "DE": {
+          "text": "Vorgegebene Spawnpunkte für '97 ADI Bushmaster aktivieren",
+          "needed": true,
+          "review": false
+        }
+      }
     }
   ]
 }
