@@ -398,6 +398,60 @@ optional ZIP are staged before replacement. An export replaces the prior
 directory with exactly the selected languages. Without `--zip`, an existing ZIP
 is left untouched; rerun with `--zip` to refresh it. `dist/` is ignored by Git.
 
+### Manual installation
+
+The exported directory or ZIP can be installed without the development
+repository or any Python tooling.
+
+#### Linux
+
+Extract or copy the `Project-Zomboid-Mod-Translations` directory to:
+
+`~/Zomboid/mods/Project-Zomboid-Mod-Translations/`
+
+The resulting layout should begin with:
+
+```text
+~/Zomboid/mods/Project-Zomboid-Mod-Translations/
+├── common/
+│   └── mod.info
+└── 42/
+    └── mod.info
+```
+
+For the ZIP export:
+
+```bash
+mkdir -p ~/Zomboid/mods
+unzip Project-Zomboid-Mod-Translations.zip -d ~/Zomboid/mods/
+```
+
+#### Windows
+
+Extract or copy the `Project-Zomboid-Mod-Translations` directory to:
+
+`%UserProfile%\Zomboid\mods\Project-Zomboid-Mod-Translations`
+
+For example:
+
+`C:\Users\YourName\Zomboid\mods\Project-Zomboid-Mod-Translations`
+
+The resulting layout should begin with:
+
+```text
+Project-Zomboid-Mod-Translations
+├── common
+│   └── mod.info
+└── 42
+    └── mod.info
+```
+
+After installation, start Project Zomboid and enable **ElHanko Mod Translations** in the Mods menu.
+
+The original supported Workshop mods remain separate. Install and enable
+whichever of them you want to use; the translation mod may contain translations
+for mods that are not currently installed.
+
 ## Local install
 
 ```bash
