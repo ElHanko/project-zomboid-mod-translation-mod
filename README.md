@@ -102,9 +102,11 @@ counts by category. Type and category filters can be used together:
 ./pzgt audit "Project Zomboid" --language DE --category RadioData --type same_as_source
 ```
 
-`review` records a decision about existing Vanilla audit candidates in the draft.
-It requires an audit type and exactly one of `--need` or `--not-needed`; category
-is optional. Both commands read no live game or Workshop source.
+`review` works only with the selected draft. Choose exactly one selection:
+`--type TYPE` for Vanilla audit candidates or `--review` for entries whose selected
+language has `review=true`, including Workshop drafts. Category is optional.
+Choose exactly one action: `--need`, `--not-needed` or `--interactive`.
+Bulk decisions remain available only with `--type`:
 
 ```bash
 ./pzgt review "Project Zomboid" \
@@ -117,18 +119,58 @@ is optional. Both commands read no live game or Workshop source.
   --language DE --type same_as_source --category RadioData --not-needed
 ```
 
-Only the selected language's `needed` field changes. The audit marker, existing
+Bulk decisions change only the selected language's `needed` field. The audit marker, existing
 translation text, review flag and history remain intact. `--not-needed` never
 deactivates a missing key without an audit marker and never deletes draft text.
 Repeating an existing decision succeeds without rewriting the draft. No matching
-candidates is an error, including misspelled categories. These commands neither
-build runtime files nor create work packages. Handling `review=true` flags remains
-part of the existing translation workflow; the new command only classifies audits.
+candidates is an error, including misspelled categories.
+
+The interactive modes use ordinary terminal input, with no extra dependencies:
+
+```bash
+./pzgt review "Project Zomboid" \
+  --language DE --type same_as_source --category RadioData --interactive
+
+./pzgt review damnlib --language DE --review --interactive
+```
+
+In audit mode, `n` marks the candidate needed, `x` marks it not needed, and `t`
+accepts a direct translation. `n` and `x` preserve every other state field. A valid
+translation sets `needed=true`, clears `review` and removes `previous_english`,
+while preserving the audit marker. The displayed official target is inferred
+from the draft audit: empty for `blank_target`, stored English for `same_as_source`.
+
+In `--review` mode, `a` confirms existing text and `t` replaces it. Both clear
+`review` and remove `previous_english` after validating nonempty text and matching
+placeholders against current English. Neither changes `needed`, even when the
+entry also has an audit marker. The display includes previous and current English.
+
+In both modes, `s` skips and `q` exits. Direct translation input is one line;
+empty input cancels text entry, and placeholder errors leave the entry unchanged.
+The same candidate stays selected after either rejection. Only the chosen language
+is edited. Neither mode reads live sources, requires scan/status files, runs a
+build, creates work packages or refreshes drafts.
+
+Changes are collected in memory and saved once at normal completion, `q`, Ctrl-C
+or end of input. A session with no changes does not rewrite the draft. On early
+exit, use the printed `--offset N` to resume with the same selection and filters:
+
+```bash
+./pzgt review "Project Zomboid" \
+  --language DE --type same_as_source --category RadioData --interactive --offset 125
+```
+
+Offsets are nonnegative, zero-based positions in the filtered draft order, and
+are allowed only with `--interactive`. Offset 125 starts at the 126th candidate.
+Confirmed reviews disappear from the next session's selection, so the printed
+resume offset accounts for the smaller list. No session file is created.
 
 | Command | Role |
 | --- | --- |
 | `audit` | View the audit inventory; always read-only |
-| `review` | Mark audit candidates as needed or not needed |
+| `review --type … --need/--not-needed` | Make a bulk need decision for audit candidates |
+| `review --type … --interactive` | Assess audit candidates individually and optionally translate directly |
+| `review --review --interactive` | Check translations flagged after English source changes |
 | `work` | Prepare needed translations for editing |
 | `apply` | Save translations to the draft |
 | `build` | Generate runtime files |
@@ -245,6 +287,7 @@ An export includes only its selected configured languages.
 | `./pzgt status [--language CODE]` | Compare English and target content from the scan |
 | `./pzgt audit SELECTOR [--language CODE] [--category NAME] [--type TYPE]` | Summarize draft audits by type and category without reading live sources; TYPE is blank_target or same_as_source |
 | `./pzgt review SELECTOR --type TYPE (--need \| --not-needed) [--language CODE] [--category NAME]` | Set needed only for matching Vanilla audit candidates; preserve text and audit markers |
+| `./pzgt review SELECTOR (--type TYPE \| --review) --interactive [--language CODE] [--category NAME] [--offset N]` | Review draft entries individually; save decisions on completion or interruption |
 | `./pzgt draft MOD-ID` | Explicitly adopt or refresh one mod using the current status language |
 | `./pzgt draft --all` | Migrate/refresh existing catalogue drafts only |
 | `./pzgt progress [MOD-ID] [--language CODE]` | Count needed, translated, open, review and unknown entries |

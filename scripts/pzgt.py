@@ -505,15 +505,26 @@ def main(argv=None):
         if name in ("audit", "review"):
             command.add_argument("selector")
             command.add_argument("--category")
-            command.add_argument("--type", dest="audit_type", choices=AUDIT_TYPES, required=name == "review")
+        if name == "audit":
+            command.add_argument("--type", dest="audit_type", choices=AUDIT_TYPES)
         if name == "review":
+            selection = command.add_mutually_exclusive_group(required=True)
+            selection.add_argument("--type", dest="audit_type", choices=AUDIT_TYPES)
+            selection.add_argument("--review", action="store_true")
             group = command.add_mutually_exclusive_group(required=True)
             group.add_argument("--need", action="store_true")
             group.add_argument("--not-needed", action="store_true")
+            group.add_argument("--interactive", action="store_true")
+            command.add_argument("--offset", type=int)
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv == ["help"]:
         argv = ["--help"]
     args = parser.parse_args(argv)
+    if args.command == "review":
+        if args.review and not args.interactive:
+            parser.error("--review ist nur mit --interactive zulässig")
+        if args.offset is not None and (not args.interactive or args.offset < 0):
+            parser.error("--offset ist nur mit --interactive zulässig und muss >= 0 sein")
     try:
         settings.configure()
         if args.command == "scan":
@@ -537,7 +548,11 @@ def main(argv=None):
             elif args.command == "audit":
                 module.run(args.selector, args.language, args.category, args.audit_type)
             elif args.command == "review":
-                module.run(args.selector, args.language, args.audit_type, args.category, needed=args.need)
+                if args.interactive:
+                    module.run_interactive(args.selector, args.language, args.audit_type,
+                                           args.category, offset=args.offset or 0)
+                else:
+                    module.run(args.selector, args.language, args.audit_type, args.category, needed=args.need)
             else:
                 module.run(args.language)
     except (OSError, ValueError) as exc:
