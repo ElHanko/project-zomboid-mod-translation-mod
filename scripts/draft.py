@@ -56,7 +56,14 @@ def merge_entries(mod, previous, language):
                 state.pop("reviewed", None)
             state["audit"] = new_audit
         else:
-            state["needed"] = ident in needed
+            # A reviewed Workshop exclusion belongs to this unchanged source.
+            excluded = (not is_game and state["needed"] is False
+                        and state.get("reviewed", 0) == 1)
+            if not excluded:
+                if not is_game and state["needed"] is True and ident not in needed:
+                    # Automatic retirement is not a manual exclusion decision.
+                    state.pop("reviewed", None)
+                state["needed"] = ident in needed
             if is_game:
                 state.pop("audit", None)
         result.append(entry)

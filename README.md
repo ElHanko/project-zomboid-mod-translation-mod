@@ -350,10 +350,23 @@ Each language state has:
 - `text`: the exact saved target text.
 - `needed=true`: English exists and the Workshop target is missing or blank.
 - `needed=false`: analysis for this language confirms that the entry is no longer
-  required, because the upstream target exists or the English key disappeared.
+  required, because the upstream target exists or the English key disappeared;
+  for Workshop entries, `needed=false` with `reviewed=1` also records a deliberate
+  manual exclusion.
 - `needed=null`: no reliable analysis has classified this language's requirement.
 - `review`: whether an English source change requires checking this state.
 - Optional `previous_english`: the source text before the pending review began.
+
+To deliberately exclude a normal Workshop key, set its language state to
+`needed=false, reviewed=1` in the draft. Refresh preserves this decision while
+the English source text is unchanged; verify accepts it and build omits the key.
+`needed=false` without `reviewed=1` remains an automatic source classification,
+so refresh restores `needed=true` when that translation is missing upstream.
+An English source change removes `reviewed`, sets `review=true` and recalculates
+the selected language's need, requiring the exclusion to be reconsidered.
+Automatic retirement of a previously needed entry also clears `reviewed`, so a
+confirmed translation cannot accidentally become a manual exclusion. These rules
+do not change the base game's audit decisions.
 
 A missing state is treated as unknown. `work` and `build` reject unknown needs
 for the selected language. Run `scan`, `status --language CODE`, then
