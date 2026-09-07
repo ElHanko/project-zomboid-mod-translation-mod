@@ -28223,6 +28223,3130 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Militärfahrzeugsitz ST1",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.Seat0",
+      "english": "Military Vehicle Seat ST1",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Militärfahrzeugsitz ST2",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.Seat1front",
+      "english": "Military Vehicle Seat ST2",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Militärfahrzeugsitz ST2R",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.Seat1rear",
+      "english": "Military Vehicle Seat ST2R",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Militärfahrzeugsitz ST3",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.Seat2",
+      "english": "Military Vehicle Seat ST3",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Militärische Trage",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.Stretcher0",
+      "english": "Military Stretcher",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Krankentrage",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.Stretcher1",
+      "english": "Ambulance Stretcher",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Holzkiste",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.Crate0",
+      "english": "Wooden Crate",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Militärische Holzkiste",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.Crate0military",
+      "english": "Mlitary Wooden Crate",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Offene Holzkiste",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.Crate0Open",
+      "english": "Open Wooden Crate",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Offene militärische Holzkiste",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.Crate0militaryOpen",
+      "english": "Open Mlitary Wooden Crate",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Militärischer Benzinkanister",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.GasCan0",
+      "english": "Military Gas Can",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Militärischer Wasserkanister",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.WaterCan0",
+      "english": "Military Water Can",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleines Sichtfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.SmallViewport0",
+      "english": "Small Viewport",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleines Sichtfensterpaket",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.SmallViewportPack0",
+      "english": "Small Viewport Pack",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Großes Sichtfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.LargeViewport0",
+      "english": "Large Viewport",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Großes Sichtfensterpaket",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "USMIL.LargeViewportPack0",
+      "english": "Large Viewport Pack",
+      "source_file": "media/scripts/USMIL/items_USMIL.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet C/K Series (3. Generation) – Vordertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.3rdGenChevyCKseriesFrontDoor2",
+      "english": "3rd Gen Chevrolet C/K Series Front Door",
+      "source_file": "media/scripts/commonItems/3rdGenChevyCKseries_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet C/K Series (3. Generation) – Hintertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.3rdGenChevyCKseriesRearDoor2",
+      "english": "3rd Gen Chevrolet C/K Series Rear Door",
+      "source_file": "media/scripts/commonItems/3rdGenChevyCKseries_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet C/K Series (3. Generation) – Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.3rdGenChevyCKseriesWindshield2",
+      "english": "3rd Gen Chevrolet C/K Series Windshield",
+      "source_file": "media/scripts/commonItems/3rdGenChevyCKseries_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet C/K Series (3. Generation) – Vorderes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.3rdGenChevyCKseriesFrontSideWindow2",
+      "english": "3rd Gen Chevrolet C/K Series Front Side Window",
+      "source_file": "media/scripts/commonItems/3rdGenChevyCKseries_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet C/K Series (3. Generation) – Hinteres Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.3rdGenChevyCKseriesRearSideWindow2",
+      "english": "3rd Gen Chevrolet C/K Series Rear Side Window",
+      "source_file": "media/scripts/commonItems/3rdGenChevyCKseries_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet C/K Series (3. Generation) – Hinterstes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.3rdGenChevyCKseriesBackSideWindow2",
+      "english": "3rd Gen Chevrolet C/K Series Back Side Window",
+      "source_file": "media/scripts/commonItems/3rdGenChevyCKseries_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet C/K Series (3. Generation) – Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.3rdGenChevyCKseriesRearWindshield2",
+      "english": "3rd Gen Chevrolet C/K Series Rear Windshield",
+      "source_file": "media/scripts/commonItems/3rdGenChevyCKseries_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet C/K Series (3. Generation) – Geteilte Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.3rdGenChevyCKseriesSplitRearWindshield2",
+      "english": "3rd Gen Chevrolet C/K Series Split Rear Windshield",
+      "source_file": "media/scripts/commonItems/3rdGenChevyCKseries_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet C/K Series (3. Generation) – Frontstoßstange Mk1",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.3rdGenChevyCKseriesBumperFront0",
+      "english": "3rd Gen Chevrolet C/K Series Front Bumper Mk1",
+      "source_file": "media/scripts/commonItems/3rdGenChevyCKseries_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet C/K Series (3. Generation) – Frontstoßstange Mk2",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.3rdGenChevyCKseriesBumperFront1",
+      "english": "3rd Gen Chevrolet C/K Series Front Bumper Mk2",
+      "source_file": "media/scripts/commonItems/3rdGenChevyCKseries_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet C/K Series (3. Generation) – Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.3rdGenChevyCKseriesBumperRear0",
+      "english": "3rd Gen Chevrolet C/K Series Rear Bumper",
+      "source_file": "media/scripts/commonItems/3rdGenChevyCKseries_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet C/K Series (3. Generation) – Trittbretter",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.3rdGenChevyCKseriesSideSteps2",
+      "english": "3rd Gen Chevrolet C/K Series Side Steps",
+      "source_file": "media/scripts/commonItems/3rdGenChevyCKseries_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet C/K Series (3. Generation) – Sonnenblende",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.3rdGenChevyCKseriesSunVisor2",
+      "english": "3rd Gen Chevrolet C/K Series Sun Visor",
+      "source_file": "media/scripts/commonItems/3rdGenChevyCKseries_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "80er-Pickup – Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.80sPickupRoofrackA",
+      "english": "80s Pickup Roofrack",
+      "source_file": "media/scripts/commonItems/80sPickups_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "80er-Pickup – Fensterschutz vorne",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.80sPickupWindowFrontArmor",
+      "english": "80s Pickup Front Window Armor",
+      "source_file": "media/scripts/commonItems/80sPickups_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "80er-Pickup – Windschutzscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.80sPickupWindshieldArmor",
+      "english": "80s Pickup Windshield Armor",
+      "source_file": "media/scripts/commonItems/80sPickups_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "80er-Pickup – Fensterschutz hinten",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.80sPickupWindowRearArmor",
+      "english": "80s Pickup Rear Window Armor",
+      "source_file": "media/scripts/commonItems/80sPickups_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "80er-Pickup – Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.80sPickupBullbarFront",
+      "english": "80s Pickup Front Bullbar",
+      "source_file": "media/scripts/commonItems/80sPickups_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "80er-Pickup – Heckschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.80sPickupBullbarRear",
+      "english": "80s Pickup Rear Bullbar",
+      "source_file": "media/scripts/commonItems/80sPickups_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "80er-Pickup – Vordersitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.80sPickupSeatFront2",
+      "english": "80s Pickup Front Seat",
+      "source_file": "media/scripts/commonItems/80sPickups_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "80er-Pickup – Rücksitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.80sPickupSeatRear2",
+      "english": "80s Pickup Rear Seat",
+      "source_file": "media/scripts/commonItems/80sPickups_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "80er-Pickup – Überrollbügel Typ A",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.80sPickupRollbarA",
+      "english": "80s Pickup Rollbar Type A",
+      "source_file": "media/scripts/commonItems/80sPickups_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "80er-Pickup – Überrollbügel Typ B",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.80sPickupRollbarB",
+      "english": "80s Pickup Rollbar Type B",
+      "source_file": "media/scripts/commonItems/80sPickups_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 GM C-Body – Vordertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84gmCbodyFrontDoor1",
+      "english": "84 GM C-body Front Door",
+      "source_file": "media/scripts/commonItems/84gmCbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 GM C-Body – Hintertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84gmCbodyRearDoor1",
+      "english": "84 GM C-body Rear Door",
+      "source_file": "media/scripts/commonItems/84gmCbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 GM C-Body – Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84gmCbodyWindshield1",
+      "english": "84 GM C-body Windshield",
+      "source_file": "media/scripts/commonItems/84gmCbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 GM C-Body – Vorderes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84gmCbodyFrontSideWindow1",
+      "english": "84 GM C-body Front Side Window",
+      "source_file": "media/scripts/commonItems/84gmCbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 GM C-Body – Hinteres Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84gmCbodyRearSideWindow1",
+      "english": "84 GM C-body Rear Side Window",
+      "source_file": "media/scripts/commonItems/84gmCbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 GM C-Body – Hinteres Coupé-Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84gmCbodyCoupeRearSideWindow1",
+      "english": "84 GM C-body Coupe Rear Side Window",
+      "source_file": "media/scripts/commonItems/84gmCbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 GM C-Body – Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84gmCbodyRearWindshield1",
+      "english": "84 GM C-body Rear Windshield",
+      "source_file": "media/scripts/commonItems/84gmCbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Reifen Typ 1",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyTire0",
+      "english": "GM B/C-body Tire Type 1",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Reifen Typ 2",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyTire1",
+      "english": "GM B/C-body Tire Type 2",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Reifen Typ 3",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyTire2",
+      "english": "GM B/C-body Tire Type 3",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Klassischer Universalreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyTire3",
+      "english": "Vintage Universal Tire",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Klassischer Universalreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyTire4",
+      "english": "Vintage Universal Tire",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Reifen Typ 5",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyTire5",
+      "english": "GM B/C-body Tire Type 5",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Reifen Typ 5B",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyTire5b",
+      "english": "GM B/C-body Tire Type 5B",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Reifen Typ 4",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyTire6",
+      "english": "GM B/C-body Tire Type 4",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Reifen Typ 6",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyTire7",
+      "english": "GM B/C-body Tire Type 6",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyRoofrack1",
+      "english": "GM B/C-body Roofrack",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body Kombi – Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWagonRoofrack1",
+      "english": "85 GM B-body Wagon Roofrack",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body Kombi – Dachreling",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWagonRoofRails1",
+      "english": "85 GM B-body Wagon Roof Rails",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body Kombi – Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWagonTrunkDoor1",
+      "english": "85 GM B-body Wagon Trunk Lid",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body – Vordertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyFrontDoor1",
+      "english": "85 GM B-body Front Door",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body – Hintertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyRearDoor1",
+      "english": "85 GM B-body Rear Door",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyBullbarFrontA",
+      "english": "GM B/C-body Front Bullbar",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body – Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWindshield1",
+      "english": "85 GM B-body Windshield",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body – Vorderes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyFrontSideWindow1",
+      "english": "85 GM B-body Front Side Window",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body – Hinteres Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyRearSideWindow1",
+      "english": "85 GM B-body Rear Side Window",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body Coupé – Hinteres Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyCoupeRearSideWindow1",
+      "english": "85 GM B-body Coupe Rear Side Window",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body Kombi – Hinterstes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWagonBackSideWindow1",
+      "english": "85 GM B-body Wagon Back Side Window",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body – Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyRearWindshield1",
+      "english": "85 GM B-body Rear Windshield",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body Kombi – Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWagonRearWindshield1",
+      "english": "85 GM B-body Wagon Rear Windshield",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Windschutzscheibenschutz aus Holz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWindshieldArmorW",
+      "english": "GM B/C-body Windshield Wooden Armor",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Windschutzscheibenschutz aus Metall",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWindshieldArmorM",
+      "english": "GM B/C-body Windshield Metal Armor",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Fensterschutz vorne aus Holz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyFrontWindowArmorW",
+      "english": "GM B/C-body Front Window Wooden Armor",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Fensterschutz vorne aus Metall",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyFrontWindowArmorM",
+      "english": "GM B/C-body Front Window Metal Armor",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Fensterschutz hinten aus Holz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyRearWindowArmorW",
+      "english": "GM B/C-body Rear Window Wooden Armor",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Fensterschutz hinten aus Metall",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyRearWindowArmorM",
+      "english": "GM B/C-body Rear Window Metal Armor",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body Kombi – Fensterschutz ganz hinten aus Holz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWagonBackWindowArmorW",
+      "english": "GM B/C-body Wagon Back Window Wooden Armor",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body Kombi – Fensterschutz ganz hinten aus Metall",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWagonBackWindowArmorM",
+      "english": "GM B/C-body Wagon Back Window Metal Armor",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Heckscheibenschutz aus Holz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWindshieldRearArmorW",
+      "english": "GM B/C-body Rear Windshield Wooden Armor",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM B/C-Body – Heckscheibenschutz aus Metall",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWindshieldRearArmorM",
+      "english": "GM B/C-body Rear Windshield Metal Armor",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM – schwarzes Vinyldach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyVinylRoofBlack",
+      "english": "GM Black Vinyl Roof",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM – bordeauxrotes Vinyldach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyVinylRoofMaroon",
+      "english": "GM Maroon Vinyl Roof",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM – weißes Vinyldach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyVinylRoofWhite",
+      "english": "GM White Vinyl Roof",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM – braunes Vinyldach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyVinylRoofBrown",
+      "english": "GM Brown Vinyl Roof",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM – blaues Vinyldach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyVinylRoofBlue",
+      "english": "GM Blue Vinyl Roof",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM – schwarzes Viertel-Vinyldach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyVinylRoofQuarterBlack",
+      "english": "GM Black Quarter Vinyl Roof",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM – bordeauxrotes Viertel-Vinyldach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyVinylRoofQuarterMaroon",
+      "english": "GM Maroon Quarter Vinyl Roof",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM – weißes Viertel-Vinyldach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyVinylRoofQuarterWhite",
+      "english": "GM White Quarter Vinyl Roof",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM – braunes Viertel-Vinyldach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyVinylRoofQuarterBrown",
+      "english": "GM Brown Quarter Vinyl Roof",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "GM – blaues Viertel-Vinyldach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyVinylRoofQuarterBlue",
+      "english": "GM Blue Quarter Vinyl Roof",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body Kombi – Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWagonBumperRear1",
+      "english": "85 GM B-body Wagon Rear Bumper",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 GM B-Body Kombi – Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85gmBbodyWagonBumperRear2",
+      "english": "85 GM B-body Wagon Rear Bumper",
+      "source_file": "media/scripts/commonItems/85gmBbody_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Ford F Series (8. Generation) – Vordertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.8thGenFordFseriesFrontDoor2",
+      "english": "8th Gen Ford F Series Front Door",
+      "source_file": "media/scripts/commonItems/8thGenFordFseries_vehicleitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Ford F Series (8. Generation) – Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.8thGenFordFseriesEngineDoor2",
+      "english": "8th Gen Ford F Series Hood",
+      "source_file": "media/scripts/commonItems/8thGenFordFseries_vehicleitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Ford F Series (8. Generation) – Vordersitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.8thGenFordFseriesSeatFront2",
+      "english": "8th Gen Ford F Series Front Seat",
+      "source_file": "media/scripts/commonItems/8thGenFordFseries_vehicleitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Ford F Series (8. Generation) – Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.8thGenFordFseriesWindshield2",
+      "english": "8th Gen Ford F Series Windshield",
+      "source_file": "media/scripts/commonItems/8thGenFordFseries_vehicleitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Ford F Series (8. Generation) – Vorderes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.8thGenFordFseriesWindowFrontSide2",
+      "english": "8th Gen Ford F Series Front Side Window",
+      "source_file": "media/scripts/commonItems/8thGenFordFseries_vehicleitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet CUCV Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.86chevyCUCVTire1",
+      "english": "Chevrolet CUCV Tire",
+      "source_file": "media/scripts/commonItems/CUCV_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet CUCV Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.86chevyCUCVTire2",
+      "english": "Chevrolet CUCV Tire",
+      "source_file": "media/scripts/commonItems/CUCV_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet CUCV Doppelreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.86chevyCUCVDoubleTires2",
+      "english": "Chevrolet CUCV Double Tires",
+      "source_file": "media/scripts/commonItems/CUCV_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet CUCV Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.86chevyCUCVBullbarFrontA",
+      "english": "Chevrolet CUCV Bullbar",
+      "source_file": "media/scripts/commonItems/CUCV_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "M101 Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M101TrunkDoor2",
+      "english": "M101 Trunk Lid",
+      "source_file": "media/scripts/commonItems/KI5trailersCommon_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleine Anhängerplane",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.KI5trailersTarp2",
+      "english": "Small Trailer Tarp",
+      "source_file": "media/scripts/commonItems/KI5trailersCommon_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Nomad-Cage-Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.93fordF350BullbarFrontD",
+      "english": "Nomad Cage Bullbar",
+      "source_file": "media/scripts/commonItems/damnCommonBullbars_vehicleitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleiner klassischer Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.OldSmallRoofrack3",
+      "english": "Small Vintage Roofrack",
+      "source_file": "media/scripts/commonItems/damnCommonRoofracks_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleiner moderner Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ModernSmallRoofrack3",
+      "english": "Small Modern Roofrack",
+      "source_file": "media/scripts/commonItems/damnCommonRoofracks_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Großer moderner Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ModernLargeRoofrack3",
+      "english": "Large Modern Roofrack",
+      "source_file": "media/scripts/commonItems/damnCommonRoofracks_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Großer Pickup-Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.PickupLargeRoofrack2",
+      "english": "Large Pickup Roofrack",
+      "source_file": "media/scripts/commonItems/damnCommonRoofracks_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Pontiac Rally II R15 Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.75grandPrixR215Tire1",
+      "english": "Pontiac Rally II R15 Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Pontiac Rally II R17 Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.75grandPrixR217Tire3",
+      "english": "Pontiac Rally II R17 Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Pontiac Rally I R15 Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.pontiacR115Tire1",
+      "english": "Pontiac Rally I R15 Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Pontiac Rally I R17 Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.pontiacR117Tire3",
+      "english": "Pontiac Rally I R17 Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Pontiac 8-Loch R15 Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.pontiac8L15Tire1",
+      "english": "Pontiac 8 Lug R15 Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Pontiac 8-Loch R17 Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.pontiac8L17Tire3",
+      "english": "Pontiac 8 Lug R17 Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Barracuda Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.CUDAtire3",
+      "english": "70 Barracuda Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Challenger Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DodgeRTtire3",
+      "english": "70 Challenger Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "69 Camaro Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.CamaroSStire3",
+      "english": "69 Camaro Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "76 Chevrolet K Series Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.76chevyKseriesTire2",
+      "english": "76 Chevrolet K Series Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet K3500 Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.93chevyK3500Tire2",
+      "english": "Chevrolet K3500 Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Chevrolet K3500 Doppelreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.93chevyK3500DoubleTires2",
+      "english": "Chevrolet K3500 Double Tires",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "80er Chevrolet C/K Series Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.80chevyCKseriesTire2",
+      "english": "80s Chevrolet C/K Series Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "80er Chevrolet C/K Series Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.80chevyCKseriesTire1",
+      "english": "80s Chevrolet C/K Series Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "90er Chevrolet C/K Series Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.90chevyCKseriesTire2",
+      "english": "90s Chevrolet C/K Series Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "90er Chevrolet C/K Series Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.90chevyCKseriesTire1",
+      "english": "90s Chevrolet C/K Series Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "90er GMC OEM-Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.90gmcOEMTire1",
+      "english": "90s GMC OEM Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJTire2",
+      "english": "84 Jeep Cherokee XJ Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 Jeep Wrangler YJ Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92jeepYJTire2",
+      "english": "92 Jeep Wrangler YJ Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Ford CVPI Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.fordCVPITire1",
+      "english": "Ford CVPI Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "80er Offroad-Reifen Typ A",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.80sOffroadTireA",
+      "english": "80s Offroad Tire Type A",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "63 VW Type 1 Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.63vwStockTire1",
+      "english": "63 VW Type 1 Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "MOPAR Rally 667 Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.moparRally667tire3",
+      "english": "MOPAR Rally 667 Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "MOPAR Rally 667 TA Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.moparRally667TAtire3",
+      "english": "MOPAR Rally 667 TA Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "MOPAR Magnum 500 TA Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.moparMagnum500TAtire3",
+      "english": "MOPAR Magnum 500 TA Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "MOPAR Vector Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.69chargerTire3",
+      "english": "MOPAR Vector Tire",
+      "source_file": "media/scripts/commonItems/damnCommonTires_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Ford CVPI Windschutzscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.fordCVPIWindshieldArmor",
+      "english": "Ford CVPI Windshield Armor",
+      "source_file": "media/scripts/commonItems/fordCVPI_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Ford CVPI Fensterschutz vorne",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.fordCVPIFrontWindowArmor",
+      "english": "Ford CVPI Front Window Armor",
+      "source_file": "media/scripts/commonItems/fordCVPI_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Ford CVPI Fensterschutz hinten",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.fordCVPIRearWindowArmor",
+      "english": "Ford CVPI Rear Window Armor",
+      "source_file": "media/scripts/commonItems/fordCVPI_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Ford CVPI Heckscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.fordCVPIWindshieldRearArmor",
+      "english": "Ford CVPI Rear Windshield Armor",
+      "source_file": "media/scripts/commonItems/fordCVPI_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Polizei-Suchscheinwerfer",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.fordCVPIpoliceSearchlight",
+      "english": "Police Searchlight",
+      "source_file": "media/scripts/commonItems/fordCVPI_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Nutzfahrzeug-Heckscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.utilityBoxWindshieldRearArmor",
+      "english": "Utility Rear Windshield Armor",
+      "source_file": "media/scripts/commonItems/utilityBedBox_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Nutzfahrzeug-Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.utilityBoxTrunkDoor2",
+      "english": "Utility Trunk Lid",
+      "source_file": "media/scripts/commonItems/utilityBedBox_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Nutzfahrzeug-Staufachklappen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.utilityBoxStorageLids2",
+      "english": "Utility Storage Lids",
+      "source_file": "media/scripts/commonItems/utilityBedBox_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Nutzfahrzeug-Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.utilityBoxBumperRear2",
+      "english": "Utility Rear Bumper",
+      "source_file": "media/scripts/commonItems/utilityBedBox_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleine Stahlfelge",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.SteelRimSmall",
+      "english": "Small Steel Rim",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Mittlere Stahlfelge",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.SteelRimMedium",
+      "english": "Medium Steel Rim",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Große Stahlfelge",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.SteelRimLarge",
+      "english": "Large Steel Rim",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleines neues Reifengummi",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRubberNewSmall",
+      "english": "Small New Tire Rubber",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleines gebrauchtes Reifengummi",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRubberUsedSmall",
+      "english": "Small Used Tire Rubber",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleines zerstörtes Reifengummi",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRubberDestroyedSmall",
+      "english": "Small Destroyed Tire Rubber",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Großes neues Reifengummi",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRubberNewLarge",
+      "english": "Large New Tire Rubber",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Großes gebrauchtes Reifengummi",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRubberUsedLarge",
+      "english": "Large Used Tire Rubber",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Großes zerstörtes Reifengummi",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRubberDestroyedLarge",
+      "english": "Large Destroyed Tire Rubber",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleine Reifengummihalterung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRubberMountSmall",
+      "english": "Small Tire Rubber Mount",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleines Reifengummi auf Halterung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRubberMountedSmall",
+      "english": "Small Tire Rubber on Mount",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Große Reifengummihalterung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRubberMountLarge",
+      "english": "Large Tire Rubber Mount",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Großes Reifengummi auf Halterung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRubberMountedLarge",
+      "english": "Large Tire Rubber on Mount",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Klassischer Fahrzeuggriff",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.HandleClassic",
+      "english": "Classic Vehicle Handle",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Moderner Fahrzeuggriff",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.HandleModern",
+      "english": "Modern Vehicle Handle",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleines Fahrzeugscharnier",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.HingeSmall",
+      "english": "Small Vehicle Hinge",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Großes Fahrzeugscharnier",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.HingeLarge",
+      "english": "Large Vehicle Hinge",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Gummistreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.RubberStrip",
+      "english": "Rubber Strip",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Sitzstoff",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.SeatFabric",
+      "english": "Seat Fabric",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Sitzpolster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.SeatFoam",
+      "english": "Seat Foam",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleiner Sitzrahmen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.SeatFrameSmall",
+      "english": "Small Seat Frame",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Großer Sitzrahmen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.SeatFrameLarge",
+      "english": "Large Seat Frame",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Reifenreparaturset",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRepairKit",
+      "english": "Tire Repair Kit",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Reifenreparaturwerkzeuge",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRepairTools",
+      "english": "Tire Repair Tools",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Gummilösung für Reifenreparatur",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRepairRubberSolution",
+      "english": "Tire Repair Rubber Solution",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Reifenreparaturstreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.TireRepairStrips",
+      "english": "Tire Repair Strips",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kunststoffschweißset",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.PlasticWeldingKit",
+      "english": "Plastic Welding Kit",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kunststoffschweißgerät",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.PlasticWeldingGun",
+      "english": "Plastic Welding Gun",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kunststoffschweißklammern (100er-Pack)",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.PlasticWeldingStaples100Pack",
+      "english": "Plastic Welding Staples 100 Pack",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleiner Universalreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.SmallTire1",
+      "english": "Small Universal Tire",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleiner Universalreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.SmallTire2",
+      "english": "Small Universal Tire",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Stahlreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.SteelTire1",
+      "english": "Steel Tire",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Blattfederung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.leafSuspension2",
+      "english": "Leaf Suspension",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": false,
+          "review": false,
+          "reviewed": 1
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.Trunk1",
+      "english": "no",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": false,
+          "review": false,
+          "reviewed": 1
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.Trunk2",
+      "english": "no",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": false,
+          "review": false,
+          "reviewed": 1
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.Trunk3",
+      "english": "no",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Holzformkasten",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.woodenMoldBox",
+      "english": "Wooden Mold Box",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Misslungene Form",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.genericMold",
+      "english": "Failed Mold",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Misslungene Negativform",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.genericNegativeMold",
+      "english": "Failed Negative Mold",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Gefüllte Negativform",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.genericFilledMold",
+      "english": "Filled Negative Mold",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Acetonkanister",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.acetoneCan",
+      "english": "Acetone Can",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Acetonkanne",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.acetoneJug",
+      "english": "Acetone Jug",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Styroporplatte",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.styrofoamSheet",
+      "english": "Styrofoam Sheet",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Styroporreste",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.styrofoamScraps",
+      "english": "Styrofoam Scraps",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Eimer Styroporpaste",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.BucketStyrofoamPaste",
+      "english": "Bucket of Styrofoam Paste",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Apocalypse-Radkappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.HubcapApoc",
+      "english": "Apocalypse Hubcap",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": false,
+          "review": false,
+          "reviewed": 1
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.dontusethis",
+      "english": "Placeholder",
+      "source_file": "media/scripts/damnCraft/items_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Werkstatthandbuch für Einsatzfahrzeuge",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.magEmergencyVehiclesMagazine",
+      "english": "Emergency Vehicles Service Manual",
+      "source_file": "media/scripts/damnCraft/literature_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Werkstatthandbuch für Militärfahrzeuge",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.magMilitaryVehiclesMagazine",
+      "english": "Military Vehicles Service Manual",
+      "source_file": "media/scripts/damnCraft/literature_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Personenfahrzeuge: klassische Ära",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.magPassengerClassicVehiclesMagazine",
+      "english": "Passenger Vehicles: Classic Era",
+      "source_file": "media/scripts/damnCraft/literature_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Personenfahrzeuge: mittlere Ära",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.magPassengerMidVehiclesMagazine",
+      "english": "Passenger Vehicles: Mid Era",
+      "source_file": "media/scripts/damnCraft/literature_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Personenfahrzeuge: moderne Ära",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.magPassengerModernVehiclesMagazine",
+      "english": "Passenger Vehicles: Modern Era",
+      "source_file": "media/scripts/damnCraft/literature_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Ultimativer Leitfaden für Hochleistungsfahrzeuge",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.magPerformanceVehiclesMagazine",
+      "english": "Ultimate Performance Car Guide",
+      "source_file": "media/scripts/damnCraft/literature_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Leitfaden für amerikanische Muscle-Cars",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.magMuscleVehiclesMagazine",
+      "english": "Guide to American Muscle Cars",
+      "source_file": "media/scripts/damnCraft/literature_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "SUVs der Welt",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.magSportUtilityVehiclesMagazine",
+      "english": "Sport Utility Vehicles of the World",
+      "source_file": "media/scripts/damnCraft/literature_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Werkstatthandbuch für Nutzfahrzeuge",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.magUtilityVehiclesMagazine",
+      "english": "Utility Vehicles Service Manual",
+      "source_file": "media/scripts/damnCraft/literature_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Autos aus Japan",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "damnCraft.magJdmVehiclesMagazine",
+      "english": "Cars of Japan",
+      "source_file": "media/scripts/damnCraft/literature_damnCraft.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Großer Notlaufreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "runFlat.LargeTire",
+      "english": "RunFlat Large Tire",
+      "source_file": "media/scripts/runFlat/items_runFlat.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Große Achse mit 2 Notlaufreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "runFlat.Large2TireAxle",
+      "english": "RunFlat Large 2 Tire Axle",
+      "source_file": "media/scripts/runFlat/items_runFlat.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Große Notlauf-Doppelreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "runFlat.LargeDoubleTires",
+      "english": "RunFlat Large Double Tires",
+      "source_file": "media/scripts/runFlat/items_runFlat.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Große Achse mit 4 Notlaufreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "runFlat.Large4TireAxle",
+      "english": "RunFlat Large 4 Tire Axle",
+      "source_file": "media/scripts/runFlat/items_runFlat.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Mittlerer Notlaufreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "runFlat.MediumTire",
+      "english": "RunFlat Medium Tire",
+      "source_file": "media/scripts/runFlat/items_runFlat.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Mittlere Achse mit 4 Notlaufreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "runFlat.Medium4TireAxle",
+      "english": "RunFlat Medium 4 Tire Axle",
+      "source_file": "media/scripts/runFlat/items_runFlat.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleiner Notlaufreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "runFlat.SmallTire",
+      "english": "RunFlat Small Tire",
+      "source_file": "media/scripts/runFlat/items_runFlat.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Moderner Notlaufreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "runFlat.ModernTire",
+      "english": "RunFlat Modern Tire",
+      "source_file": "media/scripts/runFlat/items_runFlat.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleine Achse mit 4 Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "runFlat.Small4TireAxle",
+      "english": "Small 4 Tire Axle",
+      "source_file": "media/scripts/runFlat/items_runFlat.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
     }
   ]
 }
