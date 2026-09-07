@@ -4,7 +4,7 @@ from copy import deepcopy
 import re
 
 import config
-from common import (entry_identity, index_entries, load_drafts, load_json,
+from common import (AUDIT_TYPES, entry_identity, index_audits, index_entries, load_drafts, load_json,
                     matches, validate_draft, write_json)
 
 
@@ -23,10 +23,8 @@ def merge_entries(mod, previous, language):
     sources = index_entries(mod["english"])
     needed = set(index_entries(mod["missing"] + mod["blank"]))
     is_game = mod.get("source_type") == "game"
-    if is_game and "audit_blank" not in mod:
-        raise ValueError("Status ohne Vanilla-Auditbestand; ./pzgt status erneut ausführen")
-    audit_blank = set(index_entries(mod["audit_blank"])) if is_game else set()
-    tracked = needed | audit_blank
+    audits = index_audits(mod, language) if is_game else {}
+    tracked = needed | audits.keys()
     if not tracked <= sources.keys():
         raise ValueError("Status enthält benötigte/Audit-Einträge ohne englische Quelle")
     old = index_entries(previous)
@@ -48,10 +46,10 @@ def merge_entries(mod, previous, language):
         for target in config.LANGUAGES:
             entry["translations"].setdefault(target, {"text": "", "needed": None, "review": False})
         state = entry["translations"][language]
-        if ident in audit_blank:
+        if ident in audits:
             # Only an existing audit can carry a deliberate manual release.
-            state["needed"] = state.get("audit") == "blank_target" and state["needed"] is True
-            state["audit"] = "blank_target"
+            state["needed"] = state.get("audit") in AUDIT_TYPES and state["needed"] is True
+            state["audit"] = audits[ident]
         else:
             state["needed"] = ident in needed
             if is_game:

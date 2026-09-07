@@ -7,7 +7,7 @@ import importlib
 
 import config as settings
 import sys
-from common import write_json
+from common import AUDIT_TYPES, write_json
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -484,9 +484,9 @@ def cmd_install():
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="./pzgt")
     commands = parser.add_subparsers(dest="command", required=True)
-    for name in ("scan", "status", "build", "verify", "install", "export", "progress", "work", "draft", "apply", "audit"):
+    for name in ("scan", "status", "build", "verify", "install", "export", "progress", "work", "draft", "apply", "audit", "review"):
         command = commands.add_parser(name)
-        if name in ("status", "build", "verify", "export", "progress", "work", "audit"):
+        if name in ("status", "build", "verify", "export", "progress", "work", "audit", "review"):
             command.add_argument("--language")
         if name in ("progress", "work", "build"):
             command.add_argument("selector", nargs="?")
@@ -502,9 +502,14 @@ def main(argv=None):
             command.add_argument("--zip", action="store_true", dest="make_zip")
         if name == "apply":
             command.add_argument("file")
-        if name == "audit":
+        if name in ("audit", "review"):
             command.add_argument("selector")
             command.add_argument("--category")
+            command.add_argument("--type", dest="audit_type", choices=AUDIT_TYPES, required=name == "review")
+        if name == "review":
+            group = command.add_mutually_exclusive_group(required=True)
+            group.add_argument("--need", action="store_true")
+            group.add_argument("--not-needed", action="store_true")
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv == ["help"]:
         argv = ["--help"]
@@ -530,7 +535,9 @@ def main(argv=None):
             elif args.command == "export":
                 module.run(args.language, args.make_zip)
             elif args.command == "audit":
-                module.run(args.selector, args.language, args.category)
+                module.run(args.selector, args.language, args.category, args.audit_type)
+            elif args.command == "review":
+                module.run(args.selector, args.language, args.audit_type, args.category, needed=args.need)
             else:
                 module.run(args.language)
     except (OSError, ValueError) as exc:

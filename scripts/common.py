@@ -32,6 +32,7 @@ def placeholders(text):
 
 
 LEGACY_FIELDS = ("german", "needed", "review", "previous_english")
+AUDIT_TYPES = ("blank_target", "same_as_source")
 
 
 def unique_object(pairs):
@@ -102,6 +103,24 @@ def index_entries(entries):
     return result
 
 
+def index_audits(source, language):
+    fields = {"blank_target": "audit_blank", "same_as_source": "audit_same_as_source"}
+    if any(not isinstance(source.get(field), list) for field in fields.values()):
+        raise ValueError("Status ohne Vanilla-Auditbestand; ./pzgt scan und "
+                         f"./pzgt status --language {language} erneut ausführen")
+
+    result = {}
+    for audit_type, field in fields.items():
+        for ident in index_entries(source[field]):
+            if ident in result:
+                raise ValueError(
+                    f"Vanilla-Auditbestand überschneidet sich: {ident}; "
+                    f"{result[ident]} / {audit_type}"
+                )
+            result[ident] = audit_type
+    return result
+
+
 def validate_draft(path, draft):
     if not isinstance(draft, dict) or not isinstance(draft.get("entries"), list):
         raise ValueError(f"{path}: entries muss eine Liste sein")
@@ -123,8 +142,16 @@ def validate_draft(path, draft):
                 raise ValueError(f"{path}: ungültiger Translation-State für {language}")
             if "previous_english" in state and not isinstance(state["previous_english"], str):
                 raise ValueError(f"{path}: previous_english muss String sein ({language})")
-            if "audit" in state and state["audit"] != "blank_target":
-                raise ValueError(f"{path}: ungültiges audit für {language}; erwartet blank_target")
+            if "audit" in state:
+                if state["audit"] not in AUDIT_TYPES:
+                    raise ValueError(
+                        f"{path}: ungültiges audit für {language}; "
+                        f"erwartet {', '.join(AUDIT_TYPES)}"
+                    )
+                if draft.get("source_type") != "game":
+                    raise ValueError(
+                        f"{path}: audit ist nur für Basis-Spiel-Drafts erlaubt ({language})"
+                    )
 
 
 def migrate_draft(draft):

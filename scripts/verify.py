@@ -5,7 +5,7 @@ from collections import Counter
 import config
 import status as status_script
 from build import collect_expected, expected_mod_info, placeholders
-from common import (entry_identity, index_entries, load_drafts, no_symlinks,
+from common import (AUDIT_TYPES, entry_identity, index_audits, index_entries, load_drafts, no_symlinks,
                     read_tree, translation_state)
 from progress import state as draft_state
 
@@ -63,20 +63,25 @@ def source_errors(path, draft, status, language):
     current = index_entries(mod["english"])
     needed = set(index_entries(mod["missing"] + mod["blank"]))
     stored = {entry_identity(e) for e in draft["entries"] if translation_state(e, language)["needed"] is True}
-    audit_blank = set()
+    audits = {}
     if is_game:
-        if "audit_blank" not in mod:
-            errors.append(f"{path.name}: Status ohne Vanilla-Auditbestand; status erneut ausführen")
-        audit_blank = set(index_entries(mod.get("audit_blank", [])))
-        stored_audit = {entry_identity(e) for e in draft["entries"]
-                        if translation_state(e, language).get("audit") == "blank_target"}
-        for ident in sorted(audit_blank - stored_audit):
+        try:
+            audits = index_audits(mod, language)
+        except ValueError as exc:
+            return errors + [f"{path.name}: {exc}"]
+        stored_audit = {entry_identity(e): translation_state(e, language)["audit"]
+                        for e in draft["entries"] if translation_state(e, language).get("audit") in AUDIT_TYPES}
+        for ident in sorted(audits.keys() - stored_audit.keys()):
             errors.append(f"{path.name}: neuer Audit-Kandidat fehlt im Draft: {ident}")
-        for ident in sorted(stored_audit - audit_blank):
-            errors.append(f"{path.name}: veraltetes blank_target-Audit: {ident}")
+        for ident in sorted(stored_audit.keys() - audits.keys()):
+            errors.append(f"{path.name}: veraltetes {stored_audit[ident]}-Audit: {ident}")
+        for ident in sorted(audits.keys() & stored_audit.keys()):
+            if audits[ident] != stored_audit[ident]:
+                errors.append(f"{path.name}: falscher Audittyp: {ident}; "
+                              f"{stored_audit[ident]} statt {audits[ident]}")
     for ident in sorted(needed - stored):
         errors.append(f"{path.name}: neuer offener Quell-Key fehlt im Draft: {ident}")
-    for ident in sorted(stored - needed - audit_blank):
+    for ident in sorted(stored - needed - audits.keys()):
         errors.append(f"{path.name}: Key nicht mehr benötigt: {ident}")
     for entry in draft["entries"]:
         source = current.get(entry_identity(entry))

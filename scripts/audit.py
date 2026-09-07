@@ -3,21 +3,32 @@
 from collections import Counter
 
 import config
-from common import load_drafts, select_draft, translation_state
+from common import AUDIT_TYPES, load_drafts, select_draft, translation_state
 
 
-def run(selector, language=None, category=None):
+def run(selector, language=None, category=None, audit_type=None):
     language = config.select_language(language)
+    if audit_type is not None and audit_type not in AUDIT_TYPES:
+        raise ValueError(f"Ungültiger Audittyp: {audit_type}; erlaubt: {', '.join(AUDIT_TYPES)}")
     path, draft = select_draft(load_drafts(), selector)
     entries = [entry for entry in draft["entries"]
-               if translation_state(entry, language).get("audit") == "blank_target"
+               if translation_state(entry, language).get("audit") in AUDIT_TYPES
+               and (audit_type is None or translation_state(entry, language)["audit"] == audit_type)
                and (category is None or entry["category"] == category)]
-    counts = Counter(entry["category"] for entry in entries)
+    totals = Counter(translation_state(entry, language)["audit"] for entry in entries)
+    counts = Counter((entry["category"], translation_state(entry, language)["audit"]) for entry in entries)
     name = draft.get("mod_id") or draft.get("name") or path.name
-    print(f"Audit {name} ({language}): blank_target")
-    print(f"{'ANZAHL':>6}  KATEGORIE")
-    for name, count in sorted(counts.items()):
-        print(f"{count:6}  {name}")
+    print(f"Audit {name} ({language})")
+    print()
+    print(f"{'ANZAHL':>6}  TYP")
+    for name in AUDIT_TYPES:
+        print(f"{totals[name]:6}  {name}")
+    print(f"{len(entries):6}  gesamt")
+    print("\nNach Kategorie:")
+    print(f"{'KATEGORIE':24} {'BLANK':>6} {'SAME':>6} {'GESAMT':>7}")
+    for name in sorted({entry["category"] for entry in entries}):
+        blank, same = counts[name, "blank_target"], counts[name, "same_as_source"]
+        print(f"{name:24} {blank:6} {same:6} {blank + same:7}")
     print(f"Audit-Kandidaten: {len(entries)}")
     print("Davon zur Übersetzung freigegeben: " + str(sum(
         translation_state(entry, language)["needed"] is True for entry in entries)))

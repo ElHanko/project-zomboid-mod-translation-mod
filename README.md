@@ -40,8 +40,11 @@ the base game separate from Workshop mods in `base_game`.
 For the base game, only a completely absent target key with nonempty English text
 is automatically needed. Existing blank target values with nonempty English text
 are kept separately in status as `audit_blank` and added to the durable draft as
-audit candidates. Empty English text is never an audit candidate. Workshop needs
-still include both missing and blank target values.
+audit candidates. Nonempty target values exactly equal to English are additionally
+classified as `audit_same_as_source` using string equality, without trimming,
+case folding or other normalization. These still count as existing target values.
+Empty English text is never an audit candidate. Workshop needs still include both
+missing and blank target values; identical Workshop texts receive no audit marker.
 
 Adoption is explicit, after scan and status:
 
@@ -67,26 +70,68 @@ Each new audit candidate starts with this state for the checked language:
 "DE": {"text": "", "needed": false, "review": false, "audit": "blank_target"}
 ```
 
-`audit` belongs to the language state; `blank_target` is its only allowed value.
+`audit` belongs to the language state and allows exactly `blank_target` or
+`same_as_source`. New candidates of either type start with empty draft text,
+`needed=false` and `review=false`. Identical official text may be intentional,
+such as names or technical terms; the audit does not declare it untranslated.
 An audit candidate with `needed=false` contributes neither work nor open needs
-and is not built, even if it has draft text. To release a candidate for translation,
-manually set its language state's `needed` to `true`, then use the normal work/apply
-workflow. Refresh preserves this choice and all text while the existing audit's
-official target remains blank. If an official nonempty target appears, refresh
-removes `audit` and sets `needed=false`. If the target key disappears, it removes
+and is not built, even if it has draft text. To release candidates for translation,
+use `review --need` to set their language state's `needed` to `true`, then use the normal work/apply
+workflow. Refresh preserves this choice and all text while the entry remains an
+audit candidate, including switches between the two audit types. If an official
+nonempty target different from English appears, refresh removes `audit` and sets
+`needed=false`. If the target key disappears, it removes
 `audit` and sets `needed=true`. Removed English keys retain their draft history
-with `needed=false` and no audit marker for the checked language.
+with `needed=false` and no audit marker for the checked language. English text
+becoming empty also ends the audit. English changes retain the existing review
+and first `previous_english` behavior for all stored languages.
 
-Verify compares current audit candidates with the draft, reports missing or stale
-audit markers and accepts manually released candidates. After updating older
-tooling, run scan, status and draft refresh to populate the audit inventory.
+Verify compares current audit candidates and their exact types with the draft,
+reports missing, wrong or stale audit markers and accepts manually released
+candidates. A status missing either audit inventory is rejected during refresh;
+run `./pzgt scan` and `./pzgt status --language DE` (or the selected language), then
+refresh the draft.
 
-The read-only audit summary uses only the draft and supports a category filter:
+The read-only audit summary uses only the draft, totals both types and lists their
+counts by category. Type and category filters can be used together:
 
 ```bash
 ./pzgt audit "Project Zomboid" --language DE
 ./pzgt audit "Project Zomboid" --language DE --category Recorded_Media
+./pzgt audit "Project Zomboid" --language DE --type same_as_source
+./pzgt audit "Project Zomboid" --language DE --category RadioData --type same_as_source
 ```
+
+`review` records a decision about existing Vanilla audit candidates in the draft.
+It requires an audit type and exactly one of `--need` or `--not-needed`; category
+is optional. Both commands read no live game or Workshop source.
+
+```bash
+./pzgt review "Project Zomboid" \
+  --language DE --type blank_target --need
+
+./pzgt review "Project Zomboid" \
+  --language DE --type same_as_source --category RadioData --need
+
+./pzgt review "Project Zomboid" \
+  --language DE --type same_as_source --category RadioData --not-needed
+```
+
+Only the selected language's `needed` field changes. The audit marker, existing
+translation text, review flag and history remain intact. `--not-needed` never
+deactivates a missing key without an audit marker and never deletes draft text.
+Repeating an existing decision succeeds without rewriting the draft. No matching
+candidates is an error, including misspelled categories. These commands neither
+build runtime files nor create work packages. Handling `review=true` flags remains
+part of the existing translation workflow; the new command only classifies audits.
+
+| Command | Role |
+| --- | --- |
+| `audit` | View the audit inventory; always read-only |
+| `review` | Mark audit candidates as needed or not needed |
+| `work` | Prepare needed translations for editing |
+| `apply` | Save translations to the draft |
+| `build` | Generate runtime files |
 
 The same builder combines completed game and mod drafts in the runtime language
 directories, with the existing shared-key conflict rules. An unfinished game
@@ -198,7 +243,8 @@ An export includes only its selected configured languages.
 | --- | --- |
 | `./pzgt scan` | Inventory base game, Workshop mods, effective layers, EN and configured targets |
 | `./pzgt status [--language CODE]` | Compare English and target content from the scan |
-| `./pzgt audit SELECTOR [--language CODE] [--category NAME]` | Summarize draft audit candidates by category without reading live sources |
+| `./pzgt audit SELECTOR [--language CODE] [--category NAME] [--type TYPE]` | Summarize draft audits by type and category without reading live sources; TYPE is blank_target or same_as_source |
+| `./pzgt review SELECTOR --type TYPE (--need \| --not-needed) [--language CODE] [--category NAME]` | Set needed only for matching Vanilla audit candidates; preserve text and audit markers |
 | `./pzgt draft MOD-ID` | Explicitly adopt or refresh one mod using the current status language |
 | `./pzgt draft --all` | Migrate/refresh existing catalogue drafts only |
 | `./pzgt progress [MOD-ID] [--language CODE]` | Count needed, translated, open, review and unknown entries |
