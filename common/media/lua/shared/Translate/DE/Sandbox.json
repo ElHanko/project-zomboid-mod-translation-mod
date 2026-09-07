@@ -8,6 +8,7 @@
     "Sandbox_DAMN_AllowMcBoxySpawns": "Vorgegebene Spawnpunkte für '87 Ford F700 Koffer-Lkw aktivieren",
     "Sandbox_DAMN_AllowMrBusSpawns": "Vorgegebene Spawnpunkte für '87 Ford B700 aktivieren",
     "Sandbox_DAMN_Spawns": "KI5 | Garantierte Fahrzeug-Spawnpunkte",
+    "Sandbox_ElecShutModifier": "Stromabschalt-Modifikator",
     "Sandbox_KillCount": "Mod Kill Count",
     "Sandbox_KillCount_MaxUpdateDelay": "Aktualisierungsintervall",
     "Sandbox_KillCount_MaxUpdateDelay_tooltip": "Angestrebte Zeit (in Millisekunden) zwischen zwei Aktualisierungen im Mehrspielermodus. Ein niedriger Wert sorgt für schnellere Reaktionen. Ein hoher Wert verringert den Netzwerkverkehr und die Serverlast.",
@@ -154,5 +155,7 @@
     "Sandbox_WQS_ZoneMap_random_txt": "Einstellungen für zufällige Evakuierungszonen",
     "Sandbox_WQS_ZoneMap_random_txt_tooltip": "Wenn eine zufällige Evakuierungszone gewählt wurde, kannst du festlegen, welche Zonen – einschließlich Zonen aus Mod-Karten – in die Zufallsauswahl einbezogen werden. \\n Wenn eine feste Evakuierungszone ausgewählt wurde, wird diese Einstellung ignoriert.",
     "Sandbox_WQS_ZoneMap_txt": "Evakuierungszone",
-    "Sandbox_WQS_ZoneMap_txt_tooltip": "Wähle die Evakuierungszone aus."
+    "Sandbox_WQS_ZoneMap_txt_tooltip": "Wähle die Evakuierungszone aus.",
+    "Sandbox_WaterShutModifier": "Wasserabschalt-Modifikator",
+    "Sandbox_ZombiesCountBeforeDelete_help": "Legt die maximale Anzahl an Zombies fest, die verfolgt werden, bevor eine Bereinigung erfolgt. 0 bedeutet, dass Zombies nicht bereinigt werden.\\nDer Standardwert (300) wird dringend empfohlen. Eine Erhöhung dieses Werts oder die Einstellung auf 0 kann zu erheblichen Leistungsproblemen führen.\\nZur Fehlerbehebung und für Fehlerberichte reproduziere das Problem bitte mit der Standardeinstellung, bevor du einen Bericht einreichst."
 }

@@ -20,6 +20,12 @@
     "UI_DrawOnMap_Fill": "Füllen",
     "UI_DrawOnMap_Line": "Linie",
     "UI_DrawOnMap_Thickness": "Strichstärke",
+    "UI_EpilepsyWarning_1": "WICHTIGER HINWEIS ZU LICHTEMPFINDLICHKEIT – BITTE LESEN",
+    "UI_EpilepsyWarning_3": "Dieses Spiel kann blinkende Lichter, Stroboskopeffekte, schnelle visuelle Veränderungen und Muster enthalten, die Krampfanfälle oder",
+    "UI_EpilepsyWarning_4": "andere unerwünschte Reaktionen bei Menschen mit photosensitiver Epilepsie auslösen können – auch bei Personen ohne entsprechende Vorgeschichte. Wenn du oder jemand in",
+    "UI_EpilepsyWarning_5": "deinem Haushalt an Epilepsie leidet oder bereits Krampfanfälle hatte, konsultiere bitte vor dem Spielen einen Arzt.",
+    "UI_EpilepsyWarning_7": "Wenn du Schwindel, Sehstörungen, Muskelzuckungen, Bewusstseinsverlust, Orientierungslosigkeit oder Ähnliches bemerkst,",
+    "UI_EpilepsyWarning_8": "beende das Spiel bitte sofort und konsultiere einen Arzt.",
     "UI_KCComboTitle": "Ausgewählter Spieler: ",
     "UI_KCIncludeDead": "Verstorbene Charaktere einbeziehen",
     "UI_KillCount_car": "Auto",
@@ -28,5 +34,8 @@
     "UI_Kills": "Tötungen",
     "UI_KillsPanel": "KillCount-Fenster mit allen verfügbaren Detailwerten.",
     "UI_Tooltip_Verbose": "Hilft bei der Fehlersuche. <LINE> Beeinträchtigt die Leistung. <LINE> Im Zweifelsfall deaktiviert lassen.",
-    "UI_Verbose": "Ausführliche Protokollierung"
+    "UI_Verbose": "Ausführliche Protokollierung",
+    "UI_optionscreen_disableLightningDuringStorms": "Blitze während Stürmen deaktivieren",
+    "UI_optionscreen_disableLightningDuringStorms_tt": "Wenn aktiviert, werden während Stürmen keine Blitze erzeugt.",
+    "UI_worldscreen_SavefileConversion": "<H1> <LINE> <ORANGE> WARNUNG: <LINE> <LINE> <RGB:1,1,1> Durch die Konvertierung werden Spielstände unbrauchbar. <LINE> <LINE> Wir empfehlen dringend, eine der Backup-Betas auf Steam zu verwenden, um deinen Spielstand weiterzuspielen. <LINE> <LINE> Spielstand konvertieren?"
 }
