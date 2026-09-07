@@ -498,6 +498,7 @@ def main(argv=None):
             command.add_argument("--next", action="store_true")
             command.add_argument("--limit", type=int, default=25)
             command.add_argument("--offset", type=int, default=0)
+            command.add_argument("--category")
         if name == "export":
             command.add_argument("--zip", action="store_true", dest="make_zip")
         if name == "apply":
@@ -545,7 +546,13 @@ def main(argv=None):
             elif args.command == "work":
                 if args.next and args.selector:
                     raise ValueError("--next und MOD-ID schließen sich aus")
-                module.run(args.selector, args.limit, args.offset, args.language)
+                module.run(
+                    args.selector,
+                    args.limit,
+                    args.offset,
+                    args.language,
+                    args.category,
+                )
             elif args.command == "apply":
                 module.run(args.file)
             elif args.command == "export":

@@ -27,23 +27,25 @@ def is_buildable(path, data, language):
 
 
 def collect_expected(drafts, language):
+    """Plan finished entries; report complete/incomplete drafts separately."""
     categories = defaultdict(dict)
     plain_files = {}
     owners = {}
     shared_texts = {}
-    included = []
-    excluded = []
+    complete = []
+    incomplete = []
     for path, data in sorted(drafts, key=lambda item: item[0].name):
         validate_draft(path, data)
         require_known(data, language)
         if not is_buildable(path, data, language):
-            excluded.append(path)
-            continue
-        included.append(path)
+            incomplete.append(path)
+        else:
+            complete.append(path)
         owner = data.get("mod_id") or data.get("directory") or path.name
         for entry in data["entries"]:
             state = translation_state(entry, language)
-            if state["needed"] is not True:
+            if (state["needed"] is not True or not state["text"].strip() or state["review"]
+                    or placeholders(entry["english"]) != placeholders(state["text"])):
                 continue
             category, key = entry["category"], entry["key"]
             text = state["text"]
@@ -82,7 +84,7 @@ def collect_expected(drafts, language):
     for path in expected:
         if any(str(parent).casefold() in names for parent in path.parents):
             raise ValueError(f"Runtime-Datei kollidiert mit Verzeichnis: {path}")
-    return expected, included, excluded
+    return expected, complete, incomplete
 
 
 def build(drafts, languages):
@@ -102,8 +104,8 @@ def build(drafts, languages):
             outputs[path] = expected_mod_info()
     if outputs:
         replace_outputs(outputs)
-    for language, (expected, included, excluded) in plans.items():
-        print(f"Build {language}: OK | {len(included)} fertige Drafts | {len(excluded)} ausgeschlossen | {len(expected)} Dateien")
+    for language, (expected, complete, incomplete) in plans.items():
+        print(f"Build {language}: OK | {len(complete)} fertige Drafts | {len(incomplete)} unvollständige Drafts | {len(expected)} Dateien")
     return plans
 
 

@@ -54,6 +54,18 @@ class SharedKeyTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             build.collect_expected([draft("one", [entry(text=""), entry(text="")])], "DE")
 
+    def test_finished_conflict_in_partial_draft_still_fails(self):
+        drafts = self.drafts(text="Different")
+        drafts[1][1]["entries"].append(entry("ItemName", "Base.Open", text=""))
+        with self.assertRaisesRegex(ValueError, "Konflikt"):
+            build.collect_expected(drafts, "DE")
+
+    def test_empty_conflict_candidate_does_not_hide_finished_translation(self):
+        drafts = self.drafts(english="Different source", text=" \t")
+        expected, _, _ = build.collect_expected(drafts, "DE")
+        self.assertEqual(json.loads(expected[Path("IG_UI.json")]),
+                         {"IGUI_VehiclePartGM85Roofrack": "Dachgepäckträger"})
+
     def test_plain_identity_does_not_collide_with_json_category_named_plain(self):
         drafts = [draft("mod", [entry("__plain__", "title.txt"), entry("plain", "title.txt")])]
         expected, _, _ = build.collect_expected(drafts, "DE")

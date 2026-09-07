@@ -357,6 +357,21 @@ class CatalogueTests(TemporaryRepository):
 
 
 class WorkApplyTests(TemporaryRepository):
+    def test_next_ranks_open_entries_in_selected_category(self):
+        drafts = [
+            fixture_draft("few_total", [entry("ItemName", f"Base.Item{i}", text="")
+                                       for i in range(2)]),
+            fixture_draft("few_itemnames", [entry("ItemName", "Base.SeatFabric", text="")]
+                          + [entry("UI", f"UI_Test{i}", text="") for i in range(4)]),
+            fixture_draft("other_category", [entry("UI", "UI_Other", text="")]),
+        ]
+        package = work.make_work(drafts, language="DE", category="ItemName")
+        self.assertEqual(package["mod_id"], "few_itemnames")
+        self.assertEqual(package["category"], "ItemName")
+        self.assertEqual(package["open_total"], 1)
+        self.assertEqual([e["key"] for e in package["entries"]], ["Base.SeatFabric"])
+        self.assertEqual(work.make_work(drafts[:2], language="DE")["mod_id"], "few_total")
+
     def test_language_filenames_and_original_translation(self):
         data = self.bilingual("Fixture FR")
         for state in data["entries"][0]["translations"].values():
@@ -466,6 +481,66 @@ class WorkApplyTests(TemporaryRepository):
 
 
 class BuildVerifyExportTests(TemporaryRepository):
+    def test_partial_drafts_keep_finished_entries_per_language(self):
+        data = self.bilingual()
+        other = entry("ItemName", "Base.Other", text="")
+        other["translations"]["FR"] = {"text": "Autre", "needed": True, "review": False}
+        data["entries"].append(other)
+        path, _ = self.store(data)
+        original = path.read_bytes()
+        plans = build.build([(path, data)], ["DE", "FR"])
+        for language in ("DE", "FR"):
+            summary = progress.state(path, data, language)
+            self.assertFalse(summary["complete"])
+            self.assertEqual((summary["needed"], summary["translated"], summary["open"]), (2, 1, 1))
+            self.assertEqual(plans[language][1:], ([], [path]))
+        self.assertEqual(json.loads((config.TRANSLATE / "DE/IG_UI.json").read_text()),
+                         {"IGUI_VehiclePartGM85Roofrack": "Dachgepäckträger"})
+        self.assertEqual(json.loads((config.TRANSLATE / "FR/ItemName.json").read_text()),
+                         {"Base.Other": "Autre"})
+        self.assertFalse((config.TRANSLATE / "DE/ItemName.json").exists())
+        self.assertFalse((config.TRANSLATE / "FR/IG_UI.json").exists())
+        self.assertEqual(path.read_bytes(), original)
+
+    def test_partial_draft_skips_excluded_review_and_invalid_entries(self):
+        entries = [entry("UI", "Good", text="Hallo"),
+                   entry("UI", "Empty", text=" \t\n"),
+                   entry("UI", "Excluded", text="Irgendein Text"),
+                   entry("UI", "Review", text="Prüfen"),
+                   entry("UI", "Placeholder", english="Hello %1", text="Hallo"),
+                   entry("__plain__", "Book/title.txt", text="Titel  \n"),
+                   entry("__plain__", "Book/description.txt", text="")]
+        entries[2]["translations"]["DE"]["needed"] = False
+        entries[3]["translations"]["DE"]["review"] = True
+        expected, complete, incomplete = build.collect_expected([fixture_draft("partial", entries)], "DE")
+        self.assertEqual(set(expected), {Path("UI.json"), Path("Book/title.txt")})
+        self.assertEqual(json.loads(expected[Path("UI.json")]), {"Good": "Hallo"})
+        self.assertEqual(expected[Path("Book/title.txt")], b"Titel\n")
+        self.assertEqual((complete, incomplete), ([], [Path("partial.json")]))
+
+    def test_verify_accepts_finished_runtime_entries_from_partial_draft(self):
+        data = self.bilingual("FR fixture")
+        data.update(game_version="42.20.4", effective_layers=["common"])
+        data["entries"].append(entry("ItemName", "Base.Open", english="Open", text=""))
+        path, _ = self.store(data)
+        build.run(language="DE")
+        self.assertEqual(common.read_tree(config.TRANSLATE / "DE"), {
+            Path("IG_UI.json"): b'{\n    "IGUI_VehiclePartGM85Roofrack": "Dachgep\xc3\xa4cktr\xc3\xa4ger"\n}\n',
+        })
+        source = self.source_mod()
+        opened = {"category": "ItemName", "key": "Base.Open", "text": "Open"}
+        source["english"].append(opened)
+        source["missing"].append(opened)
+        snapshot = {"language": "DE", "game_version": "42.20.4", "mods": [source]}
+        output = StringIO()
+        with patch.object(pzgt, "scan_data", return_value={"game_version": "42.20.4"}), \
+                patch.object(status, "analyze_scan", return_value=snapshot), redirect_stdout(output):
+            verify.run("DE")
+        self.assertIn("Runtime DE: 1 erwartet | 1 vorhanden | 0 Abweichungen", output.getvalue())
+        self.assertIn("Unvollständig: 1 | Benötigt: 2 | Übersetzt: 1 | Offen: 1", output.getvalue())
+        self.assertIn("Ergebnis: OK", output.getvalue())
+        self.assertFalse(progress.state(path, data, "DE")["complete"])
+
     def test_build_inclusion_per_language_and_empty_language(self):
         path, data = self.store(self.bilingual())
         plans = build.build([(path, data)], ["DE", "FR"])

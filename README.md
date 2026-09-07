@@ -187,9 +187,9 @@ resume offset accounts for the smaller list. No session file is created.
 | `apply` | Save translations to the draft |
 | `build` | Generate runtime files |
 
-The same builder combines completed game and mod drafts in the runtime language
-directories, with the existing shared-key conflict rules. An unfinished game
-draft is excluded just like an unfinished mod draft. Verify reads the game only
+The same builder combines finished entries from game and mod drafts in the runtime
+language directories, with the existing shared-key conflict rules. Unfinished
+drafts retain their finished entries in the runtime. Verify reads the game only
 when a game draft exists; its installation is then required and version, source
 text and translation needs must match. A missing game source is an error.
 
@@ -313,7 +313,7 @@ An export includes only its selected configured languages.
 Mod selectors match a unique mod ID, directory or name, without case sensitivity.
 The optional legacy `build MOD-ID` form additionally requires that selected
 draft to be complete for the selected language(s); the build still includes
-all completed drafts.
+finished entries from all drafts.
 
 ## Durable draft model
 
@@ -476,11 +476,13 @@ common/media/lua/shared/Translate/
 └── ES/
 ```
 
-Completion is language-specific. A draft is included only when all required
-entries have nonempty text, no review and matching placeholders. Incomplete
-drafts are excluded as a whole for that language; DE can be included while FR
-is excluded. A language with no finished drafts produces no translation files.
-Unknown requirements are errors, not silently excluded drafts.
+Completion is language-specific. A draft is complete only when all required
+entries have nonempty text, no review and matching placeholders. Runtime output
+is decided per entry: `needed=true`, nonempty text, no review and matching
+placeholders. Finished translations remain in the runtime even when other entries
+in the same draft are open. Entries with `needed=false` are omitted. A language
+with no finished entries produces no translation files. Unknown requirements
+remain errors. Draft completion counts are unchanged by partial runtime output.
 
 One shared planner computes the exact expected bytes for build, verify and
 export. It retains the existing four-space JSON serialization, sorted categories
@@ -553,11 +555,11 @@ known build.
 the actual build plan for the selected export languages. It lists only mods
 whose translations are complete and therefore present in that export, including
 Workshop ID, Workshop URL, mod ID and the included target languages. A known but
-incomplete mod is not listed for that language. Local installation state does
-not affect the list.
+incomplete mod is not listed for that language, although its finished entries
+are exported. Local installation state does not affect the list.
 
 The base game is excluded from `Supported mods` and the Workshop list. If its
-draft is included in any exported language, the header adds, for example,
+draft is complete in any exported language, the header adds, for example,
 `Base game translations: included (DE, FR)`, listing only those included languages.
 
 The allowlist contains only `LICENSE`, `SUPPORTED-MODS.txt`, the two `mod.info`

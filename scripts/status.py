@@ -284,6 +284,89 @@ def layer_files(mod, layer_name, language):
     return sorted(result)
 
 
+def script_statements(text):
+    """Split outside strings/comments, including nested Workshop comments."""
+    buffer = []
+    quoted = False
+    escaped = False
+    i = 0
+    while i < len(text):
+        ch = text[i]
+        if quoted:
+            buffer.append(ch)
+            if escaped:
+                escaped = False
+            elif ch == "\\":
+                escaped = True
+            elif ch == '"':
+                quoted = False
+        elif text.startswith("//", i):
+            end = text.find("\n", i + 2)
+            i = len(text) if end < 0 else end
+            buffer.append(" ")
+            continue
+        elif text.startswith("/*", i):
+            # Mods nest block comments and use /*/ as an empty separator.
+            depth = 1
+            i += 2
+            if i < len(text) and text[i] == "/":
+                depth = 0
+                i += 1
+            while depth and i < len(text):
+                if text.startswith("/*/", i):
+                    i += 3
+                elif text.startswith("/*", i):
+                    depth += 1
+                    i += 2
+                elif text.startswith("*/", i):
+                    depth -= 1
+                    i += 2
+                else:
+                    i += 1
+            if depth:
+                raise ValueError("Nicht abgeschlossener Script-Kommentar")
+            buffer.append(" ")
+            continue
+        elif ch == '"':
+            quoted = True
+            buffer.append(ch)
+        elif ch in "{},":
+            yield "".join(buffer).strip(), ch
+            buffer = []
+        else:
+            buffer.append(ch)
+        i += 1
+    if quoted:
+        raise ValueError("Nicht abgeschlossener Script-String")
+
+
+def parse_script_itemnames(path):
+    """Read only direct DisplayName properties of module/item blocks."""
+    text = path.read_text(encoding="utf-8-sig", errors="replace")
+    blocks = []
+    entries = {}
+    for statement, delimiter in script_statements(text):
+        if delimiter == "{":
+            header = statement.split()
+            blocks.append(tuple(header) if len(header) == 2 else ("", ""))
+            continue
+        if (len(blocks) == 2 and blocks[0][0] == "module"
+                and blocks[1][0] == "item"):
+            name, separator, value = statement.partition("=")
+            if separator and name.strip() == "DisplayName":
+                value = value.strip()
+                if len(value) >= 2 and value[0] == value[-1] == '"':
+                    value = value[1:-1]
+                entries[f"{blocks[0][1]}.{blocks[1][1]}"] = value
+        if delimiter == "}":
+            if not blocks:
+                raise ValueError("Unerwartete schließende Script-Klammer")
+            blocks.pop()
+    if blocks:
+        raise ValueError("Nicht abgeschlossener Script-Block")
+    return entries
+
+
 def collect_language(mod, language):
     """
     common zuerst, dann Versionsschicht.
@@ -443,6 +526,31 @@ def collect_language(mod, language):
                 # Absichtlich überschreiben:
                 # spätere effektive Schicht gewinnt.
                 entries[entry_id] = record
+
+    if language == "EN":
+        fallbacks = {}
+        for layer_name in mod.get("effective_layers", []):
+            layer = next((item for item in mod["layers"] if item["name"] == layer_name), None)
+            if layer is None:
+                continue
+            base = Path(layer["path"])
+            for path in sorted((base / "media/scripts").rglob("*.txt")):
+                if not path.is_file():
+                    continue
+                rel = str(path.relative_to(base))
+                try:
+                    parsed = parse_script_itemnames(path)
+                except (OSError, ValueError) as exc:
+                    parse_errors.append({"layer": layer_name, "file": rel, "error": str(exc)})
+                    continue
+                for key, value in parsed.items():
+                    fallbacks[identity("ItemName", key)] = {
+                        "category": "ItemName", "key": key, "text": value,
+                        "file": rel, "layer": layer_name, "format": "script-displayname",
+                    }
+        # Explicit EN translations from any effective layer are authoritative.
+        for entry_id, record in fallbacks.items():
+            entries.setdefault(entry_id, record)
 
     return {
         "entries": entries,
