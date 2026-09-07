@@ -35,6 +35,10 @@ LEGACY_FIELDS = ("german", "needed", "review", "previous_english")
 AUDIT_TYPES = ("blank_target", "same_as_source")
 
 
+def is_music_entry(entry):
+    return "[img=music]" in entry["english"].casefold()
+
+
 def unique_object(pairs):
     result = {}
     for key, value in pairs:
@@ -142,6 +146,9 @@ def validate_draft(path, draft):
                 raise ValueError(f"{path}: ungültiger Translation-State für {language}")
             if "previous_english" in state and not isinstance(state["previous_english"], str):
                 raise ValueError(f"{path}: previous_english muss String sein ({language})")
+            if "reviewed" in state and (
+                    type(state["reviewed"]) is not int or state["reviewed"] not in (0, 1)):
+                raise ValueError(f"{path}: reviewed muss 0 oder 1 sein ({language})")
             if "audit" in state:
                 if state["audit"] not in AUDIT_TYPES:
                     raise ValueError(
@@ -194,7 +201,10 @@ def load_drafts(migrate=False):
 
 
 def translation_state(entry, language):
-    return entry["translations"].get(language, {"text": "", "needed": None, "review": False})
+    return entry["translations"].get(
+        language,
+        {"text": "", "needed": None, "review": False, "reviewed": 0},
+    )
 
 
 def require_known(draft, language):

@@ -505,6 +505,7 @@ def main(argv=None):
         if name in ("audit", "review"):
             command.add_argument("selector")
             command.add_argument("--category")
+            command.add_argument("--music-include", action="store_true", dest="include_music")
         if name == "audit":
             command.add_argument("--type", dest="audit_type", choices=AUDIT_TYPES)
         if name == "review":
@@ -516,6 +517,7 @@ def main(argv=None):
             group.add_argument("--not-needed", action="store_true")
             group.add_argument("--interactive", action="store_true")
             command.add_argument("--offset", type=int)
+            command.add_argument("--all", action="store_true", dest="include_reviewed")
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv == ["help"]:
         argv = ["--help"]
@@ -525,6 +527,8 @@ def main(argv=None):
             parser.error("--review ist nur mit --interactive zulässig")
         if args.offset is not None and (not args.interactive or args.offset < 0):
             parser.error("--offset ist nur mit --interactive zulässig und muss >= 0 sein")
+        if args.include_reviewed and (not args.interactive or args.review):
+            parser.error("--all ist nur mit --type ... --interactive zulässig")
     try:
         settings.configure()
         if args.command == "scan":
@@ -546,13 +550,33 @@ def main(argv=None):
             elif args.command == "export":
                 module.run(args.language, args.make_zip)
             elif args.command == "audit":
-                module.run(args.selector, args.language, args.category, args.audit_type)
+                module.run(
+                    args.selector,
+                    args.language,
+                    args.category,
+                    args.audit_type,
+                    include_music=args.include_music,
+                )
             elif args.command == "review":
                 if args.interactive:
-                    module.run_interactive(args.selector, args.language, args.audit_type,
-                                           args.category, offset=args.offset or 0)
+                    module.run_interactive(
+                        args.selector,
+                        args.language,
+                        args.audit_type,
+                        args.category,
+                        offset=args.offset or 0,
+                        include_reviewed=args.include_reviewed,
+                        include_music=args.include_music,
+                    )
                 else:
-                    module.run(args.selector, args.language, args.audit_type, args.category, needed=args.need)
+                    module.run(
+                        args.selector,
+                        args.language,
+                        args.audit_type,
+                        args.category,
+                        needed=args.need,
+                        include_music=args.include_music,
+                    )
             else:
                 module.run(args.language)
     except (OSError, ValueError) as exc:

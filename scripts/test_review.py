@@ -6,6 +6,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 import apply
+import audit
 import build
 import common
 import config
@@ -81,8 +82,10 @@ class ReviewTests(TemporaryRepository):
                 already = 0
                 for item in expected["entries"]:
                     if item["key"] in keys:
-                        already += item["translations"]["DE"]["needed"] is True
-                        item["translations"]["DE"]["needed"] = True
+                        state = item["translations"]["DE"]
+                        already += state["needed"] is True and state.get("reviewed", 0) == 1
+                        state["needed"] = True
+                        state["reviewed"] = 1
                 result, output = self.cli(audit_type, category)
                 self.assertEqual(result, 0)
                 self.assertEqual(common.load_json(self.path), expected)
@@ -102,8 +105,10 @@ class ReviewTests(TemporaryRepository):
                 already = 0
                 for item in expected["entries"]:
                     if item["key"] in keys:
-                        already += item["translations"]["DE"]["needed"] is False
-                        item["translations"]["DE"]["needed"] = False
+                        state = item["translations"]["DE"]
+                        already += state["needed"] is False and state.get("reviewed", 0) == 1
+                        state["needed"] = False
+                        state["reviewed"] = 1
                 result, output = self.cli(audit_type, category, needed=False)
                 self.assertEqual(result, 0)
                 self.assertEqual(common.load_json(self.path), expected)
@@ -118,6 +123,7 @@ class ReviewTests(TemporaryRepository):
         common.write_json(self.path, expected)
         for item in expected["entries"][:2]:
             item["translations"]["FR"]["needed"] = True
+            item["translations"]["FR"]["reviewed"] = 1
         result, _ = self.cli("blank_target", "RadioData", language="FR")
         self.assertEqual(result, 0)
         self.assertEqual(common.load_json(self.path), expected)
@@ -246,13 +252,18 @@ class ReviewTests(TemporaryRepository):
                 common.validate_draft(self.path, game)
 
     def interactive(self, replies, audit_type="same_as_source", category=None, offset=None,
-                    selector="Project Zomboid", language="DE"):
+                    selector="Project Zomboid", language="DE", include_reviewed=False,
+                    include_music=False):
         args = ["review", selector, "--language", language, "--interactive"]
         args += ["--type", audit_type] if audit_type is not None else ["--review"]
         if category is not None:
             args += ["--category", category]
         if offset is not None:
             args += ["--offset", str(offset)]
+        if include_reviewed:
+            args += ["--all"]
+        if include_music:
+            args += ["--music-include"]
         output = StringIO()
         with redirect_stdout(output), patch("builtins.input", side_effect=replies):
             result = pzgt.main(args)
@@ -279,9 +290,15 @@ class ReviewTests(TemporaryRepository):
         for selection in (["--type", "blank_target"], ["--review"]):
             with patch.object(review, "run_interactive") as run:
                 self.assertEqual(pzgt.main(prefix + selection + ["--interactive", "--offset", "1"]), 0)
-                run.assert_called_once_with("Project Zomboid", "DE",
-                                            "blank_target" if selection[0] == "--type" else None,
-                                            None, offset=1)
+                run.assert_called_once_with(
+                    "Project Zomboid",
+                    "DE",
+                    "blank_target" if selection[0] == "--type" else None,
+                    None,
+                    offset=1,
+                    include_reviewed=False,
+                    include_music=False,
+                )
 
     def test_interactive_audit_n_x_preserve_every_other_field_and_filter(self):
         for audit_type, category, replies, changes in (
@@ -292,7 +309,9 @@ class ReviewTests(TemporaryRepository):
                 common.write_json(self.path, self.data)
                 expected = deepcopy(self.data)
                 for number, needed in changes.items():
-                    expected["entries"][number]["translations"]["DE"]["needed"] = needed
+                    state = expected["entries"][number]["translations"]["DE"]
+                    state["needed"] = needed
+                    state["reviewed"] = 1
                 with patch.object(review, "write_json", wraps=common.write_json) as writer:
                     result, output = self.interactive(replies, audit_type, category)
                     writer.assert_called_once()
@@ -306,7 +325,12 @@ class ReviewTests(TemporaryRepository):
     def test_interactive_audit_translation_preserves_marker_and_other_language(self):
         expected = deepcopy(self.data)
         state = expected["entries"][1]["translations"]["DE"]
-        state.update(text="  Eigene Übersetzung  ", needed=True, review=False)
+        state.update(
+            text="  Eigene Übersetzung  ",
+            needed=True,
+            review=False,
+            reviewed=1,
+        )
         state.pop("previous_english")
         result, output = self.interactive(["t", "  Eigene Übersetzung  "], category="RadioData", offset=1)
         self.assertEqual(result, 0)
@@ -316,7 +340,11 @@ class ReviewTests(TemporaryRepository):
         # A previously unneeded audit becomes needed when translated directly.
         result, _ = self.interactive(["t", "Freigegeben", "q"], category="RadioData")
         self.assertEqual(result, 0)
-        expected["entries"][0]["translations"]["DE"].update(text="Freigegeben", needed=True)
+        expected["entries"][0]["translations"]["DE"].update(
+            text="Freigegeben",
+            needed=True,
+            reviewed=1,
+        )
         self.assertEqual(common.load_json(self.path), expected)
 
     def test_interactive_empty_bad_placeholder_and_invalid_choice_retry_same_entry(self):
@@ -342,7 +370,6 @@ class ReviewTests(TemporaryRepository):
         for replies, audit_type, category, offset in (
                 (["q"], "same_as_source", None, None),
                 (["s", "s", "s"], "same_as_source", None, None),
-                (["x", "n"], "same_as_source", "RadioData", None),
                 (["q"], None, None, None), (["s"], None, None, None),
                 (["q"], "same_as_source", None, 2)):
             with self.subTest(replies=replies, audit_type=audit_type, offset=offset):
@@ -372,6 +399,7 @@ class ReviewTests(TemporaryRepository):
                     expected = deepcopy(data)
                     state = expected["entries"][1]["translations"]["DE"]
                     state["review"] = False
+                    state["reviewed"] = 1
                     state.pop("previous_english")
                     result, output = self.interactive(["a"], audit_type=None, selector=selector)
                     self.assertEqual(result, 0)
@@ -403,7 +431,7 @@ class ReviewTests(TemporaryRepository):
                 path, _ = self.store(workshop)
                 expected = deepcopy(workshop)
                 state = expected["entries"][0]["translations"]["DE"]
-                state.update(text="Neue Übersetzung", review=False)
+                state.update(text="Neue Übersetzung", review=False, reviewed=1)
                 state.pop("previous_english")
                 result, _ = self.interactive(["t", "Neue Übersetzung"], audit_type=None, selector="mod")
                 self.assertEqual(result, 0)
@@ -414,7 +442,7 @@ class ReviewTests(TemporaryRepository):
         result, _ = self.interactive(["t", "Neu"], audit_type=None)
         self.assertEqual(result, 0)
         state = expected["entries"][1]["translations"]["DE"]
-        state.update(text="Neu", review=False)
+        state.update(text="Neu", review=False, reviewed=1)
         state.pop("previous_english")
         self.assertEqual(common.load_json(self.path), expected)
 
@@ -429,6 +457,7 @@ class ReviewTests(TemporaryRepository):
         self.assertIn("[1/1] Recorded_Media / SameC", output)
         self.assertNotIn("RadioData / SameB", output)
         state["review"] = False
+        state["reviewed"] = 1
         self.assertEqual(common.load_json(self.path), data)
 
     def test_interactive_review_rejects_need_keys_and_bad_translation_without_mutation(self):
@@ -453,10 +482,13 @@ class ReviewTests(TemporaryRepository):
                         writer.assert_called_once()
                     self.assertEqual(result, 0)
                     expected = deepcopy(self.data)
-                    expected["entries"][0]["translations"]["DE"]["needed"] = True
+                    expected["entries"][0]["translations"]["DE"].update(
+                        needed=True,
+                        reviewed=1,
+                    )
                     self.assertEqual(common.load_json(self.path), expected)
                     self.assertIn("Zwischenstand gespeichert.", output)
-                    self.assertIn("Fortsetzen mit --offset 1", output)
+                    self.assertIn("Fortsetzen mit --offset 0", output)
                     self.assertNotIn("[3/3]", output)
 
     def test_interactive_review_resume_offset_accounts_for_removed_confirmed_candidates(self):
@@ -531,5 +563,310 @@ class ReviewTests(TemporaryRepository):
         self.assertEqual([e["key"] for e in package["entries"]], ["SameB"])
         package["entries"][0]["translation"] = "Geprüfter Text"
         _, expected, _ = apply.apply_work(package, common.load_drafts())
+        target = common.index_entries(expected["entries"])[("RadioData", "SameB")]
+        target["translations"]["DE"]["reviewed"] = 1
         self.assertEqual(self.interactive(["t", "Geprüfter Text"], audit_type=None)[0], 0)
         self.assertEqual(common.load_json(self.path), expected)
+
+    def test_reviewed_validation_accepts_only_integer_zero_or_one(self):
+        data = deepcopy(self.data)
+        state = data["entries"][0]["translations"]["DE"]
+
+        # Fehlend ist gültig und bedeutet semantisch unreviewed.
+        state.pop("reviewed", None)
+        common.validate_draft(self.path, data)
+
+        for value in (0, 1):
+            with self.subTest(valid=value):
+                state["reviewed"] = value
+                common.validate_draft(self.path, data)
+
+        for value in (True, False, -1, 2, "1", None):
+            with self.subTest(invalid=value):
+                state["reviewed"] = value
+                with self.assertRaisesRegex(ValueError, "reviewed muss 0 oder 1"):
+                    common.validate_draft(self.path, data)
+
+    def test_interactive_audit_skips_reviewed_unless_all_is_requested(self):
+        data = deepcopy(self.data)
+        data["entries"][0]["translations"]["DE"]["reviewed"] = 1
+        common.write_json(self.path, data)
+
+        result, output = self.interactive(
+            ["q"],
+            category="RadioData",
+        )
+        self.assertEqual(result, 0)
+        self.assertIn("[1/1] RadioData / SameB", output)
+        self.assertNotIn("RadioData / SameA", output)
+        self.assertIn("Reviewed: nein", output)
+
+        result, output = self.interactive(
+            ["q"],
+            category="RadioData",
+            include_reviewed=True,
+        )
+        self.assertEqual(result, 0)
+        self.assertIn("[1/2] RadioData / SameA", output)
+        self.assertIn("Reviewed: ja", output)
+
+    def test_review_all_cli_is_only_valid_for_interactive_audits(self):
+        prefix = ["review", "Project Zomboid", "--language", "DE"]
+
+        invalid = (
+            ["--type", "same_as_source", "--need", "--all"],
+            ["--type", "same_as_source", "--not-needed", "--all"],
+            ["--review", "--interactive", "--all"],
+        )
+        for args in invalid:
+            with self.subTest(args=args), patch.object(config, "configure") as configured:
+                with self.assertRaises(SystemExit) as caught:
+                    pzgt.main(prefix + args)
+                self.assertEqual(caught.exception.code, 2)
+                configured.assert_not_called()
+
+        with patch.object(review, "run_interactive") as run:
+            self.assertEqual(
+                pzgt.main(
+                    prefix
+                    + ["--type", "same_as_source", "--interactive", "--all"]
+                ),
+                0,
+            )
+            run.assert_called_once_with(
+                "Project Zomboid",
+                "DE",
+                "same_as_source",
+                None,
+                offset=0,
+                include_reviewed=True,
+                include_music=False,
+            )
+
+    def test_audit_summary_counts_reviewed_and_unreviewed_after_filters(self):
+        data = deepcopy(self.data)
+        data["entries"][0]["translations"]["DE"]["reviewed"] = 1
+        data["entries"][3]["translations"]["DE"]["reviewed"] = 1
+        common.write_json(self.path, data)
+
+        output = StringIO()
+        with redirect_stdout(output):
+            audit.run("Project Zomboid", "DE")
+        text = output.getvalue()
+        self.assertIn("Audit-Kandidaten: 5", text)
+        self.assertIn("Reviewed:         2", text)
+        self.assertIn("Unreviewed:       3", text)
+
+        output = StringIO()
+        with redirect_stdout(output):
+            audit.run(
+                "Project Zomboid",
+                "DE",
+                category="RadioData",
+                audit_type="same_as_source",
+            )
+        text = output.getvalue()
+        self.assertIn("Audit-Kandidaten: 2", text)
+        self.assertIn("Reviewed:         1", text)
+        self.assertIn("Unreviewed:       1", text)
+
+    def test_refresh_resets_reviewed_only_when_human_decision_is_stale(self):
+        record = {
+            "category": "RadioData",
+            "key": "SameA",
+            "text": "English",
+            "file": "RadioData.json",
+            "layer": "game",
+            "format": "json",
+        }
+
+        def source(text="English", audit_type="same_as_source"):
+            item = dict(record, text=text)
+            result = {
+                "source_type": "game",
+                "english": [item],
+                "missing": [],
+                "blank": [],
+                "audit_blank": [],
+                "audit_same_as_source": [],
+            }
+            if audit_type is not None:
+                field = {
+                    "blank_target": "audit_blank",
+                    "same_as_source": "audit_same_as_source",
+                }[audit_type]
+                result[field].append(item)
+            return result
+
+        previous = [deepcopy(self.data["entries"][0])]
+        state = previous[0]["translations"]["DE"]
+        state["reviewed"] = 1
+
+        # Identischer Refresh erhält die menschliche Entscheidung.
+        refreshed = draft.merge_entries(source(), previous, "DE")
+        state = refreshed[0]["translations"]["DE"]
+        self.assertEqual(state["reviewed"], 1)
+
+        # Geänderter EN-Text macht die Entscheidung ungültig.
+        changed = draft.merge_entries(source("Changed"), refreshed, "DE")
+        state = changed[0]["translations"]["DE"]
+        self.assertEqual(state.get("reviewed", 0), 0)
+        self.assertTrue(state["review"])
+        self.assertEqual(state["previous_english"], "English")
+
+        # Audittypwechsel macht die Auditentscheidung ebenfalls ungültig.
+        previous = [deepcopy(self.data["entries"][0])]
+        previous[0]["translations"]["DE"]["reviewed"] = 1
+        switched = draft.merge_entries(
+            source(audit_type="blank_target"),
+            previous,
+            "DE",
+        )
+        self.assertEqual(
+            switched[0]["translations"]["DE"].get("reviewed", 0),
+            0,
+        )
+
+        # Ein beendeter Audit darf die Historie behalten.
+        previous = [deepcopy(self.data["entries"][0])]
+        previous[0]["translations"]["DE"]["reviewed"] = 1
+        ended = draft.merge_entries(source(audit_type=None), previous, "DE")
+        state = ended[0]["translations"]["DE"]
+        self.assertEqual(state["reviewed"], 1)
+        self.assertNotIn("audit", state)
+
+        # Wird daraus später erneut ein Audit, muss er neu bewertet werden.
+        restarted = draft.merge_entries(
+            source(audit_type="same_as_source"),
+            ended,
+            "DE",
+        )
+        self.assertEqual(
+            restarted[0]["translations"]["DE"].get("reviewed", 0),
+            0,
+        )
+
+    def test_music_entries_are_hidden_from_interactive_audit_by_default(self):
+        data = deepcopy(self.data)
+        data["entries"][0]["english"] = (
+            "[img=music] Jolly good. Jolly good-good-GOOD! [img=music]"
+        )
+        common.write_json(self.path, data)
+
+        result, output = self.interactive(
+            ["q"],
+            category="RadioData",
+        )
+        self.assertEqual(result, 0)
+        self.assertIn("[1/1] RadioData / SameB", output)
+        self.assertNotIn("RadioData / SameA", output)
+
+        result, output = self.interactive(
+            ["q"],
+            category="RadioData",
+            include_music=True,
+        )
+        self.assertEqual(result, 0)
+        self.assertIn("[1/2] RadioData / SameA", output)
+        self.assertIn("Jolly good", output)
+
+    def test_music_entries_are_hidden_from_audit_counts_by_default(self):
+        data = deepcopy(self.data)
+        data["entries"][0]["english"] = "[img=music] Song [img=music]"
+        common.write_json(self.path, data)
+
+        output = StringIO()
+        with redirect_stdout(output):
+            audit.run(
+                "Project Zomboid",
+                "DE",
+                category="RadioData",
+                audit_type="same_as_source",
+            )
+        self.assertIn("Audit-Kandidaten: 1", output.getvalue())
+
+        output = StringIO()
+        with redirect_stdout(output):
+            audit.run(
+                "Project Zomboid",
+                "DE",
+                category="RadioData",
+                audit_type="same_as_source",
+                include_music=True,
+            )
+        self.assertIn("Audit-Kandidaten: 2", output.getvalue())
+
+    def test_music_entries_are_hidden_from_bulk_review_by_default(self):
+        data = deepcopy(self.data)
+        data["entries"][0]["english"] = "[img=music] Song [img=music]"
+        common.write_json(self.path, data)
+
+        review.run(
+            "Project Zomboid",
+            "DE",
+            "same_as_source",
+            "RadioData",
+            needed=True,
+        )
+        current = common.load_json(self.path)
+        music = current["entries"][0]["translations"]["DE"]
+        self.assertFalse(music["needed"])
+        self.assertEqual(music.get("reviewed", 0), 0)
+
+        common.write_json(self.path, data)
+        review.run(
+            "Project Zomboid",
+            "DE",
+            "same_as_source",
+            "RadioData",
+            needed=True,
+            include_music=True,
+        )
+        current = common.load_json(self.path)
+        music = current["entries"][0]["translations"]["DE"]
+        self.assertTrue(music["needed"])
+        self.assertEqual(music["reviewed"], 1)
+
+    def test_music_include_cli_is_forwarded(self):
+        prefix = [
+            "review",
+            "Project Zomboid",
+            "--language",
+            "DE",
+            "--type",
+            "same_as_source",
+            "--interactive",
+            "--music-include",
+        ]
+        with patch.object(review, "run_interactive") as run:
+            self.assertEqual(pzgt.main(prefix), 0)
+            run.assert_called_once_with(
+                "Project Zomboid",
+                "DE",
+                "same_as_source",
+                None,
+                offset=0,
+                include_reviewed=False,
+                include_music=True,
+            )
+
+        with patch.object(audit, "run") as run:
+            self.assertEqual(
+                pzgt.main([
+                    "audit",
+                    "Project Zomboid",
+                    "--language",
+                    "DE",
+                    "--type",
+                    "same_as_source",
+                    "--music-include",
+                ]),
+                0,
+            )
+            run.assert_called_once_with(
+                "Project Zomboid",
+                "DE",
+                None,
+                "same_as_source",
+                include_music=True,
+            )

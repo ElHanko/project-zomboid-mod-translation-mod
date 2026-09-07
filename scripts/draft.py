@@ -40,16 +40,21 @@ def merge_entries(mod, previous, language):
             if before and before["english"] != source["text"]:
                 for state in entry["translations"].values():
                     state["review"] = True
+                    state.pop("reviewed", None)
                     state.setdefault("previous_english", before["english"])
             entry.update(category=source["category"], key=source["key"], english=source["text"],
                          source_file=source["file"], source_layer=source["layer"], source_format=source["format"])
         for target in config.LANGUAGES:
             entry["translations"].setdefault(target, {"text": "", "needed": None, "review": False})
         state = entry["translations"][language]
+        old_audit = state.get("audit")
         if ident in audits:
             # Only an existing audit can carry a deliberate manual release.
-            state["needed"] = state.get("audit") in AUDIT_TYPES and state["needed"] is True
-            state["audit"] = audits[ident]
+            new_audit = audits[ident]
+            state["needed"] = old_audit in AUDIT_TYPES and state["needed"] is True
+            if old_audit != new_audit:
+                state.pop("reviewed", None)
+            state["audit"] = new_audit
         else:
             state["needed"] = ident in needed
             if is_game:

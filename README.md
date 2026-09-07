@@ -122,8 +122,9 @@ Bulk decisions remain available only with `--type`:
 Bulk decisions change only the selected language's `needed` field. The audit marker, existing
 translation text, review flag and history remain intact. `--not-needed` never
 deactivates a missing key without an audit marker and never deletes draft text.
-Repeating an existing decision succeeds without rewriting the draft. No matching
-candidates is an error, including misspelled categories.
+Once both the need decision and `reviewed=1` already match, repeating the same
+bulk decision succeeds without rewriting the draft. No matching candidates is an
+error, including misspelled categories.
 
 The interactive modes use ordinary terminal input, with no extra dependencies:
 
@@ -135,15 +136,16 @@ The interactive modes use ordinary terminal input, with no extra dependencies:
 ```
 
 In audit mode, `n` marks the candidate needed, `x` marks it not needed, and `t`
-accepts a direct translation. `n` and `x` preserve every other state field. A valid
-translation sets `needed=true`, clears `review` and removes `previous_english`,
-while preserving the audit marker. The displayed official target is inferred
+accepts a direct translation. Each completed decision sets `reviewed=1`. Missing
+`reviewed` is equivalent to `reviewed=0`; normal interactive audit review shows
+only unreviewed candidates. A valid translation sets `needed=true`, clears
+`review`, removes `previous_english`, and preserves the audit marker. The displayed official target is inferred
 from the draft audit: empty for `blank_target`, stored English for `same_as_source`.
 
 In `--review` mode, `a` confirms existing text and `t` replaces it. Both clear
-`review` and remove `previous_english` after validating nonempty text and matching
-placeholders against current English. Neither changes `needed`, even when the
-entry also has an audit marker. The display includes previous and current English.
+`review`, remove `previous_english`, and set `reviewed=1` after validating
+nonempty text and matching placeholders against current English. Neither changes
+`needed`, even when the entry also has an audit marker. The display includes previous and current English.
 
 In both modes, `s` skips and `q` exits. Direct translation input is one line;
 empty input cancels text entry, and placeholder errors leave the entry unchanged.
@@ -162,6 +164,13 @@ exit, use the printed `--offset N` to resume with the same selection and filters
 
 Offsets are nonnegative, zero-based positions in the filtered draft order, and
 are allowed only with `--interactive`. Offset 125 starts at the 126th candidate.
+For interactive audit review, `--all` also includes candidates already marked
+`reviewed=1`; without `--all`, only unreviewed candidates are shown.
+
+Entries whose English source contains `[img=music]` are excluded from `audit`
+and `review` by default, because song lyrics normally do not need translation.
+Use `--music-include` to include them explicitly. This filter only changes the
+candidate set; it does not modify draft state or mark music entries as reviewed.
 Confirmed reviews disappear from the next session's selection, so the printed
 resume offset accounts for the smaller list. No session file is created.
 

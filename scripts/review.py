@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Review draft audits and source-change flags without reading live sources."""
 import config
-from common import AUDIT_TYPES, load_drafts, placeholders, select_draft, translation_state, write_json
+from common import (AUDIT_TYPES, is_music_entry, load_drafts, placeholders,
+                    select_draft, translation_state, write_json)
 
 
-def run(selector, language, audit_type, category=None, *, needed):
+def run(selector, language, audit_type, category=None, *, needed, include_music=False):
     language = config.select_language(language)
     if audit_type not in AUDIT_TYPES:
         raise ValueError(f"Ungültiger Audittyp: {audit_type}; erlaubt: {', '.join(AUDIT_TYPES)}")
@@ -12,16 +13,21 @@ def run(selector, language, audit_type, category=None, *, needed):
     if draft.get("source_type") != "game":
         raise ValueError("review ist nur für Basis-Spiel-Audit-Einträge verfügbar")
     states = [translation_state(entry, language) for entry in draft["entries"]
-              if translation_state(entry, language).get("audit") == audit_type
+              if (include_music or not is_music_entry(entry))
+              and translation_state(entry, language).get("audit") == audit_type
               and (category is None or entry["category"] == category)]
     if not states:
         raise ValueError(f"Keine passenden Audit-Kandidaten: {audit_type} / "
                          f"{category if category is not None else 'alle'}")
     changed = 0
+    already = 0
     for state in states:
-        if state["needed"] is not needed:
-            state["needed"] = needed
-            changed += 1
+        if state["needed"] is needed and state.get("reviewed", 0) == 1:
+            already += 1
+            continue
+        state["needed"] = needed
+        state["reviewed"] = 1
+        changed += 1
     if changed:
         write_json(path, draft)
     name = draft.get("mod_id") or draft.get("name") or path.name
@@ -31,7 +37,7 @@ def run(selector, language, audit_type, category=None, *, needed):
     print(f"Kategorie: {category if category is not None else 'alle'}")
     print(f"Entscheidung: {decision}\n")
     print(f"{'Passend:':24}{len(states):6}")
-    print(f"{'Bereits ' + decision + ':':24}{len(states) - changed:6}")
+    print(f"{'Bereits ' + decision + ':':24}{already:6}")
     print(f"{'Geändert:':24}{changed:6}")
 
 
@@ -40,8 +46,9 @@ def show_entry(entry, state, language, position, total, audit_type):
     if audit_type:
         print(f"Audit:   {audit_type}")
     needed_text = {True: "ja", False: "nein", None: "unbekannt"}[state["needed"]]
-    print(f"Needed:  {needed_text}")
-    print(f"Review:  {'ja' if state['review'] else 'nein'}")
+    print(f"Needed:   {needed_text}")
+    print(f"Reviewed: {'ja' if state.get('reviewed', 0) == 1 else 'nein'}")
+    print(f"Review:   {'ja' if state['review'] else 'nein'}")
     if audit_type:
         print(f"\nEN:\n{entry['english']}")
         official = "<leer>" if audit_type == "blank_target" else entry["english"]
@@ -67,7 +74,16 @@ def valid_translation(text, english):
     return True
 
 
-def run_interactive(selector, language=None, audit_type=None, category=None, *, offset=0):
+def run_interactive(
+        selector,
+        language=None,
+        audit_type=None,
+        category=None,
+        *,
+        offset=0,
+        include_reviewed=False,
+        include_music=False,
+):
     language = config.select_language(language)
     if audit_type is not None and audit_type not in AUDIT_TYPES:
         raise ValueError(f"Ungültiger Audittyp: {audit_type}")
@@ -78,8 +94,16 @@ def run_interactive(selector, language=None, audit_type=None, category=None, *, 
         raise ValueError("review ist nur für Basis-Spiel-Audit-Einträge verfügbar")
     candidates = []
     for entry in draft["entries"]:
+        if not include_music and is_music_entry(entry):
+            continue
         state = translation_state(entry, language)
-        matches = (state.get("audit") == audit_type if audit_type is not None else state["review"] is True)
+        if audit_type is not None:
+            matches = (
+                state.get("audit") == audit_type
+                and (include_reviewed or state.get("reviewed", 0) == 0)
+            )
+        else:
+            matches = state["review"] is True
         if matches and (category is None or entry["category"] == category):
             candidates.append(entry)
     if not candidates:
@@ -103,11 +127,12 @@ def run_interactive(selector, language=None, audit_type=None, category=None, *, 
                 break
             if choice in ("n", "x") and audit_type:
                 state["needed"] = choice == "n"
+                state["reviewed"] = 1
             elif choice == "t":
                 text = input("Übersetzung (leer = abbrechen):\n> ")
                 if not valid_translation(text, entry["english"]):
                     continue
-                state.update(text=text, review=False)
+                state.update(text=text, review=False, reviewed=1)
                 state.pop("previous_english", None)
                 if audit_type:
                     state["needed"] = True
@@ -115,6 +140,7 @@ def run_interactive(selector, language=None, audit_type=None, category=None, *, 
                 if not valid_translation(state["text"], entry["english"]):
                     continue
                 state["review"] = False
+                state["reviewed"] = 1
                 state.pop("previous_english", None)
             elif choice != "s":
                 print("Ungültige Auswahl; bitte eine der angezeigten Tasten verwenden.")
@@ -131,7 +157,19 @@ def run_interactive(selector, language=None, audit_type=None, category=None, *, 
         print("Keine Änderungen.")
     print(f"Geändert: {changed}")
     if stopped:
-        # Confirmed reviews disappear from the next session's filtered list.
-        resume = (position if audit_type else sum(
-            translation_state(entry, language)["review"] is True for entry in candidates[:position]))
+        if audit_type:
+            resume = (
+                position
+                if include_reviewed
+                else sum(
+                    translation_state(entry, language).get("reviewed", 0) == 0
+                    for entry in candidates[:position]
+                )
+            )
+        else:
+            # Confirmed reviews disappear from the next session's filtered list.
+            resume = sum(
+                translation_state(entry, language)["review"] is True
+                for entry in candidates[:position]
+            )
         print(f"Fortsetzen mit --offset {resume}")
