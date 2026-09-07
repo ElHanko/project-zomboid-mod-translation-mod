@@ -256,6 +256,7 @@ class CatalogueTests(TemporaryRepository):
         values = {"workshop": self.root / "workshop", "game": self.root / "game",
                   "zomboid_home": self.root / "user"}
         values["zomboid_home"].mkdir()
+        (values["game"] / "projectzomboid/media/lua/shared/Translate/EN").mkdir(parents=True)
         (values["zomboid_home"] / "console.txt").write_text("> version=42.20.4\n")
         self.stack.enter_context(patch.object(pzgt, "load_config", return_value=values))
         for name in ("A", "B", "C"):
@@ -292,7 +293,7 @@ class CatalogueTests(TemporaryRepository):
         supported = distribution[Path("SUPPORTED-MODS.txt")].decode("utf-8")
         for mod_id in ("A", "B", "C"):
             self.assertIn(f"Mod ID: {mod_id}", supported)
-        self.assertEqual(supported.count("Languages: DE, FR"), 3)
+        self.assertEqual(supported.count("  Languages: DE, FR"), 3)
 
         for language in ("DE", "FR"):
             rel = Path("common/media/lua/shared/Translate") / language / "IG_UI.json"
@@ -750,6 +751,7 @@ class CLITests(unittest.TestCase):
             shutil.copytree(scripts, root / "scripts", ignore=shutil.ignore_patterns("__pycache__"))
             (root / "LICENSE").write_text("Test license")
             workshop = root / "workshop"
+            (root / "game/projectzomboid/media/lua/shared/Translate/EN").mkdir(parents=True)
             mod = workshop / "123/mods/mod"
             translate = Path("media/lua/shared/Translate")
             for layer in ("common", "42", "42.21"):

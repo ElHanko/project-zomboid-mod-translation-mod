@@ -2,7 +2,7 @@
 
 Translations for Project Zomboid mods, with a configurable multilingual workflow.
 
-This repository finds missing translations in installed Workshop mods, stores
+This repository finds missing translations in the base game and installed Workshop mods, stores
 translation work durably and generates one standalone local translation mod.
 English (`EN`) is always the source language. Workshop content and the game
 installation are read only. The tooling uses only the Python standard library.
@@ -29,6 +29,42 @@ That new draft becomes part of the catalogue and is included in subsequent
 `draft --all` refreshes. An unknown installed mod has no effect on normal build,
 verify or export. Verify inventories only known source identities and does not
 parse unknown mods' translation files.
+
+### Base game translations
+
+Normal `scan` also inventories `game/projectzomboid/media/lua/shared/Translate`
+using a single effective `game` layer. The Translate root and its `EN/` directory
+must exist; otherwise scan fails with a configuration error. Scan and status keep
+the base game separate from Workshop mods in `base_game`.
+
+For the base game, only a completely absent target key with nonempty English text
+is needed. Existing blank target values and missing keys with empty English text
+are ignored and counted separately in status. Workshop needs still include both
+missing and blank target values.
+
+Adoption is explicit, after scan and status:
+
+```bash
+./pzgt scan
+./pzgt status --language DE
+./pzgt draft "Project Zomboid"
+./pzgt progress "Project Zomboid" --language DE
+./pzgt work "Project Zomboid" --language DE --limit 25
+# Fill translation fields in the work package, then:
+./pzgt apply data/work/__project_zomboid.DE.work.json
+```
+
+This creates `translations/__project_zomboid.json` with `source_type: "game"`,
+`name`, `game_version` and the same multilingual entries as other drafts, without
+Workshop or mod IDs. Subsequent `draft --all` refreshes include it. Source changes
+mark all stored languages for review; official target additions and removed
+English keys retire the selected language's need while preserving stored text.
+
+The same builder combines completed game and mod drafts in the runtime language
+directories, with the existing shared-key conflict rules. An unfinished game
+draft is excluded just like an unfinished mod draft. Verify reads the game only
+when a game draft exists; its installation is then required and version, source
+text and translation needs must match. A missing game source is an error.
 
 ## Configuration
 
@@ -132,7 +168,7 @@ An export includes only its selected configured languages.
 
 | Command | Purpose |
 | --- | --- |
-| `./pzgt scan` | Inventory Workshop mods, effective B42 layers, EN and configured targets |
+| `./pzgt scan` | Inventory base game, Workshop mods, effective layers, EN and configured targets |
 | `./pzgt status [--language CODE]` | Compare English and target content from the scan |
 | `./pzgt draft MOD-ID` | Explicitly adopt or refresh one mod using the current status language |
 | `./pzgt draft --all` | Migrate/refresh existing catalogue drafts only |
@@ -140,7 +176,7 @@ An export includes only its selected configured languages.
 | `./pzgt work [MOD-ID\|--next] [--language CODE] [--limit N] [--offset N]` | Create a language-specific work package |
 | `./pzgt apply WORK-FILE` | Validate and atomically apply the package's target language |
 | `./pzgt build [MOD-ID] [--language CODE]` | Generate deterministic runtime output |
-| `./pzgt verify [--language CODE]` | Verify drafts, live Workshop sources and exact runtime files |
+| `./pzgt verify [--language CODE]` | Verify drafts, live adopted sources and exact runtime files |
 | `./pzgt export [--language CODE] [--zip]` | Package an already current runtime |
 | `./pzgt install` | Safely link this one mod into the local user mod directory |
 
@@ -348,7 +384,7 @@ language, verify reports `geprüft`, `Quelle nicht lokal` and `Abweichend` count
 (number of supported drafts). Missing sources count only as unconfirmed; internal
 draft, placeholder, shared-conflict and runtime checks still run. Installed
 supported sources remain subject to strict synchronization checks. If none are
-installed, verification needs no game-version log; an absent Workshop directory
+installed and no base-game draft exists, verification needs no game-version log; an absent Workshop directory
 also counts as unavailable sources. Unreadable existing directories are errors,
 not evidence of absence. Returning sources are checked on the next verify.
 
@@ -389,6 +425,10 @@ whose translations are complete and therefore present in that export, including
 Workshop ID, Workshop URL, mod ID and the included target languages. A known but
 incomplete mod is not listed for that language. Local installation state does
 not affect the list.
+
+The base game is excluded from `Supported mods` and the Workshop list. If its
+draft is included in any exported language, the header adds, for example,
+`Base game translations: included (DE, FR)`, listing only those included languages.
 
 The allowlist contains only `LICENSE`, `SUPPORTED-MODS.txt`, the two `mod.info`
 files and selected runtime translations. No scripts, drafts, local config, data,

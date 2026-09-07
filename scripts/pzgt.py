@@ -310,11 +310,23 @@ def layer_translation_marker(layer):
     return f"{layer['name']}[{state}]"
 
 
-def scan_data(config=None, supported=None):
+def scan_data(config=None, supported=None, include_game=None):
     config = config or load_config()
+    if include_game is None:
+        include_game = supported is None
+    base_game = None
+    if include_game:
+        game_root = config["game"] / "projectzomboid"
+        translate = translation_directory(game_root)
+        if not translate.is_dir() or not (translate / "EN").is_dir():
+            raise ValueError(f"Project Zomboid: Vanilla-Translate-Root mit EN fehlt: {translate}; "
+                             "konfigurierten game-Pfad prüfen")
+        base_game = {"source_type": "game", "name": "Project Zomboid",
+                     "effective_layers": ["game"],
+                     "layers": [inspect_layer(game_root, "game", "game")]}
     mods = discover_mods(config["workshop"], supported)
     # Without installed supported sources, local reproducibility needs no game log.
-    game_version = detect_game_version(config) if supported is None or mods else None
+    game_version = detect_game_version(config) if supported is None or mods or include_game else None
 
     for mod in mods:
         effective, selected = select_effective_layers(
@@ -354,6 +366,7 @@ def scan_data(config=None, supported=None):
         "zomboid_home": str(config["zomboid_home"]),
         "languages": list(settings.LANGUAGES),
         "mods": mods,
+        **({"base_game": base_game} if include_game else {}),
     }
 
 
@@ -384,6 +397,8 @@ def cmd_scan():
     print(f"Workshop-Items: {len(workshop_ids)}")
     print(f"Mod-Verzeichn.: {len(mods)}")
     print(f"Mit Sprache:    {len(with_translations)}")
+    print("Hauptspiel:     Project Zomboid | " + " ".join(
+        layer_translation_marker(layer) for layer in payload["base_game"]["layers"]))
     print()
 
     print(

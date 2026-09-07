@@ -56,8 +56,14 @@ def run(selector):
     existing = dict(load_drafts(migrate=True))
     # Match sources by Workshop identity, not a potentially colliding filename.
     mods = {}
-    known = {(str(data.get("workshop_id")), data.get("directory")) for data in existing.values()}
+    known = {(str(data.get("workshop_id")), data.get("directory")) for data in existing.values()
+             if data.get("source_type") != "game"}
     for path, data in existing.items():
+        if data.get("source_type") == "game":
+            if status.get("base_game") is None:
+                raise ValueError(f"{path.name}: Basis-Spielquelle fehlt im Status; scan und status erneut ausführen")
+            mods[path] = status["base_game"]
+            continue
         found = [mod for mod in status["mods"]
                  if (str(mod["workshop_id"]), mod["directory"]) ==
                  (str(data.get("workshop_id")), data.get("directory"))]
@@ -70,6 +76,14 @@ def run(selector):
     if selector != "--all":
         selected = {path for path, data in existing.items()
                     if matches(data, selector) or (path in mods and matches(mods[path], selector))}
+        game = status.get("base_game")
+        if (game is not None and matches(game, selector)
+                and not any(data.get("source_type") == "game" for data in existing.values())):
+            path = config.TRANSLATIONS / "__project_zomboid.json"
+            if path in existing or path in mods:
+                raise ValueError(f"Mehrdeutiger Draft-Dateiname: {path}")
+            mods[path] = game
+            selected.add(path)
         for mod in status["mods"]:
             if (str(mod["workshop_id"]), mod["directory"]) in known or not matches(mod, selector):
                 continue
@@ -89,8 +103,11 @@ def run(selector):
                 raise ValueError("Alter Status ohne englischen Quellbestand; ./pzgt status erneut ausführen")
             if mod["counts"].get("parse_errors", 0):
                 raise ValueError(f"{path.name}: Parserfehler; kein zuverlässiger Status, keine Änderung")
-            draft.update({field: mod.get(field) for field in
-                          ("workshop_id", "mod_id", "directory", "name", "effective_layers")})
+            if mod.get("source_type") == "game":
+                draft.update(source_type="game", name=mod["name"])
+            else:
+                draft.update({field: mod.get(field) for field in
+                              ("workshop_id", "mod_id", "directory", "name", "effective_layers")})
             draft["game_version"] = status["game_version"]
             draft["entries"] = merge_entries(mod, draft["entries"], language)
         else:

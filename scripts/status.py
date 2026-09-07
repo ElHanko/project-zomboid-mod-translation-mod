@@ -409,7 +409,11 @@ def collect_language(mod, language):
             else:
                 continue
 
-            category = normalize_category(rel, language)
+            # Vanilla JSON filenames are language-neutral: the end of
+            # SurvivalGuide is part of its name, not a DE language suffix.
+            category = (str(Path(rel).with_suffix(""))
+                        if mod.get("source_type") == "game" and suffix == ".json"
+                        else normalize_category(rel, language))
 
             for key, value in parsed.items():
                 if is_metadata_key(key):
@@ -456,8 +460,12 @@ def analyze_scan(scan, language):
 
     rows = []
     totals = Counter()
+    base_game = None
 
-    for mod in scan["mods"]:
+    sources = [(mod, False) for mod in scan["mods"]]
+    if scan.get("base_game") is not None:
+        sources.append((scan["base_game"], True))
+    for mod, is_game in sources:
         en = collect_language(mod, "EN")
         target_data = collect_language(mod, language)
 
@@ -467,15 +475,22 @@ def analyze_scan(scan, language):
         missing = []
         translated = []
         blank = []
+        ignored = Counter()
 
         for entry_id, source in en_entries.items():
             target = target_entries.get(entry_id)
 
             if target is None:
+                if is_game and not source["text"].strip():
+                    ignored["empty_source_ignored"] += 1
+                    continue
                 missing.append(source)
                 continue
 
             if not target["text"].strip():
+                if is_game:
+                    ignored["blank_ignored"] += 1
+                    continue
                 item = dict(source)
                 item["target_file"] = target["file"]
                 item["target_layer"] = target["layer"]
@@ -497,10 +512,12 @@ def analyze_scan(scan, language):
         )
 
         row = {
-            "workshop_id": mod["workshop_id"],
-            "directory": mod["directory"],
-            "mod_id": mod.get("effective_id"),
-            "name": mod.get("effective_name"),
+            **({"source_type": "game", "name": mod["name"]} if is_game else {
+                "workshop_id": mod["workshop_id"],
+                "directory": mod["directory"],
+                "mod_id": mod.get("effective_id"),
+                "name": mod.get("effective_name"),
+            }),
             "effective_layers": mod.get(
                 "effective_layers",
                 [],
@@ -544,6 +561,14 @@ def analyze_scan(scan, language):
             },
         }
 
+        if is_game:
+            row["counts"].update(
+                missing_total=len(missing) + ignored["empty_source_ignored"],
+                empty_source_ignored=ignored["empty_source_ignored"],
+                blank_ignored=ignored["blank_ignored"],
+            )
+            base_game = row
+            continue
         rows.append(row)
 
         totals["english"] += len(en_entries)
@@ -572,7 +597,8 @@ def analyze_scan(scan, language):
     )
 
     return {"language": language, "game_version": scan["game_version"],
-            "totals": dict(totals), "mods": rows}
+            "totals": dict(totals), "mods": rows,
+            **({"base_game": base_game} if base_game is not None else {})}
 
 
 def run(language=None):
@@ -584,6 +610,14 @@ def run(language=None):
     totals = Counter(data["totals"])
     print(f"Project Zomboid {scan['game_version']}")
     print()
+    if "base_game" in data:
+        counts = data["base_game"]["counts"]
+        print("Hauptspiel: Project Zomboid")
+        print(f"  EN: {counts['english']} | {language} vollständig fehlend: {counts['missing_total']} | "
+              f"Offen: {counts['open']} | Parserfehler: {counts['parse_errors']}")
+        print(f"  Ignoriert: {counts['empty_source_ignored']} fehlende Keys mit leerem EN-Text; "
+              f"{counts['blank_ignored']} vorhandene leere {language}-Werte")
+        print()
     print(
         f'{"OFFEN":>6} '
         f'{language:>6} '
@@ -609,7 +643,7 @@ def run(language=None):
         )
 
     print()
-    print("Gesamt:")
+    print("Workshop gesamt:")
     print(f'  Englische Einträge:    {totals["english"]}')
     print(f'  {language} vorhanden:     {totals["translated"]}')
     print(f'  Fehlend:               {totals["missing"]}')

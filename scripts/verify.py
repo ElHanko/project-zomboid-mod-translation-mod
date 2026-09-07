@@ -36,23 +36,29 @@ def mod_info_errors():
 
 
 def source_errors(path, draft, status, language):
-    """Return None when the source is absent, otherwise its synchronization errors."""
+    """Return None for an absent Workshop source, otherwise synchronization errors."""
     if status.get("language") != language:
         return [f"Status-Sprache passt nicht zu {language}"]
-    mods = [mod for mod in status["mods"] if
-            (str(mod["workshop_id"]), mod["directory"]) ==
-            (str(draft.get("workshop_id")), draft.get("directory"))]
-    if not mods:
-        return None
-    if len(mods) != 1:
-        return [f"{path.name}: Quellmod nicht eindeutig gefunden"]
-    mod = mods[0]
+    is_game = draft.get("source_type") == "game"
+    if is_game:
+        mod = status.get("base_game")
+        if mod is None:
+            return [f"{path.name}: Basis-Spielquelle fehlt"]
+    else:
+        mods = [mod for mod in status["mods"] if
+                (str(mod["workshop_id"]), mod["directory"]) ==
+                (str(draft.get("workshop_id")), draft.get("directory"))]
+        if not mods:
+            return None
+        if len(mods) != 1:
+            return [f"{path.name}: Quellmod nicht eindeutig gefunden"]
+        mod = mods[0]
     errors = []
     if mod["counts"].get("parse_errors", 0):
-        errors.append(f"{path.name}: Parserfehler im Quellmod")
+        errors.append(f"{path.name}: Parserfehler in der Quelle")
     if draft.get("game_version") != status["game_version"]:
         errors.append(f"{path.name}: Spielversion geändert")
-    if draft.get("effective_layers") != mod["effective_layers"]:
+    if not is_game and draft.get("effective_layers") != mod["effective_layers"]:
         errors.append(f"{path.name}: effektive Schichten geändert")
     current = index_entries(mod["english"])
     needed = set(index_entries(mod["missing"] + mod["blank"]))
@@ -73,8 +79,10 @@ def run(language=None):
 
     drafts = load_drafts()
     languages = config.selected_languages(language)
-    supported = {(str(draft.get("workshop_id")), draft.get("directory")) for _, draft in drafts}
-    scan = scan_data(supported=supported)
+    supported = {(str(draft.get("workshop_id")), draft.get("directory")) for _, draft in drafts
+                 if draft.get("source_type") != "game"}
+    include_game = any(draft.get("source_type") == "game" for _, draft in drafts)
+    scan = scan_data(supported=supported, include_game=include_game)
     errors = []
     for target in languages:
         status = status_script.analyze_scan(scan, target)

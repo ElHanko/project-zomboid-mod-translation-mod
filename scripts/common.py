@@ -170,7 +170,7 @@ def translation_state(entry, language):
 
 def require_known(draft, language):
     if any(translation_state(e, language)["needed"] is None for e in draft["entries"]):
-        raise ValueError(f"{draft.get('mod_id')} ({language}): Übersetzungsbedarf unbekannt; "
+        raise ValueError(f"{draft.get('mod_id') or draft.get('name') or 'Draft'} ({language}): Übersetzungsbedarf unbekannt; "
                          f"'./pzgt scan', './pzgt status --language {language}' und "
                          "'./pzgt draft --all' ausführen")
 

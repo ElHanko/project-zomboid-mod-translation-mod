@@ -15,11 +15,15 @@ MOD_DIRECTORY = "Project-Zomboid-Mod-Translations"
 def supported_mods_text(drafts, plans, languages):
     by_path = dict(drafts)
     supported = {}
+    game_languages = set()
 
     for language in languages:
         _, included, _ = plans[language]
 
         for path in included:
+            if by_path[path].get("source_type") == "game":
+                game_languages.add(language)
+                continue
             supported.setdefault(path, []).append(language)
 
     rows = []
@@ -55,6 +59,8 @@ def supported_mods_text(drafts, plans, languages):
         "",
         f"Languages: {', '.join(languages)}",
         f"Supported mods: {len(rows)}",
+        *([f"Base game translations: included ({', '.join(sorted(game_languages))})"]
+          if game_languages else []),
         "",
         "This export contains complete translations for the following mods:",
         "",

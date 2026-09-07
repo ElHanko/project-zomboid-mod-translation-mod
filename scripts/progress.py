@@ -29,7 +29,7 @@ def run(selector=None, language=None):
     print(f"{'OFFEN':>6} {'ÜBERSETZT':>9} {'GESAMT':>6} {'REV':>5} {'UNBEKANNT':>9}  MOD-ID")
     for item in sorted(items, key=lambda item: (-item["open"], str(item["path"]))):
         print(f"{item['open']:6} {item['translated']:9} {item['needed']:6} {item['review']:5} "
-              f"{item['unknown']:9}  {item['data'].get('mod_id')}")
+              f"{item['unknown']:9}  {item['data'].get('mod_id') or item['data'].get('name') or item['path'].name}")
     print(f"\nDrafts:       {len(items)}")
     print(f"Fertig:       {sum(item['complete'] for item in items)}")
     for key, label in (("needed", "Benötigt"), ("translated", "Übersetzt"), ("open", "Offen"),
