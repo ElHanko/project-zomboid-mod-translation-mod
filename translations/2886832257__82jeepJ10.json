@@ -518,6 +518,216 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10Magazine",
+      "english": "82 Jeep J10 Auto Manual",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 Tür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10CarFrontDoor2",
+      "english": "82 Jeep J10 Door",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10EngineDoor2",
+      "english": "82 Jeep J10 Hood",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 Heckklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10TrunkDoor2",
+      "english": "82 Jeep J10 Trunk Lid",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 obere Heckklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10TrunkDoorTop2",
+      "english": "82 Jeep J10 Top Trunk Lid",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10BumperFront",
+      "english": "82 Jeep J10 Front Bumper",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 verstärkte Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10BullbarFront",
+      "english": "82 Jeep J10 Reinforced Front Bumper",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10BumperRear",
+      "english": "82 Jeep J10 Rear Bumper",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10Windshield2",
+      "english": "82 Jeep J10 Windshield",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10WindowSide2",
+      "english": "82 Jeep J10 Side Window",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10WindshieldRear2",
+      "english": "82 Jeep J10 Rear Windshield",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 Ladeflächenabdeckung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10BedCover",
+      "english": "82 Jeep J10 Bed Cover",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 Dorothy",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10Dorothy",
+      "english": "82 Jeep J10 Dorothy",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "82 Jeep J10 Dorothy-Anemometer",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.82JeepJ10DorothyAnemometer",
+      "english": "82 Jeep J10 Dorothy Anemometer",
+      "source_file": "media/scripts/vehicles/82jeepJ10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

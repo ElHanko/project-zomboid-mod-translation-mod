@@ -443,6 +443,171 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Handbuch für Fracht-/Nutzanhänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.KI5trailersMagazine",
+      "english": "Cargo/Utility Trailers Manual",
+      "source_file": "media/scripts/vehicles/KI5trailers_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Werkzeugkasten für Nutzanhänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.KI5trailersToolBox2",
+      "english": "Utility Trailer Toolbox",
+      "source_file": "media/scripts/vehicles/KI5trailers_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Stauraumklappe für Nutzanhänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.KI5trailersTrunkDoor2",
+      "english": "Utility Trailer Trunk Lid",
+      "source_file": "media/scripts/vehicles/KI5trailers_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Rolltor für Frachtanhänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.KI5trailersRollDoor2",
+      "english": "Cargo Trailer Roll Door",
+      "source_file": "media/scripts/vehicles/KI5trailers_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Geteilte Türen für Frachtanhänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.KI5trailersSplitDoors2",
+      "english": "Cargo Trailer Split Doors",
+      "source_file": "media/scripts/vehicles/KI5trailers_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Tür für Frachtanhänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.KI5trailersDoor2",
+      "english": "Cargo Trailer Door",
+      "source_file": "media/scripts/vehicles/KI5trailers_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Geteilte Türen mit Rampe für Viehanhänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.KI5trailersSplitDoorsRamp2",
+      "english": "Livestock Trailer Split Doors with Ramp",
+      "source_file": "media/scripts/vehicles/KI5trailers_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Schmutzfänger für Nutzanhänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.KI5trailersMudflaps2",
+      "english": "Utility Trailer Mudflaps",
+      "source_file": "media/scripts/vehicles/KI5trailers_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Große seitliche Kotflügelverbreiterungen für Frachtanhänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.KI5trailersSideFlaresLarge2",
+      "english": "Large Cargo Trailer Side Flares",
+      "source_file": "media/scripts/vehicles/KI5trailers_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Mittlere seitliche Kotflügelverbreiterungen für Frachtanhänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.KI5trailersSideFlaresMedium2",
+      "english": "Medium Cargo Trailer Side Flares",
+      "source_file": "media/scripts/vehicles/KI5trailers_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Kleine seitliche Kotflügelverbreiterungen für Frachtanhänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.KI5trailersSideFlaresSmall2",
+      "english": "Small Cargo Trailer Side Flares",
+      "source_file": "media/scripts/vehicles/KI5trailers_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

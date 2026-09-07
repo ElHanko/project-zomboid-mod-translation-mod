@@ -1433,6 +1433,788 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B/F700 Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordBF700Magazine",
+      "english": "87 Ford B/F700 Auto Manual",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B/F700 Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700Tire2",
+      "english": "87 Ford B/F700 Tire",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B/F700 Doppelreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700DoubleTires2",
+      "english": "87 Ford B/F700 Double Tires",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700Roofrack2",
+      "english": "87 Ford B700 Roofrack",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Vordertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700DoubleDoors2",
+      "english": "87 Ford B700 Front Door",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Hintertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700RearDoor2",
+      "english": "87 Ford B700 Rear Door",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Seitenscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700SideArmor",
+      "english": "87 Ford B700 Side Window Armor",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Gefängnis-Seitenscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700SideArmorPrison",
+      "english": "87 Ford B700 Prison Side Window Armor",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Seitenscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700DoubleDoorArmor",
+      "english": "87 Ford B700 Side Window Armor",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Windschutzscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700WindshieldArmor",
+      "english": "87 Ford B700 Windshield Armor",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 großer Seitenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700LargeSideArmor",
+      "english": "87 Ford B700 Large Side Armor",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 großer Gefängnis-Seitenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700LargeSideArmorPrison",
+      "english": "87 Ford B700 Prison Large Side Armor",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Heckscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700RearArmor",
+      "english": "87 Ford B700 Rear Windshield Armor",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B/F700 Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700EngineDoor2",
+      "english": "87 Ford B/F700 Hood",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Staufachklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700StorageLid2",
+      "english": "87 Ford B700 Storage Lid",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Sitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700Seat2",
+      "english": "87 Ford B700 Seat",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": false,
+          "review": false,
+          "reviewed": 1
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700RearSeat2",
+      "english": "dont spawn this",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B/F700 Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700BumperFront0",
+      "english": "87 Ford B/F700 Front Bumper",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B/F700 verstärkte Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700BumperFrontA",
+      "english": "87 Ford B/F700 Reinforced Front Bumper",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B/F700 Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700BullbarFrontA",
+      "english": "87 Ford B/F700 Front Bullbar",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700BumperRear0",
+      "english": "87 Ford B700 Rear Bumper",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700Windshield2",
+      "english": "87 Ford B700 Windshield",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700SideWindow2",
+      "english": "87 Ford B700 Side Window",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700SideWindows2",
+      "english": "87 Ford B700 Side Windows",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700WindshieldRear2",
+      "english": "87 Ford B700 Rear Windshield",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford B700 Schulbus-Stoppschild",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordB700StopSign2",
+      "english": "87 Ford B700 School Stop Sign",
+      "source_file": "media/scripts/vehicles/87fordB700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 Sitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700Seat2",
+      "english": "87 Ford F700 Seat",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 Vordertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700FrontDoor2",
+      "english": "87 Ford F700 Front Door",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 gepanzerte Vordertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700ArmoredFrontDoor2",
+      "english": "87 Ford F700 Armored Front Door",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 gepanzerte Hintertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700ArmoredRearDoor2",
+      "english": "87 Ford F700 Armored Rear Door",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 gepanzerte Laderaumtür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700ArmoredTrunkDoor2",
+      "english": "87 Ford F700 Armored Trunk Door",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 Seitenscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700WindowFrontArmor",
+      "english": "87 Ford F700 Side Window Armor",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 Windschutzscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700WindshieldArmor",
+      "english": "87 Ford F700 Windshield Armor",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 Staufachklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700StorageLid2",
+      "english": "87 Ford F700 Storage Lid",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 Rolltor",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700RollTrunkDoor2",
+      "english": "87 Ford F700 Roll Trunk Door",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700BumperFront0",
+      "english": "87 Ford F700 Front Bumper",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700BullbarFrontA",
+      "english": "87 Ford F700 Front Bullbar",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 SWAT-Transporter-Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700BumperRear0",
+      "english": "87 Ford F700 SWAT Van Rear Bumper",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 Koffer-Lkw-Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700BumperRear1",
+      "english": "87 Ford F700 Box Truck Rear Bumper",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": false,
+          "review": false,
+          "reviewed": 1
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700BumperRear2",
+      "english": "dont spawn this",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 gepanzerte Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700ArmoredWindshield2",
+      "english": "87 Ford F700 Armored Windshield",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700Windshield2",
+      "english": "87 Ford F700 Windshield",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 vorderes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700FrontSideWindow2",
+      "english": "87 Ford F700 Front Side Window",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 gepanzertes vorderes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700ArmoredFrontSideWindow2",
+      "english": "87 Ford F700 Armored Front Side Window",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 gepanzertes hinteres Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700ArmoredRearSideWindow2",
+      "english": "87 Ford F700 Armored Rear Side Window",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 gepanzertes kleines Fenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700ArmoredSmallWindow2",
+      "english": "87 Ford F700 Armored Small Window",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 gepanzerte Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700ArmoredWindshieldRear2",
+      "english": "87 Ford F700 Armored Rear Windshield",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700WindshieldRear2",
+      "english": "87 Ford F700 Rear Windshield",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 kleine Schmutzfänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700MudflapsSmall2",
+      "english": "87 Ford F700 Small Mudflaps",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 große Schmutzfänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700MudflapsLarge2",
+      "english": "87 Ford F700 Large Mudflaps",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 Dachleuchten",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700RoofLights2",
+      "english": "87 Ford F700 Roof Lights",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "87 Ford F700 Kraftstofftank",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.87fordF700GasTank2",
+      "english": "87 Ford F700 Gas Tank",
+      "source_file": "media/scripts/vehicles/87fordF700_vehiclesitems.txt",
+      "source_layer": "42.20",
+      "source_format": "script-displayname"
     }
   ]
 }

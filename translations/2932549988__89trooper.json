@@ -383,6 +383,351 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperMagazine",
+      "english": "89 ISUZU Trooper Auto Manual",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperTire2",
+      "english": "89 ISUZU Trooper Tire",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperRoofrack2",
+      "english": "89 ISUZU Trooper Roofrack",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Vordertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperFrontDoor2",
+      "english": "89 ISUZU Trooper Front Door",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Hintertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperRearDoor2",
+      "english": "89 ISUZU Trooper Rear Door",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Türpanzerung vorne",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperFrontDoorArmor",
+      "english": "89 ISUZU Trooper Front Door Armor",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Türpanzerung hinten",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperRearDoorArmor",
+      "english": "89 ISUZU Trooper Rear Door Armor",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Windschutzscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperWindshieldArmor",
+      "english": "89 ISUZU Trooper Windshield Armor",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Heckscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperWindshieldRearArmor",
+      "english": "89 ISUZU Trooper Rear Windshield Armor",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper hinterer Fensterschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperBackWindowArmor",
+      "english": "89 ISUZU Trooper Back Window Armor",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperEngineDoor2",
+      "english": "89 ISUZU Trooper Hood",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperTrunkDoor2",
+      "english": "89 ISUZU Trooper Trunk Lid",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Vordersitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperSeatFront2",
+      "english": "89 ISUZU Trooper Front Seat",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Rücksitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperSeatRear2",
+      "english": "89 ISUZU Trooper Rear Seat",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperBumperFront0",
+      "english": "89 ISUZU Trooper Front Bumper",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Frontschutzbügel Typ 1",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperBullbarFrontA",
+      "english": "89 ISUZU Trooper Bullbar Type 1",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper verstärkte Stoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperBullbarFrontB",
+      "english": "89 ISUZU Trooper Reinforced Bumper",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperBumperRear0",
+      "english": "89 ISUZU Trooper Rear Bumper",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperWindshield2",
+      "english": "89 ISUZU Trooper Windshield",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperSideWindow2",
+      "english": "89 ISUZU Trooper Side Window",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperRearWindshield2",
+      "english": "89 ISUZU Trooper Rear Windshield",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Schmutzfänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperMudflaps2",
+      "english": "89 ISUZU Trooper Mudflaps",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Isuzu Trooper Trittbretter",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89trooperSideSteps2",
+      "english": "89 ISUZU Trooper Side Steps",
+      "source_file": "media/scripts/vehicles/89trooper_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

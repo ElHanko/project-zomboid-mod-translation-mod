@@ -548,6 +548,336 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998Magazine",
+      "english": "92 AM General M998 Auto Manual",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998Roofrack",
+      "english": "92 AM General M998 Roofrack",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Netz-Laderaumtrennwand",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998TrunkBarrier1",
+      "english": "92 AM General M998 Net Trunk Barrier",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Metall-Laderaumtrennwand",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998TrunkBarrier2",
+      "english": "92 AM General M998 Metal Trunk Barrier",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Vordertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998FrontDoor2",
+      "english": "92 AM General M998 Door",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Hintertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998RearDoor2",
+      "english": "92 AM General M998 Door",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Türpanzerung vorne",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998FrontArmor",
+      "english": "92 AM General M998 Front Door Armor",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Türpanzerung hinten",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998RearArmor",
+      "english": "92 AM General M998 Rear Door Armor",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 improvisierter Windschutzscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998WindshieldArmor0",
+      "english": "92 AM General M998 Makeshift Windshield Armor",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Windschutzscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998WindshieldArmor1",
+      "english": "92 AM General M998 Windshield Armor",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998EngineDoor2",
+      "english": "92 AM General M998 Hood",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998TrunkDoor2",
+      "english": "92 AM General M998 Trunk Lid",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 schräge Heckabdeckung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998BackCover2",
+      "english": "92 AM General M998 Sloped Back Cover",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 kleiner Schalldämpfer",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998Muffler1",
+      "english": "92 AM General M998 Small Muffler",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 großer Schalldämpfer",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998Muffler2",
+      "english": "92 AM General M998 Big Muffler",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 kleiner Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998BullbarA",
+      "english": "92 AM General M998 Small Bullbar",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 großer Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998BullbarB",
+      "english": "92 AM General M998 Big Bullbar",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998Windshield2",
+      "english": "92 AM General M998 Windshield",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998SideWindow2",
+      "english": "92 AM General M998 Side Window",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "92 AM General M998 Schmutzfänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.92amgeneralM998Mudflap0",
+      "english": "92 AM General M998 Mudflaps",
+      "source_file": "media/scripts/vehicles/92amgeneralM998_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "M101A3 feste Abdeckung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M101A3Cover2",
+      "english": "M101A3 Hard Cover",
+      "source_file": "media/scripts/vehicles/TrailerM101A3cargo_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "M101A3 Klappe der festen Abdeckung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M101A3TrunkDoorTwo2",
+      "english": "M101A3 Hard Cover Door",
+      "source_file": "media/scripts/vehicles/TrailerM101A3cargo_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

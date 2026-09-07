@@ -233,6 +233,126 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Oldsmobile Delta 88 Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85oldsmobileDelta88Magazine",
+      "english": "85 Oldsmobile Delta 88 Auto Manual",
+      "source_file": "media/scripts/vehicles/85oldsmobileDelta88_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Oldsmobile Delta 88 Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85oldsmobileDelta88EngineDoor1",
+      "english": "85 Oldsmobile Delta 88 Hood",
+      "source_file": "media/scripts/vehicles/85oldsmobileDelta88_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Oldsmobile Delta 88 Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85oldsmobileDelta88TrunkDoor1",
+      "english": "85 Oldsmobile Delta 88 Trunk Lid",
+      "source_file": "media/scripts/vehicles/85oldsmobileDelta88_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Oldsmobile Delta 88 Vordersitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85oldsmobileDelta88SeatFront1",
+      "english": "85 Oldsmobile Delta 88 Front Seat",
+      "source_file": "media/scripts/vehicles/85oldsmobileDelta88_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Oldsmobile Delta 88 Rücksitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85oldsmobileDelta88SeatRear1",
+      "english": "85 Oldsmobile Delta 88 Rear Seat",
+      "source_file": "media/scripts/vehicles/85oldsmobileDelta88_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Oldsmobile Delta 88 Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85oldsmobileDelta88BumperFront0",
+      "english": "85 Oldsmobile Delta 88 Front Bumper",
+      "source_file": "media/scripts/vehicles/85oldsmobileDelta88_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Oldsmobile Delta 88 verstärkte Stoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85oldsmobileDelta88BumperFrontA",
+      "english": "85 Oldsmobile Delta 88 Reinforced Bumper",
+      "source_file": "media/scripts/vehicles/85oldsmobileDelta88_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Oldsmobile Delta 88 Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85oldsmobileDelta88BumperRear0",
+      "english": "85 Oldsmobile Delta 88 Rear Bumper",
+      "source_file": "media/scripts/vehicles/85oldsmobileDelta88_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

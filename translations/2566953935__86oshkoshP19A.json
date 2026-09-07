@@ -698,6 +698,336 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19AMagazine",
+      "english": "86 Oshkosh P19A Auto Manual",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A Tür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19ACarFrontDoor2",
+      "english": "86 Oshkosh P19A Door",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A Dachluke",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19ARoofHatch2",
+      "english": "86 Oshkosh P19A Hatch",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19ARoofrack",
+      "english": "86 Oshkosh P19A Roofrack",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19AEngineDoor2",
+      "english": "86 Oshkosh P19A Hood",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19ATrunkDoor2",
+      "english": "86 Oshkosh P19A Trunk Lid",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "M1082/M1095 Heckklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M1082TrunkDoor2",
+      "english": "M1082/M1095 Tailgate",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19AWindshield2",
+      "english": "86 Oshkosh P19A Windshield",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19ASideWindow2",
+      "english": "86 Oshkosh P19A Side Window",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A Fensterschutz vorne",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19ACarFrontDoorArmor",
+      "english": "86 Oshkosh P19A Front Window Armor",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A Windschutzscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19AWindshieldArmor",
+      "english": "86 Oshkosh P19A Windshield Armor",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19ABumperFront0",
+      "english": "86 Oshkosh P19A Front Bumper",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19ABumperRear0",
+      "english": "86 Oshkosh P19A Rear Bumper",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A hinterer linker Kotflügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19AFenderLeft1",
+      "english": "86 Oshkosh P19A Rear Left Fender",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A improvisierter hinterer linker Kotflügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19AFenderLeft2",
+      "english": "86 Oshkosh P19A Makeshift Rear Left Fender",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A hinterer rechter Kotflügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19AFenderRight1",
+      "english": "86 Oshkosh P19A Rear Right Fender",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A improvisierter hinterer rechter Kotflügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19AFenderRight2",
+      "english": "86 Oshkosh P19A Makeshift Rear Right Fender",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A beschädigter hinterer rechter Kotflügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19AFenderRight3",
+      "english": "86 Oshkosh P19A Damaged Rear Right Fender",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A seitlicher Reserveradhalter",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19ASpareMount1",
+      "english": "86 Oshkosh P19A Side Spare Tire Mount",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "86 Oshkosh P19A Reserveradhalter auf dem Dach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.P19ASpareMount2",
+      "english": "86 Oshkosh P19A Roof Spare Tire Mount",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "M1082/M1095 Schmutzfänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M1082Mudflaps2",
+      "english": "M1082/M1095 Mudflaps",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "M1082/M1095 Plane",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M1082Tarp2",
+      "english": "M1082/M1095 Tarp",
+      "source_file": "media/scripts/vehicles/86oshkoshP19Avehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

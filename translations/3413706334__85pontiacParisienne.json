@@ -218,6 +218,126 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Pontiac Parisienne Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85pontiacParisienneMagazine",
+      "english": "85 Pontiac Parisienne Auto Manual",
+      "source_file": "media/scripts/vehicles/85pontiacParisienne_vehiclesitems.txt",
+      "source_layer": "42.0",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Pontiac Parisienne Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85pontiacParisienneEngineDoor1",
+      "english": "85 Pontiac Parisienne Hood",
+      "source_file": "media/scripts/vehicles/85pontiacParisienne_vehiclesitems.txt",
+      "source_layer": "42.0",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Pontiac Parisienne Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85pontiacParisienneTrunkDoor1",
+      "english": "85 Pontiac Parisienne Trunk Lid",
+      "source_file": "media/scripts/vehicles/85pontiacParisienne_vehiclesitems.txt",
+      "source_layer": "42.0",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Pontiac Parisienne Vordersitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85pontiacParisienneSeatFront1",
+      "english": "85 Pontiac Parisienne Front Seat",
+      "source_file": "media/scripts/vehicles/85pontiacParisienne_vehiclesitems.txt",
+      "source_layer": "42.0",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Pontiac Parisienne Rücksitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85pontiacParisienneSeatRear1",
+      "english": "85 Pontiac Parisienne Rear Seat",
+      "source_file": "media/scripts/vehicles/85pontiacParisienne_vehiclesitems.txt",
+      "source_layer": "42.0",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Pontiac Parisienne Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85pontiacParisienneBumperFront0",
+      "english": "85 Pontiac Parisienne Front Bumper",
+      "source_file": "media/scripts/vehicles/85pontiacParisienne_vehiclesitems.txt",
+      "source_layer": "42.0",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Pontiac Parisienne verstärkte Stoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85pontiacParisienneBumperFrontA",
+      "english": "85 Pontiac Parisienne Reinforced Bumper",
+      "source_file": "media/scripts/vehicles/85pontiacParisienne_vehiclesitems.txt",
+      "source_layer": "42.0",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Pontiac Parisienne Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85pontiacParisienneBumperRear0",
+      "english": "85 Pontiac Parisienne Rear Bumper",
+      "source_file": "media/scripts/vehicles/85pontiacParisienne_vehiclesitems.txt",
+      "source_layer": "42.0",
+      "source_format": "script-displayname"
     }
   ]
 }

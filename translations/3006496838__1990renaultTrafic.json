@@ -158,6 +158,201 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic Vordertür links",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.1990renaultTraficDoorFrontLeft2",
+      "english": "Front Left Door Renault Trafic",
+      "source_file": "media/scripts/vehicles/renaultTrafic_items.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic Vordertür rechts",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.1990renaultTraficDoorFrontRight2",
+      "english": "Front Right Door Renault Trafic",
+      "source_file": "media/scripts/vehicles/renaultTrafic_items.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic mittlere Tür rechts",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.1990renaultTraficDoorMiddleRight2",
+      "english": "Middle Right Door Renault Trafic",
+      "source_file": "media/scripts/vehicles/renaultTrafic_items.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic Hintertür rechts",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.1990renaultTraficDoorRearRight2",
+      "english": "Rear Right Door Renault Trafic",
+      "source_file": "media/scripts/vehicles/renaultTrafic_items.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic vorderes Fenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.1990renaultTraficWindowFront2",
+      "english": "Window Front Renault Trafic",
+      "source_file": "media/scripts/vehicles/renaultTrafic_items.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic mittleres Fenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.1990renaultTraficWindowMiddle2",
+      "english": "Window Middle Renault Trafic",
+      "source_file": "media/scripts/vehicles/renaultTrafic_items.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic hinteres Fenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.1990renaultTraficWindowRear2",
+      "english": "Window Rear Renault Trafic",
+      "source_file": "media/scripts/vehicles/renaultTrafic_items.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.1990renaultTraficHood2",
+      "english": "Hood Renault Trafic",
+      "source_file": "media/scripts/vehicles/renaultTrafic_items.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic Hecktür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.1990renaultTraficTrunk2",
+      "english": "Trunk Door Renault Trafic",
+      "source_file": "media/scripts/vehicles/renaultTrafic_items.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.1990renaultTraficTire2",
+      "english": "Tire Renault Trafic",
+      "source_file": "media/scripts/vehicles/renaultTrafic_items.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.1990renaultTraficFrontWindshield2",
+      "english": "Windshield Renault Trafic",
+      "source_file": "media/scripts/vehicles/renaultTrafic_items.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.1990renaultTraficRearWindshield2",
+      "english": "Rear Windshield Renault Trafic",
+      "source_file": "media/scripts/vehicles/renaultTrafic_items.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Renault Trafic Vordersitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.1990renaultTraficSeatFront2",
+      "english": "Seat Renault Trafic",
+      "source_file": "media/scripts/vehicles/renaultTrafic_items.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

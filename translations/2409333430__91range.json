@@ -728,6 +728,396 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeMagazine",
+      "english": "91 Range Rover Auto Manual",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeTire2",
+      "english": "91 Range Rover Tire",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeRoofrack2",
+      "english": "91 Range Rover Roofrack",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Vordertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeFrontDoor2",
+      "english": "91 Range Rover Front Door",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Hintertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeRearDoor2",
+      "english": "91 Range Rover Rear Door",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Fensterschutz vorne",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeFrontWindowArmor",
+      "english": "91 Range Rover Front Window Armor",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Fensterschutz hinten",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeRearWindowArmor",
+      "english": "91 Range Rover Rear Window Armor",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Windschutzscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeWindshieldArmor",
+      "english": "91 Range Rover Windshield Armor",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Heckscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeWindshieldRearArmor",
+      "english": "91 Range Rover Rear Windshield Armor",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeEngineDoor2",
+      "english": "91 Range Rover Hood",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeTrunkDoor2",
+      "english": "91 Range Rover Trunk Lid",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Vordersitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeSeatFront2",
+      "english": "91 Range Rover Front Seat",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Rücksitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeSeatRear2",
+      "english": "91 Range Rover Rear Seat",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Frontstoßstange Typ 1",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeBumperFront0",
+      "english": "91 Range Rover Front Bumper Type 1",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Frontstoßstange Typ 2",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeBumperFront1",
+      "english": "91 Range Rover Front Bumper Type 2",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeBullbarFrontA",
+      "english": "91 Range Rover Front Bullbar",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeBumperRear0",
+      "english": "91 Range Rover Rear Bumper",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Heckschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeBullbarRearA",
+      "english": "91 Range Rover Rear Bullbar",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeWindshield2",
+      "english": "91 Range Rover Windshield",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover vorderes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeFrontSideWindow2",
+      "english": "91 Range Rover Front Side Window",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover hinteres Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeRearSideWindow2",
+      "english": "91 Range Rover Rear Side Window",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeRearWindshield2",
+      "english": "91 Range Rover Rear Windshield",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Schiebedach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeSunRoof2",
+      "english": "91 Range Rover Sunroof",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Schmutzfänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeMudflaps2",
+      "english": "91 Range Rover Mudflaps",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Trittbretter",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeSideSteps2",
+      "english": "91 Range Rover Side Steps",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Range Rover Schnorchel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91rangeSnorkel2",
+      "english": "91 Range Rover Snorkel",
+      "source_file": "media/scripts/vehicles/91range_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

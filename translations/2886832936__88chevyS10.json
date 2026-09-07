@@ -428,6 +428,186 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "88 Chevrolet S10 Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.88ChevyS10Magazine",
+      "english": "88 Chevrolet S10 Auto Manual",
+      "source_file": "media/scripts/vehicles/88chevyS10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "88 Chevrolet S10 Tür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.88ChevyS10CarFrontDoor2",
+      "english": "88 Chevrolet S10 Door",
+      "source_file": "media/scripts/vehicles/88chevyS10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "88 Chevrolet S10 Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.88ChevyS10EngineDoor2",
+      "english": "88 Chevrolet S10 Hood",
+      "source_file": "media/scripts/vehicles/88chevyS10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "88 Chevrolet S10 Heckklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.88ChevyS10TrunkDoor2",
+      "english": "88 Chevrolet S10 Trunk Lid",
+      "source_file": "media/scripts/vehicles/88chevyS10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "88 Chevrolet S10 obere Heckklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.88ChevyS10TrunkDoorTop2",
+      "english": "88 Chevrolet S10 Top Trunk Lid",
+      "source_file": "media/scripts/vehicles/88chevyS10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "88 Chevrolet S10 Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.88ChevyS10BumperFront",
+      "english": "88 Chevrolet S10 Front Bumper",
+      "source_file": "media/scripts/vehicles/88chevyS10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "88 Chevrolet S10 Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.88ChevyS10BullbarFront",
+      "english": "88 Chevrolet S10 Front Bullbar",
+      "source_file": "media/scripts/vehicles/88chevyS10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "88 Chevrolet S10 Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.88ChevyS10BumperRear",
+      "english": "88 Chevrolet S10 Rear Bumper",
+      "source_file": "media/scripts/vehicles/88chevyS10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "88 Chevrolet S10 Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.88ChevyS10Windshield2",
+      "english": "88 Chevrolet S10 Windshield",
+      "source_file": "media/scripts/vehicles/88chevyS10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "88 Chevrolet S10 Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.88ChevyS10WindowSide2",
+      "english": "88 Chevrolet S10 Side Window",
+      "source_file": "media/scripts/vehicles/88chevyS10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "88 Chevrolet S10 Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.88ChevyS10WindshieldRear2",
+      "english": "88 Chevrolet S10 Rear Windshield",
+      "source_file": "media/scripts/vehicles/88chevyS10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "88 Chevrolet S10 Ladeflächenabdeckung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.88ChevyS10BedCover",
+      "english": "88 Chevrolet S10 Bed Cover",
+      "source_file": "media/scripts/vehicles/88chevyS10_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

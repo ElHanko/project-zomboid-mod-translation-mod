@@ -983,6 +983,516 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460Magazine",
+      "english": "84 Mercedes Benz W460 Auto Manual",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Standardreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460NormalTire2",
+      "english": "84 Mercedes Benz W460 Normal Tire",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Breitreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460WideTire2",
+      "english": "84 Mercedes Benz W460 Wide Tire",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 moderner Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460ModernTire2",
+      "english": "84 Mercedes Benz W460 Modern Tire",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Militärreifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460MilitaryTire2",
+      "english": "84 Mercedes Benz W460 Military Tire",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460Roofrack1",
+      "english": "84 Mercedes Benz W460 Roofrack",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Militär-Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460RoofrackM",
+      "english": "84 Mercedes Benz W460 Military Roofrack",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Karosserie-Kit",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460Bodykit1",
+      "english": "84 Mercedes Benz W460 Bodykit",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Militär-Karosserie-Kit",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460BodykitM",
+      "english": "84 Mercedes Benz W460 Military Bodykit",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Vordertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460CarFrontDoor2",
+      "english": "84 Mercedes Benz W460 Front Door",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Hintertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460CarRearDoor2",
+      "english": "84 Mercedes Benz W460 Rear Door",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Windschutzscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460WindshieldArmor1",
+      "english": "84 Mercedes Benz W460 Windshield Armor",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Fensterschutz vorne",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460CarFrontDoorArmor1",
+      "english": "84 Mercedes Benz W460 Front Window Armor",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Fensterschutz hinten",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460CarRearDoorArmor1",
+      "english": "84 Mercedes Benz W460 Rear Window Armor",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 hinterer Fensterschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460CarBackWindowArmor1",
+      "english": "84 Mercedes Benz W460 Back Window Armor",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Heckscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460WindshieldRearArmor1",
+      "english": "84 Mercedes Benz W460 Rear Windshield Armor",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Schutz für geteilte Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460WindshieldRearArmorM",
+      "english": "84 Mercedes Benz W460 Rear Split Windshield Armor",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Scheinwerferschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460Guards",
+      "english": "84 Mercedes Benz W460 Light Guards Armor",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460EngineDoor2",
+      "english": "84 Mercedes Benz W460 Hood",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460TrunkDoor2",
+      "english": "84 Mercedes Benz W460 Trunk Lid",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 geteilte Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460TrunkSplitDoor2",
+      "english": "84 Mercedes Benz W460 Split Trunk Lid",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Vordersitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460CarSeatFront2",
+      "english": "84 Mercedes Benz W460 Front Seat",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Rücksitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460CarSeatRear2",
+      "english": "84 Mercedes Benz W460 Rear Seat",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460Bumper1",
+      "english": "84 Mercedes Benz W460 Front Bumper",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460Bullbar2",
+      "english": "84 Mercedes Benz W460 Bullbar",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 verstärkte Stoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460Bullbar3",
+      "english": "84 Mercedes Benz W460 Reinforced Bumper",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Militär-Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460BullbarM",
+      "english": "84 Mercedes Benz W460 Military Bullbar",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460BumperRear1",
+      "english": "84 Mercedes Benz W460 Rear Bumper",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460Windshield2",
+      "english": "84 Mercedes Benz W460 Windshield",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460SideWindow2",
+      "english": "84 Mercedes Benz W460 Side Window",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460RearWindshield2",
+      "english": "84 Mercedes Benz W460 Rear Windshield",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 geteilte Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460RearSplitWindshield2",
+      "english": "84 Mercedes Benz W460 Rear Split Windshield",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Schmutzfänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460Mudflaps1",
+      "english": "84 Mercedes Benz W460 Mudflaps",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Mercedes Benz W460 Schnorchel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.W460SnorkelM",
+      "english": "84 Mercedes Benz W460 Snorkel",
+      "source_file": "media/scripts/vehicles/84mercW460_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

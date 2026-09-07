@@ -488,6 +488,171 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Chevrolet Caprice/Impala Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85chevyCapriceMagazine",
+      "english": "85 Chevrolet Caprice/Impala Auto Manual",
+      "source_file": "media/scripts/vehicles/85chevyCaprice_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Chevrolet Caprice/Impala Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85chevyCapriceEngineDoor1",
+      "english": "85 Chevrolet Caprice/Impala Hood",
+      "source_file": "media/scripts/vehicles/85chevyCaprice_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Chevrolet Caprice/Impala Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85chevyCapriceTrunkDoor1",
+      "english": "85 Chevrolet Caprice/Impala Trunk Lid",
+      "source_file": "media/scripts/vehicles/85chevyCaprice_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Chevrolet Caprice/Impala Vordersitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85chevyCapriceSeatFront1",
+      "english": "85 Chevrolet Caprice/Impala Front Seat",
+      "source_file": "media/scripts/vehicles/85chevyCaprice_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Chevrolet Caprice/Impala Rücksitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85chevyCapriceSeatRear1",
+      "english": "85 Chevrolet Caprice/Impala Rear Seat",
+      "source_file": "media/scripts/vehicles/85chevyCaprice_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Chevrolet Caprice/Impala Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85chevyCapriceBumperFront0",
+      "english": "85 Chevrolet Caprice/Impala Front Bumper",
+      "source_file": "media/scripts/vehicles/85chevyCaprice_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Chevrolet Caprice/Impala verstärkte Stoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85chevyCapriceBumperFrontA",
+      "english": "85 Chevrolet Caprice/Impala Reinforced Bumper",
+      "source_file": "media/scripts/vehicles/85chevyCaprice_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Chevrolet Caprice/Impala Rammschutzstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85chevyCapriceBumperFrontB",
+      "english": "85 Chevrolet Caprice/Impala Push Bumper",
+      "source_file": "media/scripts/vehicles/85chevyCaprice_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Chevrolet Caprice/Impala Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85chevyCapriceBumperRear0",
+      "english": "85 Chevrolet Caprice/Impala Rear Bumper",
+      "source_file": "media/scripts/vehicles/85chevyCaprice_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Chevrolet Caprice/Impala Heck-Rammschutzstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85chevyCapriceBumperRearB",
+      "english": "85 Chevrolet Caprice/Impala Rear Push Bumper",
+      "source_file": "media/scripts/vehicles/85chevyCaprice_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Chevrolet Caprice/Impala Kabinentrennwand",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85chevyCapriceCabBarrier1",
+      "english": "85 Chevrolet Caprice/Impala Cab Barrier",
+      "source_file": "media/scripts/vehicles/85chevyCaprice_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

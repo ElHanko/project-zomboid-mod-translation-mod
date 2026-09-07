@@ -803,6 +803,292 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2Magazine",
+      "english": "78 AM General M35A2 Auto Manual",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Schalldämpfer",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2Muffler1",
+      "english": "78 AM General M35A2 Muffler",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2EngineDoor2",
+      "english": "78 AM General M35A2 Hood",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Rungenaufbau",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2Stakes1",
+      "english": "78 AM General M35A2 Stake Construction",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Planenabdeckung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2Tarp2",
+      "english": "78 AM General M35A2 Tarp Cover",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Rungenseitenwände",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2Stakes3",
+      "english": "78 AM General M35A2 Stake Sidewalls",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Heckklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2tailgate2",
+      "english": "78 AM General M35A2 Tailgate",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Stoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2Bumper1",
+      "english": "78 AM General M35A2 Bumper",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Kühlergrill",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2Grille1",
+      "english": "78 AM General M35A2 Grille",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": false,
+          "review": false,
+          "reviewed": 1
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2BumperRear1",
+      "english": "no",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 festes Fahrerhausdach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2HardCover1",
+      "english": "78 AM General M35A2 Cab Hard Cover",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Fahrerhaus-Planenverdeck",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2SoftCover2",
+      "english": "78 AM General M35A2 Cab Soft Cover",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2Windshield2",
+      "english": "78 AM General M35A2 Windshield",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2SideWindow2",
+      "english": "78 AM General M35A2 Side Window",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Tür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2Door2",
+      "english": "78 AM General M35A2 Door",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Windschutzscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2WindshieldArmor1",
+      "english": "78 AM General M35A2 Windshield Armor",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Türpanzerung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2DoorArmor1",
+      "english": "78 AM General M35A2 Door Armor",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M35A2 Schmutzfänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M35A2Mudflaps1",
+      "english": "78 AM General M35A2 Mudflaps",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "78 AM General M49/M50 Pumpenklappen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.M49PumpDoor2",
+      "english": "78 AM General M49/M50 Pump Doors",
+      "source_file": "media/scripts/vehicles/78amgeneralM35A2_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

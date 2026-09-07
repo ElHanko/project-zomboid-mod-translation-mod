@@ -623,6 +623,141 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Ford Bronco Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89BroncoMagazine",
+      "english": "89 Ford Bronco Auto Manual",
+      "source_file": "media/scripts/vehicles/89fordBronco_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Ford Bronco Heckklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89BroncoTrunkDoor2",
+      "english": "89 Ford Bronco Trunk Lid",
+      "source_file": "media/scripts/vehicles/89fordBronco_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Ford Bronco Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89BroncoBumperFront",
+      "english": "89 Ford Bronco Front Bumper",
+      "source_file": "media/scripts/vehicles/89fordBronco_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Ford Bronco Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89BroncoBullbarFront",
+      "english": "89 Ford Bronco Front Bullbar",
+      "source_file": "media/scripts/vehicles/89fordBronco_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Ford Bronco Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89BroncoBumperRear",
+      "english": "89 Ford Bronco Rear Bumper",
+      "source_file": "media/scripts/vehicles/89fordBronco_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Ford Bronco hinteres Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89BroncoWindowSideRear2",
+      "english": "89 Ford Bronco Rear Side Window",
+      "source_file": "media/scripts/vehicles/89fordBronco_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Ford Bronco Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89BroncoWindshieldRear2",
+      "english": "89 Ford Bronco Rear Windshield",
+      "source_file": "media/scripts/vehicles/89fordBronco_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Ford Bronco Ladeflächenabdeckung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89BroncoBedCover",
+      "english": "89 Ford Bronco Bed Cover",
+      "source_file": "media/scripts/vehicles/89fordBronco_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "89 Ford Bronco Ladeflächentrennwand",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.89BroncoBarrier",
+      "english": "89 Ford Bronco Bed Barrier",
+      "source_file": "media/scripts/vehicles/89fordBronco_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

@@ -773,6 +773,336 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJMagazine",
+      "english": "84 Jeep Cherokee XJ Auto Manual",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJRoofrack2",
+      "english": "84 Jeep Cherokee XJ Roofrack",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Vordertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJFrontDoor2",
+      "english": "84 Jeep Cherokee XJ Front Door",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Hintertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJRearDoor2",
+      "english": "84 Jeep Cherokee XJ Rear Door",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Fensterschutz vorne",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJFrontWindowArmor",
+      "english": "84 Jeep Cherokee XJ Front Window Armor",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Fensterschutz hinten",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJRearWindowArmor",
+      "english": "84 Jeep Cherokee XJ Rear Window Armor",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ hinterer Fensterschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJBackWindowArmor",
+      "english": "84 Jeep Cherokee XJ Back Window Armor",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Windschutzscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJWindshieldArmor",
+      "english": "84 Jeep Cherokee XJ Windshield Armor",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Heckscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJWindshieldRearArmor",
+      "english": "84 Jeep Cherokee XJ Rear Windshield Armor",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJEngineDoor2",
+      "english": "84 Jeep Cherokee XJ Hood",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJTrunkDoor2",
+      "english": "84 Jeep Cherokee XJ Trunk Lid",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Vordersitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJSeatFront2",
+      "english": "84 Jeep Cherokee XJ Front Seat",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Rücksitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJSeatRear2",
+      "english": "84 Jeep Cherokee XJ Rear Seat",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJBumperFront0",
+      "english": "84 Jeep Cherokee XJ Front Bumper",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Rammschutzstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJBumperFrontA",
+      "english": "84 Jeep Cherokee XJ Front Push Bumper",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJBullbarFrontA",
+      "english": "84 Jeep Cherokee XJ Front Bullbar",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJBumperRear0",
+      "english": "84 Jeep Cherokee XJ Rear Bumper",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJWindshield2",
+      "english": "84 Jeep Cherokee XJ Windshield",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ vorderes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJFrontSideWindow2",
+      "english": "84 Jeep Cherokee XJ Front Side Window",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ hinteres Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJRearSideWindow2",
+      "english": "84 Jeep Cherokee XJ Rear Side Window",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ hinterstes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJBackSideWindow2",
+      "english": "84 Jeep Cherokee XJ Back Side Window",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "84 Jeep Cherokee XJ Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.84jeepXJRearWindshield2",
+      "english": "84 Jeep Cherokee XJ Rear Windshield",
+      "source_file": "media/scripts/vehicles/84jeepXJ_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

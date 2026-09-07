@@ -863,6 +863,427 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DodgeMagazine",
+      "english": "70 Dodge Challenger Auto Manual",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Vordersitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DodgeFrontSeat3",
+      "english": "70 Dodge Challenger Front Seat",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Rücksitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DodgeRearSeat3",
+      "english": "70 Dodge Challenger Rear Seat",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger RT Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70RTEngineDoor",
+      "english": "70 Dodge Challenger RT Hood",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger PD Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70PDEngineDoor",
+      "english": "70 Dodge Challenger PD Hood",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": false,
+          "review": false,
+          "reviewed": 1
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70TAEngineDoor0",
+      "english": "Not in use",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger TA schwarze Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70TAEngineDoor1",
+      "english": "70 Dodge Challenger TA Black Hood",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70TrunkDoor3",
+      "english": "70 Dodge Challenger Trunk Lid",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Tür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70Door3",
+      "english": "70 Dodge Challenger Door",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger vorderes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70FrontSideWindow3",
+      "english": "70 Dodge Challenger Front Side Window",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger hinteres Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70RearSideWindow3",
+      "english": "70 Dodge Challenger Rear Side Window",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70Windshield3",
+      "english": "70 Dodge Challenger Windshield",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70WindshieldRear3",
+      "english": "70 Dodge Challenger Rear Windshield",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70FrontBumper0",
+      "english": "70 Dodge Challenger Front Bumper",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70RearBumper0",
+      "english": "70 Dodge Challenger Rear Bumper",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Frontschutzbügel Typ 1",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70FrontBumperA",
+      "english": "70 Dodge Challenger Front Bullbar Type 1",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Frontschutzbügel Typ 2",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70FrontBumperB",
+      "english": "70 Dodge Challenger Front Bullbar Type 2",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Frontschutzbügel Typ 3",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70FrontBumperC",
+      "english": "70 Dodge Challenger Front Bullbar Type 3",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Heckschutzbügel Typ 1",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70RearBumperA",
+      "english": "70 Dodge Challenger Rear Bullbar Type 1",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Heckschutzbügel Typ 2",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70RearBumperB",
+      "english": "70 Dodge Challenger Rear Bullbar Type 2",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Heckschutzbügel Typ 3",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70RearBumperC",
+      "english": "70 Dodge Challenger Rear Bullbar Type 3",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Windschutzscheibenschutz Typ 1",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70WindshieldArmor",
+      "english": "70 Dodge Challenger Windshield Armor Type 1",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Windschutzscheibenschutz Typ 2",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70WindshieldArmorB",
+      "english": "70 Dodge Challenger Windshield Armor Type 2",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Heckscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70WindshieldRearArmor",
+      "english": "70 Dodge Challenger Rear Windshield Armor",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Türpanzerung",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70DoorArmor",
+      "english": "70 Dodge Challenger Door Armor",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Spoiler Typ 1",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70Spoiler0",
+      "english": "70 Dodge Challenger Spoiler Type 1",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger Spoiler Typ 2",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70Spoiler1",
+      "english": "70 Dodge Challenger Spoiler Type 2",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "70 Dodge Challenger RT-Dach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.DG70RTRoof0",
+      "english": "70 Dodge Challenger RT Roof",
+      "source_file": "media/scripts/vehicles/70dodge_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

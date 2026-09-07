@@ -233,6 +233,126 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Buick LeSabre Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85buickLeSabreMagazine",
+      "english": "85 Buick LeSabre Auto Manual",
+      "source_file": "media/scripts/vehicles/85buickLeSabre_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Buick LeSabre Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85buickLeSabreEngineDoor1",
+      "english": "85 Buick LeSabre Hood",
+      "source_file": "media/scripts/vehicles/85buickLeSabre_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Buick LeSabre Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85buickLeSabreTrunkDoor1",
+      "english": "85 Buick LeSabre Trunk Lid",
+      "source_file": "media/scripts/vehicles/85buickLeSabre_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Buick LeSabre Vordersitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85buickLeSabreSeatFront1",
+      "english": "85 Buick LeSabre Front Seat",
+      "source_file": "media/scripts/vehicles/85buickLeSabre_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Buick LeSabre Rücksitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85buickLeSabreSeatRear1",
+      "english": "85 Buick LeSabre Rear Seat",
+      "source_file": "media/scripts/vehicles/85buickLeSabre_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Buick LeSabre Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85buickLeSabreBumperFront0",
+      "english": "85 Buick LeSabre Front Bumper",
+      "source_file": "media/scripts/vehicles/85buickLeSabre_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Buick LeSabre verstärkte Stoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85buickLeSabreBumperFrontA",
+      "english": "85 Buick LeSabre Reinforced Bumper",
+      "source_file": "media/scripts/vehicles/85buickLeSabre_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "85 Buick LeSabre Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.85buickLeSabreBumperRear0",
+      "english": "85 Buick LeSabre Rear Bumper",
+      "source_file": "media/scripts/vehicles/85buickLeSabre_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

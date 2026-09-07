@@ -578,6 +578,351 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDMagazine",
+      "english": "91 Ford LTD Auto Manual",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Reifen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDTire1",
+      "english": "91 Ford LTD Tire",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Dachgepäckträger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDRoofrack1",
+      "english": "91 Ford LTD Roofrack",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria Vordertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDFrontDoor1",
+      "english": "91 Ford LTD Crown Victoria Front Door",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria Hintertür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDRearDoor1",
+      "english": "91 Ford LTD Crown Victoria Rear Door",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDEngineDoor1",
+      "english": "91 Ford LTD Crown Victoria Hood",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDTrunkDoor1",
+      "english": "91 Ford LTD Crown Victoria Trunk Lid",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Country Squire Kofferraumklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDWagonTrunkDoor1",
+      "english": "91 Ford LTD Country Squire Trunk Lid",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria Vordersitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDSeatFront1",
+      "english": "91 Ford LTD Crown Victoria Front Seat",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria Rücksitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDSeatRear1",
+      "english": "91 Ford LTD Crown Victoria Rear Seat",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria Frontstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDBumperFront0",
+      "english": "91 Ford LTD Crown Victoria Front Bumper",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria Rammschutzstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDBumperFront1",
+      "english": "91 Ford LTD Crown Victoria Push Bumper",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDBumperRear0",
+      "english": "91 Ford LTD Crown Victoria Rear Bumper",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Country Squire Heckstoßstange",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDWagonBumperRear1",
+      "english": "91 Ford LTD Country Squire Rear Bumper",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDWindshield1",
+      "english": "91 Ford LTD Crown Victoria Windshield",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria vorderes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDFrontSideWindow1",
+      "english": "91 Ford LTD Crown Victoria Front Side Window",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria hinteres Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDRearSideWindow1",
+      "english": "91 Ford LTD Crown Victoria Rear Side Window",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDRearWindshield1",
+      "english": "91 Ford LTD Crown Victoria Rear Windshield",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Country Squire hinterstes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDWagonBackSideWindow1",
+      "english": "91 Ford LTD Country Squire Back Side Window",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Country Squire Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDWagonRearWindshield1",
+      "english": "91 Ford LTD Country Squire Rear Windshield",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Crown Victoria Kabinentrennwand",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDCabBarrier1",
+      "english": "91 Ford LTD Crown Victoria Cab Barrier",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Country Squire hinterer Fensterschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDWagonBackWindowArmor",
+      "english": "91 Ford LTD Country Squire Back Window Armor",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "91 Ford LTD Country Squire Heckscheibenschutz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.91fordLTDWagonWindshieldRearArmor",
+      "english": "91 Ford LTD Country Squire Rear Windshield Armor",
+      "source_file": "media/scripts/vehicles/91fordLTD_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }

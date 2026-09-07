@@ -848,6 +848,306 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster Werkstatthandbuch",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushmasterMagazine",
+      "english": "Bushmaster Auto Manual",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster Sitz",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushmasterSeat",
+      "english": "Bushmaster Seat",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster Hängesitz für Schützen",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushmasterGunnerSeat",
+      "english": "Bushmaster Gunner Sling Seat",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster linker Kotflügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushLeftFender0",
+      "english": "Bushmaster Left Fender",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster rechter Kotflügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushRightFender0",
+      "english": "Bushmaster Right Fender",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster linkes Staufach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushLeftStorage0",
+      "english": "Bushmaster Left Storage",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster rechtes Staufach",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushRightStorage0",
+      "english": "Bushmaster Right Storage",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster Dachkisten",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushRoofStorage0",
+      "english": "Bushmaster Roof Crates",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster Tür",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushDoor2",
+      "english": "Bushmaster Door",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster Luke",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushHatch2",
+      "english": "Bushmaster Hatch",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster Motorhaube",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushEngineDoor2",
+      "english": "Bushmaster Hood",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster kleine Staufachklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushStorageLidSmall",
+      "english": "Bushmaster Small Storage Lid",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster große Staufachklappe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushStorageLidLarge",
+      "english": "Bushmaster Large Storage Lid",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster Windschutzscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushWindshield2",
+      "english": "Bushmaster Windshield",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster vorderes Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushFrontSideWindow2",
+      "english": "Bushmaster Front Side Window",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster Seitenfenster",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushSideWindow2",
+      "english": "Bushmaster Side Window",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster Heckscheibe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushWindshieldRear2",
+      "english": "Bushmaster Rear Windshield",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster Schmutzfänger",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushMudflaps",
+      "english": "Bushmaster Mudflaps",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster Kraftstofftank",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushGasTank2",
+      "english": "Bushmaster Gas Tank",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Bushmaster SAS-Frontschutzbügel",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.97BushBullbarSAS",
+      "english": "Bushmaster SAS Bullbar",
+      "source_file": "media/scripts/vehicles/97bushmaster_vehiclesitems.txt",
+      "source_layer": "42.13",
+      "source_format": "script-displayname"
     }
   ]
 }
