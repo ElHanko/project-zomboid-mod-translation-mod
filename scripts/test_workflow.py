@@ -115,6 +115,9 @@ class TemporaryRepository(unittest.TestCase):
                             "LANGUAGES": ["DE", "FR"]}.items():
             self.stack.enter_context(patch.object(config, name, value))
         (self.root / "LICENSE").write_text("Fixture license\n")
+        (self.root / "export").mkdir()
+        (self.root / "export/README-DIST.md").write_text("English player guide\n")
+        (self.root / "export/README-DIST-DE.md").write_text("Deutsche Spieleranleitung\n")
 
     def store(self, data=None, name="123__mod.json"):
         data = data or fixture_draft("mod", [entry()])[1]
@@ -725,16 +728,18 @@ class BuildVerifyExportTests(TemporaryRepository):
     def test_export_single_multi_zip_and_allowlist(self):
         self.store(self.bilingual("FR fixture"))
         build.run()
-        for language, expected_languages in (("DE", {"DE"}), (None, {"DE", "FR"})):
+        for language, expected_languages in (("DE", {"DE"}), ("FR", {"FR"}), (None, {"DE", "FR"})):
             export.run(language, make_zip=True)
             destination = self.root / "dist" / export.MOD_DIRECTORY
             tree = common.read_tree(destination)
             self.assertEqual({p.parts[5] for p in tree if p.parts[:5] == ("common", "media", "lua", "shared", "Translate")}, expected_languages)
             self.assertEqual(
                 {p for p in tree if p.parts[0] not in ("common", "42")},
-                {Path("LICENSE"), Path("SUPPORTED-MODS.txt")},
+                {Path("README.md"), Path("LICENSE"), Path("SUPPORTED-MODS.txt")},
             )
-            self.assertEqual(len(tree), 4 + len(expected_languages))
+            self.assertEqual(len(tree), 5 + len(expected_languages))
+            readme = "README-DIST-DE.md" if language == "DE" else "README-DIST.md"
+            self.assertEqual(tree[Path("README.md")], (self.root / "export" / readme).read_bytes())
             supported = tree[Path("SUPPORTED-MODS.txt")].decode("utf-8")
             self.assertIn("Workshop ID: 123", supported)
             self.assertIn("Mod ID: mod", supported)
@@ -745,6 +750,48 @@ class BuildVerifyExportTests(TemporaryRepository):
             with zipfile.ZipFile(destination.with_suffix(".zip")) as archive:
                 zipped = {Path(name).relative_to(export.MOD_DIRECTORY): archive.read(name) for name in archive.namelist()}
             self.assertEqual(zipped, tree)
+            before = common.read_tree(self.root / "dist")
+            export.run(language, make_zip=True)
+            self.assertEqual(common.read_tree(self.root / "dist"), before)
+
+    def test_export_readme_supports_additional_language_codes(self):
+        data = self.bilingual("Texto")
+        data["entries"][0]["translations"]["PT-BR"] = data["entries"][0]["translations"].pop("FR")
+        self.store(data)
+        localized = self.root / "export/README-DIST-PT-BR.md"
+        localized.write_bytes(b"Portuguese player guide\r\n")
+        with patch.object(config, "LANGUAGES", ["DE", "PT-BR"]):
+            build.run()
+            export.run("PT-BR")
+        self.assertEqual((self.root / "dist" / export.MOD_DIRECTORY / "README.md").read_bytes(),
+                         localized.read_bytes())
+
+    def test_missing_default_readme_aborts_without_changing_export(self):
+        self.store(self.bilingual("FR fixture"))
+        build.run()
+        export.run("DE", make_zip=True)
+        before = common.read_tree(self.root / "dist")
+        (self.root / "export/README-DIST.md").unlink()
+        for language in ("DE", "FR", None):
+            with self.subTest(language=language), self.assertRaisesRegex(ValueError, "Pflichtdatei.*README-DIST.md"):
+                export.run(language, make_zip=True)
+            self.assertEqual(common.read_tree(self.root / "dist"), before)
+
+    def test_export_rejects_readme_symlinks_without_changing_export(self):
+        self.store(self.bilingual("FR fixture"))
+        build.run()
+        export.run("DE", make_zip=True)
+        before = common.read_tree(self.root / "dist")
+        for relative in ("export/README-DIST.md", "export/README-DIST-DE.md", "export"):
+            path = self.root / relative
+            saved = self.root / "saved-readme"
+            path.rename(saved)
+            path.symlink_to(saved)
+            with self.subTest(relative=relative), self.assertRaisesRegex(ValueError, "Symlink"):
+                export.run("DE", make_zip=True)
+            self.assertEqual(common.read_tree(self.root / "dist"), before)
+            path.unlink()
+            saved.rename(path)
 
     def test_supported_mods_lists_only_complete_exported_languages(self):
         first = self.bilingual("FR first")
@@ -893,6 +940,8 @@ class CLITests(unittest.TestCase):
             scripts = Path(__file__).parent
             shutil.copytree(scripts, root / "scripts", ignore=shutil.ignore_patterns("__pycache__"))
             (root / "LICENSE").write_text("Test license")
+            (root / "export").mkdir()
+            (root / "export/README-DIST.md").write_text("Test player guide\n")
             workshop = root / "workshop"
             (root / "game/projectzomboid/media/lua/shared/Translate/EN").mkdir(parents=True)
             mod = workshop / "123/mods/mod"

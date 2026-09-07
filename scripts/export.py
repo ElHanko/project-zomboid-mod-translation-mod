@@ -111,7 +111,17 @@ def run(language=None, make_zip=False):
         raise ValueError("Runtime nicht exportierbar; './pzgt build' ausführen.\n" + "\n".join(errors))
     license_file = config.ROOT / "LICENSE"
     no_symlinks(license_file)
+    readme_file = config.ROOT / "export/README-DIST.md"
+    no_symlinks(readme_file)
+    if not readme_file.is_file():
+        raise ValueError(f"Pflichtdatei für Distribution-README fehlt: {readme_file}")
+    if len(languages) == 1:
+        localized = readme_file.with_name(f"README-DIST-{languages[0]}.md")
+        no_symlinks(localized)
+        if localized.is_file():
+            readme_file = localized
     files = {Path("LICENSE"): license_file.read_bytes(),
+             Path("README.md"): readme_file.read_bytes(),
              Path("SUPPORTED-MODS.txt"): supported_mods_text(drafts, plans, languages),
              Path("common/mod.info"): expected_mod_info(), Path("42/mod.info"): expected_mod_info()}
     for target, (expected, _, _) in plans.items():

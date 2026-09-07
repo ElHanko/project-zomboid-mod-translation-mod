@@ -548,6 +548,7 @@ Output:
 ```text
 dist/
 ├── Project-Zomboid-Mod-Translations/
+│   ├── README.md
 │   ├── LICENSE
 │   ├── SUPPORTED-MODS.txt
 │   ├── common/
@@ -575,7 +576,15 @@ The base game is excluded from `Supported mods` and the Workshop list. If its
 draft is complete in any exported language, the header adds, for example,
 `Base game translations: included (DE, FR)`, listing only those included languages.
 
-The allowlist contains only `LICENSE`, `SUPPORTED-MODS.txt`, the two `mod.info`
+The player-facing `README.md` comes from the required English default
+`export/README-DIST.md`. For exactly one selected export language, an optional
+`export/README-DIST-<LANG>.md` takes precedence (for example `DE` or `PT-BR`).
+Without that localized file, or when exporting multiple languages together,
+the English default is used. Selection depends only on the selected export
+languages, never the host locale. A missing default aborts the export, even
+when a localized file exists. The technical repository README is not packaged.
+
+The allowlist contains only `README.md`, `LICENSE`, `SUPPORTED-MODS.txt`, the two `mod.info`
 files and selected runtime translations. No scripts, drafts, local config, data,
 Git metadata or other development files are included. ZIP generation uses the
 standard library, with deterministic entry order and timestamps. Directory and
