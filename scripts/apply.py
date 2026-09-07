@@ -28,6 +28,11 @@ def apply_work(work, drafts):
         target = targets.get(ident)
         if target is None:
             raise ValueError(f"Key existiert nicht mehr: {ident}")
+        text = item.get("translation")
+        if not isinstance(text, str):
+            raise ValueError(f"Translation muss String sein: {ident}")
+        if not text.strip():
+            continue
         state = translation_state(target, language)
         if state["needed"] is not True:
             raise ValueError(f"Key nicht benötigt oder Bedarf unbekannt: {language}/{ident}; "
@@ -36,11 +41,6 @@ def apply_work(work, drafts):
             raise ValueError(f"Englischer Quelltext inzwischen geändert: {ident}")
         if item.get("original_translation") != state["text"]:
             raise ValueError(f"Zielübersetzung inzwischen geändert: {ident}; neues Arbeitspaket erstellen")
-        text = item.get("translation")
-        if not isinstance(text, str):
-            raise ValueError(f"Translation muss String sein: {ident}")
-        if not text.strip():
-            continue
         if placeholders(text) != placeholders(target["english"]):
             raise ValueError(f"Placeholder-Abweichung: {ident}")
         state.update(text=text, review=False)

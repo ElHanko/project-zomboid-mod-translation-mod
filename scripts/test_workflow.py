@@ -415,6 +415,7 @@ class WorkApplyTests(TemporaryRepository):
     def test_stale_work_language_identity_source_and_type_validation(self):
         path, data = self.store(self.bilingual())
         package = work.make_work([(path, data)], language="FR")
+        package["entries"][0]["translation"] = "Fixture translation"
         cases = []
         for field, value in (("language", "ES"), ("language", None), ("draft_file", "../123__mod.json"),
                              ("mod_id", "wrong"), ("workshop_id", "456"), ("directory", "wrong")):
@@ -440,6 +441,7 @@ class WorkApplyTests(TemporaryRepository):
     def test_unneeded_unknown_and_missing_states_reject_apply(self):
         path, data = self.store(self.bilingual())
         package = work.make_work([(path, data)], language="FR")
+        package["entries"][0]["translation"] = "Fixture translation"
         for needed in (False, None, "missing"):
             changed = deepcopy(data)
             if needed == "missing":
@@ -471,6 +473,72 @@ class WorkApplyTests(TemporaryRepository):
         _, after, count = apply.apply_work(package, [(path, data)])
         self.assertEqual(count, 0)
         self.assertEqual(after, data)
+
+    def test_empty_excluded_entry_does_not_block_other_translations(self):
+        data = fixture_draft("mod", [entry("ItemName", key, text="")
+                                     for key in ("Base.A", "Base.B", "Base.C")])[1]
+        path, _ = self.store(data)
+        package = work.make_work([(path, data)], language="DE")
+        package["entries"][0]["translation"] = "Erste Übersetzung"
+        package["entries"][2]["translation"] = "Zweite Übersetzung"
+        data["entries"][1]["translations"]["DE"].update(needed=False, reviewed=1)
+        common.write_json(path, data)
+        work_file = config.DATA / "work.json"
+        common.write_json(work_file, package)
+        apply.run(str(work_file))
+        after = common.load_json(path)
+        expected = deepcopy(data)
+        expected["entries"][0]["translations"]["DE"]["text"] = "Erste Übersetzung"
+        expected["entries"][2]["translations"]["DE"]["text"] = "Zweite Übersetzung"
+        self.assertEqual(after, expected)
+
+    def test_empty_stale_entries_never_change_or_write_draft(self):
+        path, data = self.store(self.bilingual())
+        package = work.make_work([(path, data)], language="FR")
+        for needed in (True, False, None, "missing"):
+            for text in ("", " \t\n"):
+                with self.subTest(needed=needed, text=text):
+                    changed = deepcopy(data)
+                    changed["entries"][0]["english"] = "Changed source"
+                    state = changed["entries"][0]["translations"]["FR"]
+                    state.update(text="Concurrent edit", review=True, reviewed=1, previous_english="Old")
+                    if needed == "missing":
+                        del changed["entries"][0]["translations"]["FR"]
+                    else:
+                        state["needed"] = needed
+                    package["entries"][0]["translation"] = text
+                    _, after, count = apply.apply_work(package, [(path, changed)])
+                    self.assertEqual(count, 0)
+                    self.assertEqual(after, changed)
+                    with patch.object(apply, "load_drafts", return_value=[(path, changed)]), \
+                            patch.object(apply, "load_json", return_value=package), \
+                            patch.object(apply, "write_json") as write:
+                        apply.run("unused.json")
+                    write.assert_not_called()
+
+    def test_empty_entries_still_validate_identity_key_and_string_type(self):
+        path, data = self.store(self.bilingual())
+        package = work.make_work([(path, data)], language="FR")
+        cases = []
+        for field, value in (("draft_file", "other.json"), ("mod_id", "wrong"),
+                             ("workshop_id", "456"), ("directory", "wrong"), ("language", "ES")):
+            bad = deepcopy(package)
+            bad[field] = value
+            cases.append(bad)
+        for field, value in (("key", "missing"), ("category", "missing"),
+                             ("translation", None), ("translation", 5)):
+            bad = deepcopy(package)
+            bad["entries"][0][field] = value
+            cases.append(bad)
+        bad = deepcopy(package)
+        del bad["entries"][0]["translation"]
+        cases.append(bad)
+        bad = deepcopy(package)
+        bad["entries"].append(deepcopy(bad["entries"][0]))
+        cases.append(bad)
+        for bad in cases:
+            with self.subTest(bad=bad), self.assertRaises(ValueError):
+                apply.apply_work(bad, [(path, data)])
 
     def test_progress_is_language_specific(self):
         path, data = self.store(self.bilingual())
