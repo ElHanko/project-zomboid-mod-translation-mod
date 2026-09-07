@@ -39,6 +39,14 @@ def is_music_entry(entry):
     return "[img=music]" in entry["english"].casefold()
 
 
+SFX_TEXTS = frozenset(("<bzzt>", "<fzzt>", "<brrr>", "..."))
+
+
+def is_sfx_entry(entry):
+    parts = entry["english"].strip().casefold().split()
+    return bool(parts) and all(part in SFX_TEXTS for part in parts)
+
+
 def unique_object(pairs):
     result = {}
     for key, value in pairs:

@@ -169,8 +169,11 @@ For interactive audit review, `--all` also includes candidates already marked
 
 Entries whose English source contains `[img=music]` are excluded from `audit`
 and `review` by default, because song lyrics normally do not need translation.
-Use `--music-include` to include them explicitly. This filter only changes the
-candidate set; it does not modify draft state or mark music entries as reviewed.
+Use `--music-include` to include them explicitly. Pure non-translatable radio markers such as `<bzzt>`, `<fzzt>`, `<brrr>`,
+combinations consisting only of those markers, and `...` are likewise excluded
+by default; use `--sfx-include` to include them. These filters only change the
+candidate set; they do not modify draft state or mark excluded entries as
+reviewed.
 Confirmed reviews disappear from the next session's selection, so the printed
 resume offset accounts for the smaller list. No session file is created.
 

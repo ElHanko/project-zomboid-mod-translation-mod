@@ -253,7 +253,7 @@ class ReviewTests(TemporaryRepository):
 
     def interactive(self, replies, audit_type="same_as_source", category=None, offset=None,
                     selector="Project Zomboid", language="DE", include_reviewed=False,
-                    include_music=False):
+                    include_music=False, include_sfx=False):
         args = ["review", selector, "--language", language, "--interactive"]
         args += ["--type", audit_type] if audit_type is not None else ["--review"]
         if category is not None:
@@ -264,6 +264,8 @@ class ReviewTests(TemporaryRepository):
             args += ["--all"]
         if include_music:
             args += ["--music-include"]
+        if include_sfx:
+            args += ["--sfx-include"]
         output = StringIO()
         with redirect_stdout(output), patch("builtins.input", side_effect=replies):
             result = pzgt.main(args)
@@ -298,6 +300,7 @@ class ReviewTests(TemporaryRepository):
                     offset=1,
                     include_reviewed=False,
                     include_music=False,
+                    include_sfx=False,
                 )
 
     def test_interactive_audit_n_x_preserve_every_other_field_and_filter(self):
@@ -641,6 +644,7 @@ class ReviewTests(TemporaryRepository):
                 offset=0,
                 include_reviewed=True,
                 include_music=False,
+                include_sfx=False,
             )
 
     def test_audit_summary_counts_reviewed_and_unreviewed_after_filters(self):
@@ -793,6 +797,7 @@ class ReviewTests(TemporaryRepository):
                 category="RadioData",
                 audit_type="same_as_source",
                 include_music=True,
+                include_sfx=False,
             )
         self.assertIn("Audit-Kandidaten: 2", output.getvalue())
 
@@ -848,6 +853,7 @@ class ReviewTests(TemporaryRepository):
                 offset=0,
                 include_reviewed=False,
                 include_music=True,
+                include_sfx=False,
             )
 
         with patch.object(audit, "run") as run:
@@ -869,4 +875,130 @@ class ReviewTests(TemporaryRepository):
                 None,
                 "same_as_source",
                 include_music=True,
+                include_sfx=False,
+            )
+
+    def test_sfx_entries_are_hidden_from_interactive_audit_by_default(self):
+        data = deepcopy(self.data)
+        data["entries"][0]["english"] = "<bzzt>"
+        common.write_json(self.path, data)
+
+        result, output = self.interactive(["q"], category="RadioData")
+        self.assertEqual(result, 0)
+        self.assertIn("[1/1] RadioData / SameB", output)
+        self.assertNotIn("RadioData / SameA", output)
+
+        result, output = self.interactive(
+            ["q"],
+            category="RadioData",
+            include_sfx=True,
+        )
+        self.assertEqual(result, 0)
+        self.assertIn("[1/2] RadioData / SameA", output)
+        self.assertIn("<bzzt>", output)
+
+    def test_sfx_filter_is_exact_and_does_not_hide_normal_angle_text(self):
+        for english, hidden in (
+            ("<bzzt>", True),
+            ("  <FZZT>  ", True),
+            ("<brrr>", True),
+            ("...", True),
+            ("<bzzt> <fzzt>", True),
+            ("<brrr> <fzzt>", True),
+            ("<fzzt> <bzzt>", True),
+            ("<bzzt> <bzzt>", True),
+            ("<something else>", False),
+            ("Message <bzzt>", False),
+            ("<bzzt> message", False),
+        ):
+            with self.subTest(english=english):
+                item = deepcopy(self.data["entries"][0])
+                item["english"] = english
+                self.assertEqual(common.is_sfx_entry(item), hidden)
+
+    def test_sfx_entries_are_hidden_from_audit_and_bulk_by_default(self):
+        data = deepcopy(self.data)
+        data["entries"][0]["english"] = "<fzzt>"
+        common.write_json(self.path, data)
+
+        output = StringIO()
+        with redirect_stdout(output):
+            audit.run(
+                "Project Zomboid",
+                "DE",
+                category="RadioData",
+                audit_type="same_as_source",
+            )
+        self.assertIn("Audit-Kandidaten: 1", output.getvalue())
+
+        review.run(
+            "Project Zomboid",
+            "DE",
+            "same_as_source",
+            "RadioData",
+            needed=True,
+        )
+        state = common.load_json(self.path)["entries"][0]["translations"]["DE"]
+        self.assertFalse(state["needed"])
+        self.assertEqual(state.get("reviewed", 0), 0)
+
+        common.write_json(self.path, data)
+        review.run(
+            "Project Zomboid",
+            "DE",
+            "same_as_source",
+            "RadioData",
+            needed=True,
+            include_sfx=True,
+        )
+        state = common.load_json(self.path)["entries"][0]["translations"]["DE"]
+        self.assertTrue(state["needed"])
+        self.assertEqual(state["reviewed"], 1)
+
+    def test_sfx_include_cli_is_forwarded(self):
+        with patch.object(review, "run_interactive") as run:
+            self.assertEqual(
+                pzgt.main([
+                    "review",
+                    "Project Zomboid",
+                    "--language",
+                    "DE",
+                    "--type",
+                    "same_as_source",
+                    "--interactive",
+                    "--sfx-include",
+                ]),
+                0,
+            )
+            run.assert_called_once_with(
+                "Project Zomboid",
+                "DE",
+                "same_as_source",
+                None,
+                offset=0,
+                include_reviewed=False,
+                include_music=False,
+                include_sfx=True,
+            )
+
+        with patch.object(audit, "run") as run:
+            self.assertEqual(
+                pzgt.main([
+                    "audit",
+                    "Project Zomboid",
+                    "--language",
+                    "DE",
+                    "--type",
+                    "same_as_source",
+                    "--sfx-include",
+                ]),
+                0,
+            )
+            run.assert_called_once_with(
+                "Project Zomboid",
+                "DE",
+                None,
+                "same_as_source",
+                include_music=False,
+                include_sfx=True,
             )

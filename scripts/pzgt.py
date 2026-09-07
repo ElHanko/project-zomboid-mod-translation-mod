@@ -506,6 +506,7 @@ def main(argv=None):
             command.add_argument("selector")
             command.add_argument("--category")
             command.add_argument("--music-include", action="store_true", dest="include_music")
+            command.add_argument("--sfx-include", action="store_true", dest="include_sfx")
         if name == "audit":
             command.add_argument("--type", dest="audit_type", choices=AUDIT_TYPES)
         if name == "review":
@@ -556,6 +557,7 @@ def main(argv=None):
                     args.category,
                     args.audit_type,
                     include_music=args.include_music,
+                    include_sfx=args.include_sfx,
                 )
             elif args.command == "review":
                 if args.interactive:
@@ -567,6 +569,7 @@ def main(argv=None):
                         offset=args.offset or 0,
                         include_reviewed=args.include_reviewed,
                         include_music=args.include_music,
+                        include_sfx=args.include_sfx,
                     )
                 else:
                     module.run(
@@ -576,6 +579,7 @@ def main(argv=None):
                         args.category,
                         needed=args.need,
                         include_music=args.include_music,
+                        include_sfx=args.include_sfx,
                     )
             else:
                 module.run(args.language)

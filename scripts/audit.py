@@ -3,16 +3,26 @@
 from collections import Counter
 
 import config
-from common import AUDIT_TYPES, is_music_entry, load_drafts, select_draft, translation_state
+from common import (AUDIT_TYPES, is_music_entry, is_sfx_entry, load_drafts,
+                    select_draft, translation_state)
 
 
-def run(selector, language=None, category=None, audit_type=None, *, include_music=False):
+def run(
+        selector,
+        language=None,
+        category=None,
+        audit_type=None,
+        *,
+        include_music=False,
+        include_sfx=False,
+):
     language = config.select_language(language)
     if audit_type is not None and audit_type not in AUDIT_TYPES:
         raise ValueError(f"Ungültiger Audittyp: {audit_type}; erlaubt: {', '.join(AUDIT_TYPES)}")
     path, draft = select_draft(load_drafts(), selector)
     entries = [entry for entry in draft["entries"]
                if (include_music or not is_music_entry(entry))
+               and (include_sfx or not is_sfx_entry(entry))
                and translation_state(entry, language).get("audit") in AUDIT_TYPES
                and (audit_type is None or translation_state(entry, language)["audit"] == audit_type)
                and (category is None or entry["category"] == category)]

@@ -1,11 +1,20 @@
 #!/usr/bin/env python3
 """Review draft audits and source-change flags without reading live sources."""
 import config
-from common import (AUDIT_TYPES, is_music_entry, load_drafts, placeholders,
-                    select_draft, translation_state, write_json)
+from common import (AUDIT_TYPES, is_music_entry, is_sfx_entry, load_drafts,
+                    placeholders, select_draft, translation_state, write_json)
 
 
-def run(selector, language, audit_type, category=None, *, needed, include_music=False):
+def run(
+        selector,
+        language,
+        audit_type,
+        category=None,
+        *,
+        needed,
+        include_music=False,
+        include_sfx=False,
+):
     language = config.select_language(language)
     if audit_type not in AUDIT_TYPES:
         raise ValueError(f"Ungültiger Audittyp: {audit_type}; erlaubt: {', '.join(AUDIT_TYPES)}")
@@ -14,6 +23,7 @@ def run(selector, language, audit_type, category=None, *, needed, include_music=
         raise ValueError("review ist nur für Basis-Spiel-Audit-Einträge verfügbar")
     states = [translation_state(entry, language) for entry in draft["entries"]
               if (include_music or not is_music_entry(entry))
+              and (include_sfx or not is_sfx_entry(entry))
               and translation_state(entry, language).get("audit") == audit_type
               and (category is None or entry["category"] == category)]
     if not states:
@@ -83,6 +93,7 @@ def run_interactive(
         offset=0,
         include_reviewed=False,
         include_music=False,
+        include_sfx=False,
 ):
     language = config.select_language(language)
     if audit_type is not None and audit_type not in AUDIT_TYPES:
@@ -95,6 +106,8 @@ def run_interactive(
     candidates = []
     for entry in draft["entries"]:
         if not include_music and is_music_entry(entry):
+            continue
+        if not include_sfx and is_sfx_entry(entry):
             continue
         state = translation_state(entry, language)
         if audit_type is not None:
