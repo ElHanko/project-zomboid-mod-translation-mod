@@ -1,0 +1,862 @@
+{
+  "entries": [
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_SpawnItem",
+      "english": "Spawn Item",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_Visualchange",
+      "english": "Visual change",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_Partchange",
+      "english": "Part change",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_Grow",
+      "english": "Grow",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_Water To Max",
+      "english": "Water To Max",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_Zero Water",
+      "english": "Zero Water",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_AphidsPlus5",
+      "english": "Aphids +5",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_AphidsMinus5",
+      "english": "Aphids -5",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_MildewPlus5",
+      "english": "Mildew +5",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_MildewMinus5",
+      "english": "Mildew -5",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_PestFliesPlus5",
+      "english": "Pest Flies +5",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_PestFliesMinus5",
+      "english": "Pest Flies -5",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_SlugsPlus5",
+      "english": "Slugs +5",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_SlugsMinus5",
+      "english": "Slugs -5",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_HealthPlus10",
+      "english": "Health +10",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_HealthMinus10",
+      "english": "Health -10",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_WaterPlus10",
+      "english": "Water +10",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ContextMenu",
+      "key": "ContextMenu_WaterMinus10",
+      "english": "Water -10",
+      "source_file": "ContextMenu.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ContainerTitle_FoodBox",
+      "english": "Food Box",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_StiffnessIn",
+      "english": "Stiffness in %1 (%2)",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_HealthEquals",
+      "english": "(health=%1)",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_Acceptance",
+      "english": "Acceptance",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_Custom",
+      "english": "Custom",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_CommandConsole",
+      "english": "Command Console",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_OutputLog",
+      "english": "Output Log",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_LuaCommandLine",
+      "english": "Lua Command Line",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ToggleBleeding",
+      "english": "Toggle Bleeding",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ToggleBullet",
+      "english": "Toggle Bullet",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ToggleBurned",
+      "english": "Toggle Burned",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ToggleBurn Needs Wash",
+      "english": "Toggle Burn Needs Wash",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ToggleDeep Wound",
+      "english": "Toggle Deep Wound",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ToggleFracture",
+      "english": "Toggle Fracture",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ToggleGlass Shards",
+      "english": "Toggle Glass Shards",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ToggleInfected",
+      "english": "Toggle Infected",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ToggleScratched",
+      "english": "Toggle Scratched",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ToggleLaceration",
+      "english": "Toggle Laceration",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ToggleBite",
+      "english": "Toggle Bite",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ToggleMuscle Strain",
+      "english": "Toggle Muscle Strain",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_HealthFull",
+      "english": "Health Full",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_HealthFullBody",
+      "english": "Health Full (Body)",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_SpawnNumber",
+      "english": "#spawn",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_Any",
+      "english": "<Any>",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_NoCategorySet",
+      "english": "<No category set>",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ItemType_AlarmClockClothing",
+      "english": "Alarm Clock Clothing",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "IG_UI",
+      "key": "IGUI_ItemType_Drainable",
+      "english": "Drainable",
+      "source_file": "IG_UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "Sandbox",
+      "key": "Sandbox_ZombiesCountBeforeDelete_help",
+      "english": "Controls the maximum number of zombies tracked before cleanup occurs. 0 means zombies will not be cleaned up.\\nThe default value (300) is strongly recommended. Increasing this value or setting to 0 may cause severe performance problems.\\nFor troubleshooting and bug-report purposes, please reproduce any issue with the default setting before submitting a report.",
+      "source_file": "Sandbox.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "Sandbox",
+      "key": "Sandbox_WaterShutModifier",
+      "english": "WaterShutModifier",
+      "source_file": "Sandbox.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "Sandbox",
+      "key": "Sandbox_ElecShutModifier",
+      "english": "ElecShutModifier",
+      "source_file": "Sandbox.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "UI",
+      "key": "UI_optionscreen_disableLightningDuringStorms",
+      "english": "Disable Lightning During Storms",
+      "source_file": "UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "UI",
+      "key": "UI_optionscreen_disableLightningDuringStorms_tt",
+      "english": "When enabled, lightning will not be generated during storms.",
+      "source_file": "UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "UI",
+      "key": "UI_worldscreen_SavefileConversion",
+      "english": "<H1> <LINE> <ORANGE> WARNING: <LINE> <LINE> <RGB:1,1,1> Save conversion process will break saves. <LINE> <LINE> We strongly advise you to use back-up Steam betas to continue your save. <LINE> <LINE> Convert save?",
+      "source_file": "UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "UI",
+      "key": "UI_EpilepsyWarning_1",
+      "english": "IMPORTANT PHOTOSENSITIVITY WARNING - PLEASE READ",
+      "source_file": "UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "UI",
+      "key": "UI_EpilepsyWarning_3",
+      "english": "This game may contain flashing lights, strobing effects, rapid visual changes, and patterns that may trigger seizures or",
+      "source_file": "UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "UI",
+      "key": "UI_EpilepsyWarning_4",
+      "english": "other adverse reactions in people with photosensitive epilepsy - even those without a prior history. If you or anyone in",
+      "source_file": "UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "UI",
+      "key": "UI_EpilepsyWarning_5",
+      "english": "your household has a history of epilepsy or seizures, please consult a doctor before playing.",
+      "source_file": "UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "UI",
+      "key": "UI_EpilepsyWarning_7",
+      "english": "If you experience dizziness, altered vision, muscle twitches, loss of awareness, disorientation or similar,",
+      "source_file": "UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "UI",
+      "key": "UI_EpilepsyWarning_8",
+      "english": "please immediately stop the game and consult your doctor.",
+      "source_file": "UI.json",
+      "source_layer": "game",
+      "source_format": "json"
+    }
+  ],
+  "source_type": "game",
+  "name": "Project Zomboid",
+  "game_version": "42.20.4"
+}
