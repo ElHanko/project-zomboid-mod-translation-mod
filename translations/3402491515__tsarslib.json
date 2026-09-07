@@ -10148,6 +10148,833 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA150Trunk",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA200Trunk",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA250Trunk",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA300Trunk",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA400Trunk",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA500Trunk",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA600Trunk",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA700Trunk",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA800Trunk",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA900Trunk",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA1000Trunk",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA1100Trunk",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA1200Trunk",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA150Trunk1",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA200Trunk1",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA250Trunk1",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA300Trunk1",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA400Trunk1",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA500Trunk1",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA600Trunk1",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA700Trunk1",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA800Trunk1",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA900Trunk1",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA1000Trunk1",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA1100Trunk1",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA1200Trunk1",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA150Trunk2",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA200Trunk2",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA250Trunk2",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA300Trunk2",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA400Trunk2",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA500Trunk2",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA600Trunk2",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA700Trunk2",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA800Trunk2",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA900Trunk2",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA1000Trunk2",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA1100Trunk2",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA1200Trunk2",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA150Trunk3",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA200Trunk3",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA250Trunk3",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA300Trunk3",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA400Trunk3",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA500Trunk3",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA600Trunk3",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA700Trunk3",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA800Trunk3",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA900Trunk3",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA1000Trunk3",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA1100Trunk3",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Standardkofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATA1200Trunk3",
+      "english": "Standard Trunk",
+      "source_file": "media/scripts/ata/ata_truckbed_collection.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": false,
+          "review": false,
+          "reviewed": 1
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATASleepingBag",
+      "english": "ATASleepingBag",
+      "source_file": "media/scripts/tuning2/template_ata2_roof_tent.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Großer Kofferraum",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "ItemName",
+      "key": "Base.ATAFreestorageTrunk",
+      "english": "Big Trunk",
+      "source_file": "media/scripts/commonlibrary/templates/template_freeplace.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "",
+          "needed": false,
+          "review": false,
+          "reviewed": 1
+        }
+      },
+      "category": "ItemName",
+      "key": "ATA2.ATA2ItemContainer",
+      "english": "ATA2ItemContainer",
+      "source_file": "media/scripts/tuning2/ata2_items.txt",
+      "source_layer": "common",
+      "source_format": "script-displayname"
     }
   ]
 }
