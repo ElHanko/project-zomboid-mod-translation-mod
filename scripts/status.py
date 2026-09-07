@@ -475,6 +475,7 @@ def analyze_scan(scan, language):
         missing = []
         translated = []
         blank = []
+        audit_blank = []
         ignored = Counter()
 
         for entry_id, source in en_entries.items():
@@ -490,6 +491,9 @@ def analyze_scan(scan, language):
             if not target["text"].strip():
                 if is_game:
                     ignored["blank_ignored"] += 1
+                    if source["text"].strip():
+                        audit_blank.append(dict(source, target_file=target["file"],
+                                                target_layer=target["layer"]))
                     continue
                 item = dict(source)
                 item["target_file"] = target["file"]
@@ -562,6 +566,7 @@ def analyze_scan(scan, language):
         }
 
         if is_game:
+            row["audit_blank"] = audit_blank
             row["counts"].update(
                 missing_total=len(missing) + ignored["empty_source_ignored"],
                 empty_source_ignored=ignored["empty_source_ignored"],
@@ -617,6 +622,7 @@ def run(language=None):
               f"Offen: {counts['open']} | Parserfehler: {counts['parse_errors']}")
         print(f"  Ignoriert: {counts['empty_source_ignored']} fehlende Keys mit leerem EN-Text; "
               f"{counts['blank_ignored']} vorhandene leere {language}-Werte")
+        print(f"  Audit-Kandidaten (nicht automatisch benötigt): {len(data['base_game']['audit_blank'])}")
         print()
     print(
         f'{"OFFEN":>6} '

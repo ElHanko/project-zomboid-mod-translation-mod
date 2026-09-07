@@ -123,6 +123,8 @@ def validate_draft(path, draft):
                 raise ValueError(f"{path}: ungültiger Translation-State für {language}")
             if "previous_english" in state and not isinstance(state["previous_english"], str):
                 raise ValueError(f"{path}: previous_english muss String sein ({language})")
+            if "audit" in state and state["audit"] != "blank_target":
+                raise ValueError(f"{path}: ungültiges audit für {language}; erwartet blank_target")
 
 
 def migrate_draft(draft):

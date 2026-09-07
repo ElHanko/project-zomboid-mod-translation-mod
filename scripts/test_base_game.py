@@ -54,6 +54,8 @@ class BaseGameTests(TemporaryRepository):
         data = self.refresh("Project Zomboid")
         data["entries"][0]["translations"]["DE"]["text"] = text
         data["entries"][0]["translations"]["FR"].update(text=fr, needed=True)
+        for item in data["entries"][1:]:
+            item["translations"]["FR"]["needed"] = False
         common.write_json(self.game_path, data)
         return data
 
@@ -106,7 +108,8 @@ class BaseGameTests(TemporaryRepository):
         self.assertEqual(snapshot["counts"]["open"], 2)
         self.assertEqual(snapshot["counts"]["blank_ignored"], 2)
         self.assertEqual({(e["category"], e["key"]) for e in data["entries"]},
-                         {("UI", "Missing"), ("SurvivalGuide", "New")})
+                         {("UI", "Missing"), ("SurvivalGuide", "New"),
+                          ("UI", "ExistingBlankTarget"), ("SurvivalGuide", "Blank")})
         self.refresh(language="FR")
         self.refresh(language="DE")
         data = common.load_json(self.game_path)
@@ -131,7 +134,11 @@ class BaseGameTests(TemporaryRepository):
             "english": "Translate me", "translations": {
                 "DE": {"text": "", "needed": True, "review": False},
                 "FR": {"text": "", "needed": None, "review": False}},
-            "source_file": "UI.json", "source_layer": "game", "source_format": "json"}])
+            "source_file": "UI.json", "source_layer": "game", "source_format": "json"},
+            {"category": "UI", "key": "ExistingBlankTarget", "english": "Do not automatically translate",
+             "translations": {"DE": {"text": "", "needed": False, "review": False, "audit": "blank_target"},
+                              "FR": {"text": "", "needed": None, "review": False}},
+             "source_file": "UI.json", "source_layer": "game", "source_format": "json"}])
         output = StringIO()
         with redirect_stdout(output):
             self.assertEqual(pzgt.main(["progress", "Project Zomboid", "--language", "DE"]), 0)
@@ -178,7 +185,7 @@ class BaseGameTests(TemporaryRepository):
             self.english.update(Missing=english, New="New entry")
             self.write_sources()
             updated = self.refresh()
-            self.assertEqual({e["key"] for e in updated["entries"]}, {"Missing", "New"})
+            self.assertEqual({e["key"] for e in updated["entries"]}, {"Missing", "New", "ExistingBlankTarget"})
             for language in ("DE", "FR"):
                 state = updated["entries"][0]["translations"][language]
                 self.assertTrue(state["review"])
@@ -332,3 +339,228 @@ class BaseGameTests(TemporaryRepository):
                     self.assertIn(f"Base game translations: included ({hint})", content)
                 else:
                     self.assertNotIn("Base game translations:", content)
+
+    def blank_state(self, data, language="DE"):
+        return common.index_entries(data["entries"])[("UI", "ExistingBlankTarget")]["translations"][language]
+
+    def test_audit_status_excludes_empty_english_missing_and_translated_targets(self):
+        self.english.update(EmptyEnglish=" \t", WhitespaceTarget="English")
+        self.target.update(EmptyEnglish="", WhitespaceTarget=" \n\t", TargetOnly="")
+        self.write_sources()
+        row = status.analyze_scan(pzgt.scan_data(), "DE")["base_game"]
+        self.assertEqual({e["key"] for e in row["audit_blank"]},
+                         {"ExistingBlankTarget", "WhitespaceTarget"})
+        self.assertEqual({e["key"] for e in row["missing"]}, {"Missing"})
+        self.assertEqual(row["blank"], [])
+        self.assertEqual(row["counts"]["open"], 1)
+        self.assertEqual(row["counts"]["blank_ignored"], 3)
+        data = self.refresh("Project Zomboid")
+        for item in data["entries"]:
+            if item["key"] == "Missing":
+                self.assertTrue(item["translations"]["DE"]["needed"])
+            else:
+                self.assertEqual(item["translations"]["DE"],
+                                 {"text": "", "needed": False, "review": False, "audit": "blank_target"})
+            self.assertNotIn("audit", item)
+
+    def test_audit_schema_validates_only_the_supported_state_value(self):
+        data = self.adopt()
+        common.validate_draft(self.game_path, data)
+        for value in (None, "", "different", True, 1, [], {}):
+            with self.subTest(value=value):
+                invalid = deepcopy(data)
+                self.blank_state(invalid)["audit"] = value
+                with self.assertRaisesRegex(ValueError, "ungültiges audit"):
+                    common.validate_draft(self.game_path, invalid)
+        del self.blank_state(data)["audit"]
+        common.validate_draft(self.game_path, data)
+
+    def test_audit_only_preserves_progress_work_and_runtime_bytes(self):
+        import work
+
+        game = self.adopt()
+        without_audit = deepcopy(game)
+        without_audit["entries"] = [e for e in without_audit["entries"]
+                                    if e["translations"]["DE"].get("audit") != "blank_target"]
+        self.store(self.bilingual("FR fixture"))
+        mod_drafts = [(p, d) for p, d in common.load_drafts() if p != self.game_path]
+        build.build(mod_drafts + [(self.game_path, without_audit)], ["DE"])
+        runtime = common.read_tree(config.TRANSLATE)
+        for field in ("needed", "translated", "open", "review", "unknown", "complete"):
+            self.assertEqual(progress.state(self.game_path, game, "DE")[field],
+                             progress.state(self.game_path, without_audit, "DE")[field])
+        self.assertEqual(work.work_entries(game, "DE"), [])
+        # Stored audit text or review is also inert until explicitly needed.
+        self.blank_state(game).update(text="Unveröffentlichter Entwurf %1", review=True)
+        build.build(mod_drafts + [(self.game_path, game)], ["DE"])
+        self.assertEqual(common.read_tree(config.TRANSLATE), runtime)
+        common.write_json(self.game_path, game)
+        verify.run("DE")
+        game["entries"][0]["translations"]["DE"]["text"] = ""
+        package = work.make_work([(self.game_path, game)], "Project Zomboid", language="DE")
+        self.assertEqual([e["key"] for e in package["entries"]], ["Missing"])
+
+    def test_manual_audit_release_survives_refresh_work_apply_build_and_verify(self):
+        game = self.adopt()
+        self.blank_state(game)["needed"] = True
+        common.write_json(self.game_path, game)
+        game = self.refresh()
+        self.assertEqual(self.blank_state(game),
+                         {"text": "", "needed": True, "review": False, "audit": "blank_target"})
+        summary = progress.state(self.game_path, game, "DE")
+        self.assertEqual((summary["needed"], summary["open"]), (2, 1))
+        build.run(language="DE")
+        verify.run("DE")
+        self.assertEqual(pzgt.main(["work", "Project Zomboid", "--language", "DE"]), 0)
+        path = config.DATA / "work/__project_zomboid.DE.work.json"
+        package = common.load_json(path)
+        self.assertEqual([e["key"] for e in package["entries"]], ["ExistingBlankTarget"])
+        package["entries"][0]["translation"] = "Manuell freigegeben"
+        common.write_json(path, package)
+        self.assertEqual(pzgt.main(["apply", str(path)]), 0)
+        game = self.refresh()
+        self.assertEqual(self.blank_state(game)["text"], "Manuell freigegeben")
+        self.assertTrue(self.blank_state(game)["needed"])
+        build.run(language="DE")
+        runtime = json.loads((config.TRANSLATE / "DE/UI.json").read_text())
+        self.assertEqual(runtime, {"Missing": "Übersetze mich", "ExistingBlankTarget": "Manuell freigegeben"})
+        verify.run("DE")
+
+    def test_audit_refresh_transitions_preserve_text_and_other_languages(self):
+        original = self.adopt()
+        self.blank_state(original).update(text="Eigener Text", needed=True)
+        self.blank_state(original, "FR").update(text="Texte", needed=True, audit="blank_target")
+        for change, expected in (("translated", False), ("missing", True),
+                                 ("removed_english", False), ("empty_english", False)):
+            with self.subTest(change=change):
+                self.english["ExistingBlankTarget"] = "Do not automatically translate"
+                self.target["ExistingBlankTarget"] = ""
+                common.write_json(self.game_path, original)
+                if change == "translated":
+                    self.target["ExistingBlankTarget"] = "Offiziell"
+                elif change == "missing":
+                    del self.target["ExistingBlankTarget"]
+                elif change == "removed_english":
+                    del self.english["ExistingBlankTarget"]
+                else:
+                    self.english["ExistingBlankTarget"] = ""
+                self.write_sources()
+                updated = self.refresh()
+                state = self.blank_state(updated)
+                self.assertIs(state["needed"], expected)
+                self.assertNotIn("audit", state)
+                self.assertEqual(state["text"], "Eigener Text")
+                if change == "empty_english":
+                    self.assertTrue(state["review"])
+                    self.assertEqual(self.blank_state(updated, "FR")["text"], "Texte")
+                else:
+                    self.assertEqual(self.blank_state(updated, "FR"), self.blank_state(original, "FR"))
+                if change == "removed_english":
+                    retired = common.index_entries(updated["entries"])[("UI", "ExistingBlankTarget")]
+                    self.assertEqual(retired["english"], "Do not automatically translate")
+                build.run(language="DE")
+                if change != "empty_english":
+                    verify.run("DE")
+
+    def test_audit_english_review_keeps_first_source_and_manual_release(self):
+        original = self.adopt()
+        self.blank_state(original).update(text="Eigener Text", needed=True)
+        self.blank_state(original, "FR").update(text="Texte", needed=False, audit="blank_target")
+        common.write_json(self.game_path, original)
+        for text in ("Changed", "Changed again"):
+            self.english["ExistingBlankTarget"] = text
+            self.write_sources()
+            updated = self.refresh()
+            self.assertTrue(self.blank_state(updated)["needed"])
+            for language in ("DE", "FR"):
+                state = self.blank_state(updated, language)
+                self.assertTrue(state["review"])
+                self.assertEqual(state["previous_english"], "Do not automatically translate")
+                self.assertEqual(state["text"], self.blank_state(original, language)["text"])
+                self.assertEqual(state["audit"], "blank_target")
+
+    def test_audit_language_refresh_is_independent(self):
+        game = self.adopt()
+        self.blank_state(game).update(text="Eigener Text", needed=True)
+        common.write_json(self.game_path, game)
+        de_before = {common.entry_identity(e): deepcopy(e["translations"]["DE"]) for e in game["entries"]}
+        fr_path = self.translate / "FR/UI.json"
+        fr_path.parent.mkdir()
+        fr_path.write_text(json.dumps({"ExistingBlankTarget": " \t"}))
+        game = self.refresh(language="FR")
+        self.assertEqual(self.blank_state(game, "FR"),
+                         {"text": "", "needed": False, "review": False, "audit": "blank_target"})
+        for item in game["entries"]:
+            if common.entry_identity(item) in de_before:
+                self.assertEqual(item["translations"]["DE"], de_before[common.entry_identity(item)])
+        fr_before = {common.entry_identity(e): deepcopy(e["translations"]["FR"]) for e in game["entries"]}
+        game = self.refresh(language="DE")
+        self.assertTrue(self.blank_state(game)["needed"])
+        for item in game["entries"]:
+            self.assertEqual(item["translations"]["FR"], fr_before[common.entry_identity(item)])
+
+    def test_verify_detects_missing_and_stale_audit_inventory(self):
+        original = self.adopt()
+        for change, message in (("new", "neuer Audit-Kandidat"), ("marker", "neuer Audit-Kandidat"),
+                                ("translated", "veraltetes blank_target-Audit"),
+                                ("missing", "veraltetes blank_target-Audit"),
+                                ("removed_english", "veraltetes blank_target-Audit"),
+                                ("empty_english", "veraltetes blank_target-Audit"),
+                                ("required", "neuer offener Quell-Key")):
+            with self.subTest(change=change):
+                game = deepcopy(original)
+                english, target = deepcopy(self.english), deepcopy(self.target)
+                if change == "new":
+                    self.target["ExistingTranslated"] = ""
+                elif change == "marker":
+                    del self.blank_state(game)["audit"]
+                elif change == "translated":
+                    self.target["ExistingBlankTarget"] = "Offiziell"
+                elif change == "missing":
+                    del self.target["ExistingBlankTarget"]
+                elif change == "removed_english":
+                    del self.english["ExistingBlankTarget"]
+                elif change == "empty_english":
+                    self.english["ExistingBlankTarget"] = ""
+                else:
+                    game["entries"][0]["translations"]["DE"]["needed"] = False
+                common.write_json(self.game_path, game)
+                self.write_sources()
+                build.run(language="DE")
+                with self.assertRaisesRegex(ValueError, message):
+                    verify.run("DE")
+                self.english, self.target = english, target
+
+    def test_audit_summary_reads_only_draft_and_filters_category_and_language(self):
+        self.adopt()
+        (self.translate / "EN/Recorded_Media.json").write_text('{"Recorded": "English"}')
+        (self.translate / "DE/Recorded_Media.json").write_text('{"Recorded": ""}')
+        self.refresh()
+        shutil.rmtree(self.values["game"])
+        shutil.rmtree(config.DATA)
+        before = common.read_tree(self.root)
+        for language, category, total in (("DE", None, 2), ("DE", "Recorded_Media", 1),
+                                          ("DE", "unknown", 0), ("FR", None, 0)):
+            output = StringIO()
+            args = ["audit", "Project Zomboid", "--language", language]
+            if category is not None:
+                args += ["--category", category]
+            with redirect_stdout(output), patch.object(pzgt, "scan_data", side_effect=AssertionError("Source read")):
+                self.assertEqual(pzgt.main(args), 0)
+            self.assertIn(f"Audit-Kandidaten: {total}", output.getvalue())
+            if category == "Recorded_Media":
+                self.assertIn("Recorded_Media", output.getvalue())
+                self.assertNotIn("  UI", output.getvalue())
+        self.assertEqual(common.read_tree(self.root), before)
+
+    def test_old_status_without_audit_cannot_silently_retire_manual_release(self):
+        game = self.adopt()
+        self.blank_state(game)["needed"] = True
+        common.write_json(self.game_path, game)
+        snapshot = common.load_json(config.DATA / "status.json")
+        del snapshot["base_game"]["audit_blank"]
+        common.write_json(config.DATA / "status.json", snapshot)
+        before = self.game_path.read_bytes()
+        with self.assertRaisesRegex(ValueError, "Status ohne Vanilla-Auditbestand"):
+            draft.run("--all")
+        self.assertEqual(self.game_path.read_bytes(), before)

@@ -38,9 +38,10 @@ must exist; otherwise scan fails with a configuration error. Scan and status kee
 the base game separate from Workshop mods in `base_game`.
 
 For the base game, only a completely absent target key with nonempty English text
-is needed. Existing blank target values and missing keys with empty English text
-are ignored and counted separately in status. Workshop needs still include both
-missing and blank target values.
+is automatically needed. Existing blank target values with nonempty English text
+are kept separately in status as `audit_blank` and added to the durable draft as
+audit candidates. Empty English text is never an audit candidate. Workshop needs
+still include both missing and blank target values.
 
 Adoption is explicit, after scan and status:
 
@@ -59,6 +60,33 @@ This creates `translations/__project_zomboid.json` with `source_type: "game"`,
 Workshop or mod IDs. Subsequent `draft --all` refreshes include it. Source changes
 mark all stored languages for review; official target additions and removed
 English keys retire the selected language's need while preserving stored text.
+
+Each new audit candidate starts with this state for the checked language:
+
+```json
+"DE": {"text": "", "needed": false, "review": false, "audit": "blank_target"}
+```
+
+`audit` belongs to the language state; `blank_target` is its only allowed value.
+An audit candidate with `needed=false` contributes neither work nor open needs
+and is not built, even if it has draft text. To release a candidate for translation,
+manually set its language state's `needed` to `true`, then use the normal work/apply
+workflow. Refresh preserves this choice and all text while the existing audit's
+official target remains blank. If an official nonempty target appears, refresh
+removes `audit` and sets `needed=false`. If the target key disappears, it removes
+`audit` and sets `needed=true`. Removed English keys retain their draft history
+with `needed=false` and no audit marker for the checked language.
+
+Verify compares current audit candidates with the draft, reports missing or stale
+audit markers and accepts manually released candidates. After updating older
+tooling, run scan, status and draft refresh to populate the audit inventory.
+
+The read-only audit summary uses only the draft and supports a category filter:
+
+```bash
+./pzgt audit "Project Zomboid" --language DE
+./pzgt audit "Project Zomboid" --language DE --category Recorded_Media
+```
 
 The same builder combines completed game and mod drafts in the runtime language
 directories, with the existing shared-key conflict rules. An unfinished game
@@ -170,6 +198,7 @@ An export includes only its selected configured languages.
 | --- | --- |
 | `./pzgt scan` | Inventory base game, Workshop mods, effective layers, EN and configured targets |
 | `./pzgt status [--language CODE]` | Compare English and target content from the scan |
+| `./pzgt audit SELECTOR [--language CODE] [--category NAME]` | Summarize draft audit candidates by category without reading live sources |
 | `./pzgt draft MOD-ID` | Explicitly adopt or refresh one mod using the current status language |
 | `./pzgt draft --all` | Migrate/refresh existing catalogue drafts only |
 | `./pzgt progress [MOD-ID] [--language CODE]` | Count needed, translated, open, review and unknown entries |

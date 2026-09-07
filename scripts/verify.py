@@ -63,9 +63,20 @@ def source_errors(path, draft, status, language):
     current = index_entries(mod["english"])
     needed = set(index_entries(mod["missing"] + mod["blank"]))
     stored = {entry_identity(e) for e in draft["entries"] if translation_state(e, language)["needed"] is True}
+    audit_blank = set()
+    if is_game:
+        if "audit_blank" not in mod:
+            errors.append(f"{path.name}: Status ohne Vanilla-Auditbestand; status erneut ausführen")
+        audit_blank = set(index_entries(mod.get("audit_blank", [])))
+        stored_audit = {entry_identity(e) for e in draft["entries"]
+                        if translation_state(e, language).get("audit") == "blank_target"}
+        for ident in sorted(audit_blank - stored_audit):
+            errors.append(f"{path.name}: neuer Audit-Kandidat fehlt im Draft: {ident}")
+        for ident in sorted(stored_audit - audit_blank):
+            errors.append(f"{path.name}: veraltetes blank_target-Audit: {ident}")
     for ident in sorted(needed - stored):
         errors.append(f"{path.name}: neuer offener Quell-Key fehlt im Draft: {ident}")
-    for ident in sorted(stored - needed):
+    for ident in sorted(stored - needed - audit_blank):
         errors.append(f"{path.name}: Key nicht mehr benötigt: {ident}")
     for entry in draft["entries"]:
         source = current.get(entry_identity(entry))

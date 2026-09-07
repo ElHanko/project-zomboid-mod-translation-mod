@@ -22,11 +22,17 @@ def draft_path_for_mod(mod):
 def merge_entries(mod, previous, language):
     sources = index_entries(mod["english"])
     needed = set(index_entries(mod["missing"] + mod["blank"]))
-    if not needed <= sources.keys():
-        raise ValueError("Status enthält benötigte Einträge ohne englische Quelle")
+    is_game = mod.get("source_type") == "game"
+    if is_game and "audit_blank" not in mod:
+        raise ValueError("Status ohne Vanilla-Auditbestand; ./pzgt status erneut ausführen")
+    audit_blank = set(index_entries(mod["audit_blank"])) if is_game else set()
+    tracked = needed | audit_blank
+    if not tracked <= sources.keys():
+        raise ValueError("Status enthält benötigte/Audit-Einträge ohne englische Quelle")
     old = index_entries(previous)
-    # Keep stable ordering and retired entries; add only newly needed sources.
-    identities = list(old) + [ident for ident in sources if ident in needed and ident not in old]
+    # Keep stable ordering and history; append new requirements and audit sources.
+    identities = list(old) + [ident for ident in sources
+                              if ident in tracked and ident not in old]
     result = []
     for ident in identities:
         before = old.get(ident)
@@ -41,7 +47,15 @@ def merge_entries(mod, previous, language):
                          source_file=source["file"], source_layer=source["layer"], source_format=source["format"])
         for target in config.LANGUAGES:
             entry["translations"].setdefault(target, {"text": "", "needed": None, "review": False})
-        entry["translations"][language]["needed"] = ident in needed
+        state = entry["translations"][language]
+        if ident in audit_blank:
+            # Only an existing audit can carry a deliberate manual release.
+            state["needed"] = state.get("audit") == "blank_target" and state["needed"] is True
+            state["audit"] = "blank_target"
+        else:
+            state["needed"] = ident in needed
+            if is_game:
+                state.pop("audit", None)
         result.append(entry)
     return result
 

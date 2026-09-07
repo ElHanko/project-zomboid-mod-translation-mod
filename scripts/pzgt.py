@@ -484,9 +484,9 @@ def cmd_install():
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="./pzgt")
     commands = parser.add_subparsers(dest="command", required=True)
-    for name in ("scan", "status", "build", "verify", "install", "export", "progress", "work", "draft", "apply"):
+    for name in ("scan", "status", "build", "verify", "install", "export", "progress", "work", "draft", "apply", "audit"):
         command = commands.add_parser(name)
-        if name in ("status", "build", "verify", "export", "progress", "work"):
+        if name in ("status", "build", "verify", "export", "progress", "work", "audit"):
             command.add_argument("--language")
         if name in ("progress", "work", "build"):
             command.add_argument("selector", nargs="?")
@@ -502,6 +502,9 @@ def main(argv=None):
             command.add_argument("--zip", action="store_true", dest="make_zip")
         if name == "apply":
             command.add_argument("file")
+        if name == "audit":
+            command.add_argument("selector")
+            command.add_argument("--category")
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv == ["help"]:
         argv = ["--help"]
@@ -526,6 +529,8 @@ def main(argv=None):
                 module.run(args.file)
             elif args.command == "export":
                 module.run(args.language, args.make_zip)
+            elif args.command == "audit":
+                module.run(args.selector, args.language, args.category)
             else:
                 module.run(args.language)
     except (OSError, ValueError) as exc:
