@@ -48,7 +48,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Kann nicht abgeladen werden.<br>Etwas ist im Weg.",
+          "text": "Kann nicht abgeladen werden.<br>Etwas ist im Weg",
           "needed": true,
           "review": false
         }
@@ -78,7 +78,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Hinter dem Anhänger befindet sich<br>kein Fahrzeug oder es ist<br>für diesen Anhänger ungeeignet.",
+          "text": "Hinter dem Anhänger befindet sich<br>kein Fahrzeug oder es ist<br>für diesen Anhänger ungeeignet",
           "needed": true,
           "review": false
         }
@@ -123,7 +123,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Benzin nachfüllen",
+          "text": "Kraftstoff hinzufügen",
           "needed": true,
           "review": false
         }
@@ -198,7 +198,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Du benötigst einen Schlüssel oder<br>Elektrik Stufe 1 und<br>Mechanik Stufe 2,<br>um kurzzuschließen.",
+          "text": "Du brauchst einen Schlüssel oder<br>Elektrikstufe 1 und<br>Mechanikstufe 2,<br>um kurzzuschließen.",
           "needed": true,
           "review": false
         }
@@ -228,7 +228,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Stagsegel nach<br>links setzen",
+          "text": "Stagsegel<br>nach links setzen",
           "needed": true,
           "review": false
         }
@@ -243,7 +243,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Stagsegel nach<br>rechts setzen",
+          "text": "Stagsegel<br>nach rechts setzen",
           "needed": true,
           "review": false
         }
@@ -258,7 +258,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "An Land schwimmen",
+          "text": "Zum Ufer schwimmen",
           "needed": true,
           "review": false
         }
@@ -288,7 +288,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Der Anhänger muss<br>ins Wasser gefahren werden.",
+          "text": "Der Anhänger muss<br>ins Wasser gefahren werden",
           "needed": true,
           "review": false
         }
@@ -318,7 +318,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Boot und Anhänger<br>müssen nah beieinander sein.",
+          "text": "Boot und Anhänger<br>müssen nah beieinander sein",
           "needed": true,
           "review": false
         }
@@ -333,7 +333,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Es dürfen sich keine Personen<br>auf dem Boot befinden.",
+          "text": "Es dürfen sich keine Personen<br>auf dem Boot befinden",
           "needed": true,
           "review": false
         }
@@ -363,7 +363,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Seilzugstarter nicht eingebaut<br>oder beschädigt.",
+          "text": "Seilzugstarter nicht eingebaut<br>oder beschädigt",
           "needed": true,
           "review": false
         }
@@ -468,7 +468,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Kabine aufbrechen<br>(mit %1)",
+          "text": "Kabine aufschließen<br>(mit %1)",
           "needed": true,
           "review": false
         }
@@ -483,7 +483,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Kabine aufbrechen<br>(Werkzeug oder Schlüssel benötigt)",
+          "text": "Kabine aufschließen<br>(Werkzeug oder Schlüssel erforderlich)",
           "needed": true,
           "review": false
         }
@@ -513,7 +513,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ich bin zu müde,<br>um die Kabine aufzubrechen.",
+          "text": "Ich bin zu müde,<br>um die Kabine zu öffnen",
           "needed": true,
           "review": false
         }
@@ -528,7 +528,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ich will das<br>jetzt nicht machen.",
+          "text": "Ich will das<br>jetzt nicht machen",
           "needed": true,
           "review": false
         }
@@ -543,7 +543,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ich bin nicht in der Stimmung,<br>das zu machen.",
+          "text": "Ich bin nicht in der Stimmung,<br>das zu machen",
           "needed": true,
           "review": false
         }
@@ -663,7 +663,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Kein Tonträger eingelegt",
+          "text": "Tonträger nicht installiert",
           "needed": true,
           "review": false
         }
@@ -708,7 +708,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "<CENTRE> <SIZE:medium> Fahrzeug-Modifikationsmenü <LINE> <LINE> <LEFT> <SIZE:small> Oder Tuning-Menü. Hier siehst du eine Liste der verfügbaren Rezepte zur Modifikation deines Fahrzeugs.<LINE> <LINE> Normalerweise werden in diesem Menü immer alle verfügbaren Rezepte angezeigt. Es gibt jedoch auch Rezepte, die erst erscheinen, wenn bestimmte Bedingungen erfüllt sind. Solche Bedingungen können sein: Du besitzt eine bestimmte Fertigkeit, ein bestimmter Gegenstand ist verfügbar oder du hast die erforderliche Charakterstufe erreicht. <LINE> <LINE> Zur Herstellung werden Ressourcen aus deinem Inventar verwendet. Zusätzlich nimmt dein Charakter Ressourcen aus Behältern in der Nähe – einschließlich vom Boden. <LINE> <LINE> Derzeit können Teile, die über das Tuning-Menü eingebaut wurden, nicht repariert werden, ohne sie vorher auszubauen. Die meisten Teile werden beim Ausbau wieder in Einzelteile zerlegt.",
+          "text": "<CENTRE> <SIZE:medium> Fahrzeug-Modifikationsmenü <LINE> <LINE> <LEFT> <SIZE:small> Oder Tuning-Menü. Hier siehst du eine Liste der verfügbaren Rezepte zum Modifizieren deines Fahrzeugs.<LINE> <LINE> Normalerweise werden in diesem Menü alle verfügbaren Rezepte angezeigt. Es gibt jedoch auch Rezepte, die erst erscheinen, wenn bestimmte Bedingungen erfüllt sind. Bedingungen können sein: Du besitzt eine Fertigkeit, ein bestimmter Gegenstand ist verfügbar oder du hast die erforderliche Charakterstufe erreicht. <LINE> <LINE> Zum Herstellen von Gegenständen werden Ressourcen aus deinem Inventar verwendet. Zusätzlich nimmt der Charakter Ressourcen aus nahegelegenen Behältern – einschließlich vom Boden. <LINE> <LINE> Derzeit können über das Tuning-Menü eingebaute Teile nicht repariert werden, ohne sie vorher auszubauen. Die meisten Teile werden beim Ausbau in Einzelteile zerlegt.",
           "needed": true,
           "review": false
         }
@@ -768,7 +768,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Bullenfänger",
+          "text": "Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -888,7 +888,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Bullenfänger",
+          "text": "Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -903,7 +903,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Polizei-Bullenfänger",
+          "text": "Polizei-Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -918,7 +918,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Selbstgebauter Bullenfänger",
+          "text": "Selbstgebauter Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -933,7 +933,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Bullenfänger mit Pflug",
+          "text": "Frontschutzbügel mit Pflug",
           "needed": true,
           "review": false
         }
@@ -948,7 +948,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Tödlicher Bullenfänger",
+          "text": "Tödlicher Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -963,7 +963,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Verbesserter Bullenfänger",
+          "text": "Verbesserter Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -1143,7 +1143,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Motorhaubenschutz „People Inside“",
+          "text": "Motorhaubenschutz „Menschen an Bord“",
           "needed": true,
           "review": false
         }
@@ -1218,7 +1218,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ein ähnliches Teil ist bereits eingebaut",
+          "text": "Ein ähnlicher Gegenstand ist bereits eingebaut",
           "needed": true,
           "review": false
         }
@@ -1233,7 +1233,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Nicht eingebaut. Ich glaube, da hat jemand geschummelt.",
+          "text": "Nicht eingebaut. Ich glaube, da hat jemand geschummelt",
           "needed": true,
           "review": false
         }
@@ -1248,7 +1248,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Benötigte Gegenstände:",
+          "text": "Verwendete Gegenstände:",
           "needed": true,
           "review": false
         }
@@ -1563,7 +1563,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Bullenfänger",
+          "text": "Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -1743,7 +1743,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Werkzeugkasten auf dem Dach",
+          "text": "Dach-Werkzeugkasten",
           "needed": true,
           "review": false
         }
@@ -1878,7 +1878,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Glühbirne für vordere Dachscheinwerfer",
+          "text": "Glühlampe für vordere Dachscheinwerfer",
           "needed": true,
           "review": false
         }
@@ -1893,7 +1893,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Glühbirne für linke Dachscheinwerfer",
+          "text": "Glühlampe für linke Dachscheinwerfer",
           "needed": true,
           "review": false
         }
@@ -1908,7 +1908,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Glühbirne für rechte Dachscheinwerfer",
+          "text": "Glühlampe für rechte Dachscheinwerfer",
           "needed": true,
           "review": false
         }
@@ -1923,7 +1923,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Glühbirne für hintere Dachscheinwerfer",
+          "text": "Glühlampe für hintere Dachscheinwerfer",
           "needed": true,
           "review": false
         }
@@ -2028,7 +2028,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ansaugschnorchel",
+          "text": "Schnorchel",
           "needed": true,
           "review": false
         }
@@ -2118,7 +2118,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ansaugschnorchel",
+          "text": "Schnorchel",
           "needed": true,
           "review": false
         }
@@ -2508,7 +2508,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Klappscheinwerfer einklappen",
+          "text": "Scheinwerfer einklappen",
           "needed": true,
           "review": false
         }
@@ -2523,7 +2523,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Klappscheinwerfer ausklappen",
+          "text": "Scheinwerfer ausklappen",
           "needed": true,
           "review": false
         }
@@ -2688,7 +2688,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Einrichtung",
+          "text": "Haushaltssystem",
           "needed": true,
           "review": false
         }
@@ -2733,7 +2733,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Bootskörper",
+          "text": "Bootsrumpf",
           "needed": true,
           "review": false
         }
@@ -2778,7 +2778,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Cockpitbeleuchtung",
+          "text": "Cockpitlicht",
           "needed": true,
           "review": false
         }
@@ -2868,7 +2868,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "An Bord gehen",
+          "text": "Boot betreten",
           "needed": true,
           "review": false
         }
@@ -2883,7 +2883,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Nach links segeln",
+          "text": "Segel nach links setzen",
           "needed": true,
           "review": false
         }
@@ -2898,7 +2898,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Nach rechts segeln",
+          "text": "Segel nach rechts setzen",
           "needed": true,
           "review": false
         }
@@ -2913,7 +2913,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ich kann nicht schwimmen.",
+          "text": "Ich kann nicht schwimmen",
           "needed": true,
           "review": false
         }
@@ -2928,7 +2928,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Sieht so aus, als würde das Licht nicht funktionieren.",
+          "text": "Sieht so aus, als würde das Licht nicht funktionieren",
           "needed": true,
           "review": false
         }
@@ -2943,7 +2943,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Die Scheinwerfer funktionieren nicht.",
+          "text": "Die Scheinwerfer funktionieren nicht",
           "needed": true,
           "review": false
         }
@@ -2958,7 +2958,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Hier wird ein Ponton benötigt.",
+          "text": "Hier wird ein Ponton benötigt",
           "needed": true,
           "review": false
         }
@@ -2973,7 +2973,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ich muss das Boot langsamer machen.",
+          "text": "Ich muss das Boot verlangsamen",
           "needed": true,
           "review": false
         }
@@ -3003,7 +3003,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Die Kabinentür ist verschlossen.",
+          "text": "Die Kabinentür ist verschlossen",
           "needed": true,
           "review": false
         }
@@ -3018,7 +3018,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ich kann nicht hineingehen.",
+          "text": "Ich komme nicht hinein",
           "needed": true,
           "review": false
         }
@@ -3033,7 +3033,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Wechseln zu ...",
+          "text": "Gehe zu...",
           "needed": true,
           "review": false
         }
@@ -3048,7 +3048,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Du bist bereits hier.",
+          "text": "Du bist bereits hier",
           "needed": true,
           "review": false
         }
@@ -3063,7 +3063,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Hier steht bereits jemand.",
+          "text": "Hier steht jemand",
           "needed": true,
           "review": false
         }
@@ -3078,7 +3078,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Im Durchgang liegen Gegenstände.",
+          "text": "Im Gang liegen Gegenstände",
           "needed": true,
           "review": false
         }
@@ -3093,7 +3093,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Gegenstände aus dem Durchgang werden<br>an einen anderen Platz verschoben.",
+          "text": "Gegenstände aus dem Gang werden<br>an einen anderen Ort verschoben",
           "needed": true,
           "review": false
         }
@@ -3108,7 +3108,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Du musst das Boot verlassen.",
+          "text": "Ich muss das Boot verlassen",
           "needed": true,
           "review": false
         }
@@ -3153,7 +3153,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Auf den Steuerplatz setzen",
+          "text": "Auf den Steuermannsplatz setzen",
           "needed": true,
           "review": false
         }
@@ -3258,7 +3258,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Süden",
+          "text": "Osten",
           "needed": true,
           "review": false
         }
@@ -3303,7 +3303,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Abtreiben",
+          "text": "Davontreiben",
           "needed": true,
           "review": false
         }
@@ -3408,7 +3408,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Frei schwimmen",
+          "text": "Freies Schwimmen",
           "needed": true,
           "review": false
         }
@@ -3438,7 +3438,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ich bin müde, ich brauche eine Pause.",
+          "text": "Ich bin müde, ich muss mich ausruhen",
           "needed": true,
           "review": false
         }
@@ -3453,7 +3453,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Eine Pause tut gut.",
+          "text": "Eine Pause tut gut",
           "needed": true,
           "review": false
         }
@@ -3468,7 +3468,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ich sollte besser zum Ufer schwimmen.",
+          "text": "Ich schwimme besser zum Ufer",
           "needed": true,
           "review": false
         }
@@ -3483,7 +3483,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ich spare meine Kräfte, indem ich langsamer schwimme.",
+          "text": "Ich spare Kraft, indem ich langsamer schwimme",
           "needed": true,
           "review": false
         }
@@ -3513,7 +3513,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ich fange an unterzugehen. Ich muss mich ausruhen.",
+          "text": "Ich fange an zu ertrinken. Ich muss mich ausruhen.",
           "needed": true,
           "review": false
         }
@@ -3558,7 +3558,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Verdammt! Ich brauche eine Pause.",
+          "text": "Hör auf, Mann! Lass mich mal verschnaufen.",
           "needed": true,
           "review": false
         }
@@ -3588,7 +3588,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ah, ich habe meine Sachen verloren.",
+          "text": "Ah, ich habe meine Sachen verloren",
           "needed": true,
           "review": false
         }
@@ -3603,7 +3603,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ich musste überflüssige Last loswerden.",
+          "text": "Ich musste überschüssige Ladung loswerden",
           "needed": true,
           "review": false
         }
@@ -3618,7 +3618,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Einige Sachen sind auf den Grund gesunken.",
+          "text": "Einige Sachen sind auf den Grund gesunken",
           "needed": true,
           "review": false
         }
@@ -3648,7 +3648,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "In Innenräumen lässt sich die Windrichtung nicht bestimmen.",
+          "text": "In Innenräumen kann die Windrichtung nicht bestimmt werden",
           "needed": true,
           "review": false
         }
@@ -3663,7 +3663,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Der Wind weht",
+          "text": "Der Wind ist",
           "needed": true,
           "review": false
         }
@@ -3678,7 +3678,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "aus",
+          "text": "in",
           "needed": true,
           "review": false
         }
@@ -3693,7 +3693,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": ".",
+          "text": "Richtung.",
           "needed": true,
           "review": false
         }
@@ -3708,7 +3708,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Windstill.",
+          "text": "Vollkommen windstill.",
           "needed": true,
           "review": false
         }
@@ -3813,7 +3813,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Norden",
+          "text": "nördlicher",
           "needed": true,
           "review": false
         }
@@ -3828,7 +3828,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Nordwesten",
+          "text": "nordwestlicher",
           "needed": true,
           "review": false
         }
@@ -3843,7 +3843,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Südwesten",
+          "text": "südwestlicher",
           "needed": true,
           "review": false
         }
@@ -3858,7 +3858,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Süden",
+          "text": "südlicher",
           "needed": true,
           "review": false
         }
@@ -3873,7 +3873,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Südosten",
+          "text": "südöstlicher",
           "needed": true,
           "review": false
         }
@@ -3888,7 +3888,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Osten",
+          "text": "östlicher",
           "needed": true,
           "review": false
         }
@@ -3903,7 +3903,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Nordosten",
+          "text": "nordöstlicher",
           "needed": true,
           "review": false
         }
@@ -3933,7 +3933,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Für die Reparatur des Segels werden Stoff, Nadel, Faden und Schneidern Stufe IV benötigt.",
+          "text": "Stoff, Nadel, Faden und Schneiderei Stufe IV werden für die Segelreparatur benötigt.",
           "needed": true,
           "review": false
         }
@@ -4083,7 +4083,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Es ist zu gefährlich, sich jetzt hinzulegen.",
+          "text": "Es ist jetzt zu gefährlich, sich hinzulegen.",
           "needed": true,
           "review": false
         }
@@ -4098,7 +4098,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Es ist zu gefährlich, sich jetzt hinzusetzen.",
+          "text": "Es ist jetzt zu gefährlich, sich hinzusetzen.",
           "needed": true,
           "review": false
         }
@@ -4113,7 +4113,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Ich muss näher herangehen.",
+          "text": "Ich muss näher heran.",
           "needed": true,
           "review": false
         }
@@ -4143,7 +4143,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Machst du gerade Kaffeepause?",
+          "text": "Machst du Kaffeepause?",
           "needed": true,
           "review": false
         }
@@ -4158,7 +4158,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Warum liegst du hier so rum?",
+          "text": "Warum liegst du so da?",
           "needed": true,
           "review": false
         }
@@ -4173,7 +4173,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Genug ausgeruht? Jetzt bin ich dran.",
+          "text": "Ausgeruht? Jetzt bin ich dran.",
           "needed": true,
           "review": false
         }
@@ -4203,7 +4203,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Warum schubst du mich?",
+          "text": "Warum schubst du?",
           "needed": true,
           "review": false
         }
@@ -4263,7 +4263,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Schallplatte auflegen",
+          "text": "Schallplatte einlegen",
           "needed": true,
           "review": false
         }
@@ -4293,7 +4293,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Kopfhörer benötigt",
+          "text": "Kopfhörer erforderlich",
           "needed": true,
           "review": false
         }
@@ -4308,7 +4308,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Der Lautsprecher muss neben dem Plattenspieler stehen.",
+          "text": "Der Lautsprecher sollte neben dem Plattenspieler stehen.",
           "needed": true,
           "review": false
         }
@@ -4443,7 +4443,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Bear Bus – Militärausführung",
+          "text": "Bear Bus - Militärausführung",
           "needed": true,
           "review": false
         }
@@ -4458,7 +4458,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Bear Bus – Schulbus-Ausführung",
+          "text": "Bear Bus - Schulausführung",
           "needed": true,
           "review": false
         }
@@ -4473,7 +4473,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Bear Bus – Gefängnisausführung",
+          "text": "Bear Bus - Gefängnisausführung",
           "needed": true,
           "review": false
         }
@@ -4638,7 +4638,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "Autotsar – Mega-Anhänger",
+          "text": "Autotsar - Mega-Anhänger",
           "needed": true,
           "review": false
         }

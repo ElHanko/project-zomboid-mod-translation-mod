@@ -18,7 +18,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Modifikationen",
           "needed": true,
           "review": false
         }
@@ -33,7 +33,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Vom Anhänger abladen",
           "needed": true,
           "review": false
         }
@@ -48,7 +48,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kann nicht abgeladen werden.<br>Etwas ist im Weg",
           "needed": true,
           "review": false
         }
@@ -63,7 +63,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Auf Anhänger laden",
           "needed": true,
           "review": false
         }
@@ -78,7 +78,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hinter dem Anhänger befindet sich<br>kein Fahrzeug oder es ist<br>für diesen Anhänger ungeeignet",
           "needed": true,
           "review": false
         }
@@ -93,7 +93,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "%1 herstellen",
           "needed": true,
           "review": false
         }
@@ -108,7 +108,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Um das Fenster einzuschlagen,<br>muss der Schutz entfernt werden.",
           "needed": true,
           "review": false
         }
@@ -123,7 +123,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kraftstoff hinzufügen",
           "needed": true,
           "review": false
         }
@@ -138,7 +138,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Licht ausschalten",
           "needed": true,
           "review": false
         }
@@ -153,7 +153,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Licht einschalten",
           "needed": true,
           "review": false
         }
@@ -168,7 +168,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Scheinwerfer ausschalten",
           "needed": true,
           "review": false
         }
@@ -183,7 +183,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Scheinwerfer einschalten",
           "needed": true,
           "review": false
         }
@@ -198,7 +198,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Du brauchst einen Schlüssel oder<br>Elektrikstufe 1 und<br>Mechanikstufe 2,<br>um kurzzuschließen.",
           "needed": true,
           "review": false
         }
@@ -213,7 +213,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Segel entfernen",
           "needed": true,
           "review": false
         }
@@ -228,7 +228,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Stagsegel<br>nach links setzen",
           "needed": true,
           "review": false
         }
@@ -243,7 +243,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Stagsegel<br>nach rechts setzen",
           "needed": true,
           "review": false
         }
@@ -258,7 +258,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Zum Ufer schwimmen",
           "needed": true,
           "review": false
         }
@@ -273,7 +273,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Boot zu Wasser lassen",
           "needed": true,
           "review": false
         }
@@ -288,7 +288,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Der Anhänger muss<br>ins Wasser gefahren werden",
           "needed": true,
           "review": false
         }
@@ -303,7 +303,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Boot auf Anhänger laden",
           "needed": true,
           "review": false
         }
@@ -318,7 +318,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Boot und Anhänger<br>müssen nah beieinander sein",
           "needed": true,
           "review": false
         }
@@ -333,7 +333,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Es dürfen sich keine Personen<br>auf dem Boot befinden",
           "needed": true,
           "review": false
         }
@@ -348,7 +348,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motor manuell starten",
           "needed": true,
           "review": false
         }
@@ -363,7 +363,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Seilzugstarter nicht eingebaut<br>oder beschädigt",
           "needed": true,
           "review": false
         }
@@ -378,7 +378,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Anker werfen",
           "needed": true,
           "review": false
         }
@@ -393,7 +393,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Anker einholen",
           "needed": true,
           "review": false
         }
@@ -408,7 +408,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Boot festmachen",
           "needed": true,
           "review": false
         }
@@ -423,7 +423,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Boot losmachen",
           "needed": true,
           "review": false
         }
@@ -438,7 +438,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Holzponton",
           "needed": true,
           "review": false
         }
@@ -453,7 +453,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kabine aufschließen",
           "needed": true,
           "review": false
         }
@@ -468,7 +468,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kabine aufschließen<br>(mit %1)",
           "needed": true,
           "review": false
         }
@@ -483,7 +483,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kabine aufschließen<br>(Werkzeug oder Schlüssel erforderlich)",
           "needed": true,
           "review": false
         }
@@ -498,7 +498,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kabine schließen",
           "needed": true,
           "review": false
         }
@@ -513,7 +513,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich bin zu müde,<br>um die Kabine zu öffnen",
           "needed": true,
           "review": false
         }
@@ -528,7 +528,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich will das<br>jetzt nicht machen",
           "needed": true,
           "review": false
         }
@@ -543,7 +543,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich bin nicht in der Stimmung,<br>das zu machen",
           "needed": true,
           "review": false
         }
@@ -558,7 +558,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "«EGNH» schreiben",
           "needed": true,
           "review": false
         }
@@ -573,7 +573,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "«STRAYS» schreiben",
           "needed": true,
           "review": false
         }
@@ -588,7 +588,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hinsetzen",
           "needed": true,
           "review": false
         }
@@ -603,7 +603,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hinlegen",
           "needed": true,
           "review": false
         }
@@ -618,7 +618,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hinlegen",
           "needed": true,
           "review": false
         }
@@ -633,7 +633,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Musik stoppen",
           "needed": true,
           "review": false
         }
@@ -648,7 +648,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Musik abspielen",
           "needed": true,
           "review": false
         }
@@ -663,7 +663,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tonträger nicht installiert",
           "needed": true,
           "review": false
         }
@@ -678,7 +678,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Lied",
           "needed": true,
           "review": false
         }
@@ -693,7 +693,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Wagen nehmen",
           "needed": true,
           "review": false
         }
@@ -708,7 +708,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "<CENTRE> <SIZE:medium> Fahrzeug-Modifikationsmenü <LINE> <LINE> <LEFT> <SIZE:small> Oder Tuning-Menü. Hier siehst du eine Liste der verfügbaren Rezepte zum Modifizieren deines Fahrzeugs.<LINE> <LINE> Normalerweise werden in diesem Menü alle verfügbaren Rezepte angezeigt. Es gibt jedoch auch Rezepte, die erst erscheinen, wenn bestimmte Bedingungen erfüllt sind. Bedingungen können sein: Du besitzt eine Fertigkeit, ein bestimmter Gegenstand ist verfügbar oder du hast die erforderliche Charakterstufe erreicht. <LINE> <LINE> Zum Herstellen von Gegenständen werden Ressourcen aus deinem Inventar verwendet. Zusätzlich nimmt der Charakter Ressourcen aus nahegelegenen Behältern – einschließlich vom Boden. <LINE> <LINE> Derzeit können über das Tuning-Menü eingebaute Teile nicht repariert werden, ohne sie vorher auszubauen. Die meisten Teile werden beim Ausbau in Einzelteile zerlegt.",
           "needed": true,
           "review": false
         }
@@ -723,7 +723,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Allgemein",
           "needed": true,
           "review": false
         }
@@ -738,7 +738,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Installiert",
           "needed": true,
           "review": false
         }
@@ -753,7 +753,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fensterschutz",
           "needed": true,
           "review": false
         }
@@ -768,7 +768,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -783,7 +783,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Taschen",
           "needed": true,
           "review": false
         }
@@ -798,7 +798,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Sonstiges",
           "needed": true,
           "review": false
         }
@@ -813,7 +813,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kofferräume",
           "needed": true,
           "review": false
         }
@@ -828,7 +828,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz",
           "needed": true,
           "review": false
         }
@@ -843,7 +843,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Stauraum",
           "needed": true,
           "review": false
         }
@@ -858,7 +858,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Stoßstangen",
           "needed": true,
           "review": false
         }
@@ -873,7 +873,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dekoration",
           "needed": true,
           "review": false
         }
@@ -888,7 +888,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -903,7 +903,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Polizei-Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -918,7 +918,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Selbstgebauter Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -933,7 +933,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Frontschutzbügel mit Pflug",
           "needed": true,
           "review": false
         }
@@ -948,7 +948,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tödlicher Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -963,7 +963,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Verbesserter Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -978,7 +978,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Stachelpflug",
           "needed": true,
           "review": false
         }
@@ -993,7 +993,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Stoßstange",
           "needed": true,
           "review": false
         }
@@ -1008,7 +1008,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Klassische Stoßstange",
           "needed": true,
           "review": false
         }
@@ -1023,7 +1023,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Klassische Heckstoßstange",
           "needed": true,
           "review": false
         }
@@ -1038,7 +1038,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Selbstgebaute Heckstoßstange",
           "needed": true,
           "review": false
         }
@@ -1053,7 +1053,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Stoßstange mit Seilwinde",
           "needed": true,
           "review": false
         }
@@ -1068,7 +1068,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tödliche Stoßstange",
           "needed": true,
           "review": false
         }
@@ -1083,7 +1083,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Spoiler",
           "needed": true,
           "review": false
         }
@@ -1098,7 +1098,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Niedriger Spoiler",
           "needed": true,
           "review": false
         }
@@ -1113,7 +1113,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Mittlerer Spoiler",
           "needed": true,
           "review": false
         }
@@ -1128,7 +1128,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hoher Spoiler",
           "needed": true,
           "review": false
         }
@@ -1143,7 +1143,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorhaubenschutz „Menschen an Bord“",
           "needed": true,
           "review": false
         }
@@ -1158,7 +1158,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fahrzeugmodifikationen",
           "needed": true,
           "review": false
         }
@@ -1173,7 +1173,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Muss leer sein",
           "needed": true,
           "review": false
         }
@@ -1188,7 +1188,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Einbauen",
           "needed": true,
           "review": false
         }
@@ -1203,7 +1203,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ausbauen",
           "needed": true,
           "review": false
         }
@@ -1218,7 +1218,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ein ähnlicher Gegenstand ist bereits eingebaut",
           "needed": true,
           "review": false
         }
@@ -1233,7 +1233,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nicht eingebaut. Ich glaube, da hat jemand geschummelt",
           "needed": true,
           "review": false
         }
@@ -1248,7 +1248,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Verwendete Gegenstände:",
           "needed": true,
           "review": false
         }
@@ -1263,7 +1263,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Benötigte Werkzeuge:",
           "needed": true,
           "review": false
         }
@@ -1278,7 +1278,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ergebnis:",
           "needed": true,
           "review": false
         }
@@ -1293,7 +1293,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Muss eingebaut sein:",
           "needed": true,
           "review": false
         }
@@ -1308,7 +1308,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Muss ausgebaut sein:",
           "needed": true,
           "review": false
         }
@@ -1323,7 +1323,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz:",
           "needed": true,
           "review": false
         }
@@ -1338,7 +1338,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Zustand:",
           "needed": true,
           "review": false
         }
@@ -1353,7 +1353,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Rezept nicht bekannt",
           "needed": true,
           "review": false
         }
@@ -1368,7 +1368,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hinterer rechter Reifen",
           "needed": true,
           "review": false
         }
@@ -1383,7 +1383,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hinterer linker Reifen",
           "needed": true,
           "review": false
         }
@@ -1398,7 +1398,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hintere linke Federung",
           "needed": true,
           "review": false
         }
@@ -1413,7 +1413,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hintere rechte Federung",
           "needed": true,
           "review": false
         }
@@ -1428,7 +1428,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hintere linke Bremse",
           "needed": true,
           "review": false
         }
@@ -1443,7 +1443,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hintere rechte Bremse",
           "needed": true,
           "review": false
         }
@@ -1458,7 +1458,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tasche am Fensterschutz (links)",
           "needed": true,
           "review": false
         }
@@ -1473,7 +1473,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tasche am Fensterschutz (rechts)",
           "needed": true,
           "review": false
         }
@@ -1488,7 +1488,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorradtasche links",
           "needed": true,
           "review": false
         }
@@ -1503,7 +1503,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorradtasche rechts",
           "needed": true,
           "review": false
         }
@@ -1518,7 +1518,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorrad-Holster links",
           "needed": true,
           "review": false
         }
@@ -1533,7 +1533,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorrad-Holster rechts",
           "needed": true,
           "review": false
         }
@@ -1548,7 +1548,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tasche am Fensterschutz (links)",
           "needed": true,
           "review": false
         }
@@ -1563,7 +1563,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tasche am Fensterschutz (rechts)",
           "needed": true,
           "review": false
         }
@@ -1578,7 +1578,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorradtasche links",
           "needed": true,
           "review": false
         }
@@ -1593,7 +1593,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorradtasche rechts",
           "needed": true,
           "review": false
         }
@@ -1608,7 +1608,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorrad-Holster links",
           "needed": true,
           "review": false
         }
@@ -1623,7 +1623,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorrad-Holster rechts",
           "needed": true,
           "review": false
         }
@@ -1638,7 +1638,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Stoßstange",
           "needed": true,
           "review": false
         }
@@ -1653,7 +1653,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -1668,7 +1668,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Klappscheinwerfer",
           "needed": true,
           "review": false
         }
@@ -1683,7 +1683,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Klappscheinwerfer",
           "needed": true,
           "review": false
         }
@@ -1698,7 +1698,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dachreling",
           "needed": true,
           "review": false
         }
@@ -1713,7 +1713,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dachgepäckträger",
           "needed": true,
           "review": false
         }
@@ -1728,7 +1728,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Reserveradhalter",
           "needed": true,
           "review": false
         }
@@ -1743,7 +1743,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Heckfenster-Gepäckträger",
           "needed": true,
           "review": false
         }
@@ -1758,7 +1758,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Vorderer Kofferraum",
           "needed": true,
           "review": false
         }
@@ -1773,7 +1773,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hinterer Kofferraum",
           "needed": true,
           "review": false
         }
@@ -1788,7 +1788,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Heckfenster-Gepäckträger",
           "needed": true,
           "review": false
         }
@@ -1803,7 +1803,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Vorderer Kofferraum",
           "needed": true,
           "review": false
         }
@@ -1818,7 +1818,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hinterer Kofferraum",
           "needed": true,
           "review": false
         }
@@ -1833,7 +1833,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dach-Werkzeugkasten",
           "needed": true,
           "review": false
         }
@@ -1848,7 +1848,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Lichtbalken",
           "needed": true,
           "review": false
         }
@@ -1863,7 +1863,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Lichtbalken",
           "needed": true,
           "review": false
         }
@@ -1878,7 +1878,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Vorderrad",
           "needed": true,
           "review": false
         }
@@ -1893,7 +1893,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hinterrad",
           "needed": true,
           "review": false
         }
@@ -1908,7 +1908,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Radschutz",
           "needed": true,
           "review": false
         }
@@ -1923,7 +1923,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Vorderradschutz",
           "needed": true,
           "review": false
         }
@@ -1938,7 +1938,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hinterradschutz",
           "needed": true,
           "review": false
         }
@@ -1953,7 +1953,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Vorderradschutz",
           "needed": true,
           "review": false
         }
@@ -1968,7 +1968,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hinterradschutz",
           "needed": true,
           "review": false
         }
@@ -1983,7 +1983,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz für linkes Vorderrad",
           "needed": true,
           "review": false
         }
@@ -1998,7 +1998,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz für rechtes Vorderrad",
           "needed": true,
           "review": false
         }
@@ -2013,7 +2013,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz für linkes Hinterrad",
           "needed": true,
           "review": false
         }
@@ -2028,7 +2028,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz für rechtes Hinterrad",
           "needed": true,
           "review": false
         }
@@ -2043,7 +2043,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Türschutz vorne links",
           "needed": true,
           "review": false
         }
@@ -2058,7 +2058,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Türschutz vorne rechts",
           "needed": true,
           "review": false
         }
@@ -2073,7 +2073,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Türschutz mittig links",
           "needed": true,
           "review": false
         }
@@ -2088,7 +2088,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Türschutz mittig rechts",
           "needed": true,
           "review": false
         }
@@ -2103,7 +2103,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Türschutz hinten links",
           "needed": true,
           "review": false
         }
@@ -2118,7 +2118,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Türschutz hinten rechts",
           "needed": true,
           "review": false
         }
@@ -2133,7 +2133,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hecktürschutz",
           "needed": true,
           "review": false
         }
@@ -2148,7 +2148,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Windschutzscheibenschutz",
           "needed": true,
           "review": false
         }
@@ -2163,7 +2163,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Heckscheibenschutz",
           "needed": true,
           "review": false
         }
@@ -2178,7 +2178,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Linker Fensterschutz",
           "needed": true,
           "review": false
         }
@@ -2193,7 +2193,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Rechter Fensterschutz",
           "needed": true,
           "review": false
         }
@@ -2208,7 +2208,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Heckfensterschutz",
           "needed": true,
           "review": false
         }
@@ -2223,7 +2223,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fensterschutz vorne links",
           "needed": true,
           "review": false
         }
@@ -2238,7 +2238,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fensterschutz vorne rechts",
           "needed": true,
           "review": false
         }
@@ -2253,7 +2253,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fensterschutz mittig links",
           "needed": true,
           "review": false
         }
@@ -2268,7 +2268,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fensterschutz mittig rechts",
           "needed": true,
           "review": false
         }
@@ -2283,7 +2283,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fensterschutz hinten links",
           "needed": true,
           "review": false
         }
@@ -2298,7 +2298,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fensterschutz hinten rechts",
           "needed": true,
           "review": false
         }
@@ -2313,7 +2313,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Linker Seitenschutz",
           "needed": true,
           "review": false
         }
@@ -2328,7 +2328,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Rechter Seitenschutz",
           "needed": true,
           "review": false
         }
@@ -2343,7 +2343,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Frontschutz",
           "needed": true,
           "review": false
         }
@@ -2358,7 +2358,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dachschutz",
           "needed": true,
           "review": false
         }
@@ -2373,7 +2373,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schlafkabinen-Schutz",
           "needed": true,
           "review": false
         }
@@ -2388,7 +2388,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kraftstofftankschutz",
           "needed": true,
           "review": false
         }
@@ -2403,7 +2403,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorhaubenschutz",
           "needed": true,
           "review": false
         }
@@ -2418,7 +2418,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kofferraumschutz",
           "needed": true,
           "review": false
         }
@@ -2433,7 +2433,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz für Vorderräder",
           "needed": true,
           "review": false
         }
@@ -2448,7 +2448,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz für Hinterräder",
           "needed": true,
           "review": false
         }
@@ -2463,7 +2463,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz für Vorderräder",
           "needed": true,
           "review": false
         }
@@ -2478,7 +2478,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz für Hinterräder",
           "needed": true,
           "review": false
         }
@@ -2493,7 +2493,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Linker Seitenschutz",
           "needed": true,
           "review": false
         }
@@ -2508,7 +2508,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Rechter Seitenschutz",
           "needed": true,
           "review": false
         }
@@ -2523,7 +2523,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Frontschutz",
           "needed": true,
           "review": false
         }
@@ -2538,7 +2538,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dachschutz",
           "needed": true,
           "review": false
         }
@@ -2553,7 +2553,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz für Schlafkabine",
           "needed": true,
           "review": false
         }
@@ -2568,7 +2568,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz für Kraftstofftank",
           "needed": true,
           "review": false
         }
@@ -2583,7 +2583,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz für Motorhaube",
           "needed": true,
           "review": false
         }
@@ -2598,7 +2598,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schutz für Kofferraum",
           "needed": true,
           "review": false
         }
@@ -2613,7 +2613,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dachscheinwerfer (vorne)",
           "needed": true,
           "review": false
         }
@@ -2628,7 +2628,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dachscheinwerfer (links)",
           "needed": true,
           "review": false
         }
@@ -2643,7 +2643,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dachscheinwerfer (rechts)",
           "needed": true,
           "review": false
         }
@@ -2658,7 +2658,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dachscheinwerfer (hinten)",
           "needed": true,
           "review": false
         }
@@ -2673,7 +2673,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Glühlampe für vordere Dachscheinwerfer",
           "needed": true,
           "review": false
         }
@@ -2688,7 +2688,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Glühlampe für linke Dachscheinwerfer",
           "needed": true,
           "review": false
         }
@@ -2703,7 +2703,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Glühlampe für rechte Dachscheinwerfer",
           "needed": true,
           "review": false
         }
@@ -2718,7 +2718,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Glühlampe für hintere Dachscheinwerfer",
           "needed": true,
           "review": false
         }
@@ -2733,7 +2733,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dachzelt",
           "needed": true,
           "review": false
         }
@@ -2748,7 +2748,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Leiter",
           "needed": true,
           "review": false
         }
@@ -2763,7 +2763,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Spoilerlippe",
           "needed": true,
           "review": false
         }
@@ -2778,7 +2778,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Spoiler",
           "needed": true,
           "review": false
         }
@@ -2793,7 +2793,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Seitenschweller",
           "needed": true,
           "review": false
         }
@@ -2808,7 +2808,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Breite Kotflügel",
           "needed": true,
           "review": false
         }
@@ -2823,7 +2823,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schnorchel",
           "needed": true,
           "review": false
         }
@@ -2838,7 +2838,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Leiter",
           "needed": true,
           "review": false
         }
@@ -2853,7 +2853,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Spoilerlippe",
           "needed": true,
           "review": false
         }
@@ -2868,7 +2868,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Spoiler",
           "needed": true,
           "review": false
         }
@@ -2883,7 +2883,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Seitenschweller",
           "needed": true,
           "review": false
         }
@@ -2898,7 +2898,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Breite Kotflügel",
           "needed": true,
           "review": false
         }
@@ -2913,7 +2913,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schnorchel",
           "needed": true,
           "review": false
         }
@@ -2928,7 +2928,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (VL)",
           "needed": true,
           "review": false
         }
@@ -2943,7 +2943,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (VL)",
           "needed": true,
           "review": false
         }
@@ -2958,7 +2958,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (VL)",
           "needed": true,
           "review": false
         }
@@ -2973,7 +2973,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (VR)",
           "needed": true,
           "review": false
         }
@@ -2988,7 +2988,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (VR)",
           "needed": true,
           "review": false
         }
@@ -3003,7 +3003,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (VR)",
           "needed": true,
           "review": false
         }
@@ -3018,7 +3018,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (ML)",
           "needed": true,
           "review": false
         }
@@ -3033,7 +3033,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (ML)",
           "needed": true,
           "review": false
         }
@@ -3048,7 +3048,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (ML)",
           "needed": true,
           "review": false
         }
@@ -3063,7 +3063,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (MR)",
           "needed": true,
           "review": false
         }
@@ -3078,7 +3078,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (MR)",
           "needed": true,
           "review": false
         }
@@ -3093,7 +3093,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (MR)",
           "needed": true,
           "review": false
         }
@@ -3108,7 +3108,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (HL)",
           "needed": true,
           "review": false
         }
@@ -3123,7 +3123,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (HL)",
           "needed": true,
           "review": false
         }
@@ -3138,7 +3138,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (HL)",
           "needed": true,
           "review": false
         }
@@ -3153,7 +3153,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (HR)",
           "needed": true,
           "review": false
         }
@@ -3168,7 +3168,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (HR)",
           "needed": true,
           "review": false
         }
@@ -3183,7 +3183,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (HR)",
           "needed": true,
           "review": false
         }
@@ -3198,7 +3198,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (VL)",
           "needed": true,
           "review": false
         }
@@ -3213,7 +3213,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (VR)",
           "needed": true,
           "review": false
         }
@@ -3228,7 +3228,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (ML)",
           "needed": true,
           "review": false
         }
@@ -3243,7 +3243,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (MR)",
           "needed": true,
           "review": false
         }
@@ -3258,7 +3258,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (HL)",
           "needed": true,
           "review": false
         }
@@ -3273,7 +3273,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz (HR)",
           "needed": true,
           "review": false
         }
@@ -3288,7 +3288,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freier Platz",
           "needed": true,
           "review": false
         }
@@ -3303,7 +3303,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Scheinwerfer einklappen",
           "needed": true,
           "review": false
         }
@@ -3318,7 +3318,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Scheinwerfer ausklappen",
           "needed": true,
           "review": false
         }
@@ -3333,7 +3333,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich kann das Fenster nicht einschlagen, solange es geschützt ist.",
           "needed": true,
           "review": false
         }
@@ -3348,7 +3348,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tuning",
           "needed": true,
           "review": false
         }
@@ -3363,7 +3363,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Segelyacht",
           "needed": true,
           "review": false
         }
@@ -3378,7 +3378,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Segelyacht",
           "needed": true,
           "review": false
         }
@@ -3393,7 +3393,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorboot",
           "needed": true,
           "review": false
         }
@@ -3408,7 +3408,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorboot",
           "needed": true,
           "review": false
         }
@@ -3423,7 +3423,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar BT-13M",
           "needed": true,
           "review": false
         }
@@ -3438,7 +3438,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar BT-13M",
           "needed": true,
           "review": false
         }
@@ -3453,7 +3453,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar BT-13M",
           "needed": true,
           "review": false
         }
@@ -3468,7 +3468,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bootspropeller",
           "needed": true,
           "review": false
         }
@@ -3483,7 +3483,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Haushaltssystem",
           "needed": true,
           "review": false
         }
@@ -3498,7 +3498,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Mechanisches System",
           "needed": true,
           "review": false
         }
@@ -3513,7 +3513,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Elektrisches System",
           "needed": true,
           "review": false
         }
@@ -3528,7 +3528,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bootsrumpf",
           "needed": true,
           "review": false
         }
@@ -3543,7 +3543,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Scheinwerfer links",
           "needed": true,
           "review": false
         }
@@ -3558,7 +3558,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Scheinwerfer rechts",
           "needed": true,
           "review": false
         }
@@ -3573,7 +3573,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Cockpitlicht",
           "needed": true,
           "review": false
         }
@@ -3588,7 +3588,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Seilzugstarter",
           "needed": true,
           "review": false
         }
@@ -3603,7 +3603,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Segel",
           "needed": true,
           "review": false
         }
@@ -3618,7 +3618,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bootsname",
           "needed": true,
           "review": false
         }
@@ -3633,7 +3633,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Boot umbenennen",
           "needed": true,
           "review": false
         }
@@ -3648,7 +3648,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Boot verlassen",
           "needed": true,
           "review": false
         }
@@ -3663,7 +3663,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Boot betreten",
           "needed": true,
           "review": false
         }
@@ -3678,7 +3678,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Segel nach links setzen",
           "needed": true,
           "review": false
         }
@@ -3693,7 +3693,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Segel nach rechts setzen",
           "needed": true,
           "review": false
         }
@@ -3708,7 +3708,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich kann nicht schwimmen",
           "needed": true,
           "review": false
         }
@@ -3723,7 +3723,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Sieht so aus, als würde das Licht nicht funktionieren",
           "needed": true,
           "review": false
         }
@@ -3738,7 +3738,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Die Scheinwerfer funktionieren nicht",
           "needed": true,
           "review": false
         }
@@ -3753,7 +3753,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hier wird ein Ponton benötigt",
           "needed": true,
           "review": false
         }
@@ -3768,7 +3768,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich muss das Boot verlangsamen",
           "needed": true,
           "review": false
         }
@@ -3783,7 +3783,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Es gibt keinen Strom.",
           "needed": true,
           "review": false
         }
@@ -3798,7 +3798,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Die Kabinentür ist verschlossen",
           "needed": true,
           "review": false
         }
@@ -3813,7 +3813,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich komme nicht hinein",
           "needed": true,
           "review": false
         }
@@ -3828,7 +3828,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Gehe zu...",
           "needed": true,
           "review": false
         }
@@ -3843,7 +3843,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Du bist bereits hier",
           "needed": true,
           "review": false
         }
@@ -3858,7 +3858,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hier steht jemand",
           "needed": true,
           "review": false
         }
@@ -3873,7 +3873,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Im Gang liegen Gegenstände",
           "needed": true,
           "review": false
         }
@@ -3888,7 +3888,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Gegenstände aus dem Gang werden<br>an einen anderen Ort verschoben",
           "needed": true,
           "review": false
         }
@@ -3903,7 +3903,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich muss das Boot verlassen",
           "needed": true,
           "review": false
         }
@@ -3918,7 +3918,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Durchgang blockiert",
           "needed": true,
           "review": false
         }
@@ -3933,7 +3933,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Neben den Steuermann setzen",
           "needed": true,
           "review": false
         }
@@ -3948,7 +3948,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Auf den Steuermannsplatz setzen",
           "needed": true,
           "review": false
         }
@@ -3963,7 +3963,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hierhin gehen",
           "needed": true,
           "review": false
         }
@@ -3978,7 +3978,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hierhin gehen",
           "needed": true,
           "review": false
         }
@@ -3993,7 +3993,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hierhin gehen",
           "needed": true,
           "review": false
         }
@@ -4008,7 +4008,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hierhin gehen",
           "needed": true,
           "review": false
         }
@@ -4023,7 +4023,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Chance",
           "needed": true,
           "review": false
         }
@@ -4038,7 +4038,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Osten",
           "needed": true,
           "review": false
         }
@@ -4053,7 +4053,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Osten",
           "needed": true,
           "review": false
         }
@@ -4068,7 +4068,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Westen",
           "needed": true,
           "review": false
         }
@@ -4083,7 +4083,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Norden",
           "needed": true,
           "review": false
         }
@@ -4098,7 +4098,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Davontreiben",
           "needed": true,
           "review": false
         }
@@ -4113,7 +4113,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Du kannst schwimmen.",
           "needed": true,
           "review": false
         }
@@ -4128,7 +4128,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Du kannst nicht schwimmen.",
           "needed": true,
           "review": false
         }
@@ -4143,7 +4143,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ins Wasser werfen",
           "needed": true,
           "review": false
         }
@@ -4158,7 +4158,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schwimmen",
           "needed": true,
           "review": false
         }
@@ -4173,7 +4173,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Zu %1 schwimmen",
           "needed": true,
           "review": false
         }
@@ -4188,7 +4188,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Zum Ufer schwimmen",
           "needed": true,
           "review": false
         }
@@ -4203,7 +4203,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Freies Schwimmen",
           "needed": true,
           "review": false
         }
@@ -4218,7 +4218,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ins Wasser springen",
           "needed": true,
           "review": false
         }
@@ -4233,7 +4233,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich bin müde, ich muss mich ausruhen",
           "needed": true,
           "review": false
         }
@@ -4248,7 +4248,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Eine Pause tut gut",
           "needed": true,
           "review": false
         }
@@ -4263,7 +4263,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich schwimme besser zum Ufer",
           "needed": true,
           "review": false
         }
@@ -4278,7 +4278,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich spare Kraft, indem ich langsamer schwimme",
           "needed": true,
           "review": false
         }
@@ -4293,7 +4293,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "...",
           "needed": true,
           "review": false
         }
@@ -4308,7 +4308,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich fange an zu ertrinken. Ich muss mich ausruhen.",
           "needed": true,
           "review": false
         }
@@ -4323,7 +4323,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Krampf im Bein, ich muss ans Ufer!",
           "needed": true,
           "review": false
         }
@@ -4338,7 +4338,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Krampf in der Hand, ich muss dringend ans Ufer!",
           "needed": true,
           "review": false
         }
@@ -4353,7 +4353,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hör auf, Mann! Lass mich mal verschnaufen.",
           "needed": true,
           "review": false
         }
@@ -4368,7 +4368,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hilfe!!!",
           "needed": true,
           "review": false
         }
@@ -4383,7 +4383,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ah, ich habe meine Sachen verloren",
           "needed": true,
           "review": false
         }
@@ -4398,7 +4398,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich musste überschüssige Ladung loswerden",
           "needed": true,
           "review": false
         }
@@ -4413,7 +4413,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Einige Sachen sind auf den Grund gesunken",
           "needed": true,
           "review": false
         }
@@ -4428,7 +4428,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Windrichtung bestimmen",
           "needed": true,
           "review": false
         }
@@ -4443,7 +4443,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "In Innenräumen kann die Windrichtung nicht bestimmt werden",
           "needed": true,
           "review": false
         }
@@ -4458,7 +4458,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Der Wind ist",
           "needed": true,
           "review": false
         }
@@ -4473,7 +4473,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "in",
           "needed": true,
           "review": false
         }
@@ -4488,7 +4488,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Richtung.",
           "needed": true,
           "review": false
         }
@@ -4503,7 +4503,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Vollkommen windstill.",
           "needed": true,
           "review": false
         }
@@ -4518,7 +4518,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "sehr schwach",
           "needed": true,
           "review": false
         }
@@ -4533,7 +4533,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "schwach",
           "needed": true,
           "review": false
         }
@@ -4548,7 +4548,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "mäßig",
           "needed": true,
           "review": false
         }
@@ -4563,7 +4563,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "stark",
           "needed": true,
           "review": false
         }
@@ -4578,7 +4578,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "sehr stark",
           "needed": true,
           "review": false
         }
@@ -4593,7 +4593,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "stürmisch",
           "needed": true,
           "review": false
         }
@@ -4608,7 +4608,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "nördlicher",
           "needed": true,
           "review": false
         }
@@ -4623,7 +4623,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "nordwestlicher",
           "needed": true,
           "review": false
         }
@@ -4638,7 +4638,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "westlicher",
           "needed": true,
           "review": false
         }
@@ -4653,7 +4653,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "südwestlicher",
           "needed": true,
           "review": false
         }
@@ -4668,7 +4668,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "südlicher",
           "needed": true,
           "review": false
         }
@@ -4683,7 +4683,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "südöstlicher",
           "needed": true,
           "review": false
         }
@@ -4698,7 +4698,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "östlicher",
           "needed": true,
           "review": false
         }
@@ -4713,7 +4713,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "nordöstlicher",
           "needed": true,
           "review": false
         }
@@ -4728,7 +4728,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Segel nähen",
           "needed": true,
           "review": false
         }
@@ -4743,7 +4743,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Stoff, Nadel, Faden und Schneiderei Stufe IV werden für die Segelreparatur benötigt.",
           "needed": true,
           "review": false
         }
@@ -4758,7 +4758,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 Classic",
           "needed": true,
           "review": false
         }
@@ -4773,7 +4773,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 Custom",
           "needed": true,
           "review": false
         }
@@ -4788,7 +4788,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep '86",
           "needed": true,
           "review": false
         }
@@ -4803,7 +4803,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Suvzuki Quadruiner",
           "needed": true,
           "review": false
         }
@@ -4818,7 +4818,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Yamama Waveruiner 650TL",
           "needed": true,
           "review": false
         }
@@ -4833,7 +4833,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Yamama Waveruiner 650TL",
           "needed": true,
           "review": false
         }
@@ -4848,7 +4848,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar Mototrailer-2M",
           "needed": true,
           "review": false
         }
@@ -4863,7 +4863,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar Watertrailer-3M",
           "needed": true,
           "review": false
         }
@@ -4878,7 +4878,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Yamama Waveruiner 650TL",
           "needed": true,
           "review": false
         }
@@ -4893,7 +4893,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Es ist jetzt zu gefährlich, sich hinzulegen.",
           "needed": true,
           "review": false
         }
@@ -4908,7 +4908,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Es ist jetzt zu gefährlich, sich hinzusetzen.",
           "needed": true,
           "review": false
         }
@@ -4923,7 +4923,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ich muss näher heran.",
           "needed": true,
           "review": false
         }
@@ -4938,7 +4938,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Der Zugang zum Bett muss freigeräumt werden.",
           "needed": true,
           "review": false
         }
@@ -4953,7 +4953,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Machst du Kaffeepause?",
           "needed": true,
           "review": false
         }
@@ -4968,7 +4968,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Warum liegst du so da?",
           "needed": true,
           "review": false
         }
@@ -4983,7 +4983,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ausgeruht? Jetzt bin ich dran.",
           "needed": true,
           "review": false
         }
@@ -4998,7 +4998,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Mach bitte den Platz frei.",
           "needed": true,
           "review": false
         }
@@ -5013,7 +5013,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Warum schubst du?",
           "needed": true,
           "review": false
         }
@@ -5028,7 +5028,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nicht schubsen!",
           "needed": true,
           "review": false
         }
@@ -5043,7 +5043,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Lass mich ausruhen!",
           "needed": true,
           "review": false
         }
@@ -5058,7 +5058,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kassette einlegen",
           "needed": true,
           "review": false
         }
@@ -5073,7 +5073,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schallplatte einlegen",
           "needed": true,
           "review": false
         }
@@ -5088,7 +5088,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Lautsprecher anschließen",
           "needed": true,
           "review": false
         }
@@ -5103,7 +5103,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kopfhörer erforderlich",
           "needed": true,
           "review": false
         }
@@ -5118,7 +5118,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Der Lautsprecher sollte neben dem Plattenspieler stehen.",
           "needed": true,
           "review": false
         }
@@ -5133,7 +5133,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kassettenspieler",
           "needed": true,
           "review": false
         }
@@ -5148,7 +5148,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar GNV 250",
           "needed": true,
           "review": false
         }
@@ -5163,7 +5163,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar GNV 500",
           "needed": true,
           "review": false
         }
@@ -5178,7 +5178,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar iLYA-1990",
           "needed": true,
           "review": false
         }
@@ -5193,7 +5193,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar iLYA-1990 «Hartman»",
           "needed": true,
           "review": false
         }
@@ -5208,7 +5208,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar iLYA-1990 «Explorer»",
           "needed": true,
           "review": false
         }
@@ -5223,7 +5223,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar KBAC",
           "needed": true,
           "review": false
         }
@@ -5238,7 +5238,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar GENA-220",
           "needed": true,
           "review": false
         }
@@ -5253,7 +5253,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bear Bus - Militärausführung",
           "needed": true,
           "review": false
         }
@@ -5268,7 +5268,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bear Bus - Schulausführung",
           "needed": true,
           "review": false
         }
@@ -5283,7 +5283,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bear Bus - Gefängnisausführung",
           "needed": true,
           "review": false
         }
@@ -5298,7 +5298,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bumer 36E",
           "needed": true,
           "review": false
         }
@@ -5313,7 +5313,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bumer 36E M3",
           "needed": true,
           "review": false
         }
@@ -5328,7 +5328,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel Classic",
           "needed": true,
           "review": false
         }
@@ -5343,7 +5343,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel Rubicon",
           "needed": true,
           "review": false
         }
@@ -5358,7 +5358,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel Archer",
           "needed": true,
           "review": false
         }
@@ -5373,7 +5373,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dadge Steals RT Twin Turbo",
           "needed": true,
           "review": false
         }
@@ -5388,7 +5388,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dadge Steals RT Twin Turbo PPG",
           "needed": true,
           "review": false
         }
@@ -5403,7 +5403,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Petyarbuilt 379",
           "needed": true,
           "review": false
         }
@@ -5418,7 +5418,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Petyarbuilt 379",
           "needed": true,
           "review": false
         }
@@ -5433,7 +5433,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Petyarbuilt 379",
           "needed": true,
           "review": false
         }
@@ -5448,7 +5448,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar - Mega-Anhänger",
           "needed": true,
           "review": false
         }
@@ -5463,7 +5463,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard",
           "needed": true,
           "review": false
         }
@@ -5478,7 +5478,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard",
           "needed": true,
           "review": false
         }
@@ -5493,7 +5493,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Chevalier Samara",
           "needed": true,
           "review": false
         }
@@ -5508,7 +5508,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Chevalier Samara",
           "needed": true,
           "review": false
         }
@@ -5523,7 +5523,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "DMG DoLorean",
           "needed": true,
           "review": false
         }
@@ -5538,7 +5538,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dadsun 240z",
           "needed": true,
           "review": false
         }
@@ -5553,7 +5553,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard '66",
           "needed": true,
           "review": false
         }
@@ -5568,7 +5568,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard '66",
           "needed": true,
           "review": false
         }
@@ -5583,7 +5583,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Autotsar Transportanhänger",
           "needed": true,
           "review": false
         }
@@ -5598,7 +5598,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Polizei-Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -5613,7 +5613,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Standard-Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -5628,7 +5628,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Polizei-Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -5643,7 +5643,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Frontschutzbügel mit Scheinwerfern",
           "needed": true,
           "review": false
         }
@@ -5658,7 +5658,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Breite Kotflügel",
           "needed": true,
           "review": false
         }
@@ -5673,7 +5673,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Seitenschweller",
           "needed": true,
           "review": false
         }
@@ -5688,7 +5688,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Spoilerlippe",
           "needed": true,
           "review": false
         }
@@ -5703,7 +5703,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Standard-Spoiler",
           "needed": true,
           "review": false
         }
@@ -5718,7 +5718,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hoher Spoiler",
           "needed": true,
           "review": false
         }
@@ -5733,7 +5733,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dachscheinwerfer",
           "needed": true,
           "review": false
         }
@@ -5748,7 +5748,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tragbarer Kühlschrank",
           "needed": true,
           "review": false
         }
@@ -5763,7 +5763,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Motorradtasche",
           "needed": true,
           "review": false
         }
@@ -5778,7 +5778,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - verbesserte Motorradtasche",
           "needed": true,
           "review": false
         }
@@ -5793,7 +5793,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Spezialauspuff",
           "needed": true,
           "review": false
         }
@@ -5808,7 +5808,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Serienauspuff",
           "needed": true,
           "review": false
         }
@@ -5823,7 +5823,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - alter Reifen",
           "needed": true,
           "review": false
         }
@@ -5838,7 +5838,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - normaler Reifen",
           "needed": true,
           "review": false
         }
@@ -5853,7 +5853,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - moderner Reifen",
           "needed": true,
           "review": false
         }
@@ -5868,7 +5868,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Benzintank",
           "needed": true,
           "review": false
         }
@@ -5883,7 +5883,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Seriensitz",
           "needed": true,
           "review": false
         }
@@ -5898,7 +5898,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Spezialsitz",
           "needed": true,
           "review": false
         }
@@ -5913,7 +5913,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - Motorradtasche",
           "needed": true,
           "review": false
         }
@@ -5928,7 +5928,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - Auspuff",
           "needed": true,
           "review": false
         }
@@ -5943,7 +5943,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - alter Reifen",
           "needed": true,
           "review": false
         }
@@ -5958,7 +5958,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - normaler Reifen",
           "needed": true,
           "review": false
         }
@@ -5973,7 +5973,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - moderner Reifen",
           "needed": true,
           "review": false
         }
@@ -5988,7 +5988,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - Benzintank",
           "needed": true,
           "review": false
         }
@@ -6003,7 +6003,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - Holster",
           "needed": true,
           "review": false
         }
@@ -6018,7 +6018,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - Sitz",
           "needed": true,
           "review": false
         }
@@ -6033,7 +6033,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Suvzuki Quadruiner - Sitz",
           "needed": true,
           "review": false
         }
@@ -6048,7 +6048,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bootspropeller",
           "needed": true,
           "review": false
         }
@@ -6063,7 +6063,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Seilzugstarter",
           "needed": true,
           "review": false
         }
@@ -6078,7 +6078,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Segel",
           "needed": true,
           "review": false
         }
@@ -6093,7 +6093,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin „Repariere deine Boote“",
           "needed": true,
           "review": false
         }
@@ -6108,7 +6108,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin „Schwimmzeiten“",
           "needed": true,
           "review": false
         }
@@ -6123,7 +6123,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Rettungsring",
           "needed": true,
           "review": false
         }
@@ -6138,7 +6138,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tauchmaske",
           "needed": true,
           "review": false
         }
@@ -6153,7 +6153,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kontaminierte Literatur",
           "needed": true,
           "review": false
         }
@@ -6168,7 +6168,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kompass",
           "needed": true,
           "review": false
         }
@@ -6183,7 +6183,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Luftleerer Reifenschlauch",
           "needed": true,
           "review": false
         }
@@ -6198,7 +6198,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Reifenschlauch",
           "needed": true,
           "review": false
         }
@@ -6213,7 +6213,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kein Name",
           "needed": true,
           "review": false
         }
@@ -6228,7 +6228,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "La Brigandine",
           "needed": true,
           "review": false
         }
@@ -6243,7 +6243,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Akademik Sakharov",
           "needed": true,
           "review": false
         }
@@ -6258,7 +6258,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kein Name",
           "needed": true,
           "review": false
         }
@@ -6273,7 +6273,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "M/Y Orianna",
           "needed": true,
           "review": false
         }
@@ -6288,7 +6288,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nautilus P.",
           "needed": true,
           "review": false
         }
@@ -6303,7 +6303,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Bear Bus»",
           "needed": true,
           "review": false
         }
@@ -6318,7 +6318,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Jaap Wrungel»",
           "needed": true,
           "review": false
         }
@@ -6333,7 +6333,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - klassische Stoßstange",
           "needed": true,
           "review": false
         }
@@ -6348,7 +6348,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Stoßstange mit Seilwinde",
           "needed": true,
           "review": false
         }
@@ -6363,7 +6363,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -6378,7 +6378,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Schnorchel",
           "needed": true,
           "review": false
         }
@@ -6393,7 +6393,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Dachzelt",
           "needed": true,
           "review": false
         }
@@ -6408,7 +6408,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Fjord Mustard»",
           "needed": true,
           "review": false
         }
@@ -6423,7 +6423,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Chevalier Samara»",
           "needed": true,
           "review": false
         }
@@ -6438,7 +6438,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Mustard - Cowl-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -6453,7 +6453,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Mustard - Ram-Air-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -6468,7 +6468,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Mustard - Mongoose-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -6483,7 +6483,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Samara - Ram-Air-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -6498,7 +6498,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Samara - Mongoose-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -6513,7 +6513,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Dadge Steals RT»",
           "needed": true,
           "review": false
         }
@@ -6528,7 +6528,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Petyarbuilt 379»",
           "needed": true,
           "review": false
         }
@@ -6543,7 +6543,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - MolksAgen Luton Van»",
           "needed": true,
           "review": false
         }
@@ -6558,7 +6558,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - DeRumba Van»",
           "needed": true,
           "review": false
         }
@@ -6573,7 +6573,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ghettoblaster 'Kazakhstan-102-stereo'",
           "needed": true,
           "review": false
         }
@@ -6588,7 +6588,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Plattenspieler 'Elektronika S1-01'",
           "needed": true,
           "review": false
         }
@@ -6603,7 +6603,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tragbarer Musikspieler 'Sany Wutman'",
           "needed": true,
           "review": false
         }
@@ -6618,7 +6618,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Rollwagen",
           "needed": true,
           "review": false
         }
@@ -6633,7 +6633,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Rollwagen",
           "needed": true,
           "review": false
         }
@@ -6648,7 +6648,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Einkaufswagen",
           "needed": true,
           "review": false
         }
@@ -6663,7 +6663,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Einkaufswagen",
           "needed": true,
           "review": false
         }
@@ -6678,7 +6678,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Bumer 36E»",
           "needed": true,
           "review": false
         }
@@ -6693,7 +6693,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bumer 36E - niedriger Spoiler",
           "needed": true,
           "review": false
         }
@@ -6708,7 +6708,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bumer 36E - mittlerer Spoiler",
           "needed": true,
           "review": false
         }
@@ -6723,7 +6723,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bumer 36E - hoher Spoiler",
           "needed": true,
           "review": false
         }
@@ -6738,7 +6738,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Dadsun 240Z»",
           "needed": true,
           "review": false
         }
@@ -6753,7 +6753,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dadsun 240Z - Frontstoßstange",
           "needed": true,
           "review": false
         }
@@ -6768,7 +6768,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dadsun 240Z - Heckstoßstange",
           "needed": true,
           "review": false
         }
@@ -6783,7 +6783,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dadsun 240Z - Ram-Air-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -6798,7 +6798,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard '66 - Frontstoßstange",
           "needed": true,
           "review": false
         }
@@ -6813,7 +6813,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard '66 - Heckstoßstange",
           "needed": true,
           "review": false
         }
@@ -6828,7 +6828,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard '66 - Ram-Air-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -6843,7 +6843,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard '66 - Mongoose-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -6858,7 +6858,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard '66 - modifizierte Kofferraumklappe",
           "needed": true,
           "review": false
         }
@@ -6873,7 +6873,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Polizei-Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -6888,7 +6888,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Standard-Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -6903,7 +6903,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Polizei-Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -6918,7 +6918,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Frontschutzbügel mit Scheinwerfern",
           "needed": true,
           "review": false
         }
@@ -6933,7 +6933,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Breite Kotflügel",
           "needed": true,
           "review": false
         }
@@ -6948,7 +6948,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Seitenschweller",
           "needed": true,
           "review": false
         }
@@ -6963,7 +6963,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Spoilerlippe",
           "needed": true,
           "review": false
         }
@@ -6978,7 +6978,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Standard-Spoiler",
           "needed": true,
           "review": false
         }
@@ -6993,7 +6993,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hoher Spoiler",
           "needed": true,
           "review": false
         }
@@ -7008,7 +7008,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dachscheinwerfer",
           "needed": true,
           "review": false
         }
@@ -7023,7 +7023,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tragbarer Kühlschrank",
           "needed": true,
           "review": false
         }
@@ -7038,7 +7038,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Motorradtasche",
           "needed": true,
           "review": false
         }
@@ -7053,7 +7053,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - verbesserte Motorradtasche",
           "needed": true,
           "review": false
         }
@@ -7068,7 +7068,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Spezialauspuff",
           "needed": true,
           "review": false
         }
@@ -7083,7 +7083,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Serienauspuff",
           "needed": true,
           "review": false
         }
@@ -7098,7 +7098,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - alter Reifen",
           "needed": true,
           "review": false
         }
@@ -7113,7 +7113,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - normaler Reifen",
           "needed": true,
           "review": false
         }
@@ -7128,7 +7128,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - moderner Reifen",
           "needed": true,
           "review": false
         }
@@ -7143,7 +7143,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Benzintank",
           "needed": true,
           "review": false
         }
@@ -7158,7 +7158,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Seriensitz",
           "needed": true,
           "review": false
         }
@@ -7173,7 +7173,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Spezialsitz",
           "needed": true,
           "review": false
         }
@@ -7188,7 +7188,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - Motorradtasche",
           "needed": true,
           "review": false
         }
@@ -7203,7 +7203,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - Auspuff",
           "needed": true,
           "review": false
         }
@@ -7218,7 +7218,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - alter Reifen",
           "needed": true,
           "review": false
         }
@@ -7233,7 +7233,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - normaler Reifen",
           "needed": true,
           "review": false
         }
@@ -7248,7 +7248,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - moderner Reifen",
           "needed": true,
           "review": false
         }
@@ -7263,7 +7263,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - Benzintank",
           "needed": true,
           "review": false
         }
@@ -7278,7 +7278,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - Holster",
           "needed": true,
           "review": false
         }
@@ -7293,7 +7293,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Xarley-Davitsan Sportstep - Sitz",
           "needed": true,
           "review": false
         }
@@ -7308,7 +7308,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Suvzuki Quadruiner - Sitz",
           "needed": true,
           "review": false
         }
@@ -7323,7 +7323,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bootspropeller",
           "needed": true,
           "review": false
         }
@@ -7338,7 +7338,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Seilzugstarter",
           "needed": true,
           "review": false
         }
@@ -7353,7 +7353,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Segel",
           "needed": true,
           "review": false
         }
@@ -7368,7 +7368,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin „Repariere deine Boote“",
           "needed": true,
           "review": false
         }
@@ -7383,7 +7383,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin „Schwimmzeiten“",
           "needed": true,
           "review": false
         }
@@ -7398,7 +7398,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Rettungsring",
           "needed": true,
           "review": false
         }
@@ -7413,7 +7413,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tauchmaske",
           "needed": true,
           "review": false
         }
@@ -7428,7 +7428,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kontaminierte Literatur",
           "needed": true,
           "review": false
         }
@@ -7443,7 +7443,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kompass",
           "needed": true,
           "review": false
         }
@@ -7458,7 +7458,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Luftleerer Reifenschlauch",
           "needed": true,
           "review": false
         }
@@ -7473,7 +7473,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Reifenschlauch",
           "needed": true,
           "review": false
         }
@@ -7488,7 +7488,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kein Name",
           "needed": true,
           "review": false
         }
@@ -7503,7 +7503,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "La Brigandine",
           "needed": true,
           "review": false
         }
@@ -7518,7 +7518,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Akademik Sakharov",
           "needed": true,
           "review": false
         }
@@ -7533,7 +7533,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kein Name",
           "needed": true,
           "review": false
         }
@@ -7548,7 +7548,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "M/Y Orianna",
           "needed": true,
           "review": false
         }
@@ -7563,7 +7563,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nautilus P.",
           "needed": true,
           "review": false
         }
@@ -7578,7 +7578,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Bear Bus»",
           "needed": true,
           "review": false
         }
@@ -7593,7 +7593,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Jaap Wrungel»",
           "needed": true,
           "review": false
         }
@@ -7608,7 +7608,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - klassische Stoßstange",
           "needed": true,
           "review": false
         }
@@ -7623,7 +7623,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Stoßstange mit Seilwinde",
           "needed": true,
           "review": false
         }
@@ -7638,7 +7638,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Frontschutzbügel",
           "needed": true,
           "review": false
         }
@@ -7653,7 +7653,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Schnorchel",
           "needed": true,
           "review": false
         }
@@ -7668,7 +7668,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Dachzelt",
           "needed": true,
           "review": false
         }
@@ -7683,7 +7683,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Fjord Mustard»",
           "needed": true,
           "review": false
         }
@@ -7698,7 +7698,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Chevalier Samara»",
           "needed": true,
           "review": false
         }
@@ -7713,7 +7713,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Mustard - Cowl-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -7728,7 +7728,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Mustard - Ram-Air-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -7743,7 +7743,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Mustard - Mongoose-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -7758,7 +7758,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Samara - Ram-Air-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -7773,7 +7773,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Samara - Mongoose-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -7788,7 +7788,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Dadge Steals RT»",
           "needed": true,
           "review": false
         }
@@ -7803,7 +7803,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Petyarbuilt 379»",
           "needed": true,
           "review": false
         }
@@ -7818,7 +7818,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - MolksAgen Luton Van»",
           "needed": true,
           "review": false
         }
@@ -7833,7 +7833,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - DeRumba Van»",
           "needed": true,
           "review": false
         }
@@ -7848,7 +7848,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ghettoblaster 'Kazakhstan-102-stereo'",
           "needed": true,
           "review": false
         }
@@ -7863,7 +7863,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Plattenspieler 'Elektronika S1-01'",
           "needed": true,
           "review": false
         }
@@ -7878,7 +7878,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tragbarer Musikspieler 'Sany Wutman'",
           "needed": true,
           "review": false
         }
@@ -7893,7 +7893,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Rollwagen",
           "needed": true,
           "review": false
         }
@@ -7908,7 +7908,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Rollwagen",
           "needed": true,
           "review": false
         }
@@ -7923,7 +7923,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Einkaufswagen",
           "needed": true,
           "review": false
         }
@@ -7938,7 +7938,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Einkaufswagen",
           "needed": true,
           "review": false
         }
@@ -7953,7 +7953,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Bumer 36E»",
           "needed": true,
           "review": false
         }
@@ -7968,7 +7968,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bumer 36E - niedriger Spoiler",
           "needed": true,
           "review": false
         }
@@ -7983,7 +7983,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bumer 36E - mittlerer Spoiler",
           "needed": true,
           "review": false
         }
@@ -7998,7 +7998,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bumer 36E - hoher Spoiler",
           "needed": true,
           "review": false
         }
@@ -8013,7 +8013,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin «Autotsar Tuning Atelier - Dadsun 240Z»",
           "needed": true,
           "review": false
         }
@@ -8028,7 +8028,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dadsun 240Z - Frontstoßstange",
           "needed": true,
           "review": false
         }
@@ -8043,7 +8043,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dadsun 240Z - Heckstoßstange",
           "needed": true,
           "review": false
         }
@@ -8058,7 +8058,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dadsun 240Z - Ram-Air-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -8073,7 +8073,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard '66 - Frontstoßstange",
           "needed": true,
           "review": false
         }
@@ -8088,7 +8088,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard '66 - Heckstoßstange",
           "needed": true,
           "review": false
         }
@@ -8103,7 +8103,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard '66 - Ram-Air-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -8118,7 +8118,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard '66 - Mongoose-Motorhaube",
           "needed": true,
           "review": false
         }
@@ -8133,7 +8133,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord Mustard '66 - modifizierte Kofferraumklappe",
           "needed": true,
           "review": false
         }
@@ -8148,7 +8148,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dadge-Tuning",
           "needed": true,
           "review": false
         }
@@ -8163,7 +8163,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bus-Tuning",
           "needed": true,
           "review": false
         }
@@ -8178,7 +8178,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap-Tuning",
           "needed": true,
           "review": false
         }
@@ -8193,7 +8193,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BMW-36E-Tuning",
           "needed": true,
           "review": false
         }
@@ -8208,7 +8208,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "DeRumba-Van-Tuning",
           "needed": true,
           "review": false
         }
@@ -8223,7 +8223,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord-Mustard-Tuning",
           "needed": true,
           "review": false
         }
@@ -8238,7 +8238,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Chevalier-Samara-Tuning",
           "needed": true,
           "review": false
         }
@@ -8253,7 +8253,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "MolksAgen-Luton-Van-Tuning",
           "needed": true,
           "review": false
         }
@@ -8268,7 +8268,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Petyarbuilt-379-Tuning",
           "needed": true,
           "review": false
         }
@@ -8283,7 +8283,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "DMG-DoLorean-Tuning",
           "needed": true,
           "review": false
         }
@@ -8298,7 +8298,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Rezept für eine Zeitmaschine",
           "needed": true,
           "review": false
         }
@@ -8313,7 +8313,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dadsun-240Z-Tuning",
           "needed": true,
           "review": false
         }
@@ -8328,7 +8328,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Frontschutzbügel zerschneiden",
           "needed": true,
           "review": false
         }
@@ -8343,7 +8343,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Frontschutzbügel zerschneiden",
           "needed": true,
           "review": false
         }
@@ -8358,7 +8358,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kotflügel zerschneiden",
           "needed": true,
           "review": false
         }
@@ -8373,7 +8373,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Seitenschweller zerschneiden",
           "needed": true,
           "review": false
         }
@@ -8388,7 +8388,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Frontspoiler zerschneiden",
           "needed": true,
           "review": false
         }
@@ -8403,7 +8403,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Heckspoiler zerschneiden",
           "needed": true,
           "review": false
         }
@@ -8418,7 +8418,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Heckspoiler zerschneiden",
           "needed": true,
           "review": false
         }
@@ -8433,7 +8433,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tragbares Regal bauen",
           "needed": true,
           "review": false
         }
@@ -8448,7 +8448,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tragbaren Schrank bauen",
           "needed": true,
           "review": false
         }
@@ -8463,7 +8463,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tragbares Regal bauen",
           "needed": true,
           "review": false
         }
@@ -8478,7 +8478,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Spezialauspuff herstellen",
           "needed": true,
           "review": false
         }
@@ -8493,7 +8493,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Reifenschlauch entnehmen",
           "needed": true,
           "review": false
         }
@@ -8508,7 +8508,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Reifenschlauch entleeren",
           "needed": true,
           "review": false
         }
@@ -8523,7 +8523,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Reifenschlauch aufpumpen",
           "needed": true,
           "review": false
         }
@@ -8538,7 +8538,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorbootmechanik",
           "needed": true,
           "review": false
         }
@@ -8553,7 +8553,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Segelbootmechanik",
           "needed": true,
           "review": false
         }
@@ -8568,7 +8568,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hochleistungs-Bootsmechanik",
           "needed": true,
           "review": false
         }
@@ -8583,7 +8583,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Beste Schwimmtechnik",
           "needed": true,
           "review": false
         }
@@ -8598,7 +8598,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Stoßstange zerschneiden",
           "needed": true,
           "review": false
         }
@@ -8613,7 +8613,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Stoßstange zerschneiden",
           "needed": true,
           "review": false
         }
@@ -8628,7 +8628,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Stoßstange zerschneiden",
           "needed": true,
           "review": false
         }
@@ -8643,7 +8643,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Mustard - Motorhaube zerschneiden",
           "needed": true,
           "review": false
         }
@@ -8658,7 +8658,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Samara - Motorhaube zerschneiden",
           "needed": true,
           "review": false
         }
@@ -8673,7 +8673,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Musikspieler zerlegen",
           "needed": true,
           "review": false
         }
@@ -8688,7 +8688,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Musikspieler zerlegen",
           "needed": true,
           "review": false
         }
@@ -8703,7 +8703,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dadge-Tuning",
           "needed": true,
           "review": false
         }
@@ -8718,7 +8718,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bus-Tuning",
           "needed": true,
           "review": false
         }
@@ -8733,7 +8733,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap-Tuning",
           "needed": true,
           "review": false
         }
@@ -8748,7 +8748,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BMW-36E-Tuning",
           "needed": true,
           "review": false
         }
@@ -8763,7 +8763,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "DeRumba-Van-Tuning",
           "needed": true,
           "review": false
         }
@@ -8778,7 +8778,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Fjord-Mustard-Tuning",
           "needed": true,
           "review": false
         }
@@ -8793,7 +8793,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Chevalier-Samara-Tuning",
           "needed": true,
           "review": false
         }
@@ -8808,7 +8808,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "MolksAgen-Luton-Van-Tuning",
           "needed": true,
           "review": false
         }
@@ -8823,7 +8823,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Petyarbuilt-379-Tuning",
           "needed": true,
           "review": false
         }
@@ -8838,7 +8838,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "DMG-DoLorean-Tuning",
           "needed": true,
           "review": false
         }
@@ -8853,7 +8853,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Rezept für eine Zeitmaschine",
           "needed": true,
           "review": false
         }
@@ -8868,7 +8868,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dadsun-240Z-Tuning",
           "needed": true,
           "review": false
         }
@@ -8883,7 +8883,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "BWM R80/7 - Spezialauspuff herstellen",
           "needed": true,
           "review": false
         }
@@ -8898,7 +8898,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Reifenschlauch entnehmen",
           "needed": true,
           "review": false
         }
@@ -8913,7 +8913,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Reifenschlauch entleeren",
           "needed": true,
           "review": false
         }
@@ -8928,7 +8928,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Reifenschlauch aufpumpen",
           "needed": true,
           "review": false
         }
@@ -8943,7 +8943,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Motorbootmechanik",
           "needed": true,
           "review": false
         }
@@ -8958,7 +8958,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Segelbootmechanik",
           "needed": true,
           "review": false
         }
@@ -8973,7 +8973,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hochleistungs-Bootsmechanik",
           "needed": true,
           "review": false
         }
@@ -8988,7 +8988,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Beste Schwimmtechnik",
           "needed": true,
           "review": false
         }
@@ -9003,7 +9003,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Stoßstange zerschneiden",
           "needed": true,
           "review": false
         }
@@ -9018,7 +9018,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Stoßstange zerschneiden",
           "needed": true,
           "review": false
         }
@@ -9033,7 +9033,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jaap Wrungel - Stoßstange zerschneiden",
           "needed": true,
           "review": false
         }
@@ -9048,7 +9048,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Mustard - Motorhaube zerschneiden",
           "needed": true,
           "review": false
         }
@@ -9063,7 +9063,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Samara - Motorhaube zerschneiden",
           "needed": true,
           "review": false
         }
@@ -9078,7 +9078,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Musikspieler zerlegen",
           "needed": true,
           "review": false
         }
@@ -9093,7 +9093,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Musikspieler zerlegen",
           "needed": true,
           "review": false
         }
@@ -9108,7 +9108,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Heim-VHS: Aufnahme der Sendung „Geheimnisse der Zurück-in-die-Zukunft-Trilogie“",
           "needed": true,
           "review": false
         }
@@ -9123,7 +9123,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Aufnahme der Sendung „Geheimnisse der Zurück-in-die-Zukunft-Trilogie“",
           "needed": true,
           "review": false
         }
@@ -9138,7 +9138,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Jemand hat einen kleinen Ausschnitt der Sendung aufgenommen.",
           "needed": true,
           "review": false
         }
@@ -9153,7 +9153,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hallo, ich bin Kirk Cameron, euer Gastgeber bei „Geheimnisse der Zurück-in-die-Zukunft-Trilogie“.",
           "needed": true,
           "review": false
         }
@@ -9168,7 +9168,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Wir beantworten einige der brennenden Fragen, die uns Zurück-in-die-Zukunft-Fans aus aller Welt gestellt haben.",
           "needed": true,
           "review": false
         }
@@ -9183,7 +9183,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Und wie ihr seht, haben wir reichlich Briefe zur Auswahl.",
           "needed": true,
           "review": false
         }
@@ -9198,7 +9198,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hey, Kumpel! Bist du Kirk Cameron?",
           "needed": true,
           "review": false
         }
@@ -9213,7 +9213,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Äääh... ja, Sir.",
           "needed": true,
           "review": false
         }
@@ -9228,7 +9228,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Dieses Telegramm ist gerade für dich angekommen.",
           "needed": true,
           "review": false
         }
@@ -9243,7 +9243,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Für mich?",
           "needed": true,
           "review": false
         }
@@ -9258,7 +9258,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Ganz genau!",
           "needed": true,
           "review": false
         }
@@ -9273,7 +9273,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Oh, hey, das sieht nach unserer ersten Frage aus. Mister Tommy aus einem kleinen Dorf nahe Louisville schreibt:",
           "needed": true,
           "review": false
         }
@@ -9288,7 +9288,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Liebe Schöpfer von Zurück in die Zukunft, auch ich besitze einen DoLorean,",
           "needed": true,
           "review": false
         }
@@ -9303,7 +9303,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "und ich würde ihn gern in eine Zeitmaschine verwandeln. Bitte verratet mir die Rezepte dafür.",
           "needed": true,
           "review": false
         }
@@ -9318,7 +9318,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nun, Tommy, Ronald Cobb – einer der Schöpfer des Designs der Zeitmaschine –",
           "needed": true,
           "review": false
         }
@@ -9333,7 +9333,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "hat sich bereit erklärt, uns mehr über die grundlegenden Bauteile des Autos zu erzählen",
           "needed": true,
           "review": false
         }
@@ -9348,7 +9348,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "und außerdem zu verraten, wie man sie zu Hause herstellen kann.",
           "needed": true,
           "review": false
         }
@@ -9363,7 +9363,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Hallo, Tommy. Das bekannteste Bauteil des Autos ist natürlich der Kernreaktor.",
           "needed": true,
           "review": false
         }
@@ -9378,7 +9378,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Du kannst etwas Ähnliches aus deiner Motorhaube bauen. Dafür brauchst du:",
           "needed": true,
           "review": false
         }
@@ -9393,7 +9393,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "vier METALLPLATTEN, zwei METALLROHRE, ein KUNSTSTOFFROHR,",
           "needed": true,
           "review": false
         }
@@ -9408,7 +9408,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "vier Einheiten ELEKTRONIKSCHROTT und zwei ELEKTROKABEL.",
           "needed": true,
           "review": false
         }
@@ -9423,7 +9423,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Natürlich geht es nicht ohne SÄGE, SCHWEISSERMASKE und PROPANBRENNER.",
           "needed": true,
           "review": false
         }
@@ -9438,7 +9438,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Und ganz wichtig: Vergiss nicht, die HECKTÜR und die HINTEREN SEITENFENSTER aus dem Fahrzeug auszubauen.",
           "needed": true,
           "review": false
         }
@@ -9453,7 +9453,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Sonst hast du nicht genug Platz, um den Reaktor einzubauen.",
           "needed": true,
           "review": false
         }
@@ -9468,7 +9468,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "An der Vorderseite des Fahrzeugs wird ein temporärer Feldzünder eingebaut.",
           "needed": true,
           "review": false
         }
@@ -9483,7 +9483,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nimm dafür eine METALLPLATTE und schneide sie mit einer SÄGE zurecht.",
           "needed": true,
           "review": false
         }
@@ -9498,7 +9498,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schweiße die Streifen mit einem PROPANBRENNER zusammen. Vor allem darfst du nicht vergessen, eine SCHWEISSERMASKE zu tragen.",
           "needed": true,
           "review": false
         }
@@ -9513,7 +9513,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bringe zwei Einheiten ELEKTRONIKSCHROTT an und verbinde alles mit ELEKTROKABELN.",
           "needed": true,
           "review": false
         }
@@ -9528,7 +9528,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Schraube die entstandene Konstruktion mit einem SCHRAUBENDREHER und fünf SCHRAUBEN an der Karosserie fest.",
           "needed": true,
           "review": false
         }
@@ -9543,7 +9543,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nachdem du die beiden vorherigen Bauteile eingebaut hast, kannst du sie mit zwei ELEKTROKABELN miteinander verbinden.",
           "needed": true,
           "review": false
         }
@@ -9558,7 +9558,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Im dritten Teil des Films hatten wir einen Kasten mit elektronischen Bauteilen auf der Kofferraumklappe des Autos montiert.",
           "needed": true,
           "review": false
         }
@@ -9573,7 +9573,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Um ihn herzustellen, brauchst du eine SÄGE und einen HAMMER.",
           "needed": true,
           "review": false
         }
@@ -9588,7 +9588,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Säge zwei BRETTER zurecht und nagle sie mit vier NÄGELN zusammen.",
           "needed": true,
           "review": false
         }
@@ -9603,7 +9603,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Baue zwei Einheiten ELEKTRONIKSCHROTT in den Kasten ein und verbinde sie mit ELEKTROKABELN.",
           "needed": true,
           "review": false
         }
@@ -9618,7 +9618,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Befestige den Kasten anschließend mit zwei GURTEN an der Kofferraumklappe.",
           "needed": true,
           "review": false
         }
@@ -9633,7 +9633,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Das sind wahrscheinlich alle grundlegenden Bauteile einer Zeitmaschine, die du für deinen DoLorean zusammenbauen kannst.",
           "needed": true,
           "review": false
         }
@@ -9648,7 +9648,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": ".... weißes Rauschen ....",
           "needed": true,
           "review": false
         }
@@ -9663,7 +9663,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kann in einigen Fahrzeugen und Anhängern eingebaut werden",
           "needed": true,
           "review": false
         }
@@ -9678,7 +9678,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Bootstyp",
           "needed": true,
           "review": false
         }
@@ -9693,7 +9693,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Maßeinheit ändern",
           "needed": true,
           "review": false
         }
@@ -9708,7 +9708,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Niedriger Batteriestand",
           "needed": true,
           "review": false
         }
@@ -9723,7 +9723,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Lehrreiches Handbuch mit Diagrammen und häufigen Wartungsarbeiten<br>für beliebte Bootsmodelle.",
           "needed": true,
           "review": false
         }
@@ -9738,7 +9738,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Magazin über die effektivsten Schwimmtechniken. Interviews mit den besten Schwimmern des Landes.<br>Tests von Badehosen, Badekappen und Schwimmbrillen.",
           "needed": true,
           "review": false
         }
@@ -9753,7 +9753,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "In dieser Ausgabe erfährst du, wie du deinen Bus auf die Zombie-Apokalypse vorbereitest,<br>wie du Schutz für Fenster und Räder herstellst, ein wirksames Schutzgitter baust<br>und einen geräumigen Dachgepäckträger anfertigst.",
           "needed": true,
           "review": false
         }
@@ -9768,7 +9768,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Du hast dir eine neue Art von Frontschutzbügel ausgedacht.<br>Jetzt musst du nur noch deine Zeichnungen genauer studieren.",
           "needed": true,
           "review": false
         }
@@ -9783,7 +9783,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nach dem Lesen dieser Ausgabe erhältst du grundlegende Tuning-Kenntnisse und lernst, wie du Schutz, Stoßstangen, Dachreling und zusätzliche Kofferräume für den Jaap Wrungel herstellst.",
           "needed": true,
           "review": false
         }
@@ -9798,7 +9798,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nach dem Lesen dieser Ausgabe erhältst du grundlegende Tuning-Kenntnisse und lernst,<br>wie du Schutz, einen Frontschutzbügel und einen Dachgepäckträger für den Fjord Mustard herstellst.",
           "needed": true,
           "review": false
         }
@@ -9813,7 +9813,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nach dem Lesen dieser Ausgabe erhältst du grundlegende Tuning-Kenntnisse und lernst,<br>wie du Schutz, einen Frontschutzbügel und einen Dachgepäckträger für den Chevalier Samara herstellst.",
           "needed": true,
           "review": false
         }
@@ -9828,7 +9828,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nach dem Lesen dieser Ausgabe erhältst du grundlegende Tuning-Kenntnisse und lernst,<br>wie du Schutz, Frontschutzbügel und Gepäckträger für den Dadge Steals RT herstellst.",
           "needed": true,
           "review": false
         }
@@ -9843,7 +9843,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nach dem Lesen dieser Ausgabe erhältst du grundlegende Tuning-Kenntnisse und lernst,<br>wie du Schutz für den Petyarbuilt 379 herstellst.",
           "needed": true,
           "review": false
         }
@@ -9858,7 +9858,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nach dem Lesen dieser Ausgabe erhältst du grundlegende Tuning-Kenntnisse und lernst,<br>wie du Schutz für den MolksAgen Luton Van herstellst.",
           "needed": true,
           "review": false
         }
@@ -9873,7 +9873,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nach dem Lesen dieser Ausgabe erhältst du grundlegende Tuning-Kenntnisse und lernst,<br>wie du Schutz für den DeRumba Van herstellst.",
           "needed": true,
           "review": false
         }
@@ -9889,7 +9889,7 @@
       "translations": {
         "DE": {
           "text": "",
-          "needed": true,
+          "needed": false,
           "review": false
         }
       }
@@ -9904,7 +9904,7 @@
       "translations": {
         "DE": {
           "text": "",
-          "needed": true,
+          "needed": false,
           "review": false
         }
       }
@@ -9919,7 +9919,7 @@
       "translations": {
         "DE": {
           "text": "",
-          "needed": true,
+          "needed": false,
           "review": false
         }
       }
@@ -9933,7 +9933,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nach dem Lesen dieser Ausgabe erhältst du grundlegende Tuning-Kenntnisse und lernst,<br>wie du Schutz, Frontschutzbügel und Gepäckträger für den Bumer 36E herstellst.",
           "needed": true,
           "review": false
         }
@@ -9948,7 +9948,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tragbarer Kühlschrank",
           "needed": true,
           "review": false
         }
@@ -9963,7 +9963,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kein Name",
           "needed": true,
           "review": false
         }
@@ -9978,7 +9978,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "La Brigandine",
           "needed": true,
           "review": false
         }
@@ -9993,7 +9993,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Akademik Sakharov",
           "needed": true,
           "review": false
         }
@@ -10008,7 +10008,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kein Name",
           "needed": true,
           "review": false
         }
@@ -10023,7 +10023,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "M/Y Orianna",
           "needed": true,
           "review": false
         }
@@ -10038,7 +10038,7 @@
       "source_format": "json",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nautilus P.",
           "needed": true,
           "review": false
         }
@@ -10053,7 +10053,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Tragbarer Kühlschrank",
           "needed": true,
           "review": false
         }
@@ -10068,7 +10068,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kein Name",
           "needed": true,
           "review": false
         }
@@ -10083,7 +10083,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "La Brigandine",
           "needed": true,
           "review": false
         }
@@ -10098,7 +10098,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Akademik Sakharov",
           "needed": true,
           "review": false
         }
@@ -10113,7 +10113,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Kein Name",
           "needed": true,
           "review": false
         }
@@ -10128,7 +10128,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "M/Y Orianna",
           "needed": true,
           "review": false
         }
@@ -10143,7 +10143,7 @@
       "source_format": "legacy-txt",
       "translations": {
         "DE": {
-          "text": "",
+          "text": "Nautilus P.",
           "needed": true,
           "review": false
         }

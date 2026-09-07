@@ -68,6 +68,51 @@
           "review": false
         }
       }
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Mod Auto Tailoring",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "Sandbox",
+      "key": "Sandbox_AutoTailoring",
+      "english": "Mod Auto Tailoring",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "common",
+      "source_format": "legacy-txt"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Maximale Schneiderstufe",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "Sandbox",
+      "key": "Sandbox_AutoTailoring_MaxLevel",
+      "english": "Max Tailoring level",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "common",
+      "source_format": "legacy-txt"
+    },
+    {
+      "translations": {
+        "DE": {
+          "text": "Schneiderei trainieren wird nur angeboten, solange deine Schneiderstufe unter diesem Wert liegt. <LINE> Erhöhe ihn, wenn du eine Mod verwendest, die Fertigkeitsstufen über 10 hinaus erweitert.",
+          "needed": true,
+          "review": false
+        }
+      },
+      "category": "Sandbox",
+      "key": "Sandbox_AutoTailoring_MaxLevel_tooltip",
+      "english": "Train Tailoring is only offered while your Tailoring level is below this value. <LINE> Raise it if you use a mod that extends skill levels beyond 10.",
+      "source_file": "Sandbox_EN.txt",
+      "source_layer": "common",
+      "source_format": "legacy-txt"
     }
   ]
 }
